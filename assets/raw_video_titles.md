@@ -49,3 +49,253 @@
 - Are software devs motivated by challenging problems?
 - Do devs test in iterations?
 - Will AI impact devs? 
+- What does DevOps mean to you?
+- How to draw boundaries for what your application should support?
+- Do unit test take as much time as the logic?
+- How long does it take for a junior to become a senior?
+- Do refactors require a genius developer?
+- How to prevent bugs?
+- Do you need to be a genius to do well in IT?
+- How do you transform a software architecture?
+- Does it bother you when you get new managers often?
+- Is programming passion shown in the code?
+- Why don't companies replace their legacy systems?
+- What to do if I feel overwhelmed?
+- Why do large companies hire tons of developers?
+- Does your title have an impact on your results?
+- Do layoffs prove if the code is good?
+- How important is feedback?
+- How do you avoid stepping on toes?
+- Do 10x devs write simple code?
+- How to add new tech to your CV?
+- What gives you joy in IT?
+- How to get promoted in IT?
+- How to earn the trust of a new software team?
+- How to improve the software you make?
+- How to give devs autonomy?
+- What do you think about boot camp graduates?
+- How to deal with a energetic developer?
+- Can non passionate devs have a good career?
+- How to earn the trust of a low performance engineer?
+- Why don't you want to work in a FANG company?
+- How did you learn how to learn?
+- What should a world class dev know?
+- What about performance reviews?
+- Why do IT companies ask if I was in the top of my class?
+- Do you have a programming routine?
+- How much upfront design should you do?
+- What to do if a project exceeds the deadline?
+- What about engineering managers who don't want to talk about tactical issues?
+- What theory is missing in most self taught developers?
+- How do you deal with layoffs?
+- What is the definition for a mid level developer?
+- How to learn coding fast enough to not become obsolete?
+- Why don't universities teach software design?
+- How to remember decisions in IT projects?
+- Would you accept a position that down-levels you?
+- What advantages does TDD have?
+- Why have software teams abandoned upfront design?
+- How to handle the fear of failing?
+- What about ADR's?
+- Why do senior devs hate coding interviews?
+- What about fast vs planned development?
+- What about feature sliced design?
+- How to balance perfectionism and pragmatism?
+- What about fixing a production problem?
+- What to do about devs without domain knowledge?
+- How do I create a architecture if requirements change every day?
+- Why do IT companies prioritize speed over quality?
+- What could an AI do for a software dev?
+- Are you a micromanager?
+- Why do senior devs drop out of the hiring process?
+- What to do when the deadline is close?
+- Why do some devs never outgrow the junior level?
+- Do you need to be political in a IT company?
+- Do you research IT companies before the interview?
+- Is biases an issue in software recruitment?
+- Are leadership skills important for a senior dev?
+- How to handle a system crisis?
+- How do I know if I am doing more than needed?
+- How to become more social as a developer?
+- What about devs who are left behind?
+- What about being the new dev?
+- What are some tips for managing a software team?
+- What question destroys fake seniors in an interview?
+- Am I a boot camp level developer?
+- Is it a red flag if a candidate has not been in specific situations?
+- What would you say to a CEO who belittles your work?
+- At what point to give up on a software developer?
+- What is the ultimate project for learning React?
+- What about a junior dev who acts as a senior?
+- What about making documentation?
+- What about getting laid off?
+- Is a junior dev expected to know about testing?
+- How to talk to a non technical boss?
+- How do you organize your learning material?
+- What if I took the wrong job?
+- What learning strategy to use as a self taught dev?
+- How to use AI to become a better dev?
+- What if my manager is highly technical?
+- What about being a junior dev that can not measure up?
+- Have system designs later turned out to be costly?
+- Should devs have a emotional attachment to their project?
+- How to read the CV of a programmer?
+- How to evaluate scalability?
+- Why not both create optimized and readable code?
+- Is web application development serious software development?
+- What was your first job in software development?
+- How to apply topological fixing of legacy code?
+- What if the architecture doesn't work anymore?
+- How to improve legacy code?
+- How do you determine seniority in JavaScript?
+- Should I stop mentoring new hires?
+- Do you try to understand the pull request you review?
+- I have done 1337 questions to practice, why isn't' it helping?
+- What to do when I can't make progress on my project?
+- What to do when your manager overturns your decisions?
+- Can tech lead seek advice from their manager?
+- What to do when you lose your passion for coding?
+- Why do dev teams love agile?
+- What reason would make you quit?
+- As a tech lead do you promote practice you don't follow yourself?
+- Should simplicity always be the priority in coding?
+- What are the main things to know as a programmer?
+- What to do when the dev team is failing?
+- If my manager gives me a lot of pull request comments does that reflect poorly on me?
+- Do software engineers take code review comments personally?
+- Do you thank team mates who tell you what you already know?
+- If a senior dev needs coaching does it reflect badly on their skill level?
+- Are there key indicators that a senior dev isn't all that good?
+- What is in scope for software engineer after 10 years?
+- Do you miss onsite interviews?
+- What about trainee dev positions?
+- What is the minimum time to gain trust in dev team?
+- Is code coverage a good metric?
+- What about doing well as a junior?
+- How to do well as a solo junior dev?
+- How to deal with impostor syndome?
+- Is it alright to take a break from software studies?
+- How to provide a senior dev with constructive comments?
+- Is OOP a thing in JavaScript?
+- Do seasoned programmers bomb in interviews?
+- What do interviewers want when asking very hard questions?
+- Feature flags vs feature branches?
+- How to fix constant regressions?
+- How to plan for tight deadlines?
+- What rules of software development do you follow?
+- How to get deep in to the theory of backend development?
+- How to convince my boss that getting a certificate is a waste of time?
+- What are core skills for software devs?
+- How to get the mindset of a senior backend dev?
+- When do you coach software devs?
+- Is Wordpress a good choice for a startup?
+- How to get the mindset of a seasoned frontend dev?
+- Have you read any philosophy that made you think about software development differently?
+- What if I want to start my own IT company?
+- How to tell a dev that they are not productive enough?
+- How to deal with slow devs?
+- Is cleaning up messy code one of the best feelings for software devs?
+- With remote working options should devs still pick a good city to work in?
+- How to get a IT company that pays really well?
+- What wastes the most time in a software team?
+- How to spot a real senior in an interview?
+- How to write code with few bugs?
+- How long does a programming project take?
+- Do you follow the same learning principles regardless of your age?
+- How can software devs be expected to contribute in so many areas?
+- How to overcome the loss of motivation?
+- How do you introspect as a software engineer?
+- How to pass the trial period at a new job?
+- Does "culture eats strategy for breakfast" apply to IT?
+- When do you keep silent instead of speaking?
+- Why do some CS grads look down on programming?
+- Are there engineering managers who gets coaching from a senior dev?
+- How to keep motivation when learning programming?
+- What should I know before applying for a entry level software job?
+- How do you analyze the regression impact of a system?
+- How much time do you allocate for reading code?
+- What is so bad about having a career gap on their CV?
+- What mistakes do most web devs make?
+- Is competitive programming a waste of time?
+- How did you become a software architect?
+- How to not second guess yourself?
+- How to create a good team environment?
+- How to do a honest post mortem?
+- How can a tech lead help a team member get promoted?
+- Is knowing how to get the right support an important part of being a senior?
+- Is it important to shield your dev team from external disruption?
+- When you design Micro services do you avoid consumer specific logic?
+- Do you accept a development job if the company uses cloud computing?
+- What interesting problems do you look to solve on a daily basis?
+- How important are negotiation skills in software design?
+- How to know if a software developer is overqualified for a team?
+- Do you get gut feelings about code?
+- Why do most programming jobs require tool knowledge?
+- What do you least enjoy about being a software engineer?
+- Is long term satisfaction as a software dev tied to personal development?
+- How can a software dev be intentional about having a growth mindset?
+- How to create incentive for positive behavior in software teams?
+- How to deal with an engineer who wants a promotion too early on?
+- Why do IT people use such strange titles?
+- Is investing in software quality cost effective?
+- What are the qualities of an excellent software architect?
+- Is growth limited for developers who prefers to work alone?
+- How should a IT company decide between buying and building software?
+- How to stop feeling bad over breaking production?
+- If you interview someone you know would it feel awkward?
+- How to cultivate a "get things done" mentality in a software team?
+- How to handle a bad 1 on 1 with your manager?
+- Is learning programming a constant cycle of impostor syndrome?
+- How do you memorize a huge codebase?
+- Is it ok to just do the minimum at work?
+- Do all IT companies have leeches?
+- Do I need to consider scalability for the resume projects?
+- In a top company would you still try to understand how the tech works under the hood?
+- Will a junior get promoted if they are better than a senior?
+- How do principal engineers stay motivated?
+- Why are programmers big nerds?
+- What example of coaching software devs do you have?
+- Do you answer new team members questions or do you refer them to the docs?
+- Do principal engineers have the same coding skills as seniors?
+- Have you ever been forced to implement an architecture you did not agree with?
+- Have you been a principle engineer?
+- Why do principal engineers go in to management?
+- How long does the onboarding of a junior take?
+- When is a software dev a liability to the team?
+- What skills do you need to make your own dev tools?
+- When to let a software dev go?
+- How can desktop development come back?
+- When should a company revise the tech stack?
+- How to have effective 1 on 1's with your manager?
+- Is creating reliable software hard?
+- Should dev teams be able to stop feature development to handle tech debt?
+- When you have prod issues do you learn from your mistakes?
+- Why are companies trying to reduce push-back bias?
+- What is it like working as a senior software dev?
+- How do senior devs feel when a junior deny their pull request?
+- Is it more satisfying to get a promotion than a new job?
+- How to avoid code review comments that add no value?
+- What tone to use in pull requests when making suggestions?
+- Is tech debt inevitable?
+- If ageism is a problem in IT why do people give positive feedback on making the switch?
+- How do you design your api's to handle soft deletes?
+- How to keep up in frontend development?
+- Does programming ever stop feeling cool?
+- Are people skills the most important skill for a senior software development?
+- What are realistic expectations when switching career to frontend development?
+- How do you evaluate IT companies when applying for a job?
+- Does development speed increase when you hire more people?
+- Why do tech companies have a informal dress code?
+- Are QA's usually less geeky than software devs?
+- Is a software dev constantly judged by the quality of their code?
+- What is the trait the best software devs have?
+- Is it ok to ship software with bugs somtimes?
+- What is the difference between elegant and clever code?
+- Will AI take over writing website content?
+- Is it true that most software devs do not like testing?
+- Is software development process oriented?
+- How to contribute to more complex projects?
+- Why is my company reinventing instead of using a library?
+- Are you a senior when you stop being afraid of a problem that used to scare you?
+- Do you think through the solution immediately after getting the requirements?
+- How requirements gathering evolved?
