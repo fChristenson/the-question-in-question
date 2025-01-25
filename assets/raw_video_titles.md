@@ -1,0 +1,52 @@
+# Raw video titles
+
+Response How to be proactive with learning software development?
+Do you want to stop coding to climb the career ladder?
+When do you perform a major refactor?
+How do you read source code fast?
+How do 10x devs elevate their teams?
+How do you write integration tests that won't be flaky?
+What is the best way to gather requirements?
+Why do so many large IT projects fail to meet expectations?
+Is it possible to keep up with IT and still have a life?
+Should teams create pull requests for code owned by other teams?
+Is it true that re-usability is at times overrated?
+What if a junior dev gets too much work?
+Do you have junior insecurities?
+Have you ever had to prove yourself?
+What to do about non technical managers?
+Are unit tests a good regression test suite?
+Why do senior devs use fancy code instead of simple code?
+What if complicated code has no way to be simplified?
+What techniques do you follow to simplify code?
+When have you told your boss, "stop"?
+How do you prioritize a time constrained IT project?
+What is domain knowledge?
+How to work in a toxic software team?
+What advice did you ignore in the early days of your programming career?
+When do I have enough information to start coding?
+What have you done to stop stressing?
+What books would you use to improve in problem solving?
+Have you seen software complain about meetings?
+Do software devs get rejected by a single, random statement?
+How do you deal with devs who oppose your reforms?
+How do you deal with unrealistic deadlines?
+Should a tech lead be outspoken?
+Will AI take our jobs?
+How to develop a good mental model of your codebase?
+How hard is it to add TDD?
+Is the saying "if it isn't broken don't fix it", applicable to software?
+When do you give up on a software developer?
+How to respond to a rude director?
+Do best practices in coding differ between companies?
+What about code criticism?
+Can automated testing replace code reviews?
+How to prepare to get criticism on your code?
+What are the steps for creating a web application?
+How do you tell if it is better to train or fire a software engineer?
+What are the top 1% of software engineers doing that sets them appart?
+Is it important to pick your battles in IT?
+How long does it take to measure the calibre of a developer?
+Are software devs motivated by challenging problems?
+Do devs test in iterations?
+Will AI impact devs? 
