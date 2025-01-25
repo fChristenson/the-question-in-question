@@ -2299,3 +2299,753 @@
 - Is game development a good career option?
 - Building a JavaScript application - search pt 20
 - Have you ever used programming to prank someone?
+- Do programmers get bored with the same tools?
+- As a programmer what makes you happy?
+- Which language would take over if Java disappeared?
+- What bad habits have you picked up as a programmer?
+- Why is it easier to get a job in frontend than in backend?
+- What does a software developer need to be a successful entrepreneur?
+- Building a JavaScript application - unread messages pt 19
+- Why do we have frameworks?
+- When should I build a PWA?
+- What is the most important thing for a junior programmer to learn?
+- What is CSS?
+- How important is it to be self critical?
+- Do sharp deadlines improve programming?
+- Which programming language will give you a job the fastest?
+- Building a JavaScript application - start a thread pt 18
+- What does JavaScript do?
+- What is your secret to writing beautiful code?
+- Why don't youtubers talk about rendering?
+- What problem does SPA frameworks solve?
+- Are SPA frameworks killing Bootstrap?
+- What is heap memory?
+- What about Deno?
+- Building a JavaScript application - remove message pt 17
+- Can you make a video about beer?
+- When do you use more than one language?
+- How do you avoid burnout as a programmer?
+- BEM vs SMACSS
+- Should I learn Ruby after Node?
+- Is it worth learning React native?
+- Is Node secure?
+- Building a JavaScript application - edit message pt 16
+- Are there completely obsolete programming languages?
+- What is a small language?
+- Big teams vs small teams
+- Should I use the state or the store?
+- Should I work for a big company or a small one?
+- Why do big companies give away open source tools?
+- How does freelance work look on a CV?
+- Building a JavaScript application - leave channel pt 15
+- Should I use require or import?
+- Not being mainstream doesn't make you weird
+- Job statistics - Years of experience
+- I am a isolated frontend developer, what should I do?
+- Programming job statistics
+- What is missing in vanilla JavaScript?
+- Getting programming questions
+- What should I learn besides React to stay ahead?
+- Scheduled jobs
+- How long will React be relevant?
+- Why don't some big websites use React?
+- Building a JavaScript application - join channel pt 14
+- Is C# easier to learn than Java?
+- Basic Agile development - The release pt5
+- Are the best programmers individualists?
+- Basic Agile development - The algorithm pt4
+- The dangers of trying to be cool
+- Basic Agile development - The landing page pt3
+- Think about what you say in a job interview
+- Basic Agile development - The grooming pt2
+- What about css utility classes?
+- Basic Agile development - The Kanban board pt1
+- Should we use frameworks?
+- Do you need creativity as a software developer?
+- Building a JavaScript application - create channel pt 13
+- What database should I use for a social media application?
+- How can I improve my coding besides writing code?
+- When should I use serverless?
+- Will knowing fullstack development help with mobile development?
+- Full stack JavaScript roadmap 2019
+- Can a solution architect become a software developer?
+- Do idealists make better computer scientists?
+- What about online degrees?
+- Building a JavaScript application - list channels pt 12
+- Why would a server use a REST api?
+- Is fullstack development harder than mobile development?
+- Will WebAssembly put me out of a job?
+- My first 1000 videos
+- Is Redux still relevant?
+- What if I have a CEO without coding skills?
+- Should I migrate from Jquery?
+- Building a JavaScript application - send direct message pt 11
+- What should I call myself?
+- Don't start too broad
+- Don't memorise interview questions
+- What about JavaScript modules?
+- Why did Microsoft go open source?
+- Talk to people who have nothing to gain
+- Dealing with let's fix it people
+- Building a JavaScript application - list users pt 10
+- Try it without a framework at least once
+- Point of no return
+- What is npm ci?
+- How do I get better at Webpack, Npm, Babel and version control?
+- Swallowing errors
+- Can I use Firebase for static websites?
+- Thinking about what your CV communicates
+- Building a JavaScript application - post to general pt 9
+- The value of tutors
+- What advanced tools do you need to learn as a frontend developer?
+- Fresh eyes
+- What tools do I need to learn for frontend development?
+- Rollercoaster actions
+- How do I get good at React?
+- Why do I use Express?
+- Building a JavaScript application - login pt 8
+- Go vs TypeScript
+- What is a midlevel project?
+- Can I learn professional programming on Github?
+- Not another frontend video
+- Your place in the hierarchy
+- How will worker threads affect Node?
+- The clock is ticking
+- Building a JavaScript application - general chat pt 7
+- How will I keep up with Java innovation?
+- How does experience affect junior salary levels?
+- Should I learn Wordpress themes?
+- What is enterprise css?
+- Are vanilla web technologies mature enough for production?
+- What about Go?
+- Can I use Firebase instead of a regular server?
+- Building a JavaScript application - action bar pt 6
+- Why did my team use React instead of vanilla JavaScript?
+- I want you to be you
+- Why don't you just use blank?
+- Is it ok to just work on the backend?
+- Pixel perfect
+- Build meaningful connections
+- Learning how to create beauty
+- Building a JavaScript application - input pt 5
+- What about css modules?
+- What about styled components?
+- We are losing the simplicity of JavaScript
+- Quality vs Speed and when to pick which
+- Hearing someone out
+- Face to face
+- Tasks labeled frontend
+- Building a JavaScript application - chat history pt 4
+- How can we predict changes in requirements?
+- What about pair programming as the default?
+- How do I pick a database?
+- Solving the problem does not a senior make
+- What are your numbers?
+- Thinking about the long term
+- Should I start with Python or Java?
+- Building a JavaScript application - header pt 3
+- Should I learn backend before I learn mobile development?
+- Getting your way in a IT company
+- What about GDPR?
+- Have a plan
+- A bit of css - floating label
+- Is it better to get a degree from a bad school than being self taught?
+- Do JavaScript frameworks hinder skill progression?
+- What about template sites?
+- Building a JavaScript application - sidebar pt 2
+- Should I learn Php after I know frontend?
+- Is there a reason that jQuery is not as popular as it once was?
+- My first 2000 subscribers
+- Quality programmers
+- A bit of css - icon attention
+- Getting promoted in IT
+- Is this frontend?
+- What will you do when you can't use your tools?
+- Building a JavaScript application -  intro pt 1
+- Can you make a video about coffee?
+- What is a rockstar programmer?
+- How will WebAssembly change JavaScript's status?
+- Should I learn Haskell or Go?
+- A bit of css - falling text
+- What about Dart?
+- What does it take to be a email developer? 2.0
+- Why TypeScript and not Elm or PureScript?
+- REST API design in Node
+- What if I just want to make websites?
+- GraphQL and REST api's
+- My least favourite frontend task
+- The birth of legacy css
+- A bit of css - gradients
+- Am I too old to be a programmer?
+- What is a feature story?
+- How do I work with agile development?
+- Webpack debugging
+- Motivating programmers
+- Should frontend developers learn Node?
+- Preventing programmer injuries
+- Emerging markets
+- A bit of css - falling letters
+- Your style vs good practices
+- Pair programming
+- The whiteboard test
+- Circular dependencies in JavaScript
+- Building a React application - Git pt 2
+- Building a React application - Search pt 24
+- Building a React application - Search field pt 9
+- Building a React application - Inbox pt 12
+- Building a React application - View spam pt 20
+- Building a React application - Sent email pt 15
+- Building a React application - Batch job pt 30
+- Building a React application - Intro pt 1
+- Building a React application - Email overview pt 21
+- Building a React application - Https pt 27
+- Building a React application - Navigation pt 11
+- Building a React application - View email pt 18
+- Building a React application - Automated testing pt 29
+- Building a React application - Register pt 25
+- Building a React application - Server pt 4
+- Building a React application - Npm pt 3
+- Building a React application - React setup pt 6
+- Building a React application - Bug fixes pt 31
+- Building a React application - Serving the app pt 7
+- Building a React application - Login pt 26
+- Building a React application - View inbox pt 19
+- Building a React application - Compose email pt 13
+- Building a React application - Header pt 10
+- Building a React application - The stack pt 5
+- Building a React application - Drafts pt 16
+- Building a React application - Important emails pt 17
+- Building a React application - Finish draft pt 22
+- Building a React application - Pagination pt 23
+- Building a React application - Distribution build pt 28
+- Building a React application - App component pt 8
+- Building a React application - Send email pt 14
+- What is a real project?
+- Is game development a good way to become a programmer?
+- Why do companies want work experience from a junior?
+- Becoming redundant
+- A bit of css - expanding text
+- What languages do I use for API development?
+- Your market value
+- Enterprise licenses
+- Grunt, Gulp, Npm, Webpack and when to use what
+- Will I be sued for using Java?
+- Language flexibility vs simplicity
+- You can't reason with opinionated people
+- What is the size of the problem?
+- A bit of css - cube rotation
+- What makes a language future proof?
+- You are the expert
+- Tips for working with large scale Php
+- The type is a lie
+- Brain meltdown
+- My first 900 videos
+- If the test is too easy it is testing something else
+- Performance does not matter until it does
+- A bit of css - card flip
+- Html + Css != website
+- Helping a junior with stress
+- The good and the bad of programming
+- Making a npm package
+- Are design skills important for frontend developers?
+- Programming is surprisingly social
+- Making something just right
+- When React reaches the limit
+- A bit of css - Step indicator
+- Is it a tool or a crutch?
+- Big stories makes for sloppy interfaces
+- Components for styling vs Css styling
+- Bug hunter
+- Liquid layouts vs breakpoints
+- What makes a good frontend developer?
+- Has your channel helped your career?
+- Look for small warning signs
+- A bit of css - Linkedin loader
+- My first 1000 subscribers
+- Some thoughts on getting fired
+- Oh it's just a small fix
+- React runtime feature toggle
+- You will be the senior one day
+- Make a card for it
+- Your market value
+- Should I start with backend or frontend?
+- A bit of css - Half moon loader
+- Letting go of the ego
+- Could this be a job for Rust?
+- Watching tutorials will not be enough
+- The good comment
+- Should I use Wordpress or a JavaScript CMS?
+- Can I use Bootstrap for my portfolio?
+- What is a static site generator?
+- How WebAssembly will affect you
+- A bit of css - Google loader
+- The small fix mistake
+- Simple is more scalable than clever
+- Learning Rust with Exercism - proverb
+- Do I still enjoy CSS?
+- JavaScript type checker
+- Code tests are always opinionated
+- You will not get design patterns right
+- Bundle responsibly
+- Being strict vs being loose
+- A bit of css - float flex grid
+- Measuring a programmers productivity
+- Putting the Java in JavaScript
+- Learning Rust with Exercism - series
+- Docker what why and when?
+- UnhandledRejection tip
+- Being a kingmaker
+- What about Flow?
+- You can't have your cake and eat it
+- Hiring is unfair
+- A bit of css - background positioning
+- What about TypeScript?
+- Why I think types are important
+- Learning Rust with Exercism - Difference Of Squares
+- How do I know what tools are relevant?
+- The boring server architecture
+- Software developers vs entrepreneurs
+- Don't dump everything in Webpack
+- What can I do to improve my coding skills?
+- You made the right call
+- A bit of css - box model
+- Why are enterprises so slow?
+- You are more than a code monkey
+- Learning Rust with Exercism - prime factors
+- Click
+- Some thoughts on Java optionals
+- Job hopping vs climbing the ladder
+- A rock and a hard place
+- It's about the common case
+- Why is Java so popular in enterprises?
+- css tricks - spotlight
+- What are the best programming languages to bet on for the future?
+- Fooling yourself in to believing you know more than you do
+- Learning Rust with Exercism - Pythagorean triplet
+- When should I use continuous delivery tools?
+- Did you just assume my type!?
+- Size matters
+- What does it take to be a email developer?
+- Why do people use bad tech?
+- Get a real project
+- css tricks - spinner
+- What is BDD?
+- Express boot camp - middleware
+- What is TDD?
+- Learning Rust with Exercism - grains
+- Should I get a masters degree?
+- Configurable Javascript
+- Why is the bar so high for programming jobs?
+- What is going to be the main language for WebAssembly?
+- What is WebAssembly going to be used for?
+- Everyone does it a little differently
+- css tricks - fade siblings
+- How many lines of code can you write?
+- Express boot camp - rendering
+- My first 900 subscribers
+- Learning Rust with Exercism - Sum Of Multiples
+- What is the difference between a library and a framework?
+- Standard css rules
+- BigInteger and why it is important
+- When your dependencies come back to bite you
+- How big is the dataset?
+- What is a stacktrace?
+- css tricks - ellipsis
+- Do I need a degree to be a programmer?
+- Express boot camp - path variables
+- Owning the epic
+- Learning Rust with Exercism - Beer Song
+- Are frontend developers in more demand than backend developers?
+- Rendering in vanilla Javascript
+- When the domain model breaks
+- Perfect is the enemy of good
+- Making decisions in a flat IT company
+- Lift and shift refactoring
+- css tricks - text underline animation
+- My first 800 videos
+- Express boot camp - Query parameters
+- You never fix legacy code
+- Learning Rust with Exercism - bob
+- Small scale problems vs large scale problems
+- React job interview - code test
+- What are dependencies?
+- How fast is Kotlin when allocating a variable
+- The programmer virtues
+- Get to know your users
+- My experiences working in Ios and Android
+- css tricks - not last child
+- Is coding speed an indication of skill?
+- Express boot camp - Content type
+- It may be a bit much
+- Is the goal to make it easy for you or everyone?
+- Learning Rust with Exercism - nth-prime
+- Webpack vendor bundle considerations
+- What is a terminal?
+- React job interview - Questions
+- What do you mean by advanced code?
+- Early adopters is the way to success
+- How fast is Crystal when allocating a variable
+- You can learn the basics of programming from anyone
+- Where did my passion for programming start?
+- I just want to write good Javascript
+- Node vs Go for a REST API
+- Consider defensive Javascript
+- Looking for your first programming job
+- Css tricks - fancy text with css grid
+- css tricks - content expanding
+- Job hopping
+- @supports
+- Express boot camp - Status codes pt2
+- Pushing from the bottom is a lot of work
+- I am falling in love with Rust
+- Learning Rust with Exercism - reverse string
+- 3 programming languages every programmer should learn
+- What I think about when I learn a new tool
+- A parameter needs a name
+- Just build it
+- Think about the people downstream
+- How fast is Swift when allocating a variable
+- If nothing else respect the skill
+- Copy paste can sometimes be the best option
+- Slow code reviews leads to story blocking
+- What should I learn to be a salary programmer?
+- Adding gems to spaghetti code
+- Leave the agenda at the door
+- Css tricks - modal
+- Master programmers do what can be done
+- Setting up a frontend project for success
+- Express boot camp - Status codes
+- Why we don't fix frontend mistakes
+- Compromise as a rule
+- Learning Rust with Exercism - raindrops
+- It's not about elitism
+- Node vs Kotlin
+- Javascript promises deep dive
+- Node vs Swift
+- Scala vs Php
+- How fast is Scala when allocating a variable
+- Browsers are still inconsistent
+- Don't listen to everything I say
+- My first 600 subscribers
+- Remember where you are in your career
+- Sometimes software is not about innovation
+- What do you want to optimize your code for?
+- Css tricks - perspective
+- Most programmers are nice
+- You can't make everyone happy
+- Express boot camp - DELETE
+- Lessons learned about health checks
+- It's the browser that will mess up your Javascript
+- Learning Rust with Exercism - leap
+- What does inconsistent really mean?
+- My secret to being a happy programmer
+- International React with feature toggle in Webpack 4
+- Context switching brings perspective
+- It's not the browser vendors fault that you use third-party libraries
+- How fast is Ruby when allocating a variable
+- The hidden agenda of progressive web applications
+- Lessons learned when refactoring Javascript
+- Things I consider before I add a library
+- Be honest about what you know
+- Globals
+- All I need is a spark
+- Css tricks - snackbar
+- Booksmart people do not make the best programmers
+- Programming languages and their most common use case
+- Express boot camp - POST
+- Messing up
+- Why you are not getting hired as a programmer
+- Learning Rust with Exercism - gigasecond
+- What does it take to be a professional programmer?
+- Posting channel questions
+- Functional lessons in Java
+- My first 700 videos
+- The more you learn the faster you get
+- How fast is Python when allocating a variable
+- Database queries
+- Javascript utility libraries
+- Junior to senior and back again
+- Why Java suits my personality
+- What to think about when you make a portfolio
+- Configurations in your code
+- Css tricks - sidebar
+- Office politics
+- Imposter syndrome
+- Express boot camp - PUT
+- What happens when you tell your coworkers how much you get paid?
+- Typing speed is not important
+- Learning Rust with Exercism - Hello world
+- Learning Rust with Exercism - introduction
+- It's not about Polymer it's about what it represents
+- Switching jobs is healthy
+- React rendering speed vs vanilla Javascript rendering speed
+- My first 500 subscribers
+- Get the complexity before you add your own
+- How fast is Php when allocating a variable
+- Favor learning speed over memorizing
+- What is a senior programmer?
+- What about GraphQL?
+- How to be a good junior
+- Your code could be a template for legacy
+- Auto increment vs UUID
+- Css tricks - viewport meta tag
+- Immutable Javascript is a bit odd
+- I am so proud of you
+- Express boot camp - GET
+- Express boot camp intro
+- A team is made of individuals
+- Why I love OOP
+- Javascript boot camp - add solution
+- Top down learning vs bottom up learning
+- Weaknesses
+- Make your own ajax library
+- Open questions are powerful
+- My first 400 subscribers
+- How fast is C when allocating a variable
+- The best payed programming language of 2018
+- The most popular tools of 2018
+- Half the student's in your boot camp are professionals
+- Programmer job situation in 2018
+- Most relevant databases in 2018
+- Programmer education background in 2018
+- Css tricks - pin
+- The most common technology of 2018
+- How much money should I ask for as a junior programmer?
+- Javascript boot camp - add
+- Thinking the Javascript way
+- Sass vs Postcss
+- Javascript boot camp - walk solution
+- When in doubt check the CV
+- If I could do it all over again
+- Service workers
+- When would I use Go and when would I use Rust?
+- Rediscovery is not bad
+- How fast is C++ when allocating a variable
+- My first 350 subscribers
+- Don't justify your choice in programming language
+- Dealing with legacy css
+- Hacking gets boring
+- If you did everything right nothing happens
+- What my channel is about
+- Css tricks - flip
+- To Storybook or not to Storybook
+- Which is harder backend or frontend?
+- Javascript boot camp - walk
+- The priority project strategy
+- The salary programmer is your limit
+- Javascript boot camp - say my name solution
+- How I tell if someone is a professional programmer
+- What I hate most about being a frontend developer
+- Building a scalable web application in vanilla Javascript
+- Should you learn Go as your first programming language?
+- Be realistic when you decide to become a programmer
+- How fast is Go when allocating a variable
+- How to act in a crisis
+- Accessibility on the web
+- What journey are you on?
+- Why do I teach mostly in Javascript?
+- Climbing the ladder as a junior
+- Redux is not tied to React
+- Error budgets
+- Css tricks -  holy grail layout
+- How can I stand out in a job interview?
+- Themes
+- Javascript boot camp - say my name
+- OOP is coming back
+- How to get up to speed in a new codebase
+- Javascript boot camp - what did you give me solution
+- My first 600 videos
+- Sell it
+- Log masking in Node
+- My first 300 subscribers
+- Obsession can be a lonely road
+- How fast is Rust when allocating a variable
+- What to do when refactoring is too dangerous
+- Css grid is the first step
+- What about Flutter?
+- How many hours a day do I need to practice to learn code?
+- Say it out loud
+- Dress to impress
+- How I debug code
+- How do I build the best developer team?
+- Css tricks - carousel
+- What if the boy scout rule is a bad idea?
+- Polymer and it's role in the future
+- Javascript boot camp - what did you give me
+- Migration and legacy systems
+- Web designer vs frontend developer
+- Javascript boot camp - private solution
+- Bem vs utility classes
+- 3 things to remember when you start your first project
+- Logging in Node
+- Developer's are not equal
+- What do you need to be smart?
+- How fast is Java when allocating a variable
+- Corner cases
+- Completeness vs empowerment
+- Why I follow web design
+- The dangers and benefits of code reuse
+- Reverse engineering is a gamble
+- Inline vs stylesheets
+- Css tricks - text gradient
+- Frontend performance is a uphill battle
+- How to tell if you're working with a professional
+- Javascript boot camp - private
+- The mistakes of a guru
+- How do I get better when I am good?
+- Javascript boot camp - wait for it solution
+- Predicting the future of the web
+- Javascript code rots faster than any other code
+- Event sourcing in Javascript
+- Complexity over time is the true enemy
+- Simplicity is complex
+- How fast is Javascript when allocating a variable
+- Code racing intro
+- Should Elixir be my first programming language?
+- What about Elm?
+- The end of the rabbit hole
+- Innovation in Elixir vs Javascript
+- Express vs Spring boot
+- The genius of Ruby
+- I hate Babel
+- Css tricks - responsive tables
+- Comments vs no comments
+- Grunt Gulp and Npm
+- Javascript boot camp - wait for it
+- Let abstractions grow naturally
+- You can be safe or you can be fast
+- Javascript boot camp - Is this an email solution
+- Only take initiative when you can do it right
+- What type of software are you writing?
+- The power of types
+- Keep your tests simple
+- Ticketmaster interview process
+- Treat your Javascript with more respect
+- Everything seems equal if you don't know better
+- Writing technical documentation
+- How do I know if you are a good frontend developer?
+- Breaking out of React
+- Don't test your own code
+- My first 250 subscribers
+- Css tricks - flexbox center elements
+- Best practices
+- What are the steps?
+- Javascript boot camp - Is this an email
+- Test driven development is like meditation
+- Think about the team before you think about yourself
+- Javascript boot camp - braces solution
+- Outsourcing vs in-house
+- Programming interview videos are a scam
+- Bem flexbox & css grid
+- State is the root of all evil
+- Complex videos vs simple videos
+- Frontend job interview - Senior code test
+- The hardest part is to know what to build
+- Why don't you live code?
+- Frontend job interview - Junior code test
+- If I had to work in only one language what would it be?
+- Should I get a entry level job in Node or Php?
+- Frontend job interview - Questions
+- You are not an artist you are a craftsman
+- Learn how it works
+- Css tricks - css reset
+- How do I know when I am a real programmer?
+- Don't let them convince you to underestimate
+- Javascript boot camp - braces
+- Programming is more emotional than you think
+- My first 500 videos
+- Javascript boot camp - Caesar cipher solution
+- Old browsers
+- Javascript boot camp introduction
+- Your value is contextual
+- React content placeholder
+- Merge it quickly!
+- Being blamed for the mistakes of your predecessor
+- Time management for the hungry
+- A case for css frameworks
+- Hippo innovation
+- Skilled juniors are suspicious
+- 3 things to be a desirable web developer
+- Boring turns into over engineering
+- Exotic programming tools
+- Programmers teach each other
+- Programming job interviews
+- Javascript boot camp - Caesar cipher
+- My first 200 subscribers
+- The sad life of a monolith
+- Javascript boot camp - Array sorting solution
+- Be brave enough to make good enough choices
+- Conservative programmers are vital
+- Cypress review
+- Css modules is not a one size fits all kind of deal
+- Web standards vs Javascript frameworks
+- When do I use acceptance tests?
+- Css modules vs BEM
+- Ask for help
+- Data is the limit
+- What to think about when you become a junior programmer
+- Boilerplate vs complexity
+- Make it matter
+- What should be my second language when I know Javascript?
+- How I would train a Junior developer
+- Node vs Ruby
+- Javascript boot camp - Array sorting
+- Learn how to quantify the value of change
+- Functional programming is not a silver bullet
+- Javascript boot camp - FizzBuzz solution
+- Everything is used to build something
+- Go vs C#
+- Did your user see the message?
+- My first 10 000 hours in programming
+- My favourite project delivery strategy
+- What do I mean when I say vanilla Javascript?
+- Making money from software is a talent
+- The new tool conundrum
+- Embrace the chaos
+- Devops is one of the hardest things to learn
+- The difference between a good programmer and a great programmer
+- How to become a master programmer
+- My Macbook setup
+- Quality through quantity
+- My favourite programming languages for becoming a programmer fast
+- Javascript boot camp - FizzBuzz
+- Go is a threat but not to the language you think
+- My first 150 subscribers
+- Making a search field with React and Node
+- If you want to be a professional programmer learn Git
+- The most common job titles in programming
+- Form validation on hardmode
+- Javascript boot camp - TDD
+- Javascript boot camp - Jest
+- Javascript boot camp - Node
+- Javascript boot camp - Git
+- Using unit tests to practice coding as a beginner
+- Trendy technology sells
+- What is the difference between DevOps and Operations?
+- 3 tips to master css
+- The most flattering comment of my life
+- Is Vue all hype?
+- Pick a tool that does what you need not what others need
+- If you're not the best you are nothing
+- Fetch vs Axios
+- The steps to becoming a fullstack developer
+- Transcending programming languages
+- Why are we using SPA's?
+- Go and Rust vs C++
+- Youtube coding is not reality
+- What hardware do I use for programming?
+- It's not about the number of tools you know
+- Diverse juniors are dangerous
+- 3 tips to make meetings effective
+- Perfection is not worth it
+- Sessions vs Json web tokens with Node, Nginx and Docker
+- Use services to avoid fat controllers
+- The basics of MVC
+- Speak with purpose
+- Dealing with unresponsive third parties
+- 3 tips to stay relevant as a programmer
+- Keep integrations loose
+- Native apps vs web
+- Web vs desktop
+- Hybrid apps vs native apps
+- You don't have to know everything
