@@ -1,5 +1,5 @@
 # Raw video titles
-- Response How to be proactive with learning software development?
+- How to be proactive with learning software development?
 - Do you want to stop coding to climb the career ladder?
 - When do you perform a major refactor?
 - How do you read source code fast?
