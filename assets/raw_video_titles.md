@@ -3049,3 +3049,641 @@
 - Web vs desktop
 - Hybrid apps vs native apps
 - You don't have to know everything
+- Which language do I recommend for server side rendered applications?
+- The two most underestimated problems in programming
+- Spa vs server side rendering
+- Trendy does not mean better
+- Weekend projects is my fuel
+- Stealing passwords with Javascript
+- Structured logging will save you money
+- Explain what you are going to do before you do it
+- The numbers are in React won 2017
+- Don't be stressed about not knowing enough programming languages
+- Sessions vs Jwt vs Oauth
+- You will never know enough so just start
+- Being indispensable is not that great
+- Top 3 things to master Javascript
+- Don't be a people pleaser
+- Computer science is not software development
+- How to tell if you are on the hype train
+- Programming patterns in Javascript - Strategy
+- User authentication for beginners with Node
+- When do I use mob coding?
+- Don't get tricked by fast learning videos
+- Let's automate Twitter pt3 - Like
+- You're good enough
+- Build the right thing at the right time
+- Let's automate Twitter pt2 - Scraping
+- Stability is the enemy of innovation
+- The top 3 programming languages of 2018
+- Let's automate Twitter pt1 - Tweeting
+- Docker containers are not Microservices
+- Are certifications worth the money?
+- So you want to be a rockstar programmer
+- The top 3 programming languages for getting a job
+- DevOps 2018 roadmap review
+- The 3 stages of a software project
+- Top 3 things to learn after programming
+- Backend development 2018 roadmap review
+- Top 3 things to learn after Node
+- Top 3 things to learn after Java
+- Frontend development 2018 roadmap review
+- Top 3 databases to learn in 2018
+- Knowledge snowballing
+- JavaScript closure inside loops
+- Things to think about before you join a startup
+- Things to think about before you join a corporation
+- How do I return the response from an asynchronous call in Javascript?
+- My process for making videos
+- The three levels of programming
+- Growing out of insecurities
+- How to make a great code review
+- Programming speed
+- - Which PaaS provider should I use?
+- The most important advice I can give to a junior programmer
+- Are programming conferences worth the money?
+- What does a real world Java algorithm look like?
+- Mongo vs Rdbms
+- PaaS what is serverless?
+- What do I learn after web programming?
+- PaaS when to go for cloud hosting
+- PaaS basic hosting
+- Building Microservices with Node, Docker and Nginx pt 3 - Connecting the Microservices
+- Don't waste your life coding
+- Platform specific != bad
+- Building Microservices with Node, Docker and Nginx pt 2 - Making a Microservice
+- Why are you behind schedule?
+- You missed the deadline
+- Building Microservices with Node, Docker and Nginx pt 1 - What is a Microservice?
+- Do it for yourself
+- Don't push on a Friday
+- Integration testing with Node and Mongoose
+- The broken window problem
+- It's ok to fail but it's never ok to be wrong with users
+- Is Go a good first programming language for kids?
+- Channel trailer
+- Always check the diff
+- Be a nerd but don't be afraid
+- My secret method to practice problem solving
+- Parents, let your kids use computers
+- Liberal clients and conservative servers
+- How to impress your future boss
+- Why didn't you communicate more?
+- Feature crawl makes code messy
+- 400 videos and what I have learned
+- Programming patterns in Javascript - Circuit breaker
+- Big commits makes you sloppy
+- My first 100 subscribers
+- I am not a Javascript fanboy
+- It's ok to disagree
+- The hardest problem in programming
+- Dream big build smart
+- Api vs webpages
+- Why I love functional programming
+- C# vs Node
+- A personal interview is worth 1000 code tests
+- Css grid first impressions
+- The best beginner programmer language
+- Javascript is not easy
+- Pick your first programming language carefully
+- Don't get emotional about programming languages
+- Writing a good React component
+- Loose coupling and why it's my favourite programming practice
+- - What degree should I get?
+- Isolated programmers cost more than you can imagine
+- Let your designer correct you, it's cheaper
+- How to keep going when you feel like quitting
+- System languages are coming back
+- Code consistency is fiction
+- Don't sabotage, suck it up and switch jobs
+- Learn when to use a programming pattern
+- Read the specification carefully
+- Solve complicated problems with real test data
+- Heml will make html emails easy
+- Kategory brings functional programming to Kotlin
+- What to test pt 2 - Acceptance tests & BDD
+- What to test pt 1 - Unit tests & Integration tests
+- How to write safer Javascript
+- Node and Mongo vs Rdbms
+- Docker, what is that?
+- Programming patterns in Javascript - Factory
+- Some thoughts on PaaS
+- Go vs Python
+- Speed is relative bugs are not
+- Go vs Rust
+- All I need is to help a single person
+- 300 videos and what I have learned
+- Don't try to be impressive just do good work
+- Microservices vs Monoliths
+- What is a load balancer?
+- Fizzbuzz code test in Java
+- My development setup
+- What is caching?
+- What is a message queue?
+- What is a batch job?
+- Building for scale
+- Some thoughts on making programming tutorials
+- Webpack caching pt 3 - Extracting the Webpack runtime
+- Webpack caching pt 2 - Extracting dependencies
+- Webpack caching pt 1 - Hashing
+- How to make Javascript easier to test
+- 4 tips to write better Javascript
+- C++ vs Go
+- How do I get good with computers?
+- Development, Production, what does it all mean?
+- Use logging instead of throwing errors
+- You broke production
+- Less is more in programming
+- Xml vs Json
+- Making your first tech talk
+- Happy users say thanks by saying nothing
+- Why I became a programmer
+- If you want to build games start small
+- - Acceptance testing
+- Integration testing
+- My first 50 subscribers
+- Web security is a cost vs gain game
+- My favourite programming language
+- Teaching programming
+- Kotlin vs Java
+- Event sourcing
+- Some thoughts on self promotion
+- Be more than a teacher
+- Go vs Elixir
+- Library oriented development
+- Scala vs Java
+- React or not React
+- Code is never perfect
+- You don't have to be the best programmer to be valuable
+- Falling in to the pit of success
+- Php vs Elixir
+- Java vs Elixir
+- Html is pretty great
+- Java vs Php
+- Java vs C#
+- Go vs Php
+- Node vs Php
+- Go vs Java
+- Be honest about who you are
+- You break it you own it
+- When to use Javascript and when to use Css
+- Women in programming
+- Php vs Javascript which is easier to learn
+- How design trends can make you a better programmer
+- Big Go binary vs Docker containers
+- Teamwork in a crisis
+- Pick a job that challenges you to be better
+- You are not too dumb to be a programmer
+- Css grid is here
+- Writing a good Javascript function
+- How to program for small business owners
+- Having fun with web performance
+- Victim mentality
+- Code always changes
+- Building a software team
+- Some thoughts on Webpack
+- My experiences working with Scrum
+- Flat IT companies
+- Progressive web apps are not the standard yet
+- Testers, programmers and the unspoken hierarchy
+- My biggest startup mistake
+- Designers and programmers make an amazing team
+- Agile development
+- - Top down managed IT companies
+- Good idea's vs feasible idea's
+- Best practices vs reality
+- Value is not measured in lines of code
+- How do I know if my app idea is good?
+- Being a programmer can be lonely
+- Programmers need to talk to people
+- Users don't care about excuses
+- Is the code bad or is it just you?
+- High payed job vs fun job
+- Watching tech talks on Youtube is not slacking off
+- Css and why developers hate it
+- Am I too old to be a programmer?
+- Node vs Elixir
+- Always build the landing page first
+- Scala vs Kotlin
+- Time estimating and why it's so hard
+- The scariest thing in programming
+- Node vs Java
+- Node vs Go
+- Css modules vs BEM
+- Software costs money
+- Don't be a code diva
+- My role model
+- What is programming?
+- Do you need to go to school to be a programmer?
+- Over engineering code
+- What is an MVP?
+- Swift vs Kotlin
+- Scala vs Elixir
+- Being the new guy
+- 200 videos and what I have learned
+- Android vs IOS development
+- Scala first impressions
+- The DRY principle and my thoughts on it
+- Trust in software and how your personal data is used for good and bad
+- Building a strong start-up team
+- How to change the world
+- Talent vs hard work
+- Everyone has an idea but few can make it happen
+- How to save development time and leverage the power of linters
+- How to get your unit test coverage up and start being test driven
+- Robust code vs easy code
+- How to learn programming
+- Batman Telltale playthrough #5
+- Batman Telltale playthrough #3
+- Batman Telltale playthrough #4
+- Batman Telltale playthrough #1
+- Batman Telltale playthrough #2
+- Web vs mobile development
+- - Growing stronger as a programmer and as a person
+- The big rewrite and the problems that come with it
+- What is the difference between a junior developer and a senior developer?
+- Html emails and why you should pay for templates
+- Vanilla JavaScript vs frameworks
+- My favorite browser
+- Some thoughts on destructuring in JavaScript
+- Why you shouldn't be afraid of causing bugs
+- If you love css but don't want to master JavaScript become a designer
+- How to write Linkedin skills to rank high as a programmer
+- The world can't run on free software
+- My thoughts on the way the JavaScript language is evolving
+- Twitter Lite and the amazing idea's that are behind it
+- First day at new job
+- How I think about logging
+- Cancellation tokens
+- Some things to use in functional programming and some things to avoid
+- How I think you should act when your stuck on a problem
+- How to take over a codebase
+- How to handle recruiters as a programmer
+- When do you migrate code?
+- Thing's to consider when you pick a tech stack
+- My thoughts on code transpilation
+- Some tips for the future game developers
+- The world is obsessed with perfection but don't let it scare you, just start
+- Machine learning is the next big thing for software products and services
+- Does functional programming reduce bugs?
+- My thoughts on progressive web apps
+- What I think will be the next big innovation
+- Don't be too quick to judge bad code
+- How important is functional programming?
+- The walking dead 2 play through #5
+- The walking dead 2 play through #4
+- The walking dead 2 play through #3
+- The walking dead 2 play through #1
+- The walking dead 2 play through #2
+- Data driven development
+- Why bugs need to be taken into account when determining delivery speed
+- The importance of finding great mentors and being humble
+- The importance of software communities
+- Life is strange play through #1
+- Life is strange play through #5
+- Life is strange play through #4
+- Life is strange play through #2
+- Life is strange play through #3
+- Setting up a great startup
+- You will never write perfect code
+- Why I believe that programming is the job of the future
+- Traits, extensions and how I use them
+- What is good code?
+- - The different roles in a development team
+- Software testing strategies
+- Why monads don't make sense in JavaScript
+- When do you refactor code
+- Life is strange: before the storm play through #1
+- When is a user interface good enough?
+- Should IT companies be held responsible for system crashes?
+- Java 9 incubator modules is a bold move
+- Puppeteer and why you should use it
+- What will be the next programming trend
+- What makes a programming language popular
+- The 3 programming languages that will make you a great programmer
+- How to say no to bad app idea's without ruining your friendship
+- Kotlin and why I love it
+- How to be more productive using bookmarklets
+- Frontend vs backend development and the rivalry between the two
+- Rust and why I love it
+- My friend dancing with his new wife
+- Cute dog munchin
+- Cute dog steals giant ball
+- The future of technology and your role in it
+- Node, Ayo and what I think will happen next
+- Swift and why I love it
+- How I think about dislikes and criticism
+- Serverless and why Microservices maybe isn't the way to go
+- Ayo the new fork in Node and my thoughts on it
+- Go and why I love it
+- JavaScript and why I love it
+- Oracle is handing away Java EE
+- Java and why I love it
+- Elixir and why I love it more than I could love a human child
+- Dealing with rejection
+- Firebase and what I have learned from working with it
+- The singleton pattern and my thoughts on it
+- How to build a LinkedIn profile for programmers
+- How to write good comments
+- Fixing math in JavaScript should be more important than it is
+- Keep an open mind and think about the benefits of one approach over another
+- Batman the enemy within play through #1
+- The walking dead season 1 play through #2
+- The walking dead season 1 play through #4
+- The walking dead season 1 play through #5
+- The walking dead season 1 play through #3
+- The walking dead season 1 play through #1
+- How to come up with great apps
+- What is going to be the main functional programming language of our time
+- Why JavaScript should be your first programming language
+- Why I think you should pick React as your first framework
+- Thank you for watching my silly little videos
+- How to onboard new people in your project
+- - Programming design patterns and why you are probably using them wrong
+- Some things I have learned from working on my own start-up
+- Why I love being a programmer and why I think you will love it too
+- Css grid is proof that css is not enough any more, we need something better
+- Programmers are brave people
+- Java does some things well but I think there is a reason for Node winning in popularity
+- I don't like to disappoint people and I hate feeling like I am not good enough
+- The next generation of programmers will not reach for Java or C#
+- Is JavaScript really that much more diverse than Java
+- Seasons after fall play through #4
+- Seasons after fall play through #1
+- Seasons after fall play through #2
+- Seasons after fall play through #3
+- Simpler is always better
+- Some thoughts on the importance of having the right people conducting an interview
+- I debunk the myth "good programmers can use any language to code"
+- Klarna interview process finally over
+- Safely arrived in Stockholm and I keep thinking that I will see my ex girlfriend
+- My thoughts on AI
+- Compiled languages vs scripting languages
+- Big trip to Stockholm
+- A story about my uncle play through #1
+- Be careful about hiring lone wolf's
+- Mixed feelings about salary vs job satisfaction
+- Is Karma dead?
+- Some tools I like and why I like to keep things simple
+- Some thoughts on how to avoid spaghetti code without Microservices
+- Should I use a framework and what I think is good and bad about frameworks
+- The Valley play through #1
+- The Valley play through #3
+- The Valley play through #2
+- The wolf among us play through #6
+- The wolf among us play through #3
+- The wolf among us play through #5
+- The wolf among us play through #2
+- The wolf among us play through #4
+- The wolf among us play through #1
+- My coworker had an interesting project and this is the advice I gave him
+- Errors and how I think that you should handle them in code
+- Don't forget to be a good person because sometimes being smart is not the most important thing
+- Job hunt going well and I talk about the most painful pair programming I have ever done
+- How I live an average week in my life and why I want to work hard for my next moment
+- Databases, data and why having a great data layer is important
+- How I think a hiring process should work for programmers
+- Please be an accomplished programmer before you become a manager and never be a power point person
+- Job hunt going well but l have to apologize to the people I hurt without meaning to
+- So you want to use React, why?
+- How do I increase my value as a programmer on the job market?
+- Don't write generic code, write good code for your problem and make it generic when it makes sense
+- Tech debt and how to know when you can cut corners
+- - How to think about building applications in the real world
+- 3 signs that you are going to be a great programmer
+- How to refactor code and why the big rewrite rarely works
+- When am I good enough to add a programming language to my CV?
+- How I write functions and the way I think about abstractions
+- What is a good abstraction and how should you think about the way you write them
+- Karma and Mocha vs Jest and why I think you should try Jest
+- What I have learned from a month of non stop programming interviews
+- Next stage with Klarna interview process done and some thoughts on how to handle interviews
+- Should I learn JQuery?
+- More updates on the job front and who I hope to become one day
+- Css modules, BEM, css in JavaScript and why I think we are getting excited about the wrong thing
+- Bootstrap, Foundation, Ink and my thoughts on css frameworks.
+- When do I use Microservices and how should I build them?
+- Crazy job interview processes and my thoughts on them
+- When do I use React and when do I use vanilla JavaScript?
+- Job hunt going well and a big decision is coming up soon
+- My thoughts on serverless infrastructure
+- New day of job hunting and my thoughts on computer science job interview questions
+- Three things to learn when you know how to write code
+- My list of things to learn to be a professional programmer
+- There is no such thing as a top 10 programming languages list
+- You can't be a master of every programming language so learn how to know what to bet on
+- My thoughts on css variables
+- Why you should start using Jest
+- Programming is not easy but it's probably easier than you think it is
+- Thoughts on code tests and computer science job interview questions
+- Performance is important but most of the time it is not the most important thing
+- The three stages of a programmer and when do you know that you are a pro
+- solving a JavaScript stackoverflow question about a timer that does not reset on click
+- stackoverflow question how to pass props between classes in react js
+- answering a stackoverflow question and failing to solve the entire problem
+- Starting to calm down about the thought of moving from Gothenburg to work
+- My list of new features I want for JavaScript
+- Will Node become the new php of the web?
+- Responding to a really nice comment without killing any kittens
+- Update on getting the next job and dealing with the fear of possibly moving from Gothenburg
+- The road from zero to hero for all programmers
+- javascript functions as arguments tutorial
+- Make simple code before you try to be fancy and smart
+- javascript module pattern tutorial #38
+- How to setup a express project for long term development using only vanilla Javascript #37
+- I am not always right so think for yourself and discover what works for you #36
+- Try to use JavaScript frameworks to be faster but not to avoid learning #35
+- When does it make more sense to use object oriented programming over functional programming #34
+- Don't make Angular your first JavaScript framework #33
+- My list of programming languages and what I think makes them stand out #32
+- Is MVC always the answer for scalable web applications? #31
+- I answer the question "What programming language should I start with?" #30
+- Talking about the benefits of building a library oriented project instead of using MVC #29
+- - Middle-earth: Shadow of Mordor play through #4
+- Middle-earth: Shadow of Mordor play through #1
+- Hey Oscar
+- Ryse: Son of Rome play through #7
+- Ryse: Son of Rome play through #6
+- Ryse: Son of Rome play through #5
+- Flux for beginners and how to make a vanilla flux framework in Javascript #28
+- Middle-earth: Shadow of Mordor play through #10
+- Middle-earth: Shadow of Mordor play through #7
+- Middle-earth: Shadow of Mordor play through #8
+- Middle-earth: Shadow of Mordor play through #9
+- Middle-earth: Shadow of Mordor play through #6
+- Middle-earth: Shadow of Mordor play through #5
+- Middle-earth: Shadow of Mordor play through #3
+- Middle-earth: Shadow of Mordor play through #2
+- Ryse: Son of Rome play through #4
+- Ryse: Son of Rome play through #3
+- Ryse: Son of Rome play through #2
+- Ryse: Son of Rome play through #1
+- My coworkers
+- Batman: Arkham Knight play through #52
+- Batman: Arkham Knight play through #51
+- Batman: Arkham Knight play through #50
+- Batman: Arkham Knight play through #49
+- Batman: Arkham Knight play through #48
+- Batman: Arkham Knight play through #47
+- Batman: Arkham Knight play through #46
+- Batman: Arkham Knight play through #45
+- Batman: Arkham Knight play through #44
+- Batman: Arkham Knight play through #43
+- Batman: Arkham Knight play through #42
+- Batman: Arkham Knight play through #41
+- Batman: Arkham Knight play through #40
+- Batman: Arkham Knight play through #39
+- Batman: Arkham Knight play through #38
+- Batman: Arkham Knight play through #37
+- Batman: Arkham Knight play through #36
+- Batman: Arkham Knight play through #35
+- Batman: Arkham Knight play through #34
+- Batman: Arkham Knight play through #33
+- Batman: Arkham Knight play through #32
+- Batman: Arkham Knight play through #31
+- Batman: Arkham Knight play through #30
+- Batman: Arkham Knight play through #29
+- Batman: Arkham Knight play through #28
+- Batman: Arkham Knight play through #27
+- My thoughts on what your priorities should be as you are growing in to a great programmer #7
+- Talking about getting a new job and my video tutorials #6
+- Batman: Arkham Knight play through #15
+- Batman: Arkham Knight play through #16
+- - Batman: Arkham Knight play through #10
+- Batman: Arkham Knight play through #9
+- Batman: Arkham Knight play through #8
+- Batman: Arkham Knight play through #7
+- Batman: Arkham Knight play through #6
+- Batman: Arkham Knight play through #5
+- Batman: Arkham Knight play through #4
+- Batman: Arkham Knight play through #3
+- Batman: Arkham Knight play through #2
+- Batman: Arkham Knight play through #1
+- Reviewing an article on making http calls in node and my thoughts on it #5
+- Node weekly and my thoughts on Javascript lambda functions overuse #4
+- Swift weekly and a pretty cool way to debug controller memory leaks #3
+- Elixir radar and my thoughts on Elixir #2
+- Starting my own blog series #1
+- Leaving Ticketmaster
+- html tutorial for beginners - what to do now
+- html tutorial for beginners - tools of the trade
+- html tutorial for beginners - semantic markup
+- html tutorial for beginners - intro
+- html tutorial for beginners - custom attributes
+- html tutorial for beginners - intro
+- html tutorial for beginners - meta tags
+- html tutorial for beginners - List
+- html tutorial for beginners - intro
+- html tutorial for beginners - DOM
+- html tutorial for beginners - what to do now
+- html tutorial for beginners - Table
+- html tutorial for beginners - Setting up
+- html tutorial for beginners - Forms
+- html tutorial for beginners - Elements
+- html tutorial for beginners - Common tags
+- html tutorial for beginners - Attributes
+- Node tutorial for beginners - database
+- Node tutorial for beginners - tools of the trade
+- Node tutorial for beginners - what to do now
+- Node tutorial for beginners - Intro
+- Node tutorial for beginners - web app
+- Node tutorial for beginners - sending data
+- Node tutorial for beginners - uploading media
+- Node tutorial for beginners - rendering
+- Node tutorial for beginners - what to do now
+- - Batman: Arkham Knight play through #20
+- Batman: Arkham Knight play through #19
+- Batman: Arkham Knight play through #18
+- Batman: Arkham Knight play through #17
+- Batman: Arkham Knight play through #14
+- Batman: Arkham Knight play through #13
+- Batman: Arkham Knight play through #12
+- Batman: Arkham Knight play through #11
+- Batman: Arkham Knight play through #10
+- Batman: Arkham Knight play through #9
+- Batman: Arkham Knight play through #8
+- Batman: Arkham Knight play through #7
+- Batman: Arkham Knight play through #6
+- Batman: Arkham Knight play through #5
+- Batman: Arkham Knight play through #4
+- Batman: Arkham Knight play through #3
+- Batman: Arkham Knight play through #2
+- Batman: Arkham Knight play through #1
+- Reviewing an article on making http calls in node and my thoughts on it #5
+- Node weekly and my thoughts on Javascript lambda functions overuse #4
+- Swift weekly and a pretty cool way to debug controller memory leaks #3
+- Elixir radar and my thoughts on Elixir #2
+- Starting my own blog series #1
+- Leaving Ticketmaster
+- html tutorial for beginners - what to do now
+- html tutorial for beginners - tools of the trade
+- html tutorial for beginners - semantic markup
+- html tutorial for beginners - intro
+- html tutorial for beginners - custom attributes
+- html tutorial for beginners - intro
+- html tutorial for beginners - meta tags
+- html tutorial for beginners - List
+- html tutorial for beginners - intro
+- html tutorial for beginners - DOM
+- html tutorial for beginners - what to do now
+- html tutorial for beginners - Table
+- html tutorial for beginners - Setting up
+- html tutorial for beginners - Forms
+- html tutorial for beginners - Elements
+- html tutorial for beginners - Common tags
+- html tutorial for beginners - Attributes
+- Node tutorial for beginners - database
+- Node tutorial for beginners - tools of the trade
+- Node tutorial for beginners - what to do now
+- Node tutorial for beginners - Intro
+- Node tutorial for beginners - web app
+- Node tutorial for beginners - sending data
+- Node tutorial for beginners - uploading media
+- Node tutorial for beginners - rendering
+- Node tutorial for beginners - what to do now
+(index):37 EAAaflBUOkNKQWNJaEExTlRRelFUSTRSRGszTWpFeE4wVXhLQUZJX3BmWndvdVFpd05RQVZvNElrTm9hRlpXVkVKRFVWZFJOR1JHUW5OU1NFWkhaR3RTV2xGdFZuUlRSMDVTVlVaRlUwUkJhbXN6T1VjNFFtaERkelJLZFhSQlVTSQ
+(index):36 - Node tutorial for beginners - ExpressJS
+- Node tutorial for beginners - intro
+- Node tutorial for beginners - CLI
+- Node tutorial for beginners - files
+- Node tutorial for beginners - Imports
+- Node tutorial for beginners - what to do now
+- Node tutorial for beginners - setting up
+- Node tutorial for beginners - intro
+- Javascript tutorial for beginners - what to do now
+- Javascript tutorial for beginners - test driven development
+- Javascript tutorial for beginners - webpack
+- Javascript tutorial for beginners - tools of the trade
+- Javascript tutorial for beginners - npm
+- Javascript tutorial for beginners - node
+- Javascript tutorial for beginners - intro
+- Javascript tutorial for beginners - What to do now
+- Javascript tutorial for beginners - Self invoking functions
+- Javascript tutorial for beginners - Window
+- Javascript tutorial for beginners - Scope
+- Javascript tutorial for beginners - Recursion
+- Javascript tutorial for beginners - Prototype
+- Javascript tutorial for beginners - Promises
+- Javascript tutorial for beginners - Object oriented programming
+- Javascript tutorial for beginners - Javascript files
+- Javascript tutorial for beginners  - Introduction
+- Javascript tutorial for beginners - Inline scripts
+- Javascript tutorial for beginners - Functional programming
+- Javascript tutorial for beginners - Debugging
+- Javascript tutorial for beginners - Async
+- Javascript tutorial for beginners - Ajax
+- Javascript tutorial for beginners - What to do now
+- Javascript tutorial for beginners - Variables
+- Javascript tutorial for beginners - String
+- Javascript tutorial for beginners - Regex
+- Javascript tutorial for beginners - Object
+- Javascript tutorial for beginners - Numbers
+- Javascript tutorial for beginners - Loops
+- Javascript tutorial for beginners - Functions
+- Javascript tutorial for beginners - Error handling
+- Javascript tutorial for beginners - Conditionals
+- Javascript tutorial for beginners - Booleans
+- Javascript tutorial for beginners - Intro
+- Javascript tutorial for beginners - Arrays
+- Javascript tutorial for beginners - Console
+- Final project for CS50
