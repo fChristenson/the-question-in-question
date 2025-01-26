@@ -1,0 +1,2394 @@
+# Raw questions
+- How to be proactive with learning software development?
+- Do you want to stop coding to climb the career ladder?
+- When do you perform a major refactor?
+- How do you read source code fast?
+- How do 10x devs elevate their teams?
+- How do you write integration tests that won't be flaky?
+- What is the best way to gather requirements?
+- Why do so many large IT projects fail to meet expectations?
+- Is it possible to keep up with IT and still have a life?
+- Should teams create pull requests for code owned by other teams?
+- Is it true that re-usability is at times overrated?
+- What if a junior dev gets too much work?
+- Do you have junior insecurities?
+- Have you ever had to prove yourself?
+- What to do about non technical managers?
+- Are unit tests a good regression test suite?
+- Why do senior devs use fancy code instead of simple code?
+- What if complicated code has no way to be simplified?
+- What techniques do you follow to simplify code?
+- When have you told your boss, "stop"?
+- How do you prioritize a time constrained IT project?
+- What is domain knowledge?
+- How to work in a toxic software team?
+- What advice did you ignore in the early days of your programming career?
+- When do I have enough information to start coding?
+- What have you done to stop stressing?
+- What books would you use to improve in problem solving?
+- Have you seen software complain about meetings?
+- Do software devs get rejected by a single, random statement?
+- How do you deal with devs who oppose your reforms?
+- How do you deal with unrealistic deadlines?
+- Should a tech lead be outspoken?
+- Will AI take our jobs?
+- How to develop a good mental model of your codebase?
+- How hard is it to add TDD?
+- Is the saying "if it isn't broken don't fix it", applicable to software?
+- When do you give up on a software developer?
+- How to respond to a rude director?
+- Do best practices in coding differ between companies?
+- What about code criticism?
+- Can automated testing replace code reviews?
+- How to prepare to get criticism on your code?
+- What are the steps for creating a web application?
+- How do you tell if it is better to train or fire a software engineer?
+- What are the top 1% of software engineers doing that sets them appart?
+- Is it important to pick your battles in IT?
+- How long does it take to measure the calibre of a developer?
+- Are software devs motivated by challenging problems?
+- Do devs test in iterations?
+- Will AI impact devs?
+- What does DevOps mean to you?
+- How to draw boundaries for what your application should support?
+- Do unit test take as much time as the logic?
+- How long does it take for a junior to become a senior?
+- Do refactors require a genius developer?
+- How to prevent bugs?
+- Do you need to be a genius to do well in IT?
+- How do you transform a software architecture?
+- Does it bother you when you get new managers often?
+- Is programming passion shown in the code?
+- Why don't companies replace their legacy systems?
+- What to do if I feel overwhelmed?
+- Why do large companies hire tons of developers?
+- Does your title have an impact on your results?
+- Do layoffs prove if the code is good?
+- How important is feedback?
+- How do you avoid stepping on toes?
+- Do 10x devs write simple code?
+- How to add new tech to your CV?
+- What gives you joy in IT?
+- How to get promoted in IT?
+- How to earn the trust of a new software team?
+- How to improve the software you make?
+- How to give devs autonomy?
+- What do you think about boot camp graduates?
+- How to deal with a energetic developer?
+- Can non passionate devs have a good career?
+- How to earn the trust of a low performance engineer?
+- Why don't you want to work in a FANG company?
+- How did you learn how to learn?
+- What should a world class dev know?
+- What about performance reviews?
+- Why do IT companies ask if I was in the top of my class?
+- Do you have a programming routine?
+- How much upfront design should you do?
+- What to do if a project exceeds the deadline?
+- What about engineering managers who don't want to talk about tactical issues?
+- What theory is missing in most self taught developers?
+- How do you deal with layoffs?
+- What is the definition for a mid level developer?
+- How to learn coding fast enough to not become obsolete?
+- Why don't universities teach software design?
+- How to remember decisions in IT projects?
+- Would you accept a position that down-levels you?
+- What advantages does TDD have?
+- Why have software teams abandoned upfront design?
+- How to handle the fear of failing?
+- What about ADR's?
+- Why do senior devs hate coding interviews?
+- What about fast vs planned development?
+- What about feature sliced design?
+- How to balance perfectionism and pragmatism?
+- What about fixing a production problem?
+- What to do about devs without domain knowledge?
+- How do I create a architecture if requirements change every day?
+- Why do IT companies prioritize speed over quality?
+- What could an AI do for a software dev?
+- Are you a micromanager?
+- Why do senior devs drop out of the hiring process?
+- What to do when the deadline is close?
+- Why do some devs never outgrow the junior level?
+- Do you need to be political in a IT company?
+- Do you research IT companies before the interview?
+- Is biases an issue in software recruitment?
+- Are leadership skills important for a senior dev?
+- How to handle a system crisis?
+- How do I know if I am doing more than needed?
+- How to become more social as a developer?
+- What about devs who are left behind?
+- What about being the new dev?
+- What are some tips for managing a software team?
+- What question destroys fake seniors in an interview?
+- Am I a boot camp level developer?
+- Is it a red flag if a candidate has not been in specific situations?
+- What would you say to a CEO who belittles your work?
+- At what point to give up on a software developer?
+- What is the ultimate project for learning React?
+- What about a junior dev who acts as a senior?
+- What about making documentation?
+- What about getting laid off?
+- Is a junior dev expected to know about testing?
+- How to talk to a non technical boss?
+- How do you organize your learning material?
+- What if I took the wrong job?
+- What learning strategy to use as a self taught dev?
+- How to use AI to become a better dev?
+- What if my manager is highly technical?
+- What about being a junior dev that can not measure up?
+- Have system designs later turned out to be costly?
+- Should devs have a emotional attachment to their project?
+- How to read the CV of a programmer?
+- How to evaluate scalability?
+- Why not both create optimized and readable code?
+- Is web application development serious software development?
+- What was your first job in software development?
+- How to apply topological fixing of legacy code?
+- What if the architecture doesn't work anymore?
+- How to improve legacy code?
+- How do you determine seniority in JavaScript?
+- Should I stop mentoring new hires?
+- Do you try to understand the pull request you review?
+- I have done 1337 questions to practice, why isn't' it helping?
+- What to do when I can't make progress on my project?
+- What to do when your manager overturns your decisions?
+- Can tech lead seek advice from their manager?
+- What to do when you lose your passion for coding?
+- Why do dev teams love agile?
+- What reason would make you quit?
+- As a tech lead do you promote practice you don't follow yourself?
+- Should simplicity always be the priority in coding?
+- What are the main things to know as a programmer?
+- What to do when the dev team is failing?
+- If my manager gives me a lot of pull request comments does that reflect poorly on me?
+- Do software engineers take code review comments personally?
+- Do you thank team mates who tell you what you already know?
+- If a senior dev needs coaching does it reflect badly on their skill level?
+- Are there key indicators that a senior dev isn't all that good?
+- What is in scope for software engineer after 10 years?
+- Do you miss onsite interviews?
+- What about trainee dev positions?
+- What is the minimum time to gain trust in dev team?
+- Is code coverage a good metric?
+- What about doing well as a junior?
+- How to do well as a solo junior dev?
+- How to deal with impostor syndome?
+- Is it alright to take a break from software studies?
+- How to provide a senior dev with constructive comments?
+- Is OOP a thing in JavaScript?
+- Do seasoned programmers bomb in interviews?
+- What do interviewers want when asking very hard questions?
+- Feature flags vs feature branches?
+- How to fix constant regressions?
+- How to plan for tight deadlines?
+- What rules of software development do you follow?
+- How to get deep in to the theory of backend development?
+- How to convince my boss that getting a certificate is a waste of time?
+- What are core skills for software devs?
+- How to get the mindset of a senior backend dev?
+- When do you coach software devs?
+- Is Wordpress a good choice for a startup?
+- How to get the mindset of a seasoned frontend dev?
+- Have you read any philosophy that made you think about software development differently?
+- What if I want to start my own IT company?
+- How to tell a dev that they are not productive enough?
+- How to deal with slow devs?
+- Is cleaning up messy code one of the best feelings for software devs?
+- With remote working options should devs still pick a good city to work in?
+- How to get a IT company that pays really well?
+- What wastes the most time in a software team?
+- How to spot a real senior in an interview?
+- How to write code with few bugs?
+- How long does a programming project take?
+- Do you follow the same learning principles regardless of your age?
+- How can software devs be expected to contribute in so many areas?
+- How to overcome the loss of motivation?
+- How do you introspect as a software engineer?
+- How to pass the trial period at a new job?
+- Does "culture eats strategy for breakfast" apply to IT?
+- When do you keep silent instead of speaking?
+- Why do some CS grads look down on programming?
+- Are there engineering managers who gets coaching from a senior dev?
+- How to keep motivation when learning programming?
+- What should I know before applying for a entry level software job?
+- How do you analyze the regression impact of a system?
+- How much time do you allocate for reading code?
+- What is so bad about having a career gap on their CV?
+- What mistakes do most web devs make?
+- Is competitive programming a waste of time?
+- How did you become a software architect?
+- How to not second guess yourself?
+- How to create a good team environment?
+- How to do a honest post mortem?
+- How can a tech lead help a team member get promoted?
+- Is knowing how to get the right support an important part of being a senior?
+- Is it important to shield your dev team from external disruption?
+- When you design Micro services do you avoid consumer specific logic?
+- Do you accept a development job if the company uses cloud computing?
+- What interesting problems do you look to solve on a daily basis?
+- How important are negotiation skills in software design?
+- How to know if a software developer is overqualified for a team?
+- Do you get gut feelings about code?
+- Why do most programming jobs require tool knowledge?
+- What do you least enjoy about being a software engineer?
+- Is long term satisfaction as a software dev tied to personal development?
+- How can a software dev be intentional about having a growth mindset?
+- How to create incentive for positive behavior in software teams?
+- How to deal with an engineer who wants a promotion too early on?
+- Why do IT people use such strange titles?
+- Is investing in software quality cost effective?
+- What are the qualities of an excellent software architect?
+- Is growth limited for developers who prefers to work alone?
+- How should a IT company decide between buying and building software?
+- How to stop feeling bad over breaking production?
+- If you interview someone you know would it feel awkward?
+- How to cultivate a "get things done" mentality in a software team?
+- How to handle a bad 1 on 1 with your manager?
+- Is learning programming a constant cycle of impostor syndrome?
+- How do you memorize a huge codebase?
+- Is it ok to just do the minimum at work?
+- Do all IT companies have leeches?
+- Do I need to consider scalability for the resume projects?
+- In a top company would you still try to understand how the tech works under the hood?
+- Will a junior get promoted if they are better than a senior?
+- How do principal engineers stay motivated?
+- Why are programmers big nerds?
+- What example of coaching software devs do you have?
+- Do you answer new team members questions or do you refer them to the docs?
+- Do principal engineers have the same coding skills as seniors?
+- Have you ever been forced to implement an architecture you did not agree with?
+- Have you been a principle engineer?
+- Why do principal engineers go in to management?
+- How long does the onboarding of a junior take?
+- When is a software dev a liability to the team?
+- What skills do you need to make your own dev tools?
+- When to let a software dev go?
+- How can desktop development come back?
+- When should a company revise the tech stack?
+- How to have effective 1 on 1's with your manager?
+- Is creating reliable software hard?
+- Should dev teams be able to stop feature development to handle tech debt?
+- When you have prod issues do you learn from your mistakes?
+- Why are companies trying to reduce push-back bias?
+- What is it like working as a senior software dev?
+- How do senior devs feel when a junior deny their pull request?
+- Is it more satisfying to get a promotion than a new job?
+- How to avoid code review comments that add no value?
+- What tone to use in pull requests when making suggestions?
+- Is tech debt inevitable?
+- If ageism is a problem in IT why do people give positive feedback on making the switch?
+- How do you design your api's to handle soft deletes?
+- How to keep up in frontend development?
+- Does programming ever stop feeling cool?
+- Are people skills the most important skill for a senior software development?
+- What are realistic expectations when switching career to frontend development?
+- How do you evaluate IT companies when applying for a job?
+- Does development speed increase when you hire more people?
+- Why do tech companies have a informal dress code?
+- Are QA's usually less geeky than software devs?
+- Is a software dev constantly judged by the quality of their code?
+- What is the trait the best software devs have?
+- Is it ok to ship software with bugs somtimes?
+- What is the difference between elegant and clever code?
+- Will AI take over writing website content?
+- Is it true that most software devs do not like testing?
+- Is software development process oriented?
+- How to contribute to more complex projects?
+- Why is my company reinventing instead of using a library?
+- Are you a senior when you stop being afraid of a problem that used to scare you?
+- Do you think through the solution immediately after getting the requirements?
+- How requirements gathering evolved?
+- How do you keep your pull request small?
+- How do you do automated tests?
+- What if your best dev quits?
+- How do you commit to an idea?
+- How do you reduce Microservice communication?
+- How can a software manager create a inclusive work environment?
+- Are you happy that your manager wants to review your code?
+- Are engineering manager good at creating high performance software teams?
+- If you fail to meet OKR's does that mean that the team failed?
+- What skills do you need to form a software team?
+- How can a friendly tech lead avoid getting taken advantage of?
+- How to deal with a nice dev who doesn't produce?
+- How do you progress when you find problems?
+- How can I have the confidence to switch companies?
+- Is it best practice to provide a client library for Microservices?
+- How important is a product manager for a software team?
+- What does exhibiting thought leadership mean for a software dev?
+- What is your best software developer job experience?
+- How do mediocre software devs try to cover their tracks?
+- What programming language can I use to build a social media app?
+- Can you describe a over engineered super system?
+- What happens if I practice coding every day?
+- How to deal with slow code reviews?
+- How do you keep code reviews from taking forever?
+- How do you pick your tech project to advance your career?
+- Do abstractions mean giving up flexibility?
+- Are there any downsides to AI code generation?
+- How do you get people skills?
+- How does it feel to do well in a tech interview?
+- How do you view a code review without comments?
+- Would you be happy if your manager coded?
+- How do you pick a tech project?
+- Do you follow tech for professional reasons?
+- What can help devs recover from anti patterns?
+- Are software devs known to use over technical jargon?
+- Should IT companies treat the customer as always being right?
+- How to avoid getting stuck when programming?
+- How to avoid over engineering?
+- How to improve your craft as a software dev?
+- Why are tech companies creating tech first career ladders?
+- What does it mean to expect a software dev to be accountable?
+- How long will it take a junior dev to become in demand?
+- What is a waste of time in software development?
+- Are software devs payed in proportion to their productivity?
+- How could a manager understand a technical rabbit hole?
+- How to know if a company follows good software practices?
+- Why are there so few desktop apps?
+- When do you run regression tests?
+- What happens if a 10x tester and 10x dev work together?
+- Are there things you can't catch with automated test?
+- How do you figure out the right tool for the job?
+- How do you know why devs are calm under pressure?
+- Do mediocre software devs slow down good devs?
+- Is your job as a software dev fulfilling enough?
+- Do you feel embarrassed if someone boast about your coding skill?
+- Do senior devs see patterns when they solve problems?
+- How to know when to stop adding abstractions?
+- How do architect who do not code add value to a software team?
+- How to avoid feeling inferior to other devs?
+- Should one try to adopt new tech to their stack?
+- What about starting a SaaS business?
+- Do you help your struggling coworkers?
+- What about job hopping in a recession?
+- Are the first years where a software dev improve most?
+- Does switching programming job get easier with time?
+- What about the sentient AI in Google?
+- Are the best devs self managing?
+- Are the best tech managers also the best contributors?
+- Are you fit to be a software manager if you are able to find areas of improvement?
+- Should I be happy working with smarter devs than me?
+- Do many CS student never fully understand pointers and recursion?
+- Should daily deployment be the goal for software teams?
+- Is is true that you need at least 1 hour to evaluate a software dev?
+- What is the most important thing to evaluate with a software developer candidate?
+- Does worrying help you code better?
+- What about avoiding dev work that hurts your career?
+- How do you choose your opportunity as a software dev?
+- How can software companies help new devs with onboarding?
+- Are software devs ok with other devs refactoring their code?
+- Why is outsourcing gaining traction?
+- How to find a balance between software standards and choice?
+- Will working with Vue harm my market value?
+- What are the root causes of poor software development?
+- What are you guiding principles in software development?
+- What are some well known traps software devs fall in?
+- Do software engineering managers look at contribution graphs?
+- Should software devs measure twice and cut once?
+- What is the advantage of building software in small increments?
+- Why is it uncool to be process oriented?
+- Do software devs trust hackers?
+- Process oriented vs result oriented developers?
+- Are coding interviews broken?
+- Do top tech company engineering blogs influence IT?
+- Do you expect your software team to work overtime in a crisis?
+- How to identify committed software devs?
+- How to ask good questions when asking my coworkers for help?
+- How do you explain technical challenges to non technical stakeholders?
+- Do the type of dev you are change over time?
+- Do you copy paste code to get started on a problem?
+- Should software devs be ok with admitting they don't know something?
+- How do you tell what direction tech is moving in?
+- Do brilliant jerks get their way in IT?
+- Can mistakes in a no blame culture still end with you being blamed?
+- Is the lead software devs success measured by how well the team does?
+- Is the servant leadership style the best style of leading in IT?
+- Is it a zero sum game for a tech lead to praise devs?
+- Should you test in production?
+- Is code a cost?
+- Should software devs be willing to remove code?
+- Is it bad when software devs don't think things through fully?
+- How can a new software dev get a sense of belonging?
+- How can a software company combat gate-keeping?
+- What should a software dev intern ask their CEO?
+- How does the demand for senior devs grow?
+- Do you ever use knowledge from other areas in programming?
+- How can a software dev get back in to the market?
+- Do good software devs do dedicated learning outside of work?
+- How to identify areas of improvement in a flawless developer?
+- Are ORM's a best practice?
+- How important is onbarding in IT companies?
+- What happens in a big IT company when you get older?
+- What is your biggest complaint about being a tech lead?
+- Should a great software dev also be a leader?
+- Should software companies hire for culture fit or culture add?
+- Why do some managers discourage working from home for software devs?
+- How do you deal with high pressure situations?
+- Can I become a good software dev with work life balance?
+- What about being fired from your software job?
+- Can saying the wrong things in a culture fit interview make you lose the job?
+- What if a software dev lies in the culture fit interview?
+- How do you inject yourself in your software devs project?
+- How do software devs view older devs?
+- Does pair programming work when it is enforced?
+- Do you take a break between software jobs?
+- Is a top university an indicator of the software devs skill?
+- What do you do each day to improve your coding skill?
+- How can a software dev improve if their manager have no feedback?
+- Do software devs get annoyed when reviewers keep adding issues to a pull request?
+- Do software devs treat their mind like a computer?
+- As a tech lead, do you have a framework for leadership?
+- How much DevOps knowledge is enough?
+- Should software devs focus on their personal brand?
+- What is the best way for a software team to manage their application inventory?
+- How can devs avoid feeling ignored when a rock star joins the team?
+- If an interviewer asks who I find it difficult to work with, what are they looking for?
+- How do remote dev teams follow the agile face to face principle?
+- How do you get stakeholders to attend team sprint reviews?
+- How do software teams determine the value of a feature?
+- Should new devs pick a language with a large community?
+- How can a tech lead avoid being the single point of failure?
+- How do you tell a dev that their idea is bad without demotivating them?
+- How do you spot a philosopher programmer in a software team?
+- How to get over the fear of getting in to programming?
+- What about the current tech bubble?
+- Do software candidates ask questions for the sake of asking questions?
+- How can a software manager help with a software devs career progression?
+- Do devs make the mistake of thinking it is their managers job to help their growth?
+- How can a software manager fix a team that is writing bad code?
+- How do you spot when a dev lied on their CV?
+- How to lead your dev team?
+- Should devs focus on learning languages or techniques?
+- How can you learn to emotionally detach from your code?
+- Do software devs focus too much on becoming 10x devs?
+- Have you ever given uncomfortable feedback to your software developers?
+- How can a dev figure out what a customer needs when they don't know?
+- What does "documentation for different complexities and domains" mean?
+- How can I get better at expressing my thoughts to senior devs?
+- How are frequent issues handled in a blameless office culture?
+- How do you keep your development projects organized?
+- What to do when a developer rewrites other devs code?
+- Is the primary job of a software dev to deliver value?
+- Will all IT systems eventually suck?
+- How do you help a dev team to stop doing things in an old way?
+- Should a experienced dev always have an opinion on how to build things?
+- Is looking after data quality improve software development speed?
+- Is data quality one of the biggest challenges in IT companies?
+- Should time tested legacy systems be replaced?
+- Do quiet devs get labeled as ignorant?
+- Should software devs write documentation to improve communication skills?
+- When do software devs stop caring about their work?
+- How effective are software interviews?
+- How to ace my software interview?
+- If system design about making trade offs?
+- How is coaching as a tech lead different from a engineering manager?
+- Are there times when the tech leads have to decide against the team?
+- How do large companies test their API's?
+- How should a software dev learn a new concept that is hard to understand?
+- How do you rewrite a old system to new tech?
+- How do you handle regular sprint overflow?
+- Why do IT companies promote internal mobility?
+- What are some growing pains of IT startups?
+- Are software best practices just dev preferences?
+- How do you build a team of motivated devs?
+- What is the most time consuming part of software projects?
+- How do you stay calm when fixing a production problem?
+- Do you repeat yourself to junior devs?
+- How can devs avoid distractions?
+- How fast do software devs who do not code lose their skills?
+- What makes software devs feel bad about themselves?
+- How can you change a software team who only write test to get better coverage?
+- Do you offer unsolicited advice to other dev teams?
+- What does it mean to be a multiplier tech lead?
+- What is the saddest part about being a programmer?
+- Are there too many new frontend devs?
+- Why do people pay more for western devs instead of Indian ones?
+- How do you structure sprint demos to get more user feedback?
+- What does backend scaling mean?
+- When working remotely what country do I base my salary expectation on?
+- Should I put my salary expectation on my CV?
+- Can you give examples of good answers to interview questions?
+- How do you handle bad coding standards at a new job?
+- Is the difference between good and mediocre software devs their CS knowledge?
+- How do you balance easy and complex code?
+- Should devs try to take on the hardest jobs?
+- Why are programmers so well paid when the job is so easy?
+- What do software developers get that most don't?
+- Is it important that software devs understand the big picture?
+- How can a junior convince a senior dev to use OOP?
+- Do software devs care too much about how pro their code is?
+- What type of software dev has the best work life balance?
+- How do you strive to make an impact as a software dev?
+- Do devs need to know how to reduce infra cost?
+- Can you ask if continuous learning is part of a job?
+- How to find a job in a stack I have not worked in?
+- Why is encapsulation good?
+- How do you spot a junior, mid and senior dev?
+- What is the bitter truth about software development?
+- How do you tell a senior dev that his code is bad?
+- How do you know if the software you develop is helping the company?
+- How will the DevOps role grow?
+- Why is so hard to find a dev co founder for my startup?
+- How do you write scalable css?
+- What is the problem with devs not caring about their domain?
+- Is backend development going to become obsolete?
+- How to point out bugs in other developers code?
+- Is coding challenge homework critical when hiring a senior dev?
+- Why do devs work on boring apps?
+- What is the point of a CS degree if it does not prepare you to be a programmer?
+- Do you log off work only after you achieved your daily coding?
+- Why do companies give fake deadlines to devs?
+- How to explain your programming job to someone who doesn't work in IT?
+- What makes software devs quit their job?
+- What are some things no one tells you about a career in programming?
+- How do you figure out if a programmer is the real deal?
+- How to become a good software dev in any programming language?
+- Why are programming forums so hostile?
+- What is the longest a programmer who could not code stayed at a job?
+- Are there too many software devs?
+- Do devs need to explain to new hires why bad code is the way it is?
+- Is industry experience more important the tools when applying for programming jobs?
+- How do software architects stay up to date?
+- How do software devs handle stress?
+- Should I keep all my code in the main method?
+- How do you become a non replaceable software dev?
+- Do you consider system scaling when you start coding?
+- Should devs improve things to show ownership?
+- What IT role will give me the chance to travel?
+- What should you never do to a programmer?
+- How to handle disagreements in code reviews?
+- How to convince a company that you can learn a programming language on the job?
+- When an interviewer asks how you got in to programming what are they looking for?
+- How do you improve your system design skills?
+- If no code is the future is a CS degree worth it?
+- What is the future of programming languages?
+- How to avoid shipping debugging code in to production?
+- How do you avoid getting sad when working with bad code?
+- What skills do devs want from the DevOps engineer?
+- Why is it wrong to Google for code solutions?
+- Why do IT companies use the Fizz Buzz algorithm to test devs?
+- Why are freelance devs sensitive about being freelancers?
+- What programming language do you mostly use?
+- How difficult is it to find talented software devs?
+- How do you view new devs who improve the codebase?
+- To be a senior in a programming language do you read all the docs?
+- Has your love for software development grown over the years?
+- How can diversity help a software team?
+- Should dev teams prefer tech over process?
+- Can you learn hacking by learning programming?
+- How many programming language do you need to learn to get a job?
+- Why don't programmers write documentation?
+- Do systems end up different from the original specification?
+- Do programmers memorize code?
+- What is the best programming language in software engineering?
+- What makes software devs happy at work?
+- How do big companies organize software teams?
+- How do you know if someone wrote their own code?
+- What should all CS majors know about programming?
+- What about programming portfolios?
+- How to explain to your boss that the code needs a major rewrite?
+- Why do programmer shame each other with pull requests?
+- How demanding is your job as a tech lead?
+- How do you stay disciplined?
+- Should a new dev try everything before asking for help?
+- Why don't more people become software freelancers?
+- Are programmers smarter than non programmer human beings?
+- What are the signs that expose a incompetent software developer?
+- How do you keep motivated if you fail at CS algorithm questions?
+- How would you describe the most complex architecture you have designed?
+- What are interviewers looking at during a programming interview?
+- Will software devs treat me differently if I start coding in my 30's?
+- As a software engineering manager what is the ideal software developer?
+- In what order do you code your websites?
+- Should software devs not teach juniors since they will replace them?
+- Can controlled system crashes make a reliable system?
+- Do you think of yourself as a engineer, programmer or software developer?
+- What do team leads never want to hear from their developers?
+- Do unsolved programming problems disturb your sleep?
+- What does failing gracefully mean in software development?
+- Is DRY important in test?
+- How do you make your presence felt in your software team?
+- How do you differentiate between a passionate programmer from one who is not?
+- Does work become more enjoyable when you follow good programming practices?
+- What about working with bad code on a deadline?
+- Where should you locate your new startup?
+- Do software development need amateur programmers?
+- Do programmers get offended if they are asked to submit code for review?
+- What have you learned from the programming content you have consumed?
+- Do you ask other software teams for help?
+- Is Scrum useful?
+- Have you failed at solving a simple coding problem in a interview?
+- What do devs do when they run out of ideas for solving a problem?
+- How do incompetent software devs keep their jobs?
+- What do good programmers do that makes them good?
+- How difficult was it to transition to fullstack development?
+- How do programmers commit to estimations?
+- Should devs use one letter variable names?
+- Why do they ask about what libraries I use in programming interviews?
+- Why do software devs have to be good at architecture?
+- Has your skills outside programming helped with programming?
+- How do you define your ideal software manager?
+- Why is OOP so popular when FP is said to be superior?
+- When is my code done?
+- Do software engineers learn every week?
+- What do companies look for in code samples?
+- How can devs develop their business skills?
+- What do most people don't know about being a programmer?
+- Can a mid level dev be considered a senior?
+- Do architect have any time to code?
+- How do you apply what you have read in programming books?
+- Is it normal for new devs to write unit tests for the seniors?
+- Do you apply to multiple programming jobs at the same time?
+- How do you know how many people is needed on a coding project?
+- How do you define mediocre code?
+- Do programmers with CS knowledge think differently than others?
+- How do you evaluate code?
+- What if I am not respected at work?
+- Is taking a job in a team without senior devs a bad idea?
+- When should you not use DRY?
+- How can you find the right software company?
+- Have you been able to improve your code by changing data structure?
+- How do you block time for programming when you have too many meetings?
+- Why do software devs struggle to improve their skills?
+- Why isn't software charged per unit test?
+- Is the software development market over saturated?
+- How likely is a developer who refuse to write unit test to get work?
+- What do programmers get that others do not?
+- Why do self taught programmers do better than educated ones?
+- Can a frontend dev become a CTO?
+- How to practice problem solving skills?
+- Do you use books to learn programming?
+- Have you faced difficulties when changing programming language?
+- Why do senior devs drop out of the hiring process if there is a code test?
+- How can old programmers compete with young programmers?
+- Do you ask if a code interview candidate has done the test before?
+- What code review comments get you mad?
+- How to pick between messy code and delivery time?
+- How do tech leads device a technical strategy?
+- If you can self learn programming why do so many go to college?
+- Do you get put off by a bad interviewer?
+- Is skipping steps in the software delivery process the worst thing to do?
+- Do long term quality software devs get payed less?
+- Do you throw days worth of code if you find a better solution?
+- Should you delegate unit testing to junior devs?
+- What about adding code you may need in the future?
+- How can a tech lead add value to a team if they are not the best software developer?
+- How to handle a remote software team?
+- In a coding interview should I explain what I am doing while coding?
+- What are your tricks to keep code simple and readable?
+- What makes the perfect software engineer?
+- Why is server side programming harder than client side?
+- What web framework would you use for a MVP?
+- Does it take 10 years to learn a programming language?
+- Should I learn JavaScript or React first?
+- Do we really need hackers?
+- Is code reviews the worst time to discuss design decisions?
+- Should code comments capture the intent of the code rather than what it is doing?
+- Does working in the same software team for too long get repetitive?
+- What do most people get wrong about coding that drives you crazy?
+- Why is it that my brain shuts down during coding interviews?
+- What should not be automated?
+- Why does programming get so hard so quick?
+- Do programmers need challenging work to be happy?
+- What are the advantages of using multiple programming languages?
+- What tasks do developers dread?
+- Should we make code work before trying to optimize?
+- Have you ever been surprised when being rejected from a programming job?
+- When to not write unit test?
+- What to do with a slow senior developer?
+- How can a programmer build up their courage?
+- What about programming interviews in the EU?
+- What to do if a junior is depressed?
+- When refactoring do you write tests before?
+- Are software developer selective with what companies they apply to?
+- How to manage code when it grows?
+- Is the software market over saturated with developers?
+- Do programmers over engineer?
+- Is a strong tech lead hard to deal with?
+- How can we teach other programmers more effectively?
+- How to refactor code that has no tests?
+- Is it practical to have only lead engineers approve pull requests?
+- Should junior programmers learn programming paradigms early on?
+- How can programmers be happy?
+- Does tutorial code differ from production code?
+- Would a programmer try to solve a problem even if they don't like the approach?
+- Will programming going to become a low class job?
+- How to deal with bad code?
+- What are some examples of a 10x engineer?
+- What risk can you minimize by using a incremental software development process?
+- What should be covered in unit test?
+- How do you measure tech debt?
+- Do you prefer to not hire programmers who are just "good enough"?
+- How do you write reusable UI components?
+- Are programmers terrible at climbing the corporate ladder?
+- When do you know that you are focusing too much on code health?
+- How should seniors protect themselves from being replaced by juniors?
+- How do you build a software team?
+- What tools are the best for a IT startup?
+- How do programmers keep their cool when there is a tight deadline?
+- How do you spot a bad manager in the interview?
+- What to do about a sloppy IT manager?
+- How do I know when I need a framework?
+- What if my company forces me to become a code monkey?
+- How to practice expressing your programming solutions?
+- What is the distance a junior has to bridge to become a professional?
+- How do you stand out as a developer?
+- Will bad coding practices in the company hinder my learning?
+- What is the common workflow for cyber security specialists?
+- Will your estimation improve over time?
+- What are your youtube goals?
+- Will a CS degree increase my salary?
+- What do you think about outsourcing?
+- Is frontend more tedious than backend?
+- What programming role is best for a low stress job?
+- Is a programmers salary based on skill?
+- Why did you become a fullstack dev?
+- What are office politics?
+- Can you become a pro dev through freelancing?
+- What is the difference between a candidate programmer and a professional?
+- What does a junior devs workday look like?
+- Do you need to master office politics to get your ideas heard in IT?
+- Is the problem with outsource due to culture differences?
+- How to personal brand as a software developer?
+- How to get job security as a programmer?
+- What is the difference between a sys admin and a DevOps engineer?
+- Is there any difference between a DevOps engineer and a SRE?
+- Is it better to be a application dev before becoming a DevOps engineer?
+- What are good areas for entrepreneurial opportunity in IT?
+- How to become a DevOps engineer?
+- Should devs ask a new company how they do onboarding?
+- Should I learn C/C++ to get better at Java/C#?
+- What should a software developer do if they lose their job?
+- How to make good decisions as a new tech lead?
+- Is TDD enough?
+- What if I have a hard time to commit to my side projects?
+- What should I do if my coworkers ignore my pull request comments?
+- What about being a frontend architect?
+- What about being a engineering manager?
+- Is it hard to find good devs because they are expensive?
+- How can a junior dev be a team lead?
+- What about newbie programmers who think they are good at programming?
+- Is it ok to feel pressure from stakeholders who do not understand how hard programming is?
+- How to handle a hostile interviewer?
+- Pros and cons of taking on a bad IT team?
+- What if a senior dev is in a slow moving company?
+- How can I get people to stop calling me a senior dev?
+- What mindset should a CS student have to grow every day?
+- What is a creative programmer?
+- What to do if you have a incompetent senior?
+- Are bad devs bad due to that they did not go to a university?
+- How can a boot camp developer become a real software developer?
+- How do you run your software team?
+- Are programmers bad due to poor education?
+- Why don't you have a discord channel?
+- How can a dev raise their self confidence?
+- Should devs have a preference in what type of industry to work in?
+- How can a dev prove the value of their ideas to managers?
+- Would you hire a social or skilled programmer?
+- Is the whiteboard test a good way to interview junior devs?
+- If there is no business value should we not refactor code?
+- What are the red flags for when a system needs a refactor?
+- At what number of file changes do you need to refactor?
+- What determines what parts of a system to migrate?
+- Why doesn't copy pasting IT strategy work out?
+- Why don't we just promote developers instead of hiring managers?
+- Why is so hard to find senior frontend devs?
+- What about switching from Java to Golang?
+- Isn't a QA engineer a software developer?
+- What if I got a programming job without deserving it?
+- Can you get local senior devs?
+- How can I show my new coworkers that I am a good programmer?
+- Would you reject a candidate that is too into programming?
+- Why do I have to do tech interviews?
+- Do junior devs get exploited?
+- What to do if bad tech decision are already made?
+- Do you have any tips on becoming a tech lead?
+- Isn't being a QA engineer like being a software engineer?
+- Did I get my programming job because I accidentally fooled the company?
+- Is it possible to attract senior level devs to your local company?
+- How can I show my programming coworkers that I am being proactive?
+- Would you discard a frontend dev who codes too much?
+- Why do I need to do a code interview when I already have a CS degree?
+- What if I am getting played by the seniors?
+- What to do when bad tech decisions have already been made?
+- What should I think about when I move to a team lead?
+- Is a lack of choice in an IT company a red flag?
+- How to handle anxiety in the interview pair programming?
+- How to answer what you did to resolve a conflict?
+- What do IT companies check in a background check?
+- How to learn how to use automated testing?
+- What to do if the company code is bad?
+- How to remember what you learn in the past?
+- How to be SOLID in React?
+- How to store date and time?
+- What if my tech lead micro manages me?
+- How to learn about REST and databases?
+- Is E-learning accessible?
+- How to pick what IT team to work in?
+- How to switch to development?
+- How do you gather good specification information?
+- How do I know when to trust a senior dev?
+- What to do if I am bad at IT architecture?
+- Is there a difference between senior devs?
+- What should a junior dev look for in their first job?
+- What should a junior dev do to gain experience?
+- What to do if my senior dev is giving me shit?
+- How to improve when working alone?
+- What about Redux?
+- Should I create a test environment?
+- How do you protect yourself from hostile employers?
+- How to stay fit as a programmer?
+- How to put a spin on failing at running a IT company?
+- How do IT companies view personal projects?
+- What if you started coding what would you do first?
+- Big company vs startup?
+- What channel should I use to contact an IT company on?
+- Can I become an IOS dev?
+- What should I focus on before a interview?
+- What project do you work on?
+- Can I start my own company as a junior developer?
+- How hard is it to get in to DevOps?
+- How can I learn to use docs instead of tutorials?
+- How do I fight the hype cycle?
+- Can you recommend a boilerplate TypeScript setup?
+- How do I become a valuable freelance developer?
+- Should I learn programming by going deep on each project?
+- Is there any way to prepare for being a junior software developer?
+- What is the tech difference between product companies and freelancing?
+- What can programmers do to develop their business skills?
+- Can programmers retire at age 50 if they are 30?
+- Why do you claim that 5 years of IT experience is equal to 10?
+- What sort of project is best for juniors programmers to prove that they are good?
+- Why would someone hire a freelancer without experience?
+- Can you talk about copilot?
+- If I can't get a programming job why should I start my own company?
+- If I know Node what is my next step to get a job?
+- What is startup cult culture in IT?
+- What jobs are there where coding skills are transferable?
+- How can a senior software developer get demoted?
+- What to do if you hate soft skills but love programming?
+- Do you feel fulfilled as a programmer?
+- What are good questions to ask before giving a time estimations?
+- How can it cost so much to recruit programmers?
+- How should a frontend developer learn the backend?
+- Why do I need to know how to reverse a string without using a built in function?
+- How do I know if I suffer from impostor syndrome?
+- How do I know if I am working hard enough as a programmer?
+- Is it true that unless you are breaking software you are not moving fast enough?
+- How can I stop forgetting my programming lessons?
+- Why do people get butt hurt when I say that C++ is the best programming language?
+- What is the best position for a programming internship?
+- What is the cause to long term software issues?
+- Have you ever had a clever coding solution?
+- Do programmers enjoy talking to customers?
+- Should programmers hold weekly forums to share ideas?
+- How do you make programming flow charts?
+- What are the best questions to ask in a programming interview?
+- Should programmers lie on their resume?
+- Why do some companies have bad on boarding processes?
+- Should I version control my files?
+- What to do if I have never worked with other software developers?
+- What other channels are like your own?
+- Will software companies be open to traveling while working remotely?
+- Have you tried launching your own IT startup?
+- Is it better to write optimized code or easy to understand code?
+- What should newbie programmers avoid learning?
+- How can a new programmer build trust and respect in their team?
+- What to do if I can't find programming work in a new country?
+- Why is software  development still so expensive?
+- Under what circumstances does a frontend developer need to know Docker?
+- How should I go about remember the coding skills I learn?
+- What would a company have to offer you to make you switch?
+- How do you mentor a new programmer?
+- Why is Angular the most popular framework in companies?
+- How do I know if the work I do as a programmer is valuable?
+- Should I stop taking notes on programming and start making things instead?
+- Is it ok if I understand other people's code but can't write the code myself?
+- What is the difference between a automation engineer and a QA?
+- What skills do you need to be a industry grade frontend developer?
+- How transferable are fullstack skills?
+- What should a web designer focus on to transition in to fullstack development?
+- Should I quit if I have a bad coworker?
+- How does the market look for Cloud engineers?
+- How can I transition in to software development as a designer?
+- What about rookie middle managers?
+- What happens to older programmers who start as juniors?
+- What if I like programming but I hate working as a programmer?
+- How do you scale a frontend application?
+- How to deal with impostor syndrome in software development?
+- What if I work as a remote developer but my company doesn't treat me as well as in house developers?
+- How can a programmer develop a business mindset?
+- Doesn't agile development stop bad programmers from under delivering?
+- Is cloning a website a good start for a portfolio project?
+- Is DevOps pushing programmers in to network admin work?
+- Is CI/CD knowledge required to be a software developer?
+- How do I know if I am a good fit for a technical architect role?
+- How do I give the illusion that I am a better programmer than I am?
+- What should I use to finish my code project?
+- Should I put up with a bad recruitment process?
+- What is the engineering culture in a Java company?
+- Should I switch from JavaScript to Elixir?
+- What about Tailwind utility classes?
+- How to revive your career as a software engineer?
+- When to use Serverless and when to not use Serverless?
+- Will Go give better performance than Java?
+- What about using Bootstrap on portfolio projects?
+- Should I refuse to solve a problem in a programming interview?
+- What if I write my programs in more code than others?
+- What if I start at a company with a really bad code base?
+- Am I a bad programmer if I lose my motivation on a project?
+- Should I pick Java for the JVM performance?
+- Will learning Next.js increase your market value?
+- How do you improve your skills in frontend architecture?
+- Am I bad software engineer if I can't implement a sorting algorithm from memory?
+- Is it true that separation of concerns opposes dependency injection?
+- What about changing jobs if the job wasn't what you expected?
+- What to do if I have to work with tech I don't like?
+- What if I take longer to program than other programmers?
+- How to juggle my progress as a programmer and starting a family?
+- What if I feel forced to stay at a company?
+- What if I am a junior developer without any senior coworkers?
+- What if I become a programmer who can never take a vacation?
+- What if the tasks in a programming job posting doesn't match up to reality?
+- What about companies who see their developers as a cost center?
+- Will Wordpress hurt my development as a .NET developer?
+- What about careers in crypto currencies?
+- What are the best types of developers to have in your company?
+- How do you practice backend skills?
+- Do you learn a new programming language every year?
+- Is it a good idea for mid level developer to make portfolio sites?
+- If you are a self taught programmer is it worth learning CS?
+- How useful is it to learn multi threading as a junior developer?
+- How do you become a fullstack developer the quickest?
+- How do you become a rock star developer within 1 year?
+- If I don't like CSS should I use a CSS framework?
+- Do JavaScript frameworks hinder developers from learning DOM manipulation?
+- How can I make my life more interesting as a software engineer?
+- Am I behind my development as a programmer if I don't know about dependency injection?
+- What can a Java developer do to help their career?
+- Is being a QA as hard as being a software developer?
+- Why do FANG companies use Java and not C#?
+- How do I stay motivated when looking for a programming job?
+- Will frontend ever develop the same best practices as backend development?
+- Is switching programming language early bad for my career?
+- How do you figure out business logic in programming?
+- What should a programmer do when asked to do unreasonable things?
+- How to deal with stress as a programmer?
+- When has your market value increased since being a junior developer?
+- How do I explain why I left my last programming job?
+- How do you change your role as a programmer without starting over?
+- How can a frontend developers working alone keep their skills relevant?
+- At what size of web project do I need a framework?
+- Is TypeScript becoming a requirement?
+- Freelance programming vs regular programming work?
+- What should a senior backend developer know?
+- How do I get better at writing clean code?
+- How can I test my algorithm without coding?
+- What should I do if I am a bad developer?
+- What about salary negotiation in software development?
+- Do programmers live poor social lives?
+- What about React reason?
+- What would your hiring process look like for software developers?
+- What is more common in .NET, REST or Razor?
+- Is there a difference between academics and software development?
+- How good should I be at JavaScript before I use a framework?
+- How do you save a unmotivated software team?
+- Is C# worth learning?
+- What should you ask about in a programming interview?
+- Why are there so few old developers?
+- Is programming internships worth more than work experience in supporting roles?
+- What does software companies mean about business mindset?
+- How do IT companies look at personal development for their developers?
+- What trends are up and coming in IT?
+- What are the needs of IT right now and what will they look like in the future?
+- Do senior developers need to put personal projects on their CV?
+- Is solving coding problems a different skill than building applications?
+- Why is TDD not discussed much in functional programming languages?
+- Can third world developers work in the EU?
+- If C# is so great why do so many companies use Java?
+- How long can it take Fredrik to understand a question?
+- What is the most overlooked thing in software development?
+- What is the difference between cloud engineers and DevOps engineers?
+- Can Rust become the next language for MicroServices?
+- How does one become a ops person without being a developer first?
+- Which stack do you recommend for freelancers?
+- What tips can you give someone who just started programming?
+- What programs should every programmer make at least once?
+- What has helped you the most when becoming a software developer?
+- What if you aren't good enough at programming?
+- Should I let my developer use Haskell for my startup project?
+- Will programmers treat me differently if I am a very young developer?
+- How long do you have to be a programmer until you get paid well?
+- Do programmers often build tools to improve their efficiency?
+- Why do software engineers work for low salaries instead of making millions from their own app?
+- What programming tools are your bread and butter?
+- What are your thoughts on building MicroServices?
+- What is your longest streak of no coding for you?
+- What to do if I am a middle age programmer who doesn't want to be a boss?
+- Why aren't there so many part time roles in programming?
+- Is it normal to lose programming motivation with age?
+- Should I take on a big software project by myself?
+- Is it supposed to be hard to get the first programming job?
+- What are the drawbacks of hiring a fullstack developer?
+- Should I move on from my job working with old tech?
+- Should I get a CS degree in the UK?
+- What have you learned about life from programming?
+- How do you build robust systems?
+- What should a programmer never put on their CV?
+- Why doesn't Google and Facebook create a new web language so we don't need JavaScript?
+- Is it right for a male programmer to want to work in a team where there are female programmers?
+- Do you feel silly when asking senior developers for help?
+- Do programmers learn new tools in their free time?
+- If I failed my Google interview am I not as good of a developer as I thought?
+- What to do if I have decided to quit my programming job?
+- Should I learn C# if I know Java?
+- Should I switch programming language if there are few jobs in my region?
+- How do you feel when you have to program in a language you don't feel comfortable with?
+- Should programmers only use functions for repeated logic?
+- Should I quit my programming job?
+- How do I get a job after my first frontend certificate?
+- What 3 things says a lot about the quality of a programmer?
+- Do programmers write bad code to keep their job?
+- Should I take a lower paying job to get my first programming job?
+- Is a lack of knowledge with modern coding tools a risk to my career?
+- What type of hobby coding projects are best?
+- What to do if I told a bad joke at work?
+- Should I list all programming language I know on my CV?
+- If I learn TypeScript can I skip learning JavaScript?
+- Should I go straight to software development or can I start in a support role?
+- Why does IT companies use open office spaces when they hurt productivity?
+- Why don't IT companies hire trainee programmers as a rule?
+- What to do if I communicate too aggressively?
+- How should a software team deal with an ineffective boss?
+- How do I stop my coworkers from breaking my code?
+- Am I ready to work as a senior after 2 years of programming?
+- Do I have to job hop as a programmer?
+- How do you explain why you are looking for another programming job?
+- Scala is the highest paid programming language, is it the best choice to earn money?
+- What factors determine success for a software developers career?
+- How important are mentors when learning programming?
+- How do software developers keep themselves up to date with new tech?
+- What are your rules for not writing crappy code?
+- Is it true that software developers exaggerate their skills?
+- Is being bad at system design questions a problem in the IT interview?
+- Will learning Haskell impress interviewers?
+- How can I get back in to regular software development when my startup has failed?
+- How do senior programmers embellish their CV?
+- What certificates do should I get before applying for my first programming job?
+- What to do if I find the advanced features of git too difficult?
+- How do I hire good developers for my startup?
+- What are your golden rules for programming in JavaScript?
+- What to do with a programmer who can't get through the code review?
+- How should I deal with really bad software?
+- How do you maintain a healthy life as a software developer?
+- How do I know when to rewrite my code?
+- How do you know if a company has a strong software team?
+- How do you know when you understand a programming language?
+- How can I become a great developer on my own?
+- Do you prefer product companies or consultancies?
+- What to do if I like making software but not programming?
+- What should a CS student do to start strengthening their career?
+- Can you be a good programmer without a CS degree?
+- What is the argument against a god class?
+- Is it normal for programmers to get bored after 2 years of work?
+- Is the cost of code more important than the quality?
+- Will I lose my ability to program if I stop for a long time?
+- What can a CS student optimize the learning experience?
+- Is it unfair for a manager to ask a developer to learn React?
+- Do you develop your SSR applications in the same way you develop an SPA?
+- I don't want to be a fullstack developer, what should be my niche?
+- Are IT companies interested in volunteers?
+- What is the career ladder for software engineers?
+- What is the best career advice for earning a higher salary as a programmer?
+- Is programming one of the most intellectual rigorous careers in the world?
+- Is it 10x easier for a FANG programmer to work in other companies?
+- What should a programmer do after you get too expensive for any company?
+- Why aren't programmers afraid that without a union their jobs will be stolen?
+- With so many people learning to code why is there such a shortage of programmers?
+- How long should I wait before I quit my programming job?
+- How to deal with impostor syndrome as a programmer?
+- What to do when I get bored with my programming job?
+- Where to look for programming work in Europe?
+- What are the odds that a hobby programmer will like to work as a professional?
+- Do programmers have to spend all their free time coding?
+- Why are so many programmers against optimization?
+- Is programming a risky profession?
+- Will programming become an outsourced lowly paid job within 10 years?
+- What screams "you are a brilliant software engineer"?
+- What has surprised you the most about software engineering?
+- Why do DevOps engineer make more than software engineers?
+- What do programmer do poorly in interviews that is not part of tech skills?
+- Why do software developers suck at regression testing?
+- What are the typical stages in the career of a software engineer?
+- What prevents a software engineer from becoming a tech lead?
+- Are software engineers insecure about losing their job?
+- What can I start doing that helps my programming career long term?
+- What is faster on average, TDD or writing tests after the code?
+- What advice in software engineering needs to be debunked?
+- How can I switch to software development without going down in salary?
+- What to do if I become a CTO too early?
+- What fundamentals of programming did you struggle with?
+- How can I become a software architect fast?
+- Do software managers typically have a background in programming?
+- How do the FANG companies ensure that they only ship quality code?
+- Do the best programmers use fewer lines of code than bad ones?
+- Are you a bad programmer if you look things up too much?
+- What can I do to get programmer to listen to my ideas?
+- When can I lie on my programming CV?
+- What can I do if I am good at CS but not software development?
+- What should a insecure senior developer do?
+- How can I catch up to more experienced developers?
+- Should I dump my boyfriend if he doesn't respect my programming language?
+- Is it normal for senior developers to lose interest in their job?
+- How do I find junior developer roles?
+- Should I quit a programming job where I get excuses when I ask for a promotion?
+- Will tester experience hurt my chances of getting a programming job?
+- If I lose my hunger for programming but I still like it what should I do?
+- How to deal with performance issues in a legacy code base?
+- Can a mediocre developer become successful in the FANG companies?
+- Should I become the manager of a lousy team?
+- Is it normal for junior devs to take too long?
+- What are some tips for a junior who wants to become an architect?
+- How should your development process look when you work in a software team?
+- How can I become a successful software developer?
+- How should a junior developer solve problems?
+- What should I do if I get fired from my first programming job?
+- What design patterns do programmer use in the daily work?
+- Is it common programmers to do what they are told but end up with unhappy customers?
+- Should I fire or train a bad developer?
+- How do you fix a inherited buggy system?
+- What would happen if all software developers were equally skilled?
+- If I am a bad programmer can I get better?
+- What are the benefits of not working in the FANG companies?
+- What should I think about when starting my own software company?
+- Should I learn Java even though it is dropping in popularity?
+- Should I move away from my programming career?
+- Is there elitism in programming?
+- What options do middle aged programmers have when they want to stop programming?
+- Should I quit a programming job where the company doesn't care about legacy code?
+- Do programmers learn new tools that are not work related in their free time?
+- Is it too late to start coding?
+- What should I think about when scaling up a small software firm?
+- What to do if the coding is too advanced at your job?
+- What to do if you only get boring programming work?
+- What is a hero programmer?
+- How can programmers secure their finances?
+- What should I do when my friend asks me to get them a programming job?
+- How can a programmer sound more confident?
+- Do CS majors have to spend all their spare time coding?
+- What should a programmer do if they are treated as a delivery pipeline?
+- What happens to sensitive programmer who ask for a lot of help?
+- Is the whiteboard interview a good test to evaluate programmers?
+- How can programmers pretend to like their job?
+- How can a introvert programmer prove that they are a team player?
+- What to do if I can't get the time to fix my legacy code?
+- Should I ask my senior developer to switch stories with me?
+- I have lost my motivation to code am I a bad developer?
+- If you put a programming language on your CV does that means you know everything about it?
+- Are there things software engineers can do that self taught developer can not?
+- Is it true that you can write code that can increase views on Youtube?
+- Do software developers have any energy left after work?
+- What if I lose my motivation on a coding problem?
+- What lesson changed how you view software development?
+- As a programmer how old school are you?
+- How do you fix legacy code?
+- Why do DevOps interviews include algorithm code tests?
+- What is the darkest secret of software development?
+- Is it true that Java and C# is bad for learn algorithms and data structures?
+- Do all software engineers go through a phase where they regret becoming a software engineer?
+- How do I convince my friend to switch from C to JavaScript?
+- What should be my first programming language?
+- How much should you contribute as a new programmer?
+- Should I switch programming jobs?
+- Should I move from Java to Scala?
+- How do I get out of victim mindset?
+- What if I feel bad in my role as a software developer?
+- Should I tell my IT manager that I am dealing with depression?
+- How do I tell if a developer is good or just think they are good?
+- Why do software developers look down on testers?
+- I envy all the programmers who started before me, how should I deal with it?
+- What should I do if I am great at theoretical CS but not programming?
+- How do you take your programming skills to the next level?
+- Should my first software team be local or remote hires?
+- What if I have grown tired of corporate programming?
+- Do software engineers have job security?
+- Does programming get more interesting as you progress or does it get boring?
+- If I switch programming role but I still am forced to do the same tasks should I change job?
+- As a software developer what is your greatest strength?
+- Why are programming salaries so high when the education of programmers are so poor?
+- What should I do to be a good software intern?
+- What if I can't learn any programming language?
+- What word would you use to describe the most popular programming languages?
+- What to answer when the interviewer asks why do you want to work here?
+- If I am 35 and not an IT manager is my career in danger?
+- What should I do if my company code is really bad?
+- How can I navigate through the web development jungle?
+- Is software engineering a future proof job?
+- What one tip changed your coding skills forever?
+- What has contributed the most to your coding skill development?
+- What is something only a senior developer knows about programming?
+- Why is it not as easy as I thought to get a programming job?
+- How do programmers know what code to write before starting to work?
+- What is the best way to learn full stack web development?
+- How can I get the most from each programming tutorial?
+- How important is it to know how to create data structure from scratch when programming?
+- How do I build the courage to talk to my manager?
+- How do you become a team player in a software team?
+- Is it ok for a company to run a background check on their programmers?
+- What books can I read to improve my frontend seniority?
+- What makes you roll your eyes as a software developer?
+- Why do software engineers get paid so much?
+- What is the most dangerous bug you have found in a code base?
+- What is the most frequent problem you solve with non-reusable code?
+- How do you prove to a recruiter that you are a senior developer?
+- Should I quit a stressful programming job?
+- How do I convince recruiters that I can work in a unfamiliar language?
+- What complaints are you tired of hearing from programmers?
+- What career advice do you have for a 50 year old programmer?
+- What can a programmer do to move up the ladder?
+- How can a programmer become a better team player?
+- How do I become a CS researcher?
+- What counts as a advanced React project?
+- Has a junior ever been better at coding than you?
+- Will frontend development ever become standardized?
+- How do I know if I can work as a professional developer?
+- Who is the most skilled software engineer you have worked with?
+- What are the consequences of hiring an overqualified programmer?
+- What is the skills difference between a mid level and a senior developer?
+- Why is it damn near impossible to get a programming job without experience?
+- How do I get up to speed in a functional code base?
+- Will frontend development become more plug and play in the future?
+- How much do programmers use best practices?
+- If I got fired by Facebook can I find another job?
+- How do I create a great office for my IT startup?
+- Will frontend development become a drag and drop process?
+- Can a bad programmer bring down a company?
+- How can we stop underestimate how long programming takes?
+- How do you go the extra mile as a programmer?
+- What language do you work in the most?
+- What software stack should I pick to give my customers the biggest value?
+- Why is it so hard to get a job as a programmer when there are so many jobs?
+- What happens if you don't pull your weight as a software developer?
+- When can I call myself a senior developer?
+- Has anyone ever turned down a software engineering offer from the FANG companies?
+- Should you quit programming if you aren't passionate about it?
+- Is it normal for a junior developer to feel under qualified?
+- Is programming a dead end job after 35?
+- What should a senior developer who keeps getting fired do?
+- When can I transition from programming to project management?
+- Do I have to learn vanilla JavaScript or is it ok to just use the MEAN stack?
+- What should I do if I failed my programming internship?
+- If I can't get a programming job should I start my own company?
+- If I work at Google but I don't work so hard am I lazy?
+- What should I do if I have to code on projects that are boring?
+- What skills can I transfer if I don't want to be a programmer anymore?
+- Are most of software developers in the industry male?
+- What should I do when I get a production bug?
+- What if my sister is a C programmer and she looks down on me?
+- What is the best way to find a good freelance programmer?
+- What should I do if I hate dealing with programming bugs?
+- What should we do about young developers who will steal our jobs?
+- Is programming supposed to be this hard?
+- What do you hate the most in software development?
+- What is the most memorable answer a programming candidate gave you?
+- If I am a slow programmer will I improve?
+- Why do you make youtube videos?
+- Why do you need developers to work on already working software?
+- How do you develop your websites?
+- How do I find a good development team for my startup?
+- What are the hidden costs of web development?
+- What do you think about freelance programming?
+- If I mutate data on a GET call am I breaking REST?
+- Have you ever had to explain something simple to a senior developer?
+- What programming habits should all developers avoid?
+- What don't they tell new web developers?
+- How do you stay consistent with content creation?
+- Why do backend developers look down on frontend and fullstack developers?
+- What do junior developers need to know?
+- Why should I not become a programmer?
+- Sass, Less, Scss, Css or PostCss?
+- Is there less demand for web developers when there are DIY products?
+- Why does some software stop working?
+- Do web developers need to learn Docker?
+- What don't senior developers want to hear from recruiters?
+- What is an amateur move to make in web development?
+- Are the backend developers right about frontend development?
+- Why are frontend engineers in such short supply?
+- What open source projects should I look at to learn frontend development?
+- What if I don't know enough to change my code?
+- Should I avoid fullstack development?
+- Why should developers avoid testing their own software?
+- What keeps backend developers from calling themselves fullstack developers?
+- What is your honest opinion of frontend development?
+- What do senior developers look for in a company?
+- Why do some new IT tools use old tech?
+- What happens to programmers who turn 50?
+- Do I need a web developer for my startup?
+- If you hate JavaScript why not use Dart?
+- How can I get clear direction on how to become a programmer?
+- Could you rewrite your code without the source code?
+- What happens to old programmers?
+- What is the best way to become a great programmer?
+- How do you become a senior frontend developer?
+- What IT trends do you dislike?
+- How do you become the lead software developer?
+- Why do seniors programmers tell juniors to not use design patterns?
+- What are common beliefs of programmers that are actually wrong?
+- What are things a junior programmer should not do?
+- How do you hide in a IT company if you are a bad programmer?
+- What makes a senior software developer?
+- What to do if the client tries to get me to do free work for them?
+- How do you get buy in from your stakeholders?
+- Can you learn to program in 1 year?
+- Are css utility classes just a way to cut out designers?
+- What roles does a data engineer fill at an IT company?
+- How does your software team assign work to the developers?
+- What to do if your stakeholder always over promise on deliveries?
+- Do programmers have to write hardcore algorithms at work?
+- What was hard for you when you started programming?
+- Is there a benefit for a web developer to learn Go?
+- Is there a benefit for a web developer to learn Elixir?
+- What do IT companies care about in their products?
+- Why is TypeScript your favorite language?
+- What if I never get to work on the code that is most important?
+- How should my career strategy look after 10 years of programming?
+- Why should a programmer care about business?
+- What if you have 20 years of programming experience and can't find a job?
+- What about network technicians in software development?
+- What is the use case for pre-rendering webpages?
+- Is mobile and web developers considered specialists?
+- Should I switch software team when I like my current team?
+- How to get feedback on your programming projects?
+- What are realistic personal programming projects?
+- What do you think about Discord moving from Go to Rust?
+- Do most companies exploit programmers?
+- What if I am a better programmer than my pay reflects?
+- Are programming agencies different from consultancies?
+- What does it mean to hurt your programming career?
+- What is it like working with a code monkey?
+- How do you get up to speed in a new code base quickly?
+- Do you need math to be a good programmer?
+- Does it matter if my education is not in CS but I still work as a programmer?
+- Is higher vocational education good enough to become a programmer?
+- Will you lose out on programming jobs if you don't know all the tools?
+- How big is the difference between getting the first programming job and the second?
+- Do you intend to start your own startup?
+- When do junior programmers deserve praise?
+- What should the focus be for a novice programmer?
+- How much Node do frontend developers need to know?
+- Is it time for frontend developers to learn Machine learning?
+- What is the future of frontend development?
+- What is your programming career story?
+- What is the most unique team process you have experienced?
+- What if I like to program but I am not passionate about it?
+- How do I know if I will continue to grow as a software developer?
+- Should I follow DDD or framework conventions?
+- Can work experience replace a CS degree?
+- Why does everyone recommend Java as the first programming language?
+- What about getting other software degrees instead of a CS degree?
+- What is the best project to learn how to be a professional programmer?
+- Does a CS degree count as a engineering degree?
+- How much code refactoring is enough?
+- Can I use a competing job offer to raise my salary?
+- How do programmers deal with stress?
+- How do I prove to my company that I am a valuable programmer?
+- How do you improve your frontend skills?
+- How much programming will I learn from Hacking?
+- Do I need to know all the programming tools on the job specification?
+- Should you learn more than the MERN stack?
+- How do I pick my stack?
+- How do I convince my team to use BEM?
+- What is the minimum English requirement in a international IT company?
+- Do you understand SOA if you understand MicroServices?
+- Will the service layer cause Anemic domain models?
+- How should programmers deal with messages from recruiters?
+- Where do you find senior level learning materials?
+- How to avoid buying in to false programming job promises?
+- Is the IT bubble going to pop?
+- How do you know if your code is clean enough?
+- Do you want to be a programmer for the rest of your life?
+- Is programming actually a cool job?
+- What type of programmer would you hire?
+- How do you deal with the frustration when debugging code?
+- What are your rules for not writing bad code?
+- What are the signs that programming isn't for you?
+- Do you think your current skills are enough to work in a FANG company?
+- What is the greatest paradox of being a programmer?
+- What should I do if I suck at programming but love it?
+- What habits have clever programmers learned to avoid?
+- What area of programming would you choose if you started over?
+- Why does Angular attract so much hate?
+- If I hate programming how can I start liking it?
+- What is a programmers life like?
+- What type of programmers will always have problems finding jobs?
+- What is your long term career strategy as a programmer?
+- What is the ideal ratio of junior and senior developers on a team?
+- Has Covid-19 had an effect on the hiring rate at your company?
+- Is MongoDB a good choice for data uniformity?
+- At what point should a junior learn system design?
+- Why would someone want to work for the FANG companies?
+- Should programmers accept overtime?
+- How you do keep a work life balance as a programmer?
+- How can a CS student increase their market value?
+- How do I get started with open source?
+- Should you hire  a junior or a senior developer?
+- What if I get asked to build a application that is too hard for me?
+- What should I do if I can't break in to the IT industry?
+- Why is it ok for programmers to job hop?
+- How do I get data for my apps?
+- How do I explain to the interviewer why I want to work at their IT company?
+- Can I lose a job if I code in the wrong way?
+- How do you get a programming job in a new language?
+- Should you quit a job where you have to work with IT consultants?
+- How do you deal with low documentation IT companies?
+- How much should a senior frontend developer know?
+- How do I get rid of clingy junior developers?
+- How do you learn to understand big code bases?
+- How do I deal with a employer who gives you a bad reference?
+- How do I deal with studying too much programming?
+- What should I do about my narcissistic boss?
+- How common is it that IT companies use algorithm code tests?
+- What work hours do programmers prefer?
+- Where can I find large scale frontend development learning materials?
+- Is Python a good choice for product development?
+- How do I define my career path in IT as a college student?
+- How do you unit test if your work with stored procedures?
+- How do you deal with a emotional vampire in your software team?
+- Is it ok to tell the interviewer my weaknesses as a programmer?
+- Is security an afterthought in programming?
+- Do social skills matter for seniors?
+- Should I put how many programming videos I watch on my CV?
+- Should programmers change jobs without a pay increase?
+- How can a programmer stand up to a designer?
+- How do you get better at time estimation?
+- How can you gauge your skill as a freelance programmer?
+- What about Phoenix's LiveView?
+- How do you find passionate programmers outside of work?
+- What programming languages do you know?
+- Do you need to learn Java to be a professional programmer?
+- Should you create git branches for epics?
+- How do you avoid the worst legacy code?
+- Is working in multiple programming languages bad?
+- Is anyone actually doing TDD?
+- How do ESB fit in to SOA?
+- What are good programming graduation projects?
+- How do you become better at reading code?
+- Is it healthy to accept bad code just to meet a deadline?
+- Will AI steal our jobs?
+- How should I switch from full time programming to freelancing?
+- How do IT titles work?
+- Does being a fullstack developer make you a DevOps engineer?
+- If programming alone is bad isn't being a freelancer bad for your career?
+- Do you need a degree to work with Java?
+- Can I work as both a full time programmer and a freelancer?
+- Is there a way to find the next big startup before it goes big?
+- What types of companies should you focus on to break in to IT?
+- Does your impact at a company change with seniority?
+- Should working at Google be my career goal?
+- Should I switch from Java to Php?
+- How do I fix being a senior developer without relevant skills?
+- If programming alone is bad what will happen if remote work becomes the norm?
+- Should I work on a specialist project or a CRUD application?
+- What should I put in my programming portfolio?
+- Is it hard to get your first programming job?
+- What do the titles in IT mean?
+- Is it common to be forced to install spyware at work?
+- Should you choose your next programming job based on the domain or the stack?
+- How to get a programming internship as a student?
+- Should you switch programming languages or stick with what you know?
+- Is C# getting too many features?
+- Do companies use both in house staff and consultants?
+- How can I lead a team as a junior programmer?
+- Why are software developers bad at communication?
+- What advice can you give to a new programmer?
+- Why do IT recruiters care about data structures and algorithms?
+- Is it worth our time to test a senior developer?
+- How to avoid working with CRUD applications?
+- What if you could never get in to an IT company?
+- How do you practice programming design patterns?
+- With so many tools do developer still need to write code?
+- How to hand off a Wordpress site to non technical client?
+- How do I keep my startup idea secret?
+- What will my onsite interview look like when I apply for a programming job?
+- How do you gain seniority without joining a software team?
+- What are SLO's and why should we use them?
+- Are there any dangers with making friends with your coworkers?
+- What motivates you to make programming videos?
+- Should companies who use JavaScript use a framework?
+- What is the most deceiving thing about writing good software?
+- How will I keep up with the trends in JavaScript?
+- Does TDD slow down the development process?
+- Is it important to communicate your thought process in a technical interview?
+- Why are junior programmers obsessed with money?
+- Are bad interview processes common in IT?
+- When I am I ready to take my first backend programming job?
+- What are the benefits of being a polyglot programmer?
+- What are the most common lies told by programmers?
+- What makes you a good software developer?
+- What is your process for writing code?
+- How does TDD help?
+- Is it ok to be a senior software developer who is bad at coding?
+- What mistakes did you make as a junior programmer?
+- What is the biggest difference between hobby programming and professional programming?
+- What is the most common reason software developers get fired?
+- Can I start my own IT company when I am a senior Java programmer?
+- When should I not use the DRY principle?
+- What tech should I learn after I learned programming?
+- How to tell a senior programmer that their solution is bad?
+- What is required for the real computer revolution to start?
+- Why don't genius programmers help other programmers?
+- Why are programming salaries so high when the education is free?
+- How do you tell if a programmer is faking?
+- How do you stay motivated when making programming videos?
+- How can I survive as a introvert programmer?
+- How do I approach a company to get a programming job?
+- How do I tell my boss that I am going to quit my programming job?
+- Is is true that the demand for programmers is decreasing?
+- What is the hidden cost of simplifying programming?
+- Which is the best programming language today?
+- What is the easy part about teaching programming?
+- What should I say if I got fired from my programming job?
+- What are signs of a burned out programmer?
+- Do I have to study on my free time to keep my programming job?
+- How bad is it if a programmer can't work without a framework?
+- Is it healthy to compare yourself to other software developers?
+- What should I do if I don't know how long I need to write my code?
+- How do I find a programming mentor?
+- What practices should I use for my programming side project?
+- What should I do if I don't have a frontend developer?
+- Why aren't developers making the decisions in a company?
+- Can I switch stack as a junior developer?
+- Is Go better than Java for enterprise development?
+- Should juniors avoid old monolith projects?
+- Should I build my application with vanilla Javascript?
+- Is the fullstack developer role mostly for startups?
+- What about the demand that software should be free?
+- Is there a benefit for a web developer to learn Rust?
+- How bad is it if a programmer can't work in Node without Express?
+- What should I know about working as a remote freelancer?
+- What type of website should I make?
+- What if I am not progressing my coding skills?
+- How do you practice your own coding?
+- What if I am bored with web development?
+- Do programmers care about each others experience level?
+- Why aren't we only using low level programming languages?
+- How do I know if I am a code monkey?
+- Should programmers say no to unethical request?
+- What do seniors who have lost their skills do?
+- Will CS degrees become pointless?
+- What are you tired of explaining to other programmers?
+- Can I work as a programmer if I lack ambition?
+- What would senior programmers like junior programmers to understand?
+- How do you spot the level of a programmer?
+- What would you do if you were a CS graduate today?
+- What is the biggest misunderstanding of software development?
+- Should we differentiate between coders and software engineers?
+- Isn't complex code complex for a reason?
+- How to onboard remote programmers?
+- Why do so many internships require fullstack developers?
+- How will a recession affect IT?
+- How can a developer show that they are good on their first day?
+- Why are programmers still using old programming languages?
+- Why are there so many programming jobs?
+- What if I am stuck in frontend?
+- How should programmers ask for a salary raise?
+- How do I know if I am too slow as a junior programmer?
+- What should I do as a programmer if I'm not very smart?
+- Should I learn Swift or cross platform?
+- What should I do if my manager is trying to get me to quit?
+- Are coding boot camps worth it?
+- What is Pre-rendering and when should I use it?
+- If you could become a programmer again what would you change?
+- How long does it take to become a fullstack developer?
+- How should I deal with a programmer who is about to quit?
+- Does your company provide mentoring for new programmers?
+- Why do some developers never become more than junior developers?
+- Why go to a university to learn programming when IT changes so quickly?
+- What is the difference between 1 year and 10 years of experience programming?
+- How to get my team to act the way I want?
+- Are user stories useful outside of agile development?
+- How to deal with a underachiever coworker?
+- Do you need perfect code in a tech interview?
+- Why is it ok for programmers to job hop?
+- Why do some programmers not want to work for FANG?
+- How to avoid scope creep?
+- What to know before getting a CS degree?
+- Do I need to be cool to get a junior programming job?
+- What is it like to be a experienced programmer?
+- How can I improve my time to market?
+- What to do when you want to refactor code?
+- How do I progress my career as a programmer?
+- What is a Hackathon?
+- Should junior developers work alone?
+- What is CI/CD and how does the workflow look?
+- Why is Express so popular?
+- Why do people hate Php?
+- Is age discrimination a thing in IT?
+- Bro, what about #cybersecurity?
+- How do I stop my code from getting ugly?
+- How do I deal with bad coworkers?
+- How can I learn the most important software lessons?
+- What are your top 2 general purpose programming languages for the future?
+- How do I know how good I am at JavaScript?
+- How to negotiate your salary if you are the only developer on the project?
+- How do you spot a passionate programmer?
+- How will the pandemic change the IT industry?
+- What should I do to prepare for losing my programming job?
+- How easy is it for senior developers to get settled in a new company?
+- Should I switch from Java to Go?
+- Is scope creep a necessary part of software development?
+- MERN stack vs C#?
+- How do you fix a lack of unit tests?
+- Is code quality the most important thing?
+- How do you train your soft skills?
+- What effect will Serverless on backend developers?
+- If I have programming experience can I skip the university?
+- What should I test for in my API tests?
+- How do we measure the benefits of DevOps?
+- Should you transition in to application development?
+- How do you motivate consultant programmers?
+- Should a programmer pick a job with high personal growth or a high salary?
+- How long can you program alone before it hurts your career?
+- Do programming job titles matter?
+- What are red flags that a company has a bad engineering culture?
+- How to answer why you left your last job?
+- Should I switch programming language?
+- Do I need a CS degree to work with C#?
+- What happens after code has been released?
+- Can programmers have tattoos?
+- Have you ever hired a junior who did great on the code test but turned out to be bad at the job?
+- What is task oriented programming and should I learn it?
+- What are the key phases in a software delivery cycle?
+- How can I avoid getting too much process in to my team?
+- How do I teach junior developers to read the docs?
+- When have I waited for too long before asking for help with my code?
+- What language should I use for the backend in my AI startup?
+- Why is it so hard to organize people in a IT company?
+- How do I make the day pass faster?
+- Do professional programmers use website templates?
+- How do I stand out as a software developer?
+- Will fast job hopping hurt my image in programming?
+- What do I say to someone who thinks programming is easy?
+- What is the best kept secret in programming?
+- How can I progress my career as a software developer?
+- Have you ever felt your stakeholder has no idea how software works?
+- What are the main challenges when scaling an agile work process?
+- What is a good rule of thumb in programming?
+- Why is it that everyone claims that it is a great time to be a programmer?
+- Why does everyone want to work for Google when there are so many other jobs?
+- Do programmers have to learn SQL?
+- How should I negotiate a raise as a programmer?
+- Are the SOLID principles common in JavaScript?
+- ORM's vs raw SQL queries and when to use what?
+- Is there a future for complex coding in React?
+- What languages scale a big project the best?
+- What is CQRS and when to use it?
+- How can I deal with being a mediocre programmer?
+- What if I am getting bored with programming?
+- How do you get productive as a junior developer?
+- What are the benefits of working at a startup?
+- Why do consultants build new projects instead of the in house staff?
+- How do you deal with criticism as a programmer?
+- Do programmers need to learn UML?
+- How do you feel about the MVVM pattern in React?
+- How can I progress my career as a junior working alone?
+- How do you deal with being the worst programmer?
+- How much is a backend developer expected to know about the backend?
+- How can a solo junior learn design patterns?
+- Will low code applications have a future?
+- How can I start my startup without any experience?
+- How can I change my companies coding standards?
+- Are programmers disposable?
+- Are certificates worth it?
+- What struggles will a programmer face?
+- What matters most when you want to get things done in programming?
+- Should I take a coding Bootcamp or is it better to self study?
+- When am I ready to apply for a junior  frontend job?
+- What is a canary release and how can we do it with Kubernetes?
+- How can I prevent a project from getting legacy code?
+- Should I follow the single source of truth principle?
+- How should I deal with deprecated libraries?
+- Should I use Swagger and why?
+- When should I start learning my second programming language?
+- How can I progress my coding skills?
+- Are there any risks with micro frontends?
+- Are companies honest about the state of their code?
+- What should a programmer never say in a technical interview?
+- How do I cure my bad programming habits?
+- How can I know if an IT company has a good office culture?
+- Should there be a pay difference between a QA and a developer?
+- Do you get appreciation for the code you write as a programmer?
+- Is Docker useful for local development or just for deployment?
+- How do you deal with racism in IT?
+- Can I be a programmer even if I can't speak the native language?
+- Are job guarantee boot camps the best way to get the first job?
+- How to get work experience as a self taught programmer?
+- What is incremental development?
+- Should I be a specialist or a generalist programmer?
+- How do I become a great fullstack developer?
+- How do I get job interview calls for programming jobs?
+- How to manage joint application development?
+- Should I take a job as a remote Java developer?
+- What is Domain driven design?
+- What is wrong with TDD?
+- How do you remember all the programming languages you have learned?
+- Is Bootstrap a good choice for large projects?
+- What is a fullstack developer and what responsibilities do they have?
+- Have you ever been asked to code something that is impossible?
+- How can a beginner programmer stay motivated?
+- Developing information systems is complex, how do we fix it?
+- Is there a way to obscure JavaScript code to make it secure?
+- Why is the traditional way of developing information technology broken?
+- What technology is a waste of time for a programmer to learn?
+- Is contributing to open source a good way to improve programming skills?
+- Will working remote as a programmer hurt my career?
+- Is IE11 holding frontend developers back?
+- What is the traditional process for developing information systems?
+- How do I transition from being a programmer to being a manager?
+- Is it important and how should I visualize my app ideas?
+- Should websites work without JavaScript enabled?
+- Is domain driven design used for real in IT?
+- What should I know as a first time JavaScript developer?
+- If Python is more popular than Java now should I switch to Python to get a job?
+- How do you keep your code clean and readable?
+- What does the Good, Great and Zen programmers saying mean?
+- When can you call yourself a senior programmer?
+- My company is getting a new senior programmer, should I quit?
+- How to deal with programmers who think they are good when they aren't?
+- Should I focus on competitive coding to get a job as  a programmer?
+- How do you know if you are a bad senior developer?
+- What does the application development life cycle look like?
+- How does a normal day look for a programmer?
+- Is the standup meeting really necessary?
+- How do I get my programmers to work overtime?
+- Is C++ useful for backend development?
+- Should a frontend developer learn C# in order to master Object oriented programming?
+- How long will I be a junior developer?
+- Which is better C# or Java?
+- How do you avoid getting bad programmers on your team?
+- Is Object oriented programming the dominant paradigm because functional programming is too hard?
+- Why do so few programmers know about Domain driven design?
+- Should I give my coworker a embellished peer review?
+- How do I become a senior programmer faster?
+- How do I know if a programmer has become complacent?
+- Do backend developers have better technical skills than frontend developers?
+- Should I fire a senior programmer that is too slow?
+- Why do people get agile development wrong?
+- I am leaving my programming job and now my boss wants to raise my salary, what should I do?
+- What is the dumbest feature you have implemented?
+- What is the ideal onboarding process for a junior programmer?
+- How do I start adding unit tests to my project?
+- Is it ok to look things up as a programmer?
+- Why is Java losing popularity?
+- How do you deal with a incompetent senior as a junior developer?
+- What about CRM's?
+- Should programmers be able to build applications from memory?
+- What do great programmers know that most programmers do not?
+- How can I pitch new ideas to my company as a programmer?
+- How can IT companies be worth so much money?
+- Which is the best programming language for scaling a big application?
+- What is a good code comment in programming?
+- Why do programmers underachieve?
+- Bro, what about #blockchains?
+- Does Laravel help you become better at Php development?
+- What about native web components?
+- What is the best way to get passive income as a programmer?
+- What are the personality traits of great senior developers?
+- Is it better to be  a frontend developer if I want to be a freelancer?
+- How do you deal with a stressful work environment as a programmer?
+- How should I start my own IT company?
+- How do you store secrets?
+- How can we write clean code when we always cut corners?
+- How do I convert my team to Git?
+- What trend in IT has gone too far?
+- Why do programmers use the ternary operator?
+- What can we learn from the big IT companies?
+- What should you never tell a programmer?
+- What is bad about a programming career?
+- What should a junior know before the first job?
+- How do I deal with a programmer who has bad ideas?
+- How should I deal with coworkers who come first and leave last?
+- What have your learned as a programmer so far?
+- Why are IT recruiters trying to hide who they are working for?
+- What are the most common career mistakes a programmer can make?
+- Why do some programmers lose their skills?
+- Why did you quit your last job as a programmer?
+- What is the most overlooked thing in programming?
+- What is the most sought after skill in programming?
+- What tips have your learnt from other programmers?
+- Why is switching jobs the best way to raise your salary as a programmer?
+- How do I settle in to my new role as a junior programmer?
+- How do I time estimate as a junior programmer?
+- What level of code do you expect from a senior programmer?
+- How many mistakes do I get before I get fired as a programmer?
+- When do I know that I can ask for help with my code?
+- What was the worst time in your career as a programmer?
+- What makes programmers better than others and how do they do it?
+- What languages do hackers use?
+- Is functional programming a waste of time?
+- If Java is so bad why do so many want to learn it?
+- Do you have to know Node to be a web developer?
+- Do product companies take frontend hiring seriously?
+- How can you tell if something was made by a junior programmer?
+- What is the biggest problem with IT today?
+- What is cowardly behavior from programmers?
+- Employed vs Consultant programmer?
+- Is it better to focus on frontend or backend?
+- What are your favorite programming books?
+- How old were you when you started programming?
+- What looks bad on a background check?
+- Why do some companies only hire consultants?
+- Why is it so hard to find consistent programming content?
+- What stops managers from making small decisions?
+- How do you deal with breaking production?
+- Do frontend developers over complicate their own work?
+- Why do backend developers like Linux?
+- What should I do with an arrogant junior?
+- How do you know when you are over engineering?
+- Are all code bases a mess?
+- Where do weak programmers work?
+- Do seniors feel threatened when juniors catch up?
+- How big is the difference between seniors and juniors?
+- What is the biggest career mistake a programmer can make?
+- What if I get caught lying about my salary?
+- Is it hard to find talented developers?
+- Are juniors obsessed with algorithms?
+- What frontend certifications should I get?
+- Should I get a Scrum certification?
+- What kills a programmers passion?
+- How long is the average work day for programmers in Sweden?
+- If I fired someone how do I get them back?
+- What is the hardest feature you have worked on?
+- I don't like web but I like JavaScript, what to do?
+- Do companies ask too much from frontend developers?
+- Can you fix a broken office culture?
+- How to deal with a really bad boss?
+- What causes programmers to quit their job?
+- What never get's old in programming?
+- What do you expect of an intern programmer?
+- If programming is so easy why are there so many jobs?
+- How can a programmer work without a computer?
+- How to become a great programmer?
+- How do I push myself as a programmer?
+- How do you deal with mediocre programmers?
+- What do you hate most about the IT hiring process?
+- What are the signs that I am getting better at programming?
+- Why can't companies make things compatible by default?
+- How do I figure out how to work with Bootstrap?
+- What are the biggest learnings you have from corporate work?
+- What are red flags in pull requests?
+- What does a regretful hire look like?
+- I have no experience but what if I know more than those with experience?
+- How do companies deal with JavaScript code being public?
+- What is the dumbest thing anyone has asked you about coding?
+- What's the biggest microphone drop you have ever had?
+- Should a function be no more than 5 lines of code?
+- When do you know you are an expert in a programming language?
+- When should we write unit test in frontend?
+- What can male developers do to not scare away female developers?
+- Why isn't programming simpler?
+- How can I make my JavaScript code secret?
+- If Python doesn't scale why do people use it?
+- Why isn't there more code written in a day?
+- What should programmers learn early on?
+- Why do programmers look down on web development?
+- What confuses programmers?
+- Do 10x programmers exist?
+- What activities help you get better at coding?
+- Is Java the most important language?
+- Don't you get bored as a web developer?
+- What type of code makes you mad?
+- What programming languages are overhyped?
+- Will Node replace Java?
+- Why do so few programmers know about Monads?
+- Is there code no one understands?
+- How can I convince students that programming isn't hard?
+- Is agile development nonsense?
+- What software practices keep you up at night?
+- How can you have non programmers as managers?
+- As a programmer should I study Cryptocurrency?
+- Is there a divide in the frontend community?
+- What about using peer reviews as a screening process?
+- Why can't a junior be so good that they are considered a senior?
+- What knowledge do self taught developers commonly lack?
+- Would you ask a junior for help?
+- Have you ever worked on a project without unnecessary libraries?
+- Have you ever worked on a project that didn't have unnecessary libraries?
+- How do you feel about off the shelf solutions?
+- Why would a company use Node with a C# monolith?
+- What do consultants do in programming?
+- What are your thoughts on the Jam stack?
+- How do I make people think I am a superstar programmer?
+- Is culture fit a lie?
+- How should I think when different companies use different languages?
+- What is the difference between amateur and professional grade programmers?
+- When should I apply Gherkin?
+- What language should I learn after Node?
+- Will web developers be here in 20 years?
+- What organiziational skills do you need as a programmer?
+- Practice with small projects or big projects?
+- Why do people hate Php and Java?
+- What about Svelte.js?
+- What are some truths of programming?
+- What would be the characteristic of a future language be?
+- Should I self promote on my CV?
+- Should I fire a programmer who took 4 days to make a button?
+- What is the most frustrating thing a junior has said to you?
+- Will TypeScript become more popular than JavaScript?
+- What can a senior do to be denied a job?
+- Can you leave work at work?
+- What frustrates a senior about a juniors code?
+- How do I avoid being overwhelmed on a big project?
+- What is the biggest myth in programming?
+- Why aren't web developers real engineers?
+- Should I learn reactive programming?
+- Why do people hate MongoDB?
+- When should you not use TypeScript?
+- What is a sure tell that someone has never learned real programming?
+- What IT trends do you roll your eyes at?
+- How do you spot a mediocre programmer?
+- Do I need to be a genius to become a programmer?
+- What is the biggest bottleneck in programming?
+- What would you like untechnical people to understand?
+- Are programmers afraid of investing in the wrong language?
+- What does a coder actually do?
+- What is the most important agile work tool?
+- Are there programmers who slack off?
+- How do you tell if someone is a good JavaScript programmer?
+- Is elegant code a waste of time?
+- How do you know if someone is a good programmer?
+- Can you explain to a beginner why we use OOP?
+- Do people dislike OOP?
+- How do you excel as a programmer?
+- Do we need more mature programmers?
+- Should I fire a programmer who uses StackOverflow?
+- What ticks you off the most in programming?
+- What is the most common reason programmers quit?
+- How do you spot the smartest programmer in the room?
+- What is the best programming interview question you know?
+- What makes a programmer the most valuable?
+- Why are there so few female programmers?
+- What can I do when backend developers treat me poorly?
+- What are hard rules of programming?
+- Is it harder to get a internship than a job?
+- How to get respect from the backend developers as a frontend developer?
+- What skill can I learn from programming in 10 minutes?
+- How do I date a programmer?
+- When do you use Kubernetes?
+- How to tell if someone is a poser programmer?
+- What is the biggest mistake new programmers make?
+- The best technology to learn in 2019?
+- What is the most obnoxious programming task you have gotten?
+- What don't people tell you about being a programmer?
+- Is it still possible to build real projects without a team?
+- What is the hardest part of programming no one talks about?
+- How to spot a beginner programmer?
+- Should I fire a programmer who writes unnecessary code?
+- What about Blazor?
+- What about Vue?
+- Is it still worth building desktop applications?
+- How well do you keep your computer?
+- Is programming all about money for you?
+- Is programming more important than sports?
+- What are bad habits to avoid as a programmer?
+- Are you in the top 3 programmers at your job?
+- What does frameworks like Express do?
+- Why is Angular and React free?
+- How do I move from tutorials to coding?
+- What makes a company pick a certain programming language?
+- Will React and Angular become legacy?
+- How can I learn to write exceptional CSS?
+- Are software developers often underpaid?
+- What rules must a programmer follow?
+- What does a junior Php developer need to know?
+- Do I need to work in a TDD style?
+- Do you need to learn TDD before BDD?
+- What is the most annoying problem with frontend?
+- What does it mean to maintain code?
+- What type of programmers struggle to find jobs?
+- What bad habits lead to the end of a programmers career?
+- How do I deal with project managers?
+- How can we get permission to refactor code?
+- What are the most valuable programming languages to learn?
+- What specific programming skill has served you well?
+- What do interviewers check without telling you?
+- Why is there so much hype around programming?
+- Will developers have less appreciation for C++ in the future?
+- Do I need to learn VR programming?
+- How much do you worry about deadlines?
+- How do I start a project?
+- How do I become a better frontend developer in 2019?
+- How much JavaScript do I need to learn to get a job as a programmer?
+- How can I be a better backend developer in 2019?
+- What recommendation would you give to a new programmer?
+- What JavaScript code do most write poorly?
+- Is free learning better than payed bootcamps?
+- Will better learning material produce better self taught developers?
+- Why do we have multiple programming languages?
+- What programming language don't you like?
+- How would you figure out how good a developer is with one question?
+- Do you feel embarrassed when you need to ask for help?
+- How do I know that I am ready to look for a programming job?
+- Can work experience replace education?
+- Is it better to be a generalist or a specialist?
+- How should I learn web development?
+- What is the worst mentality a programmer can have?
+- What is commonly overlooked in NodeJS development?
+- What are the grey areas between good and bad code?
+- Why are regular expressions important?
+- What are some bad habits you can get in a big company?
+- How do you deal with a senior with ego problems?
+- SSR vs prerendering vs static content generators?
+- Will the tech recruitment business change in the future?
+- Why do you like React and not Vue?
+- What should you look for in a junior programmer position?
+- Should I learn C++ before Rust?
+- Is it worth learning C++ if I already know Go?
+- How do you manage stakeholders?
+- How do you build a good software team?
+- How is pugJS typically used?
+- Will machine learning set developers apart in the future?
+- Which JavaScript framework is better for scaling?
+- How do I convince my company to change tooling?
+- What would you tell yourself to convince yourself to learn Node?
+- What is going to be the most lucrative JavaScript framework in 2019?
+- Which language is the most useful for international business?
+- What is the most rewarding thing for a programmer?
+- Should computer science be mandatory in high school?
+- How do I encourage myself to stick with programming?
+- What is the most important thing to remember when applying for a frontend job?
+- What about React hooks?
+- Which programming role transition is easier?
+- Is OOP a must know in programming?
+- How long is software development going to be a profession?
+- What programming skill was hard for you to learn?
+- Should I build a native app or a progressive web app?
+- How do you feel when you can't produce your best work?
+- What dependencies do you use?
+- Is the best code written by just a few developers?
+- Do you get jealous of developers who are better than you?
+- Should I always use composition over inheritance?
+- How do I get a internship as a programmer?
+- What is the startup mindset?
+- What about OKR's?
+- What is the best way to plan a sprint?
+- What experience has changed how you view software development?
+- What is your unpopular programming opinion?
+- What is the future for professional programming?
+- What is the weirdest thing you have had to fix?
+- What is the minimum css I need to learn?
+- How can I learn programming in days instead of years?
+- Is it common with unhappy customers in IT?
+- How do you feel when your team picks a bad tool?
+- How do I showcase my backend skills?
+- What is the biggest problem in mobile development?
+- What will happen to React if Facebook falls?
+- What about multi platform Kotlin?
+- What is a good tester?
+- What do you do when you fail a technical interview?
+- What harsh truths should a programmer accept?
+- How do you define success as a programmer?
+- Why do junior programmers focus on coding speed?
+- How does BDD make your life easier?
+- Can Firebase be used with a desktop application?
+- Why are there so few junior React jobs?
+- What is a junior React developer expected to know?
+- What is the first thing you do after finding a bug?
+- What does a bad day as a programmer look like?
+- What is the coolest Hackathon project you have built?
+- What programming skills can only be harnessed with experience?
+- What 3 things says a lot about a programmers quality?
+- When is Go better than Python for backend work?
+- Are JavaScript haters just ignorant?
+- When was the last time you faced a true programming challenge?
+- Is there a benefit to TypeScript in React?
+- Are JavaScript haters just jealous?
+- How do I become a good backend developer?
+- What about WebGL?
+- How can a regular programmer be as good as a Google programmer?
+- Do programmers need to go outside their comfort zone?
+- Do we need to use TDD for UI components?
+- Is NodeJS easy because it is written in JavaScript?
+- Should programming be part of basic education?
+- Should I pick Elm or should I pick TypeScript?
+- Apart from hacking are there immoral practices in programming?
+- How important is teamwork in programming?
+- What should I do if I get fired for being unproductive?
+- Is there elitism in web development?
+- Would the world stop if all programmers stopped working?
+- Why are so many people going in to web development?
+- What is the most important thing your coworkers taught you?
+- Why do you like React and not Angular?
+- What will the impact be if more people get in to programming?
+- Is Go a better server side language than Java?
+- Should I put all my projects on my CV?
+- How is Sass typically used?
+- How long do you wait until you ask for help from a senior?
+- What is open source?
+- Can a JavaScript programmer transition to backend development?
+- Is JavaScript getting more popular even with the horrible syntax?
+- Is it a good idea to move for a startup?
+- How do I make myself attractive on the job market as a programmer?
+- Should I fire a slow software developer?
+- What is a bidirectional dependency?
+- What should I think about when starting a Fintech company?
+- What programming languages do you use and which do you work with?
+- What are the golden rules of programming in JavaScript?
+- What type of programmer would you hire for a startup?
+- What is a programmers worst nightmare?
+- What happens when you get cheap with programmers?
+- What do you prioritise when delivering on a deadline?
+- What do beginner programmer struggle with the most?
+- What are the golden rules of Java?
+- Why do programmers have problems with OOP?
+- How can I teach programming to kids with different skill levels?
+- Will JavaScript become obsolete?
+- What do you think of a developer who can't use git?
+- Should I learn coding in 2019?
+- What are the main challenges in the future of IT?
+- What will be the language to rule them all?
+- How do I get rich from programming?
+- What about React native?
+- How do I stay motivated to program every day?
+- Why do we have bugs?
+- Why don't companies train more programmers?
+- Is Jest going to become the top testing framework?
+- What is a junior Java developer expected to know?
+- Is game development a good career option?
+- Have you ever used programming to prank someone?
+- Do programmers get bored with the same tools?
+- As a programmer what makes you happy?
+- Which language would take over if Java disappeared?
+- What bad habits have you picked up as a programmer?
+- Why is it easier to get a job in frontend than in backend?
+- What does a software developer need to be a successful entrepreneur?
+- Why do we have frameworks?
+- When should I build a PWA?
+- What is the most important thing for a junior programmer to learn?
+- What is CSS?
+- How important is it to be self critical?
+- Do sharp deadlines improve programming?
+- Which programming language will give you a job the fastest?
+- What does JavaScript do?
+- What is your secret to writing beautiful code?
+- Why don't youtubers talk about rendering?
+- What problem does SPA frameworks solve?
+- Are SPA frameworks killing Bootstrap?
+- What is heap memory?
+- What about Deno?
+- Can you make a video about beer?
+- When do you use more than one language?
+- How do you avoid burnout as a programmer?
+- Should I learn Ruby after Node?
+- Is it worth learning React native?
+- Is Node secure?
+- Are there completely obsolete programming languages?
+- What is a small language?
+- Should I use the state or the store?
+- Should I work for a big company or a small one?
+- Why do big companies give away open source tools?
+- How does freelance work look on a CV?
+- Should I use require or import?
+- I am a isolated frontend developer, what should I do?
+- What is missing in vanilla JavaScript?
+- What should I learn besides React to stay ahead?
+- How long will React be relevant?
+- Why don't some big websites use React?
+- Is C# easier to learn than Java?
+- Are the best programmers individualists?
+- What about css utility classes?
+- Should we use frameworks?
+- Do you need creativity as a software developer?
+- What database should I use for a social media application?
+- How can I improve my coding besides writing code?
+- When should I use serverless?
+- Will knowing fullstack development help with mobile development?
+- Can a solution architect become a software developer?
+- Do idealists make better computer scientists?
+- What about online degrees?
+- Why would a server use a REST api?
+- Is fullstack development harder than mobile development?
+- Will WebAssembly put me out of a job?
+- Is Redux still relevant?
+- What if I have a CEO without coding skills?
+- Should I migrate from Jquery?
+- What should I call myself?
+- What about JavaScript modules?
+- Why did Microsoft go open source?
+- What is npm ci?
+- How do I get better at Webpack, Npm, Babel and version control?
+- Can I use Firebase for static websites?
+- What advanced tools do you need to learn as a frontend developer?
+- What tools do I need to learn for frontend development?
+- How do I get good at React?
+- Why do I use Express?
+- What is a midlevel project?
+- Can I learn professional programming on Github?
+- How will worker threads affect Node?
+- How will I keep up with Java innovation?
+- How does experience affect junior salary levels?
+- Should I learn Wordpress themes?
+- What is enterprise css?
+- Are vanilla web technologies mature enough for production?
+- What about Go?
+- Can I use Firebase instead of a regular server?
+- Why did my team use React instead of vanilla JavaScript?
+- Why don't you just use blank?
+- Is it ok to just work on the backend?
+- What about css modules?
+- What about styled components?
+- How can we predict changes in requirements?
+- What about pair programming as the default?
+- How do I pick a database?
+- What are your numbers?
+- Should I start with Python or Java?
+- Should I learn backend before I learn mobile development?
+- What about GDPR?
+- Is it better to get a degree from a bad school than being self taught?
+- Do JavaScript frameworks hinder skill progression?
+- What about template sites?
+- Should I learn Php after I know frontend?
+- Is there a reason that jQuery is not as popular as it once was?
+- Is this frontend?
+- What will you do when you can't use your tools?
+- Can you make a video about coffee?
+- What is a rockstar programmer?
+- How will WebAssembly change JavaScript's status?
+- Should I learn Haskell or Go?
+- What about Dart?
+- What does it take to be a email developer?
+- Why TypeScript and not Elm or PureScript?
+- What if I just want to make websites?
+- Am I too old to be a programmer?
+- What is a feature story?
+- How do I work with agile development?
+- Should frontend developers learn Node?
+- What is a real project?
+- Is game development a good way to become a programmer?
+- Why do companies want work experience from a junior?
+- What languages do I use for API development?
+- Will I be sued for using Java?
+- What is the size of the problem?
+- What makes a language future proof?
+- Are design skills important for frontend developers?
+- Is it a tool or a crutch?
+- What makes a good frontend developer?
+- Has your channel helped your career?
+- Should I start with backend or frontend?
+- Could this be a job for Rust?
+- Should I use Wordpress or a JavaScript CMS?
+- Can I use Bootstrap for my portfolio?
+- What is a static site generator?
+- Do I still enjoy CSS?
+- Docker what why and when?
+- What about Flow?
+- What about TypeScript?
+- How do I know what tools are relevant?
+- What can I do to improve my coding skills?
+- Why are enterprises so slow?
+- Why is Java so popular in enterprises?
+- What are the best programming languages to bet on for the future?
+- When should I use continuous delivery tools?
+- Did you just assume my type!?
+- What does it take to be a email developer?
+- Why do people use bad tech?
+- What is BDD?
+- What is TDD?
+- Should I get a masters degree?
+- Why is the bar so high for programming jobs?
+- What is going to be the main language for WebAssembly?
+- What is WebAssembly going to be used for?
+- How many lines of code can you write?
+- What is the difference between a library and a framework?
+- How big is the dataset?
+- What is a stacktrace?
+- Do I need a degree to be a programmer?
+- Are frontend developers in more demand than backend developers?
+- What are dependencies?
+- Is coding speed an indication of skill?
+- Is the goal to make it easy for you or everyone?
+- What is a terminal?
+- What do you mean by advanced code?
+- Where did my passion for programming start?
+- What should I learn to be a salary programmer?
+- What do you want to optimize your code for?
+- What does inconsistent really mean?
+- What does it take to be a professional programmer?
+- What happens when you tell your coworkers how much you get paid?
+- What is a senior programmer?
+- What about GraphQL?
+- How much money should I ask for as a junior programmer?
+- When would I use Go and when would I use Rust?
+- Which is harder backend or frontend?
+- Should you learn Go as your first programming language?
+- What journey are you on?
+- Why do I teach mostly in Javascript?
+- How can I stand out in a job interview?
+- What about Flutter?
+- How many hours a day do I need to practice to learn code?
+- How do I build the best developer team?
+- What if the boy scout rule is a bad idea?
+- What do you need to be smart?
+- How do I get better when I am good?
+- Should Elixir be my first programming language?
+- What about Elm?
+- What type of software are you writing?
+- How do I know if you are a good frontend developer?
+- What are the steps?
+- Why don't you live code?
+- If I had to work in only one language what would it be?
+- Should I get a entry level job in Node or Php?
+- How do I know when I am a real programmer?
+- When do I use acceptance tests?
+- What should be my second language when I know Javascript?
+- Did your user see the message?
+- What do I mean when I say vanilla Javascript?
+- What is the difference between DevOps and Operations?
+- Is Vue all hype?
+- Why are we using SPA's?
+- What hardware do I use for programming?
+- Which language do I recommend for server side rendered applications?
+- When do I use mob coding?
+- Are certifications worth the money?
+- How do I return the response from an asynchronous call in Javascript?
+- - Which PaaS provider should I use?
+- Are programming conferences worth the money?
+- What does a real world Java algorithm look like?
+- PaaS what is serverless?
+- What do I learn after web programming?
+- Why are you behind schedule?
+- Building Microservices with Node, Docker and Nginx pt 1 - What is a Microservice?
+- Is Go a good first programming language for kids?
+- Why didn't you communicate more?
+- - What degree should I get?
+- Docker, what is that?
+- What is a load balancer?
+- What is caching?
+- What is a message queue?
+- What is a batch job?
+- How do I get good with computers?
+- Development, Production, what does it all mean?
+- How do I know if my app idea is good?
+- Is the code bad or is it just you?
+- Am I too old to be a programmer?
+- What is programming?
+- Do you need to go to school to be a programmer?
+- What is an MVP?
+- What is the difference between a junior developer and a senior developer?
+- When do you migrate code?
+- Does functional programming reduce bugs?
+- How important is functional programming?
+- What is good code?
+- When is a user interface good enough?
+- Should IT companies be held responsible for system crashes?
+- Is Karma dead?
+- So you want to use React, why?
+- How do I increase my value as a programmer on the job market?
+- When am I good enough to add a programming language to my CV?
+- Should I learn JQuery?
+- When do I use Microservices and how should I build them?
+- When do I use React and when do I use vanilla JavaScript?
+- Will Node become the new php of the web?
+- Is MVC always the answer for scalable web applications?
+- I answer the question "What programming language should I start with?
