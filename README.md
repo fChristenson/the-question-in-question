@@ -2,7 +2,7 @@
 
 A collection of common Software developer questions.
 
-![cover](./assets/_949406de-1a33-432e-a5c9-c9d8ba93818a.jpg)
+![cover](./src/assets/_949406de-1a33-432e-a5c9-c9d8ba93818a.jpg)
 
 ## Notes
 
