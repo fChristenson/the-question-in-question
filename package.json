@@ -1,0 +1,28 @@
+{
+  "name": "the-question-in-question",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A collection of common Software developer questions.",
+  "main": "index.js",
+  "scripts": {
+    "lint:markdown": "npx markdownlint-cli2 ./src/pages/**",
+    "lint:spelling": "npx cspell ./src/pages/**/*.md",
+    "lint:wordcount": "node ./scripts/count_words.js ./src/pages/",
+    "lint": "npm run lint:markdown && npm run lint:spelling && npm run lint:wordcount"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fChristenson/the-question-in-question.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fChristenson/the-question-in-question/issues"
+  },
+  "homepage": "https://github.com/fChristenson/the-question-in-question#readme",
+  "devDependencies": {
+    "cspell": "^8.17.2",
+    "markdownlint-cli2": "^0.17.2"
+  }
+}
