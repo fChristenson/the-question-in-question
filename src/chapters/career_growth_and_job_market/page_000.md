@@ -1,7 +1,6 @@
 # Career Growth and Job Market
 
 Questions about promotions, career transitions, job satisfaction, and navigating the tech industry.
-
 ## Should You Stop Coding to Climb the Career Ladder?
 ## Have You Ever Needed to Prove Yourself as a Developer?
 ## How to Overcome Insecurities as a Junior Developer?
@@ -69,3 +68,10 @@ Questions about promotions, career transitions, job satisfaction, and navigating
 ## Should Developers Be Involved in Sales or Business Discussions?
 ## What Are the Best Practices for Onboarding New Developers?
 ## What Are the Challenges of Onboarding Developers to Complex Projects?
+## What Are the Challenges of Integrating New Developers into Existing Teams?
+## How to Build an Onboarding Process That Accelerates Productivity?
+## How to Handle Knowledge Gaps When Onboarding New Developers?
+## What Are the Risks of Rushing the Onboarding Process for New Developers?
+## How to Build Effective Onboarding Programs for Junior Developers?
+## How to Optimize Codebases for Easier Onboarding of New Developers?
+## What Are the Challenges of Onboarding Developers in Complex Projects?
