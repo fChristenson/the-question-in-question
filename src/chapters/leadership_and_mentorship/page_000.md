@@ -27,3 +27,13 @@ How Can a Tech Lead Help Team Members Get Promoted?
 Is Knowing How to Get the Right Support a Key Skill for Senior Developers?
 Should Dev Teams Be Shielded from External Disruptions?
 Should You Accept a Job If the Company Uses Cloud Computing?
+How to Effectively Mentor Junior Developers?
+Should Developers Be Involved in Hiring Decisions?
+How to Handle Pushback When Introducing New Tools or Processes?
+How to Handle Pushback When Introducing New Tools or Processes?
+How to Encourage Developers to Take Ownership of Their Work?
+How to Handle Team Members Who Resist Change?
+What’s the Role of Leadership in Building Successful Development Teams?
+How to Manage a High-Performing but Difficult Team Member?
+How to Address Skill Gaps in a Development Team?
+How to Encourage Developers to Take Initiative?

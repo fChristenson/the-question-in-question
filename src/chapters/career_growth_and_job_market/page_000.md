@@ -1,7 +1,6 @@
 # Career Growth and Job Market
 
 Questions about promotions, career transitions, job satisfaction, and navigating the tech industry.
-
 Should You Stop Coding to Climb the Career Ladder?
 Have You Ever Needed to Prove Yourself as a Developer?
 How to Overcome Insecurities as a Junior Developer?
@@ -50,9 +49,7 @@ How to Deal with Engineers Seeking Promotions Too Soon?
 Why Do IT Job Titles Sound So Strange?
 Why Do Development Teams Love Agile?
 What Would Make You Quit Your Job?
-How to Deal with Engineers Seeking Promotions Too Soon?
 Is Growth Limited for Developers Who Prefer Working Alone?
-How to Deal with Slow Developers?
 What Are Realistic Expectations for Switching to Frontend Development?
 How to Evaluate IT Companies When Applying for a Job?
 How Can You Build the Confidence to Switch Companies?
@@ -65,3 +62,9 @@ Is It a Zero-Sum Game for Tech Leads to Praise Their Teams?
 How to Spot Areas of Improvement in a Developer?
 Should New Developers Choose Languages with Large Communities?
 How Can Developers Prove Their Value to Stakeholders?
+How Do You Know When It’s Time to Leave a Developer Job?
+What Should Developers Focus on When Starting a New Job?
+How Can Developers Maintain a Long-Term Career in Tech?
+Should Developers Be Involved in Sales or Business Discussions?
+What Are the Best Practices for Onboarding New Developers?
+What Are the Challenges of Onboarding Developers to Complex Projects?
