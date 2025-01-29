@@ -82,3 +82,6 @@ Questions about making ethical decisions, balancing perfectionism, and managing 
 ## How to Handle Stakeholders Who Push for Features Over Stability?
 ## What Are the Risks of Ignoring End-User Feedback During Agile Sprints?
 ## How to Handle Stakeholders Who Demand Features Without Prioritizing Quality?
+## When Should You Tell Your Boss “Stop”?
+## Are Biases an Issue in Software Recruitment?
+## Have You Read Any Philosophy That Changed Your View of Software Development?

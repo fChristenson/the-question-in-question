@@ -241,7 +241,6 @@ Questions about building scalable systems, simplifying complex code, and designi
 ## What Are the Trade-Offs Between Using Monolithic and Service-Oriented Architectures?
 ## What Are the Challenges of Building APIs for High-Concurrency Systems?
 ## How to Build Systems That Can Handle Sudden Traffic Surges?
-## What Are the Best Practices for Managing API Authentication and Authorization?
 ## What Are the Risks of Ignoring Scalability During Early Development?
 ## How to Build APIs That Can Handle Complex Data Interactions?
 ## What Are the Key Considerations for Designing Systems With Fault Tolerance?
@@ -256,3 +255,25 @@ Questions about building scalable systems, simplifying complex code, and designi
 ## How to Build Systems That Are Optimized for Cost-Efficient Scaling?
 ## How to Build APIs That Are Compatible With Multiple Client Platforms?
 ## What Are the Key Principles for Writing Secure Code in Multi-Tenant Systems?
+## Is Reusability Sometimes Overrated in Software Development?
+## Why Do Senior Developers Sometimes Use Complex Code Instead of Simple Code?
+## What If Complex Code Can’t Be Simplified?
+## What Techniques Can Help Simplify Code?
+## Does “If It Isn’t Broken, Don’t Fix It” Apply to Software?
+## What Are the Steps to Create a Web Application?
+## How to Set Boundaries for Your Application’s Scope?
+## Do Code Refactors Require Genius Developers?
+## Why Don’t Companies Replace Their Legacy Systems?
+## How Much Upfront Design Should You Do?
+## Why Have Software Teams Abandoned Upfront Design?
+## What Are Architecture Decision Records?
+## What Is the Trade-Off Between Fast and Planned Development?
+## How to Create an Architecture When Requirements Constantly Change?
+## Have System Designs Ever Turned Out to Be Costly?
+## Is Web Application Development Considered Serious Software Development?
+## What If the Architecture of a System No Longer Works?
+## How to Improve Legacy Code Effectively?
+## Is Object-Oriented Programming Still Relevant?
+## Feature Flags vs. Feature Branches: Which Should You Use?
+## Is WordPress a Good Choice for a Startup?
+## How Did You Become a Software Architect?

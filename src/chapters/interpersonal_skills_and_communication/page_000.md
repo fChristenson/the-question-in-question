@@ -56,3 +56,19 @@ Questions about interacting with non-technical stakeholders, handling criticism,
 ## How to Foster Constructive Disagreements in Technical Discussions?
 ## How to Foster Empathy Between Developers and Product Managers?
 ## How to Promote Alignment Between Technical Teams and Business Stakeholders?
+## How to Deal with Non-Technical Managers in IT Projects?
+## How to Respond to a Rude Director?
+## How to Handle Code Criticism Constructively?
+## How to Prepare Yourself for Criticism on Your Code?
+## How Important Is Feedback in Software Development?
+## How to Avoid Stepping on Toes in IT Teams?
+## How to Become More Social as a Developer?
+## What Would You Say to a CEO Who Belittles Your Work?
+## How to Communicate with a Non-Technical Boss?
+## What If Your Manager Is Highly Technical?
+## How to Handle a Manager Overturning Your Decisions?
+## If My Manager Leaves Many Pull Request Comments, Does It Reflect on Me?
+## Do Software Engineers Take Code Review Comments Personally?
+## Should You Thank Team Members for Reiterating Known Facts?
+## When Should You Keep Silent Instead of Speaking in IT?
+## How Important Are Negotiation Skills in Software Design?

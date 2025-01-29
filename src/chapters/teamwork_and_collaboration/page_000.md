@@ -161,3 +161,7 @@ Questions about working in teams, code reviews, knowledge sharing, and managing 
 ## How to Foster Collaboration Between DevOps and QA Teams?
 ## How to Optimize Knowledge Sharing in Rapidly Growing Development Teams?
 ## How to Foster Team Collaboration During High-Stakes Development Cycles?
+## How to Deal with an Energetic Developer?
+## How to Handle Developers Without Domain Knowledge?
+## What to Do When the Development Team Is Failing?
+## What Is the Minimum Time to Build Trust in a Development Team?

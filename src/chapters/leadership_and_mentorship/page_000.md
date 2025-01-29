@@ -75,3 +75,21 @@ Questions about guiding teams, mentoring developers, and building trust as a tec
 ## How to Encourage Engineers to Take Initiative in Technical Discussions?
 ## How to Promote Developer Autonomy While Maintaining Team Alignment?
 ## How to Encourage Developers to Take Initiative in Solving Complex Problems?
+## What to Do When a Junior Developer Has Too Much Work?
+## When Should You Give Up on a Software Developer?
+## How to Grant Developers More Autonomy?
+## How to Earn the Trust of a Low-Performing Engineer?
+## How to Handle Engineering Managers Who Avoid Tactical Issues?
+## Are You a Micromanager in IT?
+## Are Leadership Skills Important for Senior Developers?
+## What Are Some Tips for Managing a Software Team?
+## At What Point Should You Give Up on a Developer?
+## Should You Stop Mentoring New Hires in IT?
+## Can a Tech Lead Seek Advice from Their Manager?
+## As a Tech Lead, Do You Promote Practices You Don’t Follow?
+## Does Coaching a Senior Developer Reflect Poorly on Their Skills?
+## How to Provide Constructive Feedback to a Senior Developer?
+## When Should You Coach Software Developers?
+## How to Tell a Developer They Aren’t Productive Enough?
+## How to Deal with Slow Developers?
+## Do Engineering Managers Ever Seek Coaching from Senior Developers?

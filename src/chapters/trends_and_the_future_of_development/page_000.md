@@ -27,3 +27,5 @@ Questions about the evolving role of developers, the impact of AI, and the futur
 ## How to Build Teams That Embrace Rapid Prototyping?
 ## How to Foster Innovation in Teams With Limited Resources?
 ## How to Build Software That Adapts to New Market Trends?
+## Will AI Take Over Developer Jobs?
+## What Impact Will AI Have on Developers?

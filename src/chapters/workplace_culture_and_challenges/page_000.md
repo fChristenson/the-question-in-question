@@ -133,3 +133,24 @@ Questions about dealing with toxic environments, work-life balance, and handling
 ## How to Promote Inclusivity and Psychological Safety in Agile Teams?
 ## How to Foster a Culture of Continuous Improvement in Software Development?
 ## What Are the Risks of Overloading Developers With Administrative Tasks?
+## How to Work Effectively in a Toxic Software Team?
+## How to Handle Developers Who Oppose Reforms in IT?
+## Are Software Developers Motivated by Challenging Problems?
+## What to Do If You Feel Overwhelmed at Work?
+## What Brings Joy to Your Work in IT?
+## What Are Your Thoughts on Performance Reviews?
+## How to Handle Layoffs in IT?
+## How to Handle the Fear of Failing in IT?
+## Why Do IT Companies Prioritize Speed Over Quality?
+## Is Political Savvy Necessary in IT Companies?
+## What Happens to Developers Who Are Left Behind?
+## Should Developers Have Emotional Attachment to Their Projects?
+## What to Do When You Lose Passion for Coding?
+## What Reason Would Make You Quit Your Job?
+## How to Deal with Impostor Syndrome in Software Development?
+## With Remote Work, Should Developers Still Choose the Right City to Work In?
+## Why Are Software Developers Expected to Contribute in So Many Areas?
+## How to Overcome Loss of Motivation in Programming?
+## Does “Culture Eats Strategy for Breakfast” Apply to IT?
+## How to Avoid Second-Guessing Yourself in Programming?
+## What Do You Enjoy Least About Being a Software Engineer?

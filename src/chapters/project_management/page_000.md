@@ -175,3 +175,11 @@ Questions about managing deadlines, prioritizing work, and balancing scope and q
 ## How to Handle Conflicting Priorities in Agile Development Teams?
 ## How to Handle Frequent Scope Changes in Enterprise Development Projects?
 ## What Are the Trade-Offs Between Agile and Hybrid Development Methodologies?
+## What Is the Best Way to Gather Requirements?
+## How to Remember Decisions in IT Projects?
+## What to Do When Fixing a Production Problem?
+## What to Do When the Deadline Is Approaching Quickly?
+## How to Plan for Tight Deadlines in Software Development?
+## How Long Does a Programming Project Typically Take?
+## How to Conduct an Honest Post-Mortem?
+## Should Dev Teams Be Shielded from External Disruptions?

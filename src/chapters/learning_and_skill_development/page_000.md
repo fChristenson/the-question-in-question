@@ -1,7 +1,6 @@
 # Learning and Skill Development
 
 Questions about acquiring new skills, improving as a developer, and staying current with trends.
-
 ## How to Be Proactive in Learning Software Development?
 ## How to Read Source Code Efficiently?
 ## What Books Can Help Improve Your Problem-Solving Skills?
@@ -67,7 +66,6 @@ Questions about acquiring new skills, improving as a developer, and staying curr
 ## How to Encourage Developers to Engage in Self-Directed Learning?
 ## How to Encourage a Growth Mindset in Senior Developers?
 ## How to Encourage Developers to Adopt Emerging Best Practices?
-## How to Encourage Developers to Contribute to Open Source?
 ## How to Optimize Workflows for Continuous Learning in Development Teams?
 ## What Are the Benefits of Encouraging Developers to Experiment With New Tools?
 ## How to Encourage a Culture of Continuous Learning in Teams?
@@ -78,3 +76,12 @@ Questions about acquiring new skills, improving as a developer, and staying curr
 ## How to Build a Learning Culture That Encourages Continuous Skill Development?
 ## How to Promote a Culture of Open Source Contribution Within a Company?
 ## What Are the Benefits of Encouraging Developers to Learn Business Concepts?
+## What Is Domain Knowledge in Software Development?
+## Am I at a Bootcamp-Level of Development Skill?
+## Why Isn’t Solving Many Practice Problems Improving My Skills?
+## What Are the Key Things a Programmer Should Know?
+## Is It Okay to Take a Break from Studying Software Development?
+## What Are the Core Skills Software Developers Need?
+## Do You Follow the Same Learning Principles Regardless of Age?
+## How to Introspect Effectively as a Software Engineer?
+## How Can Developers Intentionally Cultivate a Growth Mindset?
