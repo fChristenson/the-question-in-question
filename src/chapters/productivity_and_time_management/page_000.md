@@ -49,3 +49,5 @@ Questions about improving efficiency, handling stress, and managing time effecti
 ## How to Organize Your Learning Materials Effectively?
 ## What to Do When You Can’t Make Progress on a Project?
 ## What Wastes the Most Time in a Software Team?
+## How to Commit to an Idea in Software Development?
+## How to Avoid Getting Stuck While Programming?

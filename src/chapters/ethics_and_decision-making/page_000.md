@@ -85,3 +85,7 @@ Questions about making ethical decisions, balancing perfectionism, and managing 
 ## When Should You Tell Your Boss “Stop”?
 ## Are Biases an Issue in Software Recruitment?
 ## Have You Read Any Philosophy That Changed Your View of Software Development?
+## Should IT Companies Always Treat the Customer as Right?
+## How to Handle Stakeholders Who Over-Prioritize Speed Over Quality?
+## How to Handle Stakeholders Who Demand Quick Fixes Without Proper Testing?
+## What Are the Risks of Ignoring User Feedback During Product Development?

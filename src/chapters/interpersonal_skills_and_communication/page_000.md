@@ -72,3 +72,16 @@ Questions about interacting with non-technical stakeholders, handling criticism,
 ## Should You Thank Team Members for Reiterating Known Facts?
 ## When Should You Keep Silent Instead of Speaking in IT?
 ## How Important Are Negotiation Skills in Software Design?
+## Does Interviewing Someone You Know Feel Awkward?
+## What Tone Should You Use in Pull Requests When Making Suggestions?
+## How Do You Develop People Skills as a Software Developer?
+## Are Developers Known for Using Overly Technical Jargon?
+## Do You Feel Embarrassed When Someone Praises Your Coding Skills?
+## How to Support Struggling Coworkers in IT?
+## How to Promote Collaboration Between Technical and Non-Technical Teams?
+## How to Foster Empathy Between Developers and End Users?
+## How to Handle Disagreements Over Technology Choices in Teams?
+## How to Promote Open Communication Between Junior and Senior Developers?
+## How to Optimize Team Communication in High-Pressure Projects?
+## How to Handle Conflicting Opinions During Sprint Planning?
+## How to Promote Inclusive Decision-Making in Software Development?

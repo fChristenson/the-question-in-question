@@ -93,3 +93,16 @@ Questions about guiding teams, mentoring developers, and building trust as a tec
 ## How to Tell a Developer They Aren’t Productive Enough?
 ## How to Deal with Slow Developers?
 ## Do Engineering Managers Ever Seek Coaching from Senior Developers?
+## How Do You Progress When Facing Problems in IT?
+## How to Handle a Bad 1-on-1 Meeting with Your Manager?
+## How Do Principal Engineers Stay Motivated?
+## What Examples Do You Have of Coaching Software Developers?
+## Why Do Principal Engineers Transition to Management?
+## When Should You Let a Software Developer Go?
+## How to Have Effective 1-on-1 Meetings with Your Manager?
+## Do You Appreciate When Your Manager Wants to Review Your Code?
+## Are Engineering Managers Effective at Building High-Performance Teams?
+## Are You Fit to Be a Manager If You Spot Areas for Improvement?
+## How to Encourage Teams to Use Data-Driven Decision-Making?
+## What Are the Benefits of Investing in Developer Advocacy Programs?
+## How to Handle Knowledge Gaps in Development Teams?

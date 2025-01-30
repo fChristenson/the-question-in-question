@@ -29,3 +29,7 @@ Questions about the evolving role of developers, the impact of AI, and the futur
 ## How to Build Software That Adapts to New Market Trends?
 ## Will AI Take Over Developer Jobs?
 ## What Impact Will AI Have on Developers?
+## How Has Requirements Gathering Evolved Over Time?
+## Do You Follow Tech Trends for Professional Growth?
+## Why Are There So Few Desktop Apps Today?
+## What About Claims of Sentient AI at Google?
