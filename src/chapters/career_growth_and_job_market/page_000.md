@@ -133,3 +133,5 @@ Questions about promotions, career transitions, job satisfaction, and navigating
 ## Does Switching Programming Jobs Get Easier Over Time?
 ## Is It True That You Need an Hour to Evaluate a Developer?
 ## How to Balance Team Specialization With Generalist Skills in Development?
+## What Are the Best Practices for Conducting Technical Interviews?
+## What Are the Risks of Neglecting Developer Onboarding Processes?

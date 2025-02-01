@@ -106,3 +106,16 @@ Questions about guiding teams, mentoring developers, and building trust as a tec
 ## How to Encourage Teams to Use Data-Driven Decision-Making?
 ## What Are the Benefits of Investing in Developer Advocacy Programs?
 ## How to Handle Knowledge Gaps in Development Teams?
+## How to Balance Team Autonomy With Organizational Alignment?
+## How to Encourage Teams to Take Ownership of Their Work?
+## What Are the Key Principles of Effective Technical Leadership?
+## How to Balance Developer Autonomy With Organizational Alignment?
+## How to Balance Technical Leadership With Hands-On Development?
+## How to Balance Developer Autonomy with Team Alignment?
+## What Are the Benefits of Encouraging Cross-Team Mentorship?
+## What Are the Benefits of Encouraging Developers to Mentor Juniors?
+## How to Ensure Team Buy-In When Implementing New Processes?
+## How to Encourage Open Communication Between Junior and Senior Developers?
+## How to Handle Team Members Who Are Resistant to Feedback?
+## How to Balance Developer Autonomy with Team Alignment?
+## What Are the Benefits of Encouraging Cross-Team Mentorship?
