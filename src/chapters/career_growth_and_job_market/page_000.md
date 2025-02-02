@@ -44,7 +44,8 @@ Do. Not. Give. Up.
 
 ## What factors contribute to developer rejection in interviews?
 
-If the company has a coding test and you pass it things are about feelings.
+If the company has a coding test and you pass it things are from
+that point on mostly about what feeling people get from you.
 
 The most valuable thing you can do in a personal interview are 2 things.
 
