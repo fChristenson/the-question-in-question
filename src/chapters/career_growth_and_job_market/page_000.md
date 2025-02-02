@@ -49,6 +49,7 @@ If the company has a coding test and you pass it things are about feelings.
 The most valuable thing you can do in a personal interview are 2 things.
 
 First. Prove that you care about the work.
+
 Tell them about the projects you have on the side.
 Tell them about the tools you are checking out right now.
 Tell them about what trends you are looking at.
