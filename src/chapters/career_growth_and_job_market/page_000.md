@@ -68,6 +68,28 @@ due to these 2 things missing.
 Try to make them leave the interview with a good gut feeling.
 
 ## How to Add New Technology to Your CV?
+
+As a rule of thumb, make sure you have understood how to use it for
+the most common cases.
+
+It is a bit like claiming that you know a spoken language.
+If you can communicate decently people will agree that you know it
+to some extent.
+
+However, if you can barely make yourself understood you lack the
+needed proficiency to have any value from the language.
+
+Your CV should reflect the tools you know well enough to do the
+common tasks. You do not have to be a master.
+You just have to be able to produce something useful with them.
+
+A good example is learning a new web language. If you know how to
+produce an API and hook it up with a database you are in the ballpark
+of what is considered useful knowledge.
+
+Frontend is similar. Can you ship a mobile first UI that fetches
+some data to display? Good, put it on the CV.
+
 ## How can developers navigate promotions and career transitions, and how long does it typically take to advance from junior to senior roles?
 ## What Are Your Thoughts on Bootcamp Graduates?
 ## What steps should developers take after being laid off, and how can they successfully reenter the job market?
