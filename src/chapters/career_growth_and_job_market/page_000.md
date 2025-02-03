@@ -162,7 +162,33 @@ what degree you have. Degrees are what you use to get
 in to the industry and once you are in they lose
 most of their meaning.
 
-## What steps should developers take after being laid off, and how can they successfully reenter the job market?
+## What Steps Should Developers Take After Being Laid Off?
+
+I think about job security as being in a survival situation.
+Most out-doors enthusiast will tell you that the key to survival
+is to be prepared.
+
+In the woods being prepared means things like having shelter
+and a water source. In software development it means something different.
+
+Survival tips for software developers are as follows:
+
+- Keep your CV up to date.
+- Make sure your CV is easy to find on the web.
+- Front the most relevant tools you know on the CV.
+- Connect with people on social media.
+- Keep up to date with the trends in the trade.
+- Practice how to do well in interviews.
+- Save enough money to make it through to the next job.
+
+These tips should be practiced before you get laid off.
+Once you are out of a job your first move should be to
+look at the job postings in your region. I can also
+recommend to post a pleasant message on your social
+media accounts where you briefly mentions what your
+main stack is, how much experience you have and
+how to get in touch with you.
+
 ## Would You Accept a Position That Down-Levels Your Role?
 ## Why Do IT Companies Ask If You Were at the Top of Your Class?
 ## What strategies help developers manage unrealistic deadlines and high-energy team dynamics?
