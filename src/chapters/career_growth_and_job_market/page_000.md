@@ -182,6 +182,7 @@ Survival tips for software developers are as follows:
 - Save enough money to make it through to the next job.
 
 These tips should be practiced before you get laid off.
+
 Once you are out of a job your first move should be to
 look at the job postings in your region. I can also
 recommend to post a pleasant message on your social
