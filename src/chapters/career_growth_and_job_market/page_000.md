@@ -146,6 +146,22 @@ No one will be able to tell you a version that the industry can
 agree on fully.
 
 ## What Are Your Thoughts on Bootcamp Graduates?
+
+It is good for soon to be developers to know that Bootcamp
+certificates of completion may not weigh as heavily as
+a college degree or similar.
+
+The reason behind it is usually that some companies view
+degree's as a more serious education. This prejudice is
+luckily not so widespread that it should discourage developers
+who feel a Bootcamp is more their style.
+
+At the end of the day what will matter is your skill and
+once you have work experience almost no one will care
+what degree you have. Degrees are what you use to get
+in to the industry and once you are in they lose
+most of their meaning.
+
 ## What steps should developers take after being laid off, and how can they successfully reenter the job market?
 ## Would You Accept a Position That Down-Levels Your Role?
 ## Why Do IT Companies Ask If You Were at the Top of Your Class?
