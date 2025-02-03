@@ -131,7 +131,7 @@ of waiting for them to have time to make you a priority
 or being strung along to provide proof that may or may
 not be possible to get.
 
-## How long does it typically take to advance from junior to senior roles?
+## How long does it typically take to advance from junior to senior?
 
 The industry has a lot of varying opinions on what it means to be
 a senior. The range that is most common is between 4 - 8 years
