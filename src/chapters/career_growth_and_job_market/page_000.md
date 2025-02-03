@@ -90,7 +90,48 @@ of what is considered useful knowledge.
 Frontend is similar. Can you ship a mobile first UI that fetches
 some data to display? Good, put it on the CV.
 
-## How can developers navigate promotions and career transitions, and how long does it typically take to advance from junior to senior roles?
+## How Can Developers Navigate Promotions And Career Transitions?
+
+As a rule you can expect that promotions comes in two ways.
+
+Either the company has a need for it and you happen to be picked
+or you ask for it.
+
+The key thing to understand about promotions is that they are not
+always possible. You may be in a company where there is not path
+to a promotion for you.
+
+Start by bringing it up with your manager and see what they say.
+If you find that they are open to it you now need to know something.
+It may never happen even if they say that they will help.
+
+Most companies have a clear strategy for hiring new people
+but few have as clear a strategy for promotions.
+
+My personal tip for you is to set a personal deadline. Decide
+that you will look for other opportunities while waiting.
+Often you will find that the path to a promotion is tougher
+than getting a new job. This is mainly due to that companies
+think differently about promotions and hiring.
+
+When hiring, managers tend to look at candidates with a limited context.
+They go by the gut feeling and CV but when promoting they tend
+to think differently. Usually they will look to you for proof
+that you should get promoted and that can get tricky to provide.
+It can get even more tricky to convince them that your proof
+is enough for a promotion.
+
+If you find another job it is very common that the company
+offers you benefits to stay. Now that you are about to go they need
+to keep you if you are a real asset.
+
+What has just happened is that you have switched the
+power dynamic and forced them to take action instead
+of waiting for them to have time to make you a priority
+or being strung along to provide proof that may or may
+not be possible to get.
+
+## How long does it typically take to advance from junior to senior roles?
 ## What Are Your Thoughts on Bootcamp Graduates?
 ## What steps should developers take after being laid off, and how can they successfully reenter the job market?
 ## Would You Accept a Position That Down-Levels Your Role?
