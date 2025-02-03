@@ -132,6 +132,19 @@ or being strung along to provide proof that may or may
 not be possible to get.
 
 ## How long does it typically take to advance from junior to senior roles?
+
+The industry has a lot of varying opinions on what it means to be
+a senior. The range that is most common is between 4 - 8 years
+of work experience.
+
+It is important to know that the title senior is just an indicator
+and you can find that in one company they call you senior but
+in another they think differently. Managers differ in opinion
+on this topic so don't overthink it too much and be very
+careful when someone claims to know what being a senior means.
+No one will be able to tell you a version that the industry can
+agree on fully.
+
 ## What Are Your Thoughts on Bootcamp Graduates?
 ## What steps should developers take after being laid off, and how can they successfully reenter the job market?
 ## Would You Accept a Position That Down-Levels Your Role?
