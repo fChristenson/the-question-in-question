@@ -72,3 +72,36 @@ Try to remember that for every one of them there is an audience of
 people who are not on stage. These people are the norm and most of
 the industry is made up of people who develop software as a job but
 in their spare time they may have any range of other interests.
+
+## What Are Your Thoughts on Bootcamp Graduates?
+
+It is good for soon to be developers to know that Bootcamp
+certificates of completion may not weigh as heavily as
+a college degree or similar.
+
+The reason behind it is usually that some companies view
+degree's as a more serious education. This prejudice is
+luckily not so widespread that it should discourage developers
+who feel a Bootcamp is more their style.
+
+At the end of the day what will matter is your skill and
+once you have work experience almost no one will care
+what degree you have. Degrees are what you use to get
+in to the industry and once you are in they lose
+most of their meaning.
+
+## What Traits Do the Best Software Developers Have?
+## Are You a Senior Developer When Problems No Longer Scare You?
+## What Was Your Best Job Experience as a Software Developer?
+## How to Pick a Tech Project to Advance Your Career?
+## What Does It Feel Like to Succeed in a Technical Interview?
+## How Do You Choose a Tech Project?
+## Why do tech job titles often seem unclear, and how do career ladders in IT companies work?
+## Why do large companies hire so many developers, and is developer compensation proportional to productivity?
+## How to Determine If a Company Follows Good Software Practices?
+## Do Senior Developers See Patterns When Solving Problems?
+## What Are the Considerations for Starting a SaaS Business?
+## What About Job Hopping During a Recession?
+## Are the First Years of a Developer’s Career the Most Transformative?
+## Does switching programming jobs get easier over time, and how can developers build the confidence to make a career move?
+## Is It True That You Need an Hour to Evaluate a Developer?
