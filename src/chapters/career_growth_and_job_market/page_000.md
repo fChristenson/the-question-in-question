@@ -212,6 +212,25 @@ to determine who has final say or when you are trying to pad
 your CV with things that seem impressive to a new employer.
 
 ## Why Do IT Companies Ask If You Were at the Top of Your Class?
+
+When companies hire new developers they leave that task to managers
+who don't really know what software development is about.
+What they will do is to look at what other companies are doing
+for inspiration and they will guess what they believe are signs
+of a good developer.
+
+When interviewers ask about your grades, how many side projects
+you have and so on. All they want is for you to prove that you
+are good at what you do. They want to feel comfortable in that
+if they hire you then you will learn fast and be a good fit
+for their company.
+
+You can prove this in many ways and even if you didn't make it
+to the top of your class you can simply mention that you
+made up for it by having side projects or other activities
+that prove that you like what you do and that you care about
+making good code.
+
 ## What strategies help developers manage unrealistic deadlines and high-energy team dynamics?
 ## Why do senior developers often dislike coding interviews, and what improvements could make the process better?
 ## Can Non-Passionate Developers Have Successful Careers?
