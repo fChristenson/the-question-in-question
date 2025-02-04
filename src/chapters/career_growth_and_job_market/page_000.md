@@ -320,4 +320,28 @@ This is my personal process for interview and although it is not perfect
 it is as fair as I can make it right now.
 
 ## Can Non-Passionate Developers Have Successful Careers?
+
+Yes. Most developers are not particularly passionate about the craft.
+It is a common misconception that in order to be a software developer
+you need to spend a lot of time outside of work. This is true in some
+cases and it is usually in the early days when you struggle to produce
+working code.
+However it is by no means a requirement to be up to date on all
+the trends and have your own projects.
+
+When you are a developer the things that matters is that you can
+deliver code using the tools your company uses. If you manage to learn
+all you need on the job then you won't need to push harder unless you
+want to.
+However if you are struggling to meet expectations or you find it hard
+to find a new job due to that you lack knowledge. Well, then you will
+need to make up the difference in your spare time most likely.
+
+The people who are truly passionate have a lifestyle that is not for
+everyone. These are the people you see on social media and conferences.
+Try to remember that for every one of them there is an audience of
+people who are not on stage. These people are the norm and most of
+the industry is made up of people who develop software as a job but
+in their spare time they may have any range of other interests.
+
 ## How will AI impact developer jobs, and what skills will remain valuable in the future?
