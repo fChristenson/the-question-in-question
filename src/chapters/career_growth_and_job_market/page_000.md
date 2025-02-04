@@ -231,7 +231,45 @@ made up for it by having side projects or other activities
 that prove that you like what you do and that you care about
 making good code.
 
-## What strategies help developers manage unrealistic deadlines and high-energy team dynamics?
+## What Strategies Help Developers Manage Unrealistic Deadlines?
+
+I usually advocate that you ask yourself why you fear a deadline.
+Deadlines regardless if they are realistic or unrealistic make
+many developers feel nervous so try to understand why you feel
+that way.
+
+What I have found is that problems can only be solved by doing
+one of two things. Either you simplify the problem or you increase
+your capacity for solving the problem.
+
+If your managers sets and unrealistic deadline they fail to understand
+this simple truth and more often than not their reason for the
+deadline is not that if they fail to meet it something bad will happen
+but rather they want to move fast enough to meet some expectation.
+This is mean nothing practical for you other than that you will be
+part of a missed deadline and if you are ok with that emotionally
+you don't need to be bothered by it.
+
+The main tip I can give you is to avoid giving false promises
+to your stakeholders and try to be realistic. If your managers
+still feels that a sharper deadline is needed let them decide on
+it. It really makes no difference other than the emotional impact
+it has on the people involved. Keep working and see if you meet
+the deadline or not. If you are about to fail you calmly explain
+to the manager that you either need to ship less features or
+you need more resources. Faster developers could also be an option
+but that will likely take a lot longer than simply adding more
+people, shipping less code or simply extending the deadline.
+
+I like to think about a software team as a car. If you have
+an average car and you think that by just really wanting to
+win in a formula one race your going to be able to do it.
+Well you are not being realistic I would argue. Winning a
+race or shipping good code on time both require you to have
+the right people and the right conditions before it is time
+to deliver.
+
+## What to Do About A Overenergetic Developer?
 ## Why do senior developers often dislike coding interviews, and what improvements could make the process better?
 ## Can Non-Passionate Developers Have Successful Careers?
 ## How will AI impact developer jobs, and what skills will remain valuable in the future?
