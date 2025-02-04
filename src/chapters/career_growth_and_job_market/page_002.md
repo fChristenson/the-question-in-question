@@ -1,6 +1,6 @@
 ## How Would You Improve The Interview Process?
 
-It is common that developers find interview tedious or intimidating.
+It is common that developers find interviews tedious or intimidating.
 
 I usually advocate that companies structure their process with
 a few guidelines. Though even doing so will probably never make
