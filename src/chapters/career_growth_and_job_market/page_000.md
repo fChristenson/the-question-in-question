@@ -343,5 +343,3 @@ Try to remember that for every one of them there is an audience of
 people who are not on stage. These people are the norm and most of
 the industry is made up of people who develop software as a job but
 in their spare time they may have any range of other interests.
-
-## How will AI impact developer jobs, and what skills will remain valuable in the future?
