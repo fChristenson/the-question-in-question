@@ -191,6 +191,26 @@ main stack is, how much experience you have and
 how to get in touch with you.
 
 ## Would You Accept a Position That Down-Levels Your Role?
+
+Personally I would. At this point I have done enough as a software
+developer to know how to do decently in any role.
+
+The role is from my point of view just a label that carries
+certain responsibilities with it. What matters to me however
+is if I enjoy what I do.
+
+Being a principal engineer in a big corporation and then
+taking the CTO role in a small startup may seem like a
+step up but the practical tasks will often be the same.
+
+Once you learn what you need to hold down most jobs
+it really is only you who determines what you would enjoy.
+I enjoy engaging work so as long as I am happy with my salary
+and my daily routine feels engaging then I don't care what
+my title is. The title only really matters when you are trying
+to determine who has final say or when you are trying to pad
+your CV with things that seem impressive to a new employer.
+
 ## Why Do IT Companies Ask If You Were at the Top of Your Class?
 ## What strategies help developers manage unrealistic deadlines and high-energy team dynamics?
 ## Why do senior developers often dislike coding interviews, and what improvements could make the process better?
