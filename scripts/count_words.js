@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 const filePath = process.argv[2];
-const maxWords = 300;
+const maxWords = 1000;
 
 if (!fs.statSync(filePath).isDirectory()) {
   throw new Error("Expected filepath to be a directory!");
