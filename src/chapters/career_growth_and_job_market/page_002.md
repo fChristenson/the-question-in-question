@@ -39,7 +39,7 @@ do well and you have faith that the people doing the interview are
 experienced software developers who can tell who will be a good fit
 and who will not, skip the test.
 However, if you are dealing with large amounts of candidates or junior
-developer you will usually be better off starting with the test.
+developers you will usually be better off starting with the test.
 It will screen out candidates who can't handle the basics.
 
 Make sure that you always have the evaluation of the interview done
