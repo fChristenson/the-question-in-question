@@ -308,6 +308,7 @@ No, compensation is usually based on more complex factors.
 Compensation is impacted by many things but a few main ones are:
 
 - Where you work
+- How well you do it
 - For who
 - As what
 - With what
@@ -319,9 +320,45 @@ people who work the hardest or are the most gifted. So is your
 compensation is not necessarily tied to how good your code is.
 
 ## How to Determine If a Company Follows Good Software Practices?
-## Do Senior Developers See Patterns When Solving Problems?
-## What Are the Considerations for Starting a SaaS Business?
-## What About Job Hopping During a Recession?
+
+It is very hard to do this accurately because everyone things differently
+about what good practices are. Even if you ask a manager if they do
+testing and they say that they do, you have no way of knowing to what
+extent or if the company developers are any good at it.
+
+My trick is to ask this simple question in the interview.
+"Can you tell me what tools the developers use to ship code?"
+
+By asking this and listening to what stack is being used,
+what infrastructure they use, what surrounding services
+are in play, I can tell based on experience roughly
+how the work is done.
+This does not mean that I know what the state of the code
+is but it gives me a rough idea of what it will be like
+to work in the company.
+
+What I am listening for is if the tools and practices
+the company uses are similar to what other companies
+are using and to what extent they are familiar with
+modern practices.
+If I hear that they follow similar setups to what most
+companies are, I can feel comfortable in that at the
+very least there is nothing too out there going on.
+However, if I hear that they have a lot of strong
+opinions or use uncommon solutions I will be a bit
+more careful. I usually ask followup questions as
+the interviewer explains so I can clarify things
+I am unsure about.
+
+This is by no means a perfect strategy but it is
+so far the best one I have. Sadly it is built on
+having the needed experience to know what it means
+practically when a company uses a given setup.
+If you know what is common in project when different
+tools and practices are in play you can almost predict
+what the code looks like and how the regular week looks.
+
+## What About Job Hopping?
 ## Are the First Years of a Developer’s Career the Most Transformative?
 ## Does switching programming jobs get easier over time, and how can developers build the confidence to make a career move?
 ## Is It True That You Need an Hour to Evaluate a Developer?
