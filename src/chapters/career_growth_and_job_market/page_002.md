@@ -228,9 +228,96 @@ down to who the judges are so even if one panel of judges
 don't like what I do it doesn't mean that another panel
 will judge the same way.
 
-## How Do You Choose a Tech Project?
-## Why do tech job titles often seem unclear, and how do career ladders in IT companies work?
-## Why do large companies hire so many developers, and is developer compensation proportional to productivity?
+## Why Do Tech Job Titles Often Seem Unclear?
+
+Usually it is a reflection of the company internals and their structure.
+What this in practice means is that companies name roles depending
+on semantics that make sense to their own corporate structure.
+If a company has a need for a role that is common within the
+industry at large they will use that name but for more complex
+roles they will invent something or borrow names that roughly
+fits the bill.
+
+The main thing to know is that a title is a bit like when you
+name a function in programming. For a simple function the name
+will be easy and make total sense but for a really big function
+that does many things the name can almost not be written so well
+that it captures the logic in the function.
+Titles work the same way in many ways. There is an element of
+importance inflation to account for as well. This means that
+often titles will sound appealing to promote the importance
+and competence of the person doing the job. You will at times
+find that someone has amazing skills but have a title that does
+not reflect it and of course you will find people with fancy
+titles who seem to know next to nothing.
+
+## How Do Career Ladders In IT Companies Work?
+
+Each company does it differently but there is a general template.
+Most of the time the company will divide the salary brackets and
+roles in to steps on the ladder. How many steps the ladder has
+varies and so does the title itself.
+
+A common name convention is Engineer level #  and similar.
+
+Each step has a set of criteria the developer needs to meet
+in order to advance. It is common that the manager will require
+some form of proof that you are at a certain level so it is good
+to remember to highlight things you do that fall in line with
+what the criteria is.
+
+Apart from meeting the ladders criteria it is common to have
+what is called a 360 degree review. This is most of the time
+a chance for coworkers to give feedback on your performance.
+Your manager will look at the proof you have provided, which
+is usually just verbal examples of what you have done that
+meets the criteria, and the 360 degree review feedback to
+make an assessment.
+Depending on the results you will either advance to a given
+level of the ladder or get goals to achieve to advance.
+
+## Why Do Large Companies Hire So Many Developers?
+
+Usually it is because the project stakeholders defer the
+practical hiring to engineering managers. These managers
+are the ones who are doing the hiring based on how big a
+project is and the budget they get for staffing.
+
+Based on their knowledge they will hire and as you can imagine,
+for really big companies they have a lot of projects so that
+becomes a decent amount of people quickly.
+However, it is worth knowing that because it is very difficult
+to predict how productive a developer will be or how many people
+you will need and of course keeping track of who is doing what
+in a large company, it is almost inevitable that large companies
+end up with a lot of people who work on similar things without
+knowing about each other or building projects that may not be
+needed as much as others.
+This is one of the main incentives large companies have for
+mass layoffs.
+This cycle is very common, company grows it staff to handle
+new projects, development with varying results happen and
+then the company does mass layoffs to balance the budget.
+What remains is often the staff that the managers want to
+keep and then it starts over again.
+
+## Is Developer Compensation Proportional To Productivity?
+
+No, compensation is usually based on more complex factors.
+
+Compensation is impacted by many things but a few main ones are:
+
+- Where you work
+- For who
+- As what
+- With what
+- How good you are at negotiating
+- How long you have been working
+
+Just as the riches people in the world are not always the
+people who work the hardest or are the most gifted. So is your
+compensation is not necessarily tied to how good your code is.
+
 ## How to Determine If a Company Follows Good Software Practices?
 ## Do Senior Developers See Patterns When Solving Problems?
 ## What Are the Considerations for Starting a SaaS Business?
