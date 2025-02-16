@@ -408,7 +408,7 @@ my role within the company. I will gladly put my heart and soul in
 to everything I do. All I ask in return is that they do their best
 to help me reach my personal goals.
 
-## Are the First Years of a Developer’s Career the Most Transformative?
+## Are The First Years of a Developer’s Career The Most Transformative?
 
 Yes, they have a lot of impact on your growth.
 
@@ -452,5 +452,24 @@ IT industry stops changing. You don't have to go crazy and
 feel stress over falling behind, just have a plan and keep
 an eye out for what people are using in the industry.
 
-## Does switching programming jobs get easier over time, and how can developers build the confidence to make a career move?
+## Does Switching Programming Jobs Get Easier Over Time?
+
+It depends on what your CV looks like. If you fill it with
+work that is similar and relevant to other roles then yes.
+However, if you do work that doesn't grow your skills in
+the areas that are in demand it can become harder over time.
+The reason being that as you gain seniority the expectations
+on you also grows. If you have worked for many years but those
+years haven't gained you experiences that people want to pay for,
+then it won't matter how long you have worked.
+
+Seniority is just an indicator of skill and as you can imagine,
+if you have a mismatch between how good you are at your job
+and how long you have been doing it, people will notice.
+It is a bit like growing up. If you act your age you are meeting
+peoples expectations of someone your age but if you act like a
+an immature child peoples impression of you will get worse the
+older you get.
+
+## How Can Developers Build The Confidence to Make a Career Move?
 ## Is It True That You Need an Hour to Evaluate a Developer?
