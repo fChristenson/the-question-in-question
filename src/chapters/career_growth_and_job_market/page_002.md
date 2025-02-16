@@ -409,5 +409,48 @@ to everything I do. All I ask in return is that they do their best
 to help me reach my personal goals.
 
 ## Are the First Years of a Developer’s Career the Most Transformative?
+
+Yes, they have a lot of impact on your growth.
+
+Since experience is what most companies care about your first few years
+will matter a lot since you won't have a big range of tools you have
+work experience with. This means that when it is time to switch job
+the meat of your CV is found in what you have done in previous roles.
+This is true for senior developers as well and it can quickly become
+a pattern in your career. You have worked with something and so you
+look for that again since it is the most valuable thing you have to
+offer.
+
+This is why I argue that it is important to get experience working
+in an environment that will be similar regardless of what company
+you decide to work for. Companies often favour hiring people who
+have experience with similar tools and practices to their own
+and although it is fine to not have exactly the same profile
+as what is asked, it does impact your market value.
+
+The key insight that you should have about yourself is that as
+the years pass you will likely change as a person. When you
+start out you may feel excited and eager to learn but will
+you feel that way after 10 years? It is hard to say but
+what is of paramount importance to understand is that no
+one cares if you have worked for 20 years if you can't
+meet their expectations. As a junior developer your main
+problem is usually to get someone to give you a chance.
+However, seniors face a similar issue. Seniors who lack
+the experiences that are in demand will struggle and
+now they find themselves with a choice. Learn what they
+lack or keep looking for jobs where their experience
+is more relevant.
+
+From what I have seen, most senior developers peak after
+5 years of working. This is why I urge developers to know
+yourself well enough to have a plan for how you will keep
+your skills relevant over time. Even if you learn the most
+in your first 5 years you should still not forget that just
+because you may grow tired of learning doesn't mean that the
+IT industry stops changing. You don't have to go crazy and
+feel stress over falling behind, just have a plan and keep
+an eye out for what people are using in the industry.
+
 ## Does switching programming jobs get easier over time, and how can developers build the confidence to make a career move?
 ## Is It True That You Need an Hour to Evaluate a Developer?
