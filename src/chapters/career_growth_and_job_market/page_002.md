@@ -471,5 +471,14 @@ peoples expectations of someone your age but if you act like a
 an immature child peoples impression of you will get worse the
 older you get.
 
+The good part is that most companies have similar way of working
+and many programming languages are very similar. It usually takes
+the longest to learn your first stack and it gets easier to more
+you learn. If you take your education seriously and invest in
+yourself you will find that almost all companies will be happy
+to have you even if you don't know exactly their stack. For
+very senior developers it takes a matter of weeks to pick a
+new stack and that is good enough for most jobs.
+
 ## How Can Developers Build The Confidence to Make a Career Move?
 ## Is It True That You Need an Hour to Evaluate a Developer?
