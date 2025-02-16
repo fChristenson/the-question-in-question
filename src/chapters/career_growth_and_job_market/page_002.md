@@ -403,6 +403,11 @@ to roles where there is mutual benefit you will find the sweet spot.
 You will stay at a job that gets you closer to your goal without
 becoming so attached that you hurt your own prosperity and growth.
 
+I always speak honestly and softly to my managers about my views on
+my role within the company. I will gladly put my heart and soul in
+to everything I do. All I ask in return is that they do their best
+to help me reach my personal goals.
+
 ## Are the First Years of a Developer’s Career the Most Transformative?
 ## Does switching programming jobs get easier over time, and how can developers build the confidence to make a career move?
 ## Is It True That You Need an Hour to Evaluate a Developer?
