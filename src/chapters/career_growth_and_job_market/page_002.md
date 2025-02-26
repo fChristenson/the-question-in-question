@@ -547,7 +547,7 @@ in your opinion?", or if we are talking to a backend developer,
 "what is an ORM and when do you use one?".
 These are questions that will force the conversation to be about
 concrete experiences the developer has had and then it is easy
-to hear if they are familiar of the practical tasks of the role
+to hear if they are familiar with the practical tasks of the role
 they are applying for.
 
 The key weakness in this approach is that the interviewer needs
@@ -557,3 +557,10 @@ perform the interviews. This gives you the best chance to do
 an accurate evaluation of practical knowledge, which I argue
 is what matters most when hiring an engineer apart from having
 good social skills.
+
+In my experience the best developers can answer these sorts of
+questions with a good amount of depth, because they have been
+around and tried a few things out. Be wary of developers who
+can't give you any details and keep their answers vague and
+high level. This is a common way to speak when you don't know
+how to answer.
