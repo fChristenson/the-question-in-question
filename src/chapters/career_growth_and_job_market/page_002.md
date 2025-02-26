@@ -561,6 +561,6 @@ good social skills.
 In my experience the best developers can answer these sorts of
 questions with a good amount of depth, because they have been
 around and tried a few things out. Be wary of developers who
-can't give you any details and keep their answers vague and
-high level. This is a common way to speak when you don't know
+can't give you any details and keep their answers vague.
+This is a common way to speak when you don't know
 how to answer.
