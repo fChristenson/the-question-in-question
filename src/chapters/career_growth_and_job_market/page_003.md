@@ -1,70 +1,102 @@
-## How to Balance Team Specialization With Generalist Skills in Development?
-## What Are the Best Practices for Conducting Technical Interviews?
-## What Are the Risks of Neglecting Developer Onboarding Processes?
-## How Long Does It Take to Measure a Developer’s Caliber?
-## Do You Need to Be a Genius to Succeed in IT?
-## Do You Research IT Companies Before Interviews?
-## Are Biases an Issue in Software Recruitment?
-## Is political savvy necessary for career growth in IT, or should developers focus purely on technical skills?
-## Am I at a Bootcamp-Level of Development Skill?
-## What If You Took the Wrong Job in IT?
-## How to Pass the Trial Period at a New Job?
-## Is It Okay to Take a Break from Studying Software Development?
-## Is It a Red Flag If a Candidate Lacks Specific Experiences?
-## How can companies accurately assess senior developers in interviews, and what questions reveal true expertise?
-## What About Being a Junior Developer Who Can't Measure Up?
-## What Was Your First Job in Software Development Like?
-## How can hiring managers effectively evaluate CVs and determine developer seniority?
-## What Is Within the Scope of a Software Engineer After 10 Years?
-## Do You Miss Onsite Interviews?
-## What About Trainee Developer Positions?
-## What Does It Take to Excel as a Junior Developer?
-## How to Succeed as a Solo Junior Developer?
-## Do Seasoned Programmers Sometimes Struggle in Interviews?
-## How to Convince Your Boss That a Certificate Is a Waste of Time?
-## How can developers cultivate the mindset of a senior engineer, whether in backend or frontend development?
-## How to Find IT Companies That Pay Really Well?
-## What Should You Know Before Applying for an Entry-Level Software Job?
-## Why Is Having a Career Gap on a CV Viewed Negatively?
-## Is Knowing How to Get the Right Support a Key Skill for Senior Developers?
-## Should You Accept a Job If the Company Uses Cloud Computing?
-## What Interesting Problems Do You Solve Daily as a Developer?
-## How to Identify If a Developer Is Overqualified for a Team?
-## Why Do Most Programming Jobs Require Tool Knowledge?
-## Is Long-Term Job Satisfaction in Software Tied to Personal Development?
-## Should You Consider Scalability for Resume Projects?
-## In Top Companies, Would You Still Understand Tech Under the Hood?
-## Can a Junior Developer Be Promoted Over a Senior Developer?
-## Do Principal Engineers Have the Same Coding Skills as Seniors?
-## Have You Worked as a Principal Engineer?
-## What Is It Like Working as a Senior Software Developer?
-## Is Getting a Promotion More Satisfying Than Finding a New Job?
-## Is Growth Limited for Developers Who Prefer Working Alone?
-## What Are Realistic Expectations for Switching to Frontend Development?
-## How to Evaluate IT Companies When Applying for a Job?
-## How Long Does It Take for a Junior Developer to Be in Demand?
-## How to Choose the Best Opportunities as a Developer?
-## What Happens to Developers in Big IT Companies as They Age?
-## How Can IT Companies Help New Developers with Onboarding?
-## Is It a Zero-Sum Game for Tech Leads to Praise Their Teams?
-## How to Spot Areas of Improvement in a Developer?
-## Should New Developers Choose Languages with Large Communities?
-## Should developers engage in business discussions, and how can they demonstrate their value to stakeholders?
-## What are the biggest reasons developers leave jobs, and how can they recognize when it’s time to move on?
-## What Should Developers Focus on When Starting a New Job?
-## How Can Developers Maintain a Long-Term Career in Tech?
-## What Are the Challenges of Onboarding Developers to Complex Projects?
-## What best practices ensure effective onboarding for new developers, and how can teams integrate them smoothly?
-## How to Handle Knowledge Gaps When Onboarding New Developers?
-## What Are the Risks of Rushing the Onboarding Process for New Developers?
-## How to Build Effective Onboarding Programs for Junior Developers?
-## How to Optimize Codebases for Easier Onboarding of New Developers?
-## What Are the Challenges of Onboarding Developers in Complex Projects?
-## What Are the Benefits of Creating a Developer-Friendly Onboarding Process?
-## What Are the Risks of Not Prioritizing Developer Onboarding?
-## What Are the Risks of Ignoring Developer Onboarding Processes?
-## What Are the Top 1% of Software Engineers Doing Differently?
-## Does Your Job Title Impact Your Results?
-## Why Don’t You Want to Work at a FANG Company?
-## What Defines a Mid-Level Developer?
-## Why Do Some Developers Never Outgrow the Junior Level?
+## What Was Your Best Job Experience as a Software Developer?
+
+I would say that it was when I finally felt that I was good enough.
+
+For a long time I, just as many developers, felt like I could not
+measure up to the expectations of my coworkers.
+I was never fast enough. I would get anxious when people
+added comments on my code. I still remember the panic
+I felt the first time I broke production.
+
+Over the years the fear started going away but it was only
+when I realized that the trust my coworkers and managers
+put in me was at a level where my choices had major impact.
+Yet I was not afraid. I remember being scared when I had to
+fix a bug and now I could comfortably take on work that
+had major impact and have people be happy with the results
+without breaking a sweat.
+
+The tasks I faced where much larger and the potential
+consequences of getting it wrong were massive but I felt
+no fear, no anxiety. It was just another project.
+
+## How to Pick a Tech Project to Advance Your Career?
+
+I always recommend that you start by asking where you are in
+your career and what goals you have. The choices a junior should
+consider can be different than what a senior may want to consider.
+
+For junior developers looking to break in to the industry and
+secure a long term career I recommend that you pick projects
+that will give you basic training. By basic training I mean
+that you get to work with coworkers as part of a team and you
+code on a project that will teach you how to ship products
+that are built using the same common tools.
+For web development the bread and butter project is a CRUD
+application with a user interface that people visit through
+a web browser.
+
+This choice is significant because once you start working
+your previous roles will impact your future prospects.
+If you spend a lot of time in niched tools and project
+you may find that the interest people show in your CV
+is less than for your peers who have skills more relevant
+to the industry at large.
+
+I encourage developers to try things out and experiment.
+However, you should remember that if your goal is to get
+stable work you need to be able to deliver code with the
+tools of the trade. So making sure you have those skills
+is a good idea if you ask me. At least before your career
+progresses for too long.
+
+The reason you want to be a bit tactical with the projects
+early on is that as you gain seniority the more expectations
+you will in general have on you. In the early days it is more
+acceptable that you need support with basic tools and practices
+but as you get more years you will in general be expected to
+be more self reliant.
+
+For more experienced developers who have the basics down and
+have perhaps had a few jobs it matters less what they choose
+since their skills are at a level where they can apply for
+most jobs and have a good chance of finding work.
+These developers will often benefit more from looking at what
+they lack to progress. It may be that they want to move in to
+a more management type of role and they then need to get exposure
+to the sort of environment that puts them in a leader role.
+It may be that they want to try a role where they get to work
+with different tools and then getting a working understanding
+of those tools is a natural choice. It really depends on what
+goals they have.
+
+## What Does It Feel Like to Succeed in a Technical Interview?
+
+This is where I say good, right? Yes, it feels good.
+
+I remember when I passed my first interview for a major company.
+I was ecstatic and so excited. I think the feeling is as close as
+I will get to having my big dream come true.
+After years of study and hundreds of hours just trying to figure
+out why I wasn't smart enough to figure out why the code would not
+work. I had made it through a nerve wracking interview and been
+found worthy. How could I not feel good about this epic achievement.
+
+These feeling lasted for about a week and were quickly replaced with
+new anxieties and worries. After all now I had to actually make things
+for real and now the main concern wasn't to get the job, it was to
+keep it.
+
+These days I look back at how I used to view interviews and I still
+feel happy when I get an offer. I still feel nervous, although much
+less than before. Though much remains somewhat the same I like to
+think that I find them less dramatic.
+
+I used to think that passing or failing was the one thing that
+determined my value as a programmer. Today I have done enough
+interview to feel that they are a lot less a measurement of
+my value and more like a talent competition. How well I do
+has one part to do with my own skill but a large part is
+down to who the judges are so even if one panel of judges
+don't like what I do it doesn't mean that another panel
+will judge the same way.
