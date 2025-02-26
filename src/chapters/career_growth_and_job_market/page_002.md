@@ -481,4 +481,41 @@ very senior developers it takes a matter of weeks to pick a
 new stack and that is good enough for most jobs.
 
 ## How Can Developers Build The Confidence to Make a Career Move?
+
+I have always found that confidence comes from the knowledge
+that you can handle a situation. If you think back to your
+early days I suspect that you can recall things that were
+scary at the time but today are not. I argue that the same
+is true for things that scare you today to a great extent.
+
+My greatest tip to building confidence is to know your industry
+and know what gives you market value. This knowledge is key
+in order to create a plan for how you are to stay relevant
+during your career and it is equally important when you want
+to switch career.
+
+In a way you can think of yourself as a craftsman who gets by
+on selling your skills to a customer. So logically if you have
+those skills and you feel confident in them, you have market value.
+However, if you want to switch to a new role the journey there is
+very similar to how it was when you started out but with one major
+difference.
+
+That major difference is that now you have some knowledge that may
+or may not be relevant to your new role and that is a benefit but
+it can also become an excuse. Big changes are to some of us
+so intimidating that we would rather stay with something we know
+over facing something new and uncertain. This struggle is made easy
+when we have no choice and have to take a leap of faith but if we
+have options the push our survival instincts give us is not
+necessarily going to push us to something new but may stop us
+from taking a risk.
+
+Remember that switching careers is not much different from getting
+your first job. Do your research and adopt the skills you lack.
+Practice and connect with job prospects. With some luck your
+previous experience will be to your benefit. Above all remember
+that the key is to be prepared for change so be on the lookout
+for how the industry moves and adapt accordingly.
+
 ## Is It True That You Need an Hour to Evaluate a Developer?
