@@ -519,3 +519,41 @@ that the key is to be prepared for change so be on the lookout
 for how the industry moves and adapt accordingly.
 
 ## Is It True That You Need an Hour to Evaluate a Developer?
+
+I would say I need less but that depends on the communication
+style of the developer. In general an hour is the amount of time
+I prefer to have with a candidate since the interview I conduct
+touches on many areas and I want to give the candidate as much
+time as needed so we can have the most relaxed conversation
+possible. However it does usually not take more than a few
+minutes to figure out if a candidate is under-qualified or not.
+It takes a lot longer if they are really good since then we
+can get in to details to figure out just how good they are.
+
+The best tips I can give is to prepare a list of questions
+that are designed to ask about specific tools and practices
+that all developer will at some point have used. The reason
+behind this is so you can listen to the experience level of
+the developer. If you ask very open questions such as "what
+was your greatest achievement in your previous role?", you
+can kiss your other questions goodbye. The candidate can
+easily spend the whole session talking about this topic
+but by the end of the interview you won't actually know what
+they know and what they don't know.
+
+A question that is designed with more care would be, "what
+type of css preprocessor have you used and how do they compare
+in your opinion?", or if we are talking to a backend developer,
+"what is an ORM and when do you use one?".
+These are questions that will force the conversation to be about
+concrete experiences the developer has had and then it is easy
+to hear if they are familiar of the practical tasks of the role
+they are applying for.
+
+The key weakness in this approach is that the interviewer needs
+to know what will be relevant to ask about for the given role.
+As a rule I suggest that your most socially gifted developers
+perform the interviews. This gives you the best chance to do
+an accurate evaluation of practical knowledge, which I argue
+is what matters most when hiring an engineer apart from having
+good social skills.
