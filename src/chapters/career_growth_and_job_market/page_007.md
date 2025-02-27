@@ -58,7 +58,54 @@ with a big feature or a big bug, slice it down to the smallest
 possible size and then start by solving the first part.
 When you can get something simple to work, take the next part.
 
-## How should developers handle disagreements with managers and navigate decision-making in tech teams?
+## How Should Developers Handle Disagreements With Managers?
+
+I have always favoured what I call the expert democracy.
+The core of my argument is that any difference of opinion
+needs to start with some shared values about what makes someone
+correct or incorrect on a subject. If both sides can agree that
+there are factors that can determine if someones argument is more
+valid than another, progress can be made. If neither side can
+agree on what determines if someone is correct no progress can
+be made.
+
+As software developers we have some common values that naturally
+come up in most decisions we make. Time is a big one, if something
+will help us save time we often agree that it has value. Quality
+is another one, we most of the time agree that quality matters
+to some point. These values are what we need to agree on matters
+in order for us to argue for or against something in a practical
+way.
+
+If your manager feels differently from you about a subject your
+best move most of the time is to argue from a value perspective.
+Present what your thoughts are and try to position your argument
+from the values you share with your manager. Time and quality are
+often simple areas to argue from since they are easy to comprehend
+for people regardless of their technical understanding.
+
+However, there is a key element that you need to understand and
+that is perhaps the most underestimated truth of engineering.
+Any successful marketing enthusiast or sales representative will
+likely vouch for that before you can discuss where to put your
+time and money you need the people in charge to be open to
+try what your are proposing. If they don't agree with you it does
+not matter how amazing your ideas are, they will never happen
+as long as the people your are talking to are blocking your effort.
+
+For us software developers the same obstacle will be in play. If
+your manager wants to do something other than you, persuasion is
+your most viable option. If you can't persuade them you will need
+to pick your fights and move on. It is sadly not uncommon for people
+with amazing ideas to be shut down by people who simply don't agree
+and are not persuaded by the arguments presented.
+This is why you should never underestimate the value of strong
+social skills, a good reputation and above all, knowing how to win
+peoples trust. These are tools just as valuable as the tools you
+use to write code because without them you may never get to write
+the code in the way you want or use the tools of your choice.
+
+## How Should Developers Navigate Decision Making In Tech Teams?
 ## What Would You Say to a CEO Who Belittles Your Work?
 ## How to Deal with Impostor Syndrome in Software Development?
 ## How to Pass the Trial Period at a New Job?
