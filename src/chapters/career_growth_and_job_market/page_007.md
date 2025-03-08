@@ -267,9 +267,34 @@ without becoming unpleasant when I am not being taken seriously
 is a way of behaving that is a sweet-spot between how I am in
 private and what my coworkers find to be someone they can accept.
 
-
 ## Is It Okay to Take a Break from Studying Software Development?
-## How can teams provide constructive feedback and support both junior and senior developers in their growth?
+
+Naturally, studying too much has a negative effect on knowledge
+retention and study without retention seems ineffective to me.
+
+There is a common myth in software development. The myth about
+the software developer who does nothing but code. What is worse
+is that some in the community seem to believe that this is what
+is considered a prerequisite for finding work.
+
+There are companies who have hiring policies that may seem like
+the lifestyle of those developer who spend their free time working
+on open source projects or are active in other areas of the community.
+However, it is important to take note of something if you ask me.
+When you watch tech talks, count how many people are in the audience
+and how many speakers there is on stage. It is easy to forget that
+most of the people who work as software developer are just regular
+people doing a job.
+
+I believe that we should give thanks to those in the community
+with the drive to go above and beyond what is required to do
+good work in our respective companies but it would be a great
+disservice to them and to the rest of us if we started treating
+their efforts as the norm.
+
+## How can you provide constructive feedback to developers?
+
+
 ## What Should You Know Before Starting Your Own IT Company?
 ## What’s the best way to address performance issues in developers without harming team morale?
 ## How to Deal with Engineers Seeking Promotions Too Soon?
