@@ -397,7 +397,39 @@ because no matter how you slice it the others who are part of your
 companies journey may leave if they don't get their way but they
 will also leave if you don't pay them.
 
-## What’s the best way to address performance issues in developers without harming team morale?
+## What’s the best way to address performance issues?
+
+This is a tricky one and all I can say is that it will always
+depend on the specific situation. The main thing I want to
+propose to you before we go further is to consider if the
+performance issue you see in someone is a real problem or
+if it simply feels like they could do better. I have often
+found myself and others around me question someones productivity
+and I just as many probably can relate to, have feel frustrated
+over what I have seen. However, I think it is worth asking how
+often you have felt the same frustration over the performance
+of people in other situations. I can imagine that there are
+many chefs around the world who goes to a restaurant and
+are appalled by the quality of the food. Yet I am willing
+to be that had I eaten the food I would probably feel pretty
+happy about a lot of the dishes served. The point I am making
+is that what we consider good performance and bad performance
+will always be subjective but the real question is if the person
+doing the work does it well enough to meet the expectations
+of the people who depend on it. You can always argue that there
+is someone who can do it better and often you will be right but
+for the most part we don't need, and likely can't find, the person
+who will be the very best at something so we settle for someone
+who is good enough.
+
+When I need to provide feedback on performance I usually start
+by figuring out what the core issue is. I argue that there are
+things that a company can in a reasonable time fix so the
+main issues are no longer a concern but there are also things
+that may take too long or require too much to be a viable option.
+
+TODO
+
 ## How to Deal with Engineers Seeking Promotions Too Soon?
 ## Why Do Development Teams Love Agile?
 ## If Ageism Exists in IT, Why Is Switching Careers Praised?
