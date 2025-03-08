@@ -106,6 +106,45 @@ use to write code because without them you may never get to write
 the code in the way you want or use the tools of your choice.
 
 ## How Should Developers Navigate Decision Making In Tech Teams?
+
+I would say this is the most underestimated skill of the job.
+Most choices have multiple ways paths forward. So how do you
+make the rights ones and perhaps just as importantly, how
+do you make others see your point of view.
+
+My best tip is to consider how a democracy works. If you
+all agree that there is a range of choices to be made then
+your next step is to evaluate what choices holds the most
+promise. If you are lucky you are left with one choice that
+you all agree one. If you are not so fortunate you will need
+to pick. This is where a simple vote usually is the best way.
+
+The trick to getting the democratic approach to work in tech
+is to reduce the cost of failure as much as is possible.
+Most people who feel strongly about something usually view
+things from the perspective of how things will look in a best
+or worst case. However it is rare that their idea of what will
+be or not be is as clean cut as they make it up to be.
+We software developers know that it is nearly impossible to
+predict exactly how long something takes or how well a solution
+will work given enough time. That is why we try to reduce the scope
+of what we deliver since we know that the less that is in scope
+the easier it is for us to estimate and measure.
+
+I argue that you should approach your own technical decisions
+the same way. Agree to disagree on a choice, vote on it and then
+allow whoever wins the vote to prove their idea with a small
+experiment. This gives the opposing side a chance to evaluate
+the choice without blocking any progress and it gives the side
+advocating the choice a chance to prove that their idea will work.
+
+This approach removes much of the fear of making a poor choice
+and it allows you to try out a choice and see if it works. If
+the benefits you expect are shown in the experiment you can feel
+confident in expanding the scope of the idea. However, if they
+are not there you can evaluate the options again and this time
+your viewpoints may be different from the first time.
+
 ## What Would You Say to a CEO Who Belittles Your Work?
 ## How to Deal with Impostor Syndrome in Software Development?
 ## How to Pass the Trial Period at a New Job?
