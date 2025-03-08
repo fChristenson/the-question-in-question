@@ -353,6 +353,50 @@ encourage a change but without authority you can't force someone
 to do things how you want without good reason.
 
 ## What Should You Know Before Starting Your Own IT Company?
+
+I have found that the main things are:
+
+- Do you have a paying customer
+- Do you know how to expectations
+
+It is important that you understand that making money from software
+has a few natural phases.
+The first phase is the proof of concept. This is where you need to
+understand who will use your software and how you will make money
+from it. Most companies struggle to become profitable and a project
+that won't make any money until it is already several years in to
+it's growth is going to make it though to survive while you are
+building it. Make sure you don't underestimate how important it
+is to not only be excited about making great software but also
+about finding people willing to pay for the work you do.
+
+The next thing to think about is that you need to be able to
+deliver on expectations. A flaw that a lot of engineers have
+is the idea of quality and how important it is. It is one of
+the rare occasions where I advocate for taking a page from
+the entrepreneurs of the world and stop being overly concerned
+with how well your code is made and rather be concerned with if
+your customers are happy with the results.
+Software developers often forget that their company will be able
+to improve the quality of it's code as long as they are willing
+to invest time and money in it but if you have no money you
+will not. Never forget that some of the most successful companies
+are not necessarily the companies behind the most state of the art
+software.
+
+The second phase is when you start to grow. This is when you need
+to be mindful that you grow at a pace that you can sustain.
+As you hire more people you need to keep a focus on where the
+money comes from and do what you can to ensure that the people
+you gather to help your business grow are increasing the cashflow.
+It is common that as your company grows you get various perspectives
+on how you should run things. However you want to run your company
+is up to you and your peers but remember to always keep an eye on
+what is paying the bills and how the choices you make impact that
+because no matter how you slice it the others who are part of your
+companies journey may leave if they don't get their way but they
+will also leave if you don't pay them.
+
 ## What’s the best way to address performance issues in developers without harming team morale?
 ## How to Deal with Engineers Seeking Promotions Too Soon?
 ## Why Do Development Teams Love Agile?
