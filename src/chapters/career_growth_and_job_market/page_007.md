@@ -428,7 +428,22 @@ things that a company can in a reasonable time fix so the
 main issues are no longer a concern but there are also things
 that may take too long or require too much to be a viable option.
 
-TODO
+If I find that the core issue is with a specific tool or process
+that seems hard to grasp, then I am pretty happy. This is usually
+something that can be fixed by helping the developer with some
+coaching sessions.
+However, if the issue is that they struggle to solve programming
+problems and I can see that this is a repeating patterns, it
+is something that is of concern.
+
+Usually in cases like these I try to hand-pick work that may
+be simpler to see if the situation improves. If it does we
+can try to work something out. However, if the issues remain
+I usually recommend that an action plan is made with some
+evaluation period to determine if the developer can raise
+their skill level to an acceptable level. In some cases this
+is enough but sadly I may need to replace the developer if
+the situation does not improve.
 
 ## How to Deal with Engineers Seeking Promotions Too Soon?
 ## Why Do Development Teams Love Agile?
