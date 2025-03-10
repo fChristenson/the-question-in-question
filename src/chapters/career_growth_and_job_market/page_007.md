@@ -446,6 +446,41 @@ is enough but sadly I may need to replace the developer if
 the situation does not improve.
 
 ## How to Deal with Engineers Seeking Promotions Too Soon?
+
+I have always favoured a merit based approach in matters that
+involve authority and compensation. In my view the only
+case where we can consider a promotion to come too early
+is if we lack the needed history to determine if the developer
+has the needed skills to handle the new role.
+
+If the developer in question has no proof of their ability to
+handle a new promotion I find that simply speaking to them
+about the role they seek and what that role will require is
+enough to make them ponder if they do in fact have the skills
+needed. Usually I suggest that the developer and the manager
+agree on a set of activities that can act as evaluation examples
+of the developer so they have a honest chance to prove that they
+are able to handle the role.
+
+Companies tend to treat the matter of promotion a bit different
+than I would like and it is not uncommon that there is in fact
+no plan for how to deal with the subject. This is why I suggest
+that any company that intends to provide career development to
+their developer have some idea of how to evaluate the developers
+who want to progress. More often than not I have found that
+moving away from old models where the company only promotes
+people based on their time spent in the company or by how
+important their role has been is a good first step. The model
+I have found to work best is to treat the promotion just as
+hiring a new candidate. Figure out what roles you have need of
+and don't promote people unless you truly need the role. When
+you have the need, figure out how you would evaluate a new hire
+for the position and allow the developers seeking the promotion
+to be evaluated in the same manner. This has the benefit of being
+a less biased way of staffing and it raises up the people who
+can show that they have the right skills needed to do well in
+a given role.
+
 ## Why Do Development Teams Love Agile?
 ## If Ageism Exists in IT, Why Is Switching Careers Praised?
 ## What to Do When You Can’t Make Progress on a Project?
