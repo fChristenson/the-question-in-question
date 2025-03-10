@@ -470,9 +470,10 @@ their developer have some idea of how to evaluate the developers
 who want to progress. More often than not I have found that
 moving away from old models where the company only promotes
 people based on their time spent in the company or by how
-important their role has been is a good first step. The model
-I have found to work best is to treat the promotion just as
-hiring a new candidate. Figure out what roles you have need of
+important their role has been is a good first step.
+
+The model I have found to work best is to treat the promotion just
+as hiring a new candidate. Figure out what roles you have need of
 and don't promote people unless you truly need the role. When
 you have the need, figure out how you would evaluate a new hire
 for the position and allow the developers seeking the promotion
