@@ -551,6 +551,64 @@ the people you greet in the interview, most rational people will
 seriously consider you for the position.
 
 ## What to Do When You Can’t Make Progress on a Project?
+
+I suppose that depends on what the nature of the blockage is.
+After all, if you find it hard to solve a bug your approach
+will be different than if you have a problem figuring out
+how to write the code you need. There are naturally more ways
+than these to get blocked but for the sake of argument I will
+try to focus on these two.
+
+When I am stuck on a bug I find the simplest way to figure out
+how to solve it is by trying to isolate the area where the issue
+is. This often just means that I try to replicate the bug on
+my workstation. Once I can replicate the issue I start by checking
+what the state of the system is just before the problem occurs.
+You can almost think about it as how you would handle a function.
+There is some input of data and I just want to know what it is
+before I look at the details of the logic.
+
+Once I know what the state is I want to find where the unexpected
+result happens. This usually means that I allow the program to run
+until the error has happened. Now I have a area to investigate.
+
+Once I have an area I start going either forward or backwards in
+the logic until I can narrow down where the problem is.
+The process is very similar to how you use a debugger to slowly
+go through each step of the program but you don't need one to
+do it. It does speed things up I find though but I am known to
+be too lazy at times and just use simple log statements.
+
+The general idea is applicable when I get stuck on a feature I need
+to develop. I try to remove the things I am unsure about how to do
+and focus on what I know the code has to do. So I start small.
+This approach fits pretty well with Test driven development and
+I use this approach at times to slow down the development process
+for myself. It helps a bit to write tests in cases such as these
+since the test almost become like a checklist of functionality.
+
+Once I know what parts of the feature I can handle I start trying
+to make a first version of the implementation. Once I am happy
+that the part I know how to do works I start with the next
+requirement on the list. I keep going until I hit something
+I am unsure about. With a bit of luck and a fair bit of Googling
+skills, I often find that when I have segmented out implementation
+details from the feature so I can just focus on simple base cases,
+I often find it easier to solve my problem.
+
+True to the "Divide and conquer" methodology, I suggest
+you try to simplify your problems and solve many small
+problems in iteration rather than try to tackle them
+all at the same time. When you get really good at it
+this becomes almost like a superpower. You learn that
+you can build almost an entire feature without having
+all the details upfront because you have learned how
+to use mocks, interfaces and other methods for isolating
+parts you don't know from parts you do know how to do.
+Your stakeholders will love the fact that you can work
+and get almost done when specific details may be delayed
+due to scheduling issues.  
+
 ## How should developers handle disagreements with managers and navigate decision-making in tech teams?
 ## What Would You Say to a CEO Who Belittles Your Work?
 ## How to Deal with Impostor Syndrome in Software Development?
