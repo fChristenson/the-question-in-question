@@ -661,7 +661,7 @@ usually gets the most traction on their viewpoint.
 Finally we vote and regardless of if we agree or not we always
 try to structure our decision so we can start small and scale up
 if it is a new concept we introduce. If it is a different way
-of working we hate our peers internally for forcing us to write
+of working, we hate our peers internally for forcing us to write
 code in some bs way while lamenting their stupidity. Often
 while trying to take a calming bath.
 
