@@ -638,6 +638,33 @@ above all else humble get their way even though they are wrong
 about everything.
 
 # How to navigate decision-making in tech teams?
+
+I refer to my approach as an "Expert democracy".
+I know that I almost always right about all my great ideas
+but sadly, in their delusions of grandeur, my "peers" think
+the same. While I internally curse their arrogance to question
+me, I sadly have to admit that it won't look good for me if
+I try to lay down the law.
+
+Luckily enough, most developers are rational people so I suggest
+that we have a good old fashion argument. This is why soft skills
+become increasingly important for your career. You quickly learn
+that if you want the right stack or the right work situation you
+need to get people to listen to you before you get to use your
+coding skills for anything meaningful.
+
+Once we have argued our point we weigh the experience level and
+relevance of knowledge in the group. This means that the voice
+of whoever makes the best argument and has the most experience
+usually gets the most traction on their viewpoint.
+
+Finally we vote and regardless of if we agree or not we always
+try to structure our decision so we can start small and scale up
+if it is a new concept we introduce. If it is a different way
+of working we hate our peers internally for forcing us to write
+code in some bs way while lamenting their stupidity. Often
+while trying to take a calming bath.
+
 ## What Would You Say to a CEO Who Belittles Your Work?
 ## How to Deal with Impostor Syndrome in Software Development?
 ## What Should You Know Before Starting Your Own IT Company?
