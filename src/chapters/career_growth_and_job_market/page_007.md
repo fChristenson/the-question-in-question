@@ -640,7 +640,7 @@ about everything.
 # How to navigate decision-making in tech teams?
 
 I refer to my approach as an "Expert democracy".
-I know that I almost always right about all my great ideas
+I know that I am almost always right about all my great ideas
 but sadly, in their delusions of grandeur, my "peers" think
 the same. While I internally curse their arrogance to question
 me, I sadly have to admit that it won't look good for me if
