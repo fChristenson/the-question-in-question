@@ -24,40 +24,6 @@ make an assessment.
 Depending on the results you will either advance to a given
 level of the ladder or get goals to achieve to advance.
 
-## What to Do When You Can’t Make Progress on a Project?
-
-I usually ask for help from my coworkers, if I am fortunate
-enough to have any to ask. I have never been a big believer
-in that asking for help is a sign of weakness. The main thing
-is to respect others time by showing that you put real effort
-in to solving your own problems and then showing genuine
-gratitude when you receive help.
-
-Usually a bit of rubber ducking with a coworker is enough
-to give me a lead on how to solve my problem but if even
-both of us are at a loss for how to solve the issue I
-search for answers on the web. With a bit of luck I can
-find someone who has posted a question on a forum that
-is similar to my own. It doesn't have to be exactly my
-problem, just something that gives me a hint of what
-could be the solution to my problem.
-
-Lastly, I always try to divide and conquer my problems.
-Usually I find that if I can reduce the size of my problem
-I can narrow in on the general area where I am facing issues.
-A concrete example would be if I have a bug and I can't figure
-out what part of the code is causing it. My first step is to
-find at what point in the program the bug has happened.
-Once I know that I start stepping backwards in the program
-until I find the point where the bug is not there.
-I continue this approach, sort of like a binary search,
-until I find where the bug has started. This helps me
-isolate the problem and often this is enough to help me.
-The same approach works for most things. If you have to deal
-with a big feature or a big bug, slice it down to the smallest
-possible size and then start by solving the first part.
-When you can get something simple to work, take the next part.
-
 ## How Should Developers Handle Disagreements With Managers?
 
 I have always favoured what I call the expert democracy.
@@ -611,7 +577,9 @@ due to scheduling issues. Once you get the details you can
 just plug them in to the working code and this has been a
 massive help to me many times.  
 
-## How should developers handle disagreements with managers and navigate decision-making in tech teams?
+## How should developers handle disagreements with managers?
+
+# How to navigate decision-making in tech teams?
 ## What Would You Say to a CEO Who Belittles Your Work?
 ## How to Deal with Impostor Syndrome in Software Development?
 ## What Should You Know Before Starting Your Own IT Company?
