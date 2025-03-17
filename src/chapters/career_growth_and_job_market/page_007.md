@@ -579,6 +579,64 @@ massive help to me many times.
 
 ## How should developers handle disagreements with managers?
 
+Usually I approach all my disagreements the same way regardless
+of who I am disagreeing with. First I make sure that I am
+emotionally detached from the topic or at least enough so I
+can keep calm during the discussion. This is a key thing since
+if you get too emotionally involved it gets harder to argue your
+points well and it can become dangerous if you create friction
+with people who have authority over you.
+
+My personal favorite is to picture myself as a rock on a beach.
+Just laying there year in and year out. There may be rain or
+there may be sun, doesn't matter to me, I am just a rock.
+Living my best life as all rocks should.
+
+Next, I suggest you learn how to communicate using "I feel"
+statements. This helps you formulate your thoughts in a manner
+that comes off as calm and collected. At all points try to
+converse in a non-hostile manner. Saying something like
+"I feel that this approach may be less effective than if we
+tried mine.", will usually go over better than, "No this
+idea is shit. I have a better one."
+By starting the argument with "I feel" you force yourself
+to argue from your point of view and you remove an unintended
+assumptions you may otherwise have. The assumptions I am referring
+to is when you assume that what you believe is the correct
+viewpoint. This is a way for you to make sure that the other
+person understands that you are not assuming how they feel,
+you are just stating how you feel about the subject.
+
+Now that I know that I can calmly express how I view the subject,
+it is time to present my arguments for my idea. I do this by adopting
+my company persona "Donkey". Smile, polite tone and speak as if I am
+helping a restaurant customer pick their dinner.
+
+Once I have presented my view I almost always end with these words.
+"This is of course just how I look at it and perhaps you feel differently."
+This messages my peer in the argument that it is time for them to
+step in and continue the conversation. What I want is a nice flow
+to the conversation. A good flow builds comfort and reduces the chance
+of unnecessary escalations. The last thing I want is to get in to a
+shouting match over who is the most right with someone. What I think
+in private, that is my business but at work I want to be "Donkey".
+
+This process goes back and forth until both sides have presented their
+views to the satisfaction or boredom of the group, now comes the time
+to move forward. Usually you will find some common ground and the best
+case is if you get the benefit of doubt from your peers so they are
+fine with trying your approach. I usually say that if it is too hard
+to sell a big idea, sell a small one to try out so we can see if we
+like it. This is easier to argue for and gets the same results.
+
+My last tip, pick your battles. There is no point in winning an
+argument if you end up losing your job over it. Stand up for
+yourself and be who you are but don't let pride get in the way.
+You may be right about everything you say but sadly you live in
+a world where people a lot less intelligent, good looking and
+above all else humble get their way even though they are wrong
+about everything.
+
 # How to navigate decision-making in tech teams?
 ## What Would You Say to a CEO Who Belittles Your Work?
 ## How to Deal with Impostor Syndrome in Software Development?
