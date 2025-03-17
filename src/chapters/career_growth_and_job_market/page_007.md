@@ -483,7 +483,73 @@ can show that they have the right skills needed to do well in
 a given role.
 
 ## Why Do Development Teams Love Agile?
+
+I would not go as far as to say all of us love it.
+To my mind it is a topic of debate and will probably never be
+a settled matter. Agile, just as any other process has it's time
+in the spotlight and I am sure that whatever comes after will be
+just as debated as Agile is today.
+
+The key elements that makes any project successful has, in my
+view, very little to do with a work framework and more to do
+with an equal part of good team rituals and good teamwork.
+These concepts are not unique to Agile and most development
+teams usually find a way to do work regardless of what work
+framework they use. Since the topic of Agile vs other approaches
+is still under debate, I feel it is safe to say that Agile so
+far has not been proven to provide any definitive benefit that
+you can't get by other means.
+
+I see more teams go through the motions of Agile than I see
+truly effective processes and in my view, that is due to the
+inherit problem with a mental framework someone else made up
+for you. Copy pasting a solution someone else has shown you
+is in my view less effective than taking the time to understand
+how you can make sure that the practical matters you need in place
+during your work are there when they need to be. I suggest that
+what development teams love is not Agile but rather rituals and
+team norms that make sense to them. So far no one I have worked
+with feels that all things Agile is a good idea and so I simply
+suggest that you pick what works and leave the rest.
+
 ## If Ageism Exists in IT, Why Is Switching Careers Praised?
+
+I can't really speak for others but I suspect the positive feedback
+people get is similar to how people struggling with being overweight.
+When people who mean well, see someone taking a risk to improve their
+life, the natural response for many is to praise them. After all they
+are taking charge of their life and going out fixing something.
+The praise is intended to make you feel good, not think rationally.
+There is no harm done here since we should in my view separate the
+two. You can praise someone for doing something to improve and you
+can tell them if what they are trying is realistic without one
+harming the other. It is a fine balance naturally, since some people
+would prefer to feel good rather than be realistic. Though it is
+worth knowing that pessimistic views can often be disguised as
+realistic thinking.
+
+Ageism is not something exclusive to IT. It is also not much
+different from other prejudices various groups face in the market.
+I find that the real determining factor for if a candidates age has
+any meaningful impact is not the number of years they have lived but
+rather what type of person they have become during those years.
+I have seen people of a distinguished age get work in everything
+that the fresh graduates get. I can't recall any interview I have been
+to where the topic of the candidates age came in to question.
+
+As you can imagine, my experiences are by no means an absolute truth
+when we discuss the subject of ageism. I am certain that there are
+people who wrinkle their noses in disgust at CV's where the candidate
+has one too many wrinkles on their face. I like to imagine that as
+they do they carefully check that there is no bald spot emerging nor
+any crowfeet peaking out from under their makeup.
+
+If you are subjected to these sorts of people my best advice is to
+do what we all do. Try again with another company. If you have the
+skills and you have a lovable personality with a spare smile for
+the people you greet in the interview, most rational people will
+seriously consider you for the position.
+
 ## What to Do When You Can’t Make Progress on a Project?
 ## How should developers handle disagreements with managers and navigate decision-making in tech teams?
 ## What Would You Say to a CEO Who Belittles Your Work?
