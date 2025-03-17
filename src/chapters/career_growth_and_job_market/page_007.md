@@ -607,7 +607,9 @@ to use mocks, interfaces and other methods for isolating
 parts you don't know from parts you do know how to do.
 Your stakeholders will love the fact that you can work
 and get almost done when specific details may be delayed
-due to scheduling issues.  
+due to scheduling issues. Once you get the details you can
+just plug them in to the working code and this has been a
+massive help to me many times.  
 
 ## How should developers handle disagreements with managers and navigate decision-making in tech teams?
 ## What Would You Say to a CEO Who Belittles Your Work?
