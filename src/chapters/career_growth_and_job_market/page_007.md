@@ -478,8 +478,6 @@ team norms that make sense to them. So far no one I have worked
 with feels that all things Agile is a good idea and so I simply
 suggest that you pick what works and leave the rest.
 
-## If Ageism Exists in IT, Why Is Switching Careers Praised?
-
 I can't really speak for others but I suspect the positive feedback
 people get is similar to how people struggling with being overweight.
 When people who mean well, see someone taking a risk to improve their
@@ -773,8 +771,6 @@ and take it from there.
 ## How to Deal with Engineers Seeking Promotions Too Soon?
 
 ## Why Do Development Teams Love Agile?
-
-## If Ageism Exists in IT, Why Is Switching Careers Praised?
 
 ## What are the most common mistakes developers make early in their careers, and how can they accelerate skill improvement?
 
