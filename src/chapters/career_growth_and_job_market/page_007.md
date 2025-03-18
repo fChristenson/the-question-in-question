@@ -667,6 +667,58 @@ while trying to take a calming bath.
 
 ## How to Deal with Impostor Syndrome in Software Development?
 
+In my experience people are on a spectrum of how much impostor
+syndrome affects them. Some of us seem nearly immune to it
+and some are crippled by it. I know senior developers who have
+a long history of major achievements in the field and they still
+feel insecure about their abilities. What I am trying to say is
+that all I can give you my tip on how I managed to overcome
+impostor syndrome but you should look at it as a fear to be
+overcome rather than something that you expect to go away
+forever. It's a bit like overcoming fear of heights. You may
+be fine going up a high building but if we put you on a tightrope
+hovering a fall that would mean instant death on impact you
+will probably see your life flash.
+
+The key to overcoming impostor syndrome for me was when I finally
+understood that I could meet the expectations of the industry.
+I reflected on my journey thus far and came to realize that
+although I was by no means the best developer who has ever lived,
+I did know enough to make my deadlines. I did know how to fix
+the bugs the system had. I did know that I could estimate roughly
+how much time it would take me to build something that needed to
+be built. In short, I had reached a point where the work of a
+developer no longer held anything uncertain or scary for me.
+
+I urge you to think in similar terms. If you feel confident in
+that you can meet the expectations of your stakeholders at least
+admit to yourself that you are good enough to do that much.
+Sure you can be better and with practice you will be but at least
+admit that you have the needed value to do the job. When I acknowledged
+to myself that in fact, I did know how to do the job well enough, nearly
+all anxiety faded. I would not go as far as saying that I had none
+left, there is always some anxiety to spare for those days when
+I least need it but at least on average I felt pretty good.
+
+I suggest that the way to overcome the impostor syndrome is
+to work at your craft until you feel that you can deliver
+working software in accordance with expectations. Once you
+know that you can, what remains is your own insecurity over
+not being even better. At that point I suggest you acknowledge
+that you may always to some extent feel that you could be better
+and I hope you use that anxiety to keep learning. However, allow
+yourself to at least feel good about that you have gone from someone
+who can't write a single line of code to someone who can do it at a
+professional level. That is a major achievement and you are allowed
+to feel good about it.
+
+I believe fear is best handled by exposure. If you build confidence
+in whatever you are scared of you will see that fear hold less control
+over you. So do just that, practice. Learn the trade, get a job,
+do it and when you have done it for a while, acknowledge that you
+may still feel anxious about some things but you have at least made
+progress.
+
 ## What Should You Know Before Starting Your Own IT Company?
 
 ## What’s the best way to address performance issues in developers without harming team morale?
