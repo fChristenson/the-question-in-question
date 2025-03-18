@@ -778,8 +778,6 @@ and take it from there.
 
 ## Do You Try to Fully Understand Pull Requests During Reviews?
 
-## Do You Try to Fully Understand Pull Requests During Reviews?
-
 ## What are the most common mistakes developers make early in their careers, and how can they accelerate skill improvement?
 
 ## What Traits Do the Best Software Developers Have?
