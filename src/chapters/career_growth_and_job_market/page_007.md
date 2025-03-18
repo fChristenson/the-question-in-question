@@ -725,7 +725,50 @@ I view performance issues as two categories. Low investment and
 high investment. I make a habit of looking at the practical skills
 each developer has in my team so I can estimate how likely the
 person in question will be to raise their ability in whatever
-they are lagging behind in. 
+they are lagging behind in. By putting the practical skills
+in to these categories I can get a feeling for if the best
+approach is to provide training or if I need to escalate
+the issue. Whichever approach I go with I make sure to
+leave my own frustration at the door. It is important to
+remember that no matter how you feel about the performance
+of the developer, getting upset about it won't benefit you.
+
+If I find that the core issue is that they lack the needed
+experience with a certain concept or process, I am pretty
+happy. This is what I would call a low investment since
+learning new tools is bread and butter for any software
+developer who want's to be relevant. So long as the developer
+has the right attitude and is willing to learn we can work
+with this.
+
+However, if the core issue is that they struggle to ship code
+and I can see that there is no clear pattern to what they find
+tricky but rather it seems that whatever they are tasked with
+is a struggle, then we in for a tougher choice. I usually
+try to allocate simpler and simpler tasks to the developer
+before I escalate. This gives us a chance to see if they
+perhaps are just matched poorly with the work and would do
+better with different type of work.
+
+When the practical skills needed to fix fall in the high
+investment category, I need to escalate to resolve the issue.
+The reason for this is that when a developer has performance
+issues across the board there is no telling if they will ever
+reach a higher level of productivity or how long it will take
+them to improve enough to meet at least basic expectations.
+This means that the manager will need to make a judgement call
+about the situation. If the team is fine with having someone
+who is not meeting their expectation we can simply continue as
+is but if we need to raise their productivity we need to align
+on by how much and when it simply is better to look at other
+candidates to fill the role.
+
+The most common strategy at this point is to provide the candidate
+with the feedback and create a work plan for them with some form
+of evaluation deadline. This is not something you can do without
+having an effect on morale usually. I suggest you limit the feedback
+to the candidate so not to shame them. Simply talk to them in private
+and take it from there.
 
 ## How to Deal with Engineers Seeking Promotions Too Soon?
 
