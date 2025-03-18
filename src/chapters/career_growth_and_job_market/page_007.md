@@ -719,9 +719,13 @@ do it and when you have done it for a while, acknowledge that you
 may still feel anxious about some things but you have at least made
 progress.
 
-## What Should You Know Before Starting Your Own IT Company?
+## What’s the best way to address performance issues in developers?
 
-## What’s the best way to address performance issues in developers without harming team morale?
+I view performance issues as two categories. Low investment and
+high investment. I make a habit of looking at the practical skills
+each developer has in my team so I can estimate how likely the
+person in question will be to raise their ability in whatever
+they are lagging behind in. 
 
 ## How to Deal with Engineers Seeking Promotions Too Soon?
 
