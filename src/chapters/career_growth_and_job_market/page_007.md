@@ -770,7 +770,26 @@ and take it from there.
 
 ## How to Deal with Engineers Seeking Promotions Too Soon?
 
-## Why Do Development Teams Love Agile?
+I would say that you should ask, why do you feel it is too soon?
+
+I argue that promotion should be based on the needs of the company
+and if the developer has the needed profile to fill the role.
+This is how hiring works but for some reason many seem to view
+promotion different from hiring. There is this idea that you should
+have proof that you have done the job you are asking to get promoted
+to, which is utter nonsense if you ask me. If you hire someone to do
+a job then you can expect them to do that job but if you expect them
+to prove to you that they can do another job before you promote them,
+you will need to be lucky enough to have a job that allows that to
+happen. If you are never provided the opportunity to do work that is
+relevant for the role you want, then you will never be able to progress.
+
+When evaluating someone for a promotion, simply ask if there is enough
+to go on in order to feel confident in that this person can handle
+the work. If there is not, provide the developer with a set of activities
+that will give them a chance to prove their abilities. This is a reasonable
+thing to ask, I would argue and it will show if the request for promotion
+is too early or not.
 
 ## What are the most common mistakes developers make early in their careers, and how can they accelerate skill improvement?
 
