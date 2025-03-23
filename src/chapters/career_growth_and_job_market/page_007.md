@@ -927,8 +927,6 @@ doing the right thing or not. This is more important than if the
 perfect variable name was used or if someone used the right style of
 syntax.
 
-## What are the most common mistakes developers make early in their careers, and how can they accelerate skill improvement?
-
 ## What Traits Do the Best Software Developers Have?
 
 ## Are You a Senior Developer When Problems No Longer Scare You?
