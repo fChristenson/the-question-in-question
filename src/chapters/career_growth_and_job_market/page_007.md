@@ -791,11 +791,141 @@ that will give them a chance to prove their abilities. This is a reasonable
 thing to ask, I would argue and it will show if the request for promotion
 is too early or not.
 
-## What are the most common mistakes developers make early in their careers, and how can they accelerate skill improvement?
+## What are the most common mistakes developers make early on?
 
-## How can teams provide constructive feedback and support both junior and senior developers in their growth?
+- Taking a job that does not grow them
+- Thinking that tech gurus are always right
+- Ignoring their CV
+- Not experimenting
+
+First, it is important that we acknowledge how easy it is to say
+that someone should choose work that helps them grown. However,
+not all of us are blessed with the same choices as those who
+are fortunate enough to find work that benefits them in this manner.
+Although it may not be an option try your best to make finding
+work that helps you grown your skills a priority. Investing
+in yourself is almost always a good idea and it pays off
+when you want to take a step up in your career or maybe even
+try out different companies. Skills are what matter most so
+make sure you work with projects that help you grow them.
+
+One major mistake a lot of developer make, this one included,
+is to forget that just because something is popular does not
+mean that it is a good idea for your situation.
+It is a bit like buying a fancy coffee machine that everyone
+who is a true coffee lover swears by. If you love coffee so
+much that this machine will fit your needs then go for it
+but if you are fine with any arbitrary instant coffee it
+may be the wrong choice. Gurus and tech trends work the same
+way. As a developer you should keep an eye out for what is going
+on in the community but always remember to ask if you really need
+to follow a piece of advice before you end up making choices
+that would be perfect for someone else but for you just end up
+being a lot of waste. Less is more, as a good rule of thumb.
+
+Once you have mastered the coding you should not forget to
+keep your CV up to date. It doesn't hurt to have a professional
+network as well. As many who have talent or are selling something
+great will tell you, having something others will benefit from is
+just half of the problem, the rest is making them realize it.
+Having a good career is not just about having skills it is also
+about showcasing those skills to the right people. Those people
+who see your value may help you get the next role or invite other
+opportunities that will benefit you. Make sure that there is proof
+of the great work you have done and that others can see it.
+
+Lastly, remember to try out different styles of coding and different
+types of tool. Just for fun. You will learn much from tinkering
+with trend tools or getting inspiration from trying out a different
+programming language. You don't have to do big projects but your
+understanding of the craft will grow by a lot if you expose your
+mind to how different people have tried solving issues that you
+yourself may have in your work. I have found that by tinkering
+with small projects from time to time has helped me a great deal
+in getting better at coming up with solutions to various problems
+in my work.
+
+## How can teams provide constructive feedback?
+
+As a rule I try to pose things like a suggestion. I put on my
+"Donkey" persona and much like a waiter discussing menu choices
+with a customer, I propose what I believe would be a good option.
+It is very important that we have feedback conversations from a
+constructive point. All too often I find that people have a lot
+of complaints but seem to lack any suggestion on how to fix the
+issue at hand. This is in my experience rarely a good way to
+get anything done. Usually it ends with someone getting fired
+or nothing happening at all.
+
+There is a exercise I use to know when it is time for me to take
+action on something that isn't working so well with how my coworker
+does their job. I start by asking myself if there is anything
+specific that will have a negative impact on project quality or
+the teams ability to meet goals on time. If there is not, then
+I have to ask why I feel bothered by what is going on. In these
+cases I usually find that having a honest conversation with someone
+I trust is a good starting point and I may raise my feelings on the
+subject with either the person in question, given we have a good
+relationship, or confide in my manager.
+
+If I find that there are specific things that does have an impact
+on the project I favour speaking to the team as a unit rather than
+directing the feedback to a specific person. By simply suggesting
+what I believe to be a good practice to follow and making the
+conversation about the team jointly deciding to follow it, I can
+make sure that the feedback reaches the right person and it has
+the added benefit of being something the team as a whole enforces
+rather than just me. As a rule, I find that people find getting
+feedback easier to digest in a group than as an individual and I
+account for that when I give it.
+
+If the issue is related to performance or something similarly
+intangible where the option of asking the team to commit to a joint
+way of working isn't an option, things get messier. In cases like these
+I do as I always do, try to be concrete about the feedback and then
+I speak to the manager. I provide my honest opinion and my suggestions
+in the best way I can and then I ask the manager to understand that
+this feedback is of course just from my point of view. I also make
+sure that we check if my viewpoint is shared with others in the team
+so we can make the fairest assessment possible. It is after all
+important that as the provider of the feedback, I give myself a
+reality check so I don't trick myself into believing that what
+I believe to be true is what everyone believes.
 
 ## Do You Try to Fully Understand Pull Requests During Reviews?
+
+Yes, I would be worried if anyone did something besides that.
+However, I have to admit that I love comfort and have been known
+to be too lazy to properly read whatever I am looking at, even
+when I really should. I never bought in to the practice of
+keeping pull requests small for the sake of the reader, I always
+favoured having them be a unit of meaning so I can understand how
+this code fits in the goal we want to achieve. But, that doesn't
+help much when I have low blood sugar and just want to do anything
+other than read several files of unit test cases so although I do
+think the reviewer should know what the feature specification is
+before reading, I would be a liar if I said that I have never skipped
+that part and just glanced before hitting the approve button.
+
+The practice I favour is to include a link to the feature specification
+in the description of the pull request. By doing so I know that
+the reviewer can easily check what the pull request is for and
+it also gives me an easy way to check on any scope updates or just
+an easy way to double check that I did in fact make the code do
+whatever the specification is about.
+
+More often then not do I see that code reviews are just a glance
+by the reviewer and then a quick click on the approve button.
+This is probably the biggest tell of a quality developer and I
+keep an eye out for review comments that are meaningful and shows
+that the developer understand the difference between what the code
+is currently doing and what the feature wants the code to do.
+The best developers understand that if all you have checked is
+what the pull request has changed and you don't know what the feature
+is supposed to be about, then you have no idea if the code is actually
+doing the right thing or not. This is more important than if the
+perfect variable name was used or if someone used the right style of
+syntax.
 
 ## What are the most common mistakes developers make early in their careers, and how can they accelerate skill improvement?
 
