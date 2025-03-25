@@ -929,9 +929,66 @@ syntax.
 
 ## What Traits Do the Best Software Developers Have?
 
+Most of them have almost a sixth sense for figuring out
+good solutions to technical problems. Apart from this gift,
+I find that they show genuine interest in their craft and
+constantly try out different methods of working. Though
+it is worth mentioning that very few of them show the same
+level of enthusiasm for everything related to development.
+As is common with many fields, some parts seem interesting
+and some less so, depending on the person.
+
+The most telling sign for me to tell when I am speaking to
+a great software developer is the way they express their
+thoughts. Usually I can hear to what depth they have pondered
+a topic, what they have considered and what they are unsure about.
+When they speak I can see fire in their eyes and when they work
+I they put actual love in to their work, not because someone is
+making them but because they want to.
+
 ## Are You a Senior Developer When Problems No Longer Scare You?
 
+No, I would argue not. How intimidated you are by something is
+certainly a sign, to some extent, of your confidence level but
+that is not what makes you senior. At least not in my view.
+
+The main factor that determines seniority I would argue, is how
+much experience you have with a given subject. Experience is what
+you gain from practicing, facing issues and overcoming them and
+the insights this process gives you. You can be shaking like a
+leaf the whole way through but if you are able to draw upon the
+experience you have to produce decent results, then the issue
+is not your experience but confidence.
+
+I know it seems strange to some but let us remember that even
+professional models feel unattractive at times, even though
+most reasonable people would say otherwise.
+
 ## What Was Your Best Job Experience as a Software Developer?
+
+That would be when I met Allen and Mark. At the time I was a
+junior developer on his second job, I knew nothing and had a
+crazy amount of impostor syndrome. That naturally became a
+almost bipolar state where I switched between being confident
+in that me with my newfound understanding of MicroServices knew
+something that they did not and being so crippled with fear of
+failure that I had trouble asking for help.
+
+Luckily for me, these where mature, sensible people. Well Mark
+was less so than Allen but he got the job done. After a few
+months of working together I found that my favorite part of
+the workday was to discuss ideas with my coworkers. I still
+felt a bit out of my comfort zone because my understanding
+of the craft was still not as mature as I would have liked
+but we had a lot of fun talks.
+
+I still remember how much of a difference it made to me, just
+having someone I could talk to about my own thoughts. To
+this day it is the greatest tip I can give to any experienced
+developer. Sometimes the most important thing you can do for
+someone is to help them sort out their own thoughts by listening
+without judging and sharing your experiences while still keeping
+the focus on helping their thoughts along.
 
 ## How to Pick a Tech Project to Advance Your Career?
 
