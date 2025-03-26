@@ -992,6 +992,25 @@ the focus on helping their thoughts along.
 
 ## How to Pick a Tech Project to Advance Your Career?
 
+I suggest that you ponder what skills you need to meet your
+career goals. In the very beginning I usually give the advice
+to do projects that teaches you the basics of what it means to
+ship an application. Once you know what it means to start with
+nothing and getting a working application to the end user, you
+know the basics. Next is understanding that there are many types
+of applications and ways to ship software. This is when you can
+start looking at options, look at what others are using, try things
+out to see how it compares to what you already know. There is no such
+thing as a perfect stack so just pick what seems to meet your needs.
+
+Once you know how to ship code I suggest you look at what type of
+career you want. If you are interested in technology and you want
+to primarily work with development, then you can keep this same
+strategy. If you want to take on leadership roles and similar, you
+should consider looking at taking on greater responsibility than
+the coding.
+
+TODO
 ## What Does It Feel Like to Succeed in a Technical Interview?
 
 ## How Do You Choose a Tech Project?
