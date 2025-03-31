@@ -1059,7 +1059,41 @@ the outcomes affect you less. At least for me.
 
 ## How Do You Choose a Tech Project?
 
-## Why do tech job titles often seem unclear, and how do career ladders in IT companies work?
+I pick them mostly based on if I think I will learn something.
+Most of my personal projects are about exploring the way I think
+and trying to see if I can create something that makes sense.
+
+I have tried to make a range of things to see if the project will
+teach me something or let me try out an idea I am a bit unsure about.
+These are the projects I find the most thrilling.
+
+For work purposes I usually have the same mindset. To me the main focus
+has always been to be the best I can be at whatever I find interesting.
+I can't recall ever caring about anything else. What I find interesting
+has changed over time but the goal is always the same. Find something
+that will develop my skills, do it until I feel confident and then
+move on.
+
+## Why do tech job titles often seem unclear?
+
+I argue that it is a bit due to how vague a roles responsibility
+can be. The role Site reliability engineer for example. Where do
+you draw a box around that role? It could literally mean anything
+depending on who you ask. The same could be said about many roles
+that are common for our industry. DevOps engineer is another. Where
+do we draw the line between a DevOps engineer and a System admin?
+
+Today we are still debating the details of many role definitions
+that are standard for many companies. Now let us imagine what happens
+if the role we are trying to define is less generic and more tied to
+specific business workflows. As we can imagine, we quickly get roles
+such as Release engineer or Automation engineer and the list can
+go on for a while. I am pretty sure that we can extend this until
+we start naming roles that are so obscure that the person who has
+it needs a slide presentation to explain what they do for a living
+and why it matters.
+
+## How do career ladders in IT companies work?
 
 ## Why do large companies hire so many developers, and is developer compensation proportional to productivity?
 
