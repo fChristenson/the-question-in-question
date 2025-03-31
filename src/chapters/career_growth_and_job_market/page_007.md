@@ -1003,15 +1003,59 @@ start looking at options, look at what others are using, try things
 out to see how it compares to what you already know. There is no such
 thing as a perfect stack so just pick what seems to meet your needs.
 
-Once you know how to ship code I suggest you look at what type of
-career you want. If you are interested in technology and you want
-to primarily work with development, then you can keep this same
-strategy. If you want to take on leadership roles and similar, you
-should consider looking at taking on greater responsibility than
-the coding.
+Once you feel ready to work as a professional you will need to learn
+a suite of other tools that are needed to ship software. This is
+where it gets a bit tricky. Companies use a range of tools and even
+if you have done your homework and studies up on what companies
+use in your region, you will find that not all of it is there.
+Fret not, most of the time companies are looking for someone who
+is close enough for the role they are hiring for.
 
-TODO
+From this point on you will grow the most by joining a company
+and learning what you can. Once you have a few years of experience
+you will find that further growth is best done by doing work in
+different types of companies. The main thing to keep an eye on is
+your own career strategy. It is easy to stay put where it feels safe
+and then you will not grow as much so be honest about if you feel
+that you have reached your goals or if you need to push more.
+
+It is fine to do coding just for the sake of having an income.
+What I suggest you do is to ask if you have long term goals that
+may get impacted by your choices today. If you aim to get to the
+higher levels of coding roles you will be well served by looking
+at how much of the software delivery process you have mastered.
+On the other hand, if you aim to go in to management you will
+find that being involved in projects where your ideas and ability
+to lead to serve you more.
+
 ## What Does It Feel Like to Succeed in a Technical Interview?
+
+Pretty good, I must say. It took me a few years to understand
+something that changed my way of looking at interviews but even
+today it feels nice to succeed.
+
+The main thing that changed my way of looking at interviews was
+that I noticed how subjective the hiring process is and even what
+many consider to be good code. I had lengthy arguments with people
+about what the correct way of doing something was in one company
+and in another the answer was considered so obvious that we never
+discussed it. When I understood that getting accepted is one part
+knowing your tools but also one part the values of the person doing
+the interview, my viewpoint changed. I started to look at interviews
+as something closer to a talent show than some objective assessment
+of my skills as a software developer. Who wins a talent show is to
+some extent based on their talent but also what the judges and producers
+think.
+
+When I let myself feel a bit more confident in my abilities, mainly
+due to that I know for a fact that I have shipped hundreds of features
+some who have even worked, I started to take interviews a bit less
+seriously. The feeling was similar to how I felt when I stopped thinking
+that getting a comment on my code in a pull request was a personal
+attack on me. At some point you understand that it is nearly impossible
+to always win and the main thing to consider is if you do well on average.
+When you know that most of the time you do well enough the impact of
+the outcomes affect you less. At least for me.
 
 ## How Do You Choose a Tech Project?
 
