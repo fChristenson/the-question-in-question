@@ -1095,83 +1095,18 @@ and why it matters.
 
 ## How do career ladders in IT companies work?
 
-## Why do large companies hire so many developers, and is developer compensation proportional to productivity?
+Career ladders differ a bit in their details for each company
+but the general idea is almost always the same. We have some
+set of roles that go from the lowest level up until some top
+level. The roles in the ladder and their names differ and can
+at times include levels within the role, such as Senior Engineer
+1, 2, 3... and so on.
 
-## How to Determine If a Company Follows Good Software Practices?
-
-## Do Senior Developers See Patterns When Solving Problems?
-
-## What Are the Considerations for Starting a SaaS Business?
-
-## What About Job Hopping During a Recession?
-
-## Are the First Years of a Developer’s Career the Most Transformative?
-
-## Does switching programming jobs get easier over time, and how can developers build the confidence to make a career move?
-
-## Is It True That You Need an Hour to Evaluate a Developer?
-
-## How to Balance Team Specialization With Generalist Skills in Development?
-
-## What Are the Best Practices for Conducting Technical Interviews?
-
-## What Are the Risks of Neglecting Developer Onboarding Processes?
-
-## How Long Does It Take to Measure a Developer’s Caliber?
-
-## Do You Need to Be a Genius to Succeed in IT?
-
-## Do You Research IT Companies Before Interviews?
-
-## Are Biases an Issue in Software Recruitment?
-
-## Is political savvy necessary for career growth in IT, or should developers focus purely on technical skills?
-
-## Am I at a Bootcamp-Level of Development Skill?
-
-## What If You Took the Wrong Job in IT?
-
-## How to Balance Team Specialization With Generalist Skills in Development?
-
-## What Are the Best Practices for Conducting Technical Interviews?
-
-## What Are the Risks of Neglecting Developer Onboarding Processes?
-
-## How Long Does It Take to Measure a Developer’s Caliber?
-
-## Do You Need to Be a Genius to Succeed in IT?
-
-## Do You Research IT Companies Before Interviews?
-
-## Are Biases an Issue in Software Recruitment?
-
-## Is political savvy necessary for career growth in IT, or should developers focus purely on technical skills?
-
-## Am I at a Bootcamp-Level of Development Skill?
-
-## What If You Took the Wrong Job in IT?
-
-## How to Pass the Trial Period at a New Job?
-
-## Is It Okay to Take a Break from Studying Software Development?
-
-## Is It a Red Flag If a Candidate Lacks Specific Experiences?
-
-## How can companies accurately assess senior developers in interviews, and what questions reveal true expertise?
-
-## What About Being a Junior Developer Who Can't Measure Up?
-
-## What Was Your First Job in Software Development Like?
-
-## How can hiring managers effectively evaluate CVs and determine developer seniority?
-
-## What Is Within the Scope of a Software Engineer After 10 Years?
-
-## Do You Miss Onsite Interviews?
-
-## What About Trainee Developer Positions?
-
-## What Does It Take to Excel as a Junior Developer?
-
-## How to Succeed as a Solo Junior Developer?
-
+The general way they work is by describing what each role requires
+from the employee and what type of characteristics the company looks
+for in a person who has this role. Usually it is the manager who
+together with the developer decides if the criteria for a promotion
+are met. Often the developer is asked to provide proof of actions
+they have taken that show that they fill the roles criteria. It
+is common for the manager to also gather feedback from coworkers
+of the developer to inform the decision.
