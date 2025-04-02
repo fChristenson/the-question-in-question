@@ -96,6 +96,16 @@ you know roughly how they work. You also know that what people say
 and what they do is not always the same so you take things that
 sound too good to be true with a pinch of salt.
 
+Your best tools for figuring out good practices in the interview
+is to know enough about the norms in the industry. This experience
+makes it easy to sort of derive what the situation looks like
+based on simply knowing what the developers are working with.
+This will of course not be a perfect picture but the better you
+know how teams do their work and what type of people they write
+code for, the better you will get at estimating what is true
+and what is not as true when you ask about practices in an
+interview or similar.
+
 ## Do Senior Developers See Patterns When Solving Problems?
 
 ## What Are the Considerations for Starting a SaaS Business?
