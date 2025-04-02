@@ -106,6 +106,17 @@ code for, the better you will get at estimating what is true
 and what is not as true when you ask about practices in an
 interview or similar.
 
+My favorite question to ask is "can you tell me how you deliver
+software?". I make sure that they tell me what libraries they use,
+what hosting setup they have and how they plan work.
+This gives me the best idea of what my life as a developer will
+look like if I start working with this specific group of people.
+The rest is down to personal chemistry. If the people you talk
+to are engaged and ready to nerd out about coding practices
+you will probably be able to guess how they will respond to good
+practices as opposed to if they can barely talk about what current
+trends are going on in their own stack.
+
 ## Do Senior Developers See Patterns When Solving Problems?
 
 ## What Are the Considerations for Starting a SaaS Business?
