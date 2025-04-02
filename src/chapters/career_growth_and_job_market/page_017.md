@@ -81,6 +81,21 @@ go and how much you earn.
 
 ## How to Determine If a Company Follows Good Software Practices?
 
+Experience and tools, my friend. More often than not you will find
+that after working for a few years in a few different companies,
+there seems to be a red thread. You can't quite place it at first
+but it is almost as if you have a sixth sense for what choices the
+developers have made before seeing the code. You start being able
+to read between the lines when the managers say that they care
+about quality. You have heard that before and it usually means
+that quality is important as long as we never have to slow down
+to fix legacy. Congratulations my friend, you are now a senior
+software developer. You are now able to draw upon prior experiences
+where similar tools and practices have been part of your life and
+you know roughly how they work. You also know that what people say
+and what they do is not always the same so you take things that
+sound too good to be true with a pinch of salt.
+
 ## Do Senior Developers See Patterns When Solving Problems?
 
 ## What Are the Considerations for Starting a SaaS Business?
