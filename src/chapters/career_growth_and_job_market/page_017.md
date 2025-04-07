@@ -175,6 +175,43 @@ most relevant for software professionals looking for work.
 
 ## Are the First Years of a Developer’s Career the Most Transformative?
 
+I would say so. I argue that the main reason for the average company
+wanting at least 5 years work experience from a candidate is precisely
+because that is roughly the time they need to become an asset.
+You and I know that this idea is not entirely as clear cut as that
+but it is never the less something managers practice and there is at
+least a grain of truth in it.
+
+When you start your career as a software developer, you know next to
+nothing. It is natural that you will feel a bit out of your depth
+and early on you will learn a lot about the basics. However, I argue
+that there are a few transformation worth being aware of that gives
+a bit if nuance. First of all, going from never having a job as a
+software developer to someone having one is of course a transformation.
+This is the main one that companies hiring developers are aware of
+and it is common to believe that it happens after around 5 years.
+I argue however, that there are at least 2 more that will happen.
+
+The second transformation happens when you learn that coding is
+one part of your job and the other is people. You learn that there
+is a bunch of people who you need to align with in order to even
+write any code. You have stakeholders, teammates, project owners
+and tons of meetings before you get to do any work on the code.
+After a while you start to learn how important that part is for
+the end result. If this part works poorly you quickly find that
+your system goes to shit and nobody likes their work anymore.
+
+The third transformation only happens once you reach true
+seniority if you ask me. This is when you learn that code
+is about business value and that the goal is to make the
+choices needed to delivery the right type of system.
+This means that you now know what Agile work practices
+are good to use, what tech stack to pick and how to talk
+to the people who are involved in the project so everything
+goes smoothly. This is when you start looking at your code
+as something that is just there to deliver on some goal and
+it is no longer a goal in of itself.
+
 ## Does switching programming jobs get easier over time, and how can developers build the confidence to make a career move?
 
 ## Is It True That You Need an Hour to Evaluate a Developer?
