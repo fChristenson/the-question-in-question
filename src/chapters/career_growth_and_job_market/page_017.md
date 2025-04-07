@@ -212,7 +212,55 @@ goes smoothly. This is when you start looking at your code
 as something that is just there to deliver on some goal and
 it is no longer a goal in of itself.
 
-## Does switching programming jobs get easier over time, and how can developers build the confidence to make a career move?
+## Does switching programming jobs get easier over time?
+
+Yes but only if you master the craft of programming instead of
+just one stack. There are plenty of developers who have worked
+for many years and fail to learn how to code well in any stack,
+they are lost without the tools they learned first. These developers
+are the ones who are most impacted by layoffs and shifts in the market.
+Their value is mostly based on the popularity of a specific tool or
+a given work environment.
+
+The developers who find switching jobs the simplest are usually the
+ones who learn that a tech stack can change but the core concepts are
+almost always the same. Backend developers all know that in todays
+modern stack there will always be things like package managers,
+web frameworks, databases and test runners. Frontend developers know
+that there will be some form build tools involved and so on.
+
+The tools will differ but the process is the same and in fact it gets
+easier the more times you switch. Each time you bring previous
+knowledge with you and then you do the thing you did from the first
+day, you look up what you don't know. That is the big secret to lifelong
+growth. Try to do something you don't know and then search for answers.
+Don't tell anyone this, it is a well guarded trade secret.
+
+Knowing how to figure out the answers to your questions is the most
+important skill a developer can have.
+
+## How can developers build the confidence to make a career move?
+
+Start by checking your market value. This may seem obvious but
+it is often our mental model of what is true is a bit out of
+alignment with the world around us. This is how you get some
+who believe that everything about them is great and some who
+seem to feel the opposite.
+
+How do I know my market value, you ask. Well, it is simple.
+Start by looking over your CV, make it nice and presentable.
+Update a few things, put a stock photo of you doing something
+respectable as your profile picture and then when you feel good
+and ready, apply for jobs. Practice applying for jobs by checking
+how close your skills are to those in demand. Practice applying
+for jobs by seeing if you can handle an interview. If you fail
+to get any callbacks, your market value is low.
+
+So how do we fix it? Easy, develop your skills in the tools that
+are in demand, learn how to do an interview and practice.
+You may never feel comfortable changing your career but
+the closest you can get to confidence in it is by feeling the
+gap being narrow enough that it is worth to take a risk.
 
 ## Is It True That You Need an Hour to Evaluate a Developer?
 
