@@ -262,28 +262,6 @@ You may never feel comfortable changing your career but
 the closest you can get to confidence in it is by feeling the
 gap being narrow enough that it is worth to take a risk.
 
-## Is It True That You Need an Hour to Evaluate a Developer?
-
-## How to Balance Team Specialization With Generalist Skills in Development?
-
-## What Are the Best Practices for Conducting Technical Interviews?
-
-## What Are the Risks of Neglecting Developer Onboarding Processes?
-
-## How Long Does It Take to Measure a Developer’s Caliber?
-
-## Do You Need to Be a Genius to Succeed in IT?
-
-## Do You Research IT Companies Before Interviews?
-
-## Are Biases an Issue in Software Recruitment?
-
-## Is political savvy necessary for career growth in IT, or should developers focus purely on technical skills?
-
-## Am I at a Bootcamp-Level of Development Skill?
-
-## What If You Took the Wrong Job in IT?
-
 ## How to Balance Team Specialization With Generalist Skills in Development?
 
 ## What Are the Best Practices for Conducting Technical Interviews?
