@@ -119,9 +119,59 @@ trends are going on in their own stack.
 
 ## Do Senior Developers See Patterns When Solving Problems?
 
-## What Are the Considerations for Starting a SaaS Business?
+Naturally, however it may not be the type of patterns you have
+read about in design pattern books. Usually the key difference
+between a mid level developer and a senior developer is experience.
+It is worth stating that I have so far not been able to draw a
+conclusive line between the coding skill of a mid level developer
+and a senior developer. It is in my view almost impossible to say
+how much difference there is between a mid level and senior developer
+in terms of coding skill, assuming that something like that can be
+measured accurately. I argue that the thing that determines seniority
+is not if the developer is amazing at solving competitive coding problems
+or similar coding challenges but rather if they have faced problems
+similar to the one they have at the moment.
+
+Once a developer has worked for long enough the daily grind becomes
+mostly repetition of things that you have already done. In the start
+you can imagine your learning as a line that keeps on going forever.
+Everything is new so you learn something each day. However, after a
+while you start to get tasks that are the same as what you have done
+before. This is when the line starts to loop on itself. At first the
+extra repetition is good for you since it helps you embed your
+existing knowledge but after a while you simply repeat the same
+process over and over.
+This is the state where you have reached a proficiency level high
+enough that you know what to almost without being able to explain
+it. In fact this is a common problem for seniors, they know exactly
+what to do but the rest of the team may not. I have on many occasions
+talked to seniors who feel annoyed at that they have to write story
+cards and show how they intend to solve problems that they already
+know how to solve in their head. They know what to do before the
+planning is even over because they have done similar things so many
+times. Be careful however, just because they have done it many times
+does not mean that they do it well or that in fact this time everything
+is exactly as it has been in the past.
 
 ## What About Job Hopping During a Recession?
+
+I don't consider recession times to be much of a factor when job hopping.
+It is always a question of how in demand your skills are. So far I
+see companies hire and fire people regardless of the economic predictions
+made by economists. Granted, the scale may differ but it does not change
+my personal strategy for job security.
+
+The practice I preach is to do the following.
+
+- Keep your coding & social skills up to date
+- Keep an eye on current trends
+- Work on projects that grow your experience
+- Have a relevant CV
+
+These practices are in my view, ever-green and regardless of the market,
+they will determine your market value. Recessions and booms impacts
+companies differently but the skills listed here are always what is
+most relevant for software professionals looking for work.
 
 ## Are the First Years of a Developer’s Career the Most Transformative?
 
