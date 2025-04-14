@@ -264,6 +264,48 @@ gap being narrow enough that it is worth to take a risk.
 
 ## How to Balance Team Specialization With Generalist Skills in Development?
 
+The answer lies in what type of system you are making. There is a flaw
+the reasoning about being a specialist or being a generalist I would
+like to point out. If we intend to reach the peak of something such
+as becoming the worlds top marathon runner, then we do need to focus
+our efforts on a narrow area to reach that goal. However, if we intend
+to be the worlds top investor we will need to learn a range of things
+in order to develop an ability to analyze markets, earn capital to
+invest and so on. The same is true for software engineering and in
+fact any engineering if you ask me. We have tasks that need someone
+who is a true master of a narrow area and then we have more general
+tasks that require less specialization. Which you need depends on the
+system.
+
+Once we know if our system has features that need developers of above
+average skill we can figure out how to staff our team. The tricky part
+here is to know when we are making a system like this and for those
+of us who have not worked for many years with a range of developers,
+what is average skill? I argue that to find the right team composition
+you need to start with what the average workday will look like.
+If you intend to make a system that works with some basic CRUD features
+on some basic business requirements, then you will probably only need
+to consider getting people who can manage a basic DevOps workflow.
+However, if we are making a system that will have for example Machine
+learning analytics built in to the overall CRUD features, then we need
+to ponder adding someone who is specialized in that area since we more
+or less know that we won't be able to find someone who can do that
+part and the DevOps work on top of it.
+
+As a good rule of thumb I suggest you ask yourself if you have any
+features that require specialist knowledge. Most of the time you don't
+so getting people who are a bit broader is a good bet. If you find
+that you need someone with more in depth knowledge you can add them
+later. Just make sure that you understand what areas of the system
+will be manageable for a developer with a broader profile and what
+areas requires a specialist. It is often easier to split work in to
+the overall system development and a niche area. Taking the example
+of Machine learning again. You probably want the generalists to build
+the CRUD system which is perhaps 80% of the codebase and the model
+you are making to analyze the data with is perhaps only 20% but those
+are some damn hard 20% to make, so you hire people who are great at
+that.
+
 ## What Are the Best Practices for Conducting Technical Interviews?
 
 ## What Are the Risks of Neglecting Developer Onboarding Processes?
