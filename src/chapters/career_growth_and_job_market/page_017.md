@@ -308,13 +308,112 @@ that.
 
 ## What Are the Best Practices for Conducting Technical Interviews?
 
+If you ask me, a personal interview and some basic code test.
+I am not a fan of big coding challenges and lord knows I have had
+some truly bizarre tests that took several days to complete. Frankly
+speaking, I believe that the reason for these sorts of test is due
+to how laughably ignorant managers in IT companies are of the craft
+and the skills needed to excel at it.
+
+My base argument is this. The code test has merit due to that if you
+don't have one you will need to allocate time to every single candidate
+that applies. That is perhaps not a practical use of your time since
+some of them will not have even basic skills. So what to do?
+I suggest you create a basic test that reflects your tech stack so
+that you can get some sense of if the candidates are able to develop
+a junior level application with the tools you need them to use.
+This means that you can screen for people who at least have the basic
+skills needed and save some time.
+
+Once you know that it is worth having an interview with the person,
+it is time to ponder if you have the skills needed to do an effective
+interview. I argue that this is where the bulk of information about
+the candidates seniority is found but in order to know what questions
+to ask, you need to know the trade. For a fellow developer it is easy
+to hear if someone has used the tools they use and at about what level
+they are in their career right now.
+
 ## What Are the Risks of Neglecting Developer Onboarding Processes?
+
+Simply put, they won't be able to ship any code. Code is money,
+or at least that is what seems to be what people believe, so the
+longer it takes the developer to ship the more the cost is to the
+company. I have a standing argument with FinOps enthusiasts and
+managers about cost when dealing with system development.
+Based on the systems I have worked on, it is clear that the
+most expensive part of software development is paying the developer.
+No amount of micro tuning machines or doing Agile work practices
+will save the amount of money it will cost to ignore the developers
+ability to ship code.
+
+Most business owners I know agree that the salaries are often
+the main cost they pay and yet somehow we seem to forget that
+when it is time to figure out how to make someone productive.
+No Agile coach I have worked with has been able to show me
+how their rituals have improved delivery speed but I have never
+seen an onboarding tutorial with a simple step by step flow
+fail to get a developer on track. Yet we seem to always have
+a standup in place and hardly ever a document with some basic
+getting started instructions.
+
+The main risk we face when we ignore onboarding is the same
+one we face when we due to convenience ignore a lopsided team
+where a few people know everything and the rest know nothing.
+We risk loss of productivity and we risk loss of knowledge
+that may be vital to us.
 
 ## How Long Does It Take to Measure a Developer’s Caliber?
 
+It depend a bit on the person but usually a few weeks
+for a senior and a few months for a junior is where I
+start forming an opinion. This has mostly to do with
+personal experience and it is in no way a science that
+can be broken down to more than watching a lot of people
+do the same sort of tasks with varying results.
+
+After a while you start to notice where the normal
+weak spots are for the average developer and then
+you get a sort of baseline to evaluate against.
+For example, I know that most frontend developers
+will struggle to optimize the build pipeline so
+noticing that this is an area they are a bit slow
+in, is expected. However, should I notice that they
+struggle with getting a CSS layout right, then my
+red flag is raised. Under normal circumstances I
+don't make much of a fuzz over finding a few red
+flags during my time working with someone. Who
+knows, they may be great at other things or they
+may be a bit nervous. There are a ton of reasons
+that can explain someone having poor performance
+when they first start and that is why it takes a
+bit of time to evaluate someone if you ask me.
+We need to get passed what can be explained as
+just being new on the job before I at least,
+feel I can estimate someones abilities.
+
 ## Do You Need to Be a Genius to Succeed in IT?
 
+No not at all. You need to be able to focus for
+long periods of time. You need to be able to
+figure out why something isn't working and fix
+it but be a genius? No.
+
+Most developers are just regular people who are
+no more brilliant than anyone who took the time
+to take on an extended education. The top developers
+as is true for many profession, are certainly gifted
+and a word such as "genius" could apply but that
+is not the norm.
+
 ## Do You Research IT Companies Before Interviews?
+
+A bit but not that much. The main reasons for that
+is that I personally can't figure out what I want
+to know about the company without speaking to
+the people who work there first. Sure, a bit of
+basic information about the company can be found
+but what I really care about is what type of
+work life I can expect when I start.
 
 ## Are Biases an Issue in Software Recruitment?
 
