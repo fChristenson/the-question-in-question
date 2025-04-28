@@ -415,9 +415,194 @@ basic information about the company can be found
 but what I really care about is what type of
 work life I can expect when I start.
 
+I have found that most of the work is the same
+wherever you work. There are of course variations
+in people, values and details but I have so far
+never worked in a company where I felt that there
+was something unexpected about the daily job.
+
+With this insight comes something that I can use
+when I am looking for work. A pattern. Patterns
+are nice because they allow us to glimpse a bit
+in to the future. We get a sense of what is likely
+to happen. In an interview I use this knowledge by
+simply asking about the tools, rituals and type of
+project I will work with. Since I know that if a
+company uses a stack I am familiar with, there is
+a high chance that they have the same setup and
+the same workflow, I can predict what the code
+looks like and what possible issues they have.
+
+There is no way for me to be certain about what
+my work life will look like but at so far my
+intuition has been fairly accurate.
+
 ## Are Biases an Issue in Software Recruitment?
 
-## Is political savvy necessary for career growth in IT, or should developers focus purely on technical skills?
+Oh dear God, yes. There is not a single interviewer
+who doesn't inject their own ideas of what a "good"
+software developer is, nor could we expect anything
+less, if you ask me. I would even go as far as to say
+that it is a given that we color candidates in the
+shade of our ideas when we speak to people. Luckily
+enough, this does not have to be an issue if we are
+smart about it. We can after all use a bit of personal
+reflection and be honest about what we should be on the
+lookout for when we make assessments of a candidates
+abilities.
+
+As a rule, I try to have at least 2 people doing the
+interview. This is by no means a foolproof way to
+remove biases from the equation but it does mitigate
+them a bit. The tricky part after is to discuss the
+viewpoints of each interviewer without the social
+game shifting peoples opinions. The social game in
+this context is in my view how the dynamics of the
+group shift based on their relationship with each
+other. If you have people who share the same values
+they will often reach a unified opinion about the
+candidate. However, if that group have a strong bias
+you will find that they staff your company with people
+who are just like them. This can be great if they are
+paragons of whatever you want in your teams but if
+they are small friction machines who cause all manner
+of issues, you will get more people who solidify that
+behavior in the company. They may not hire people like
+them but they will hire people who allow them to keep
+their ways of working.
+
+If you have interviewers with a strong influence over
+the others, I suggest you add someone to the discussion
+of hiring the candidate who can act as a bit of a social
+buffer. Usually people with strong opinions will trample
+those who prefer to go with the flow and in such cases
+you are best of by adding someone who ensures that each
+person can express their ideas and helps them by asking
+them why they feel how they feel about the candidate.
+This is often enough to deal with major biases.
+
+The most important lesson I have learned about biases
+in interviews is to ask myself, "can this person do the
+job I am asking them to do?". This was something I did
+not understand until later in my career but it changed
+my way of looking at the craft. As a die hard programming
+fanatic, I of course had a lot of ideas about what good
+code was and what good programmers looked like. It was
+only later that I started to understand that if I
+expected each and every candidate to be a open source
+maintainer with their own string of tech talks, I would
+never hire anyone. Funnily enough, I never reflected on
+that the coworkers I already had where perfectly capable
+of shipping working code to production without all these
+merits that I felt were proof of skill.
+It then dawned on me that perhaps I have forgotten the
+main question when hiring someone for a job. After all,
+if we look at sports for example. There are many people
+who play sports at different levels and we may look to
+the top league players when we think about what good
+players look like. However, we all know that even if
+they may be the ideal, we can still have a lot of fun
+at the lower levels. The same is true for working.
+There are products that require people of top level
+talent to make but on average you simply need someone
+who is good enough to do the job. Our society would
+not function if each and every position could only
+be filled by someone we perceive as a top level
+performer.
+
+When I understood that my bias was to only hire people
+who where as extreme about their passion for programming,
+I shifted my way of thinking to trying to figure out where
+the passing grade was. Instead of trying to figure out if
+the candidate was a top performer, I simply asked myself
+what they need to fit in without issue. I found that so
+far this strategy helped me a lot in hiring some great
+people. The code is getting shipped and it mostly works,
+so the true goal of hiring someone has been accomplished.
+
+## Is political savvy necessary for career growth in IT?
+
+To a point, yes. Tech skills will only get you so far before
+you hit a wall. That wall is going to be mostly down to
+your relationships in the company and your social skills
+when dealing with common administrative tasks.
+
+If we start with the most basic way the average company
+looks at your value we should be able to agree on a few
+things. First, the money you are payed as a pure software
+developer is intended for coding. Plain and simple.
+However, once you want to change that you will need to
+either move to another position similar to the one you
+have or you will need to convince your boss that they
+will get their moneys worth if they have you do more
+than just coding. In essence, the savvy part of this
+is to convince your boss to agree with whatever new
+position or responsibilities you want.
+This is where your relationship building has the most
+impact. I would even argue that the most overlooked
+skill for software developers is the ability to make
+a persuasive argument. Often I coach junior developers
+who never get to do what they want due to a difference
+in opinion between them and some senior developer or
+manager. I ask them to understand that the problem is
+not that their coding is bad. The problem is that they
+can't convince the person they need to agree that they
+know what they are doing. This is the most fundamental
+skill of anyone who has ever had an idea that needed
+buy in from someone else.
+
+Once you have learned that your relationship with the
+people in your company dictates a lot about what changes
+you can suggest, the next part comes. Social skills.
+
+In order to get social skills that will help you get
+your ideas heard, you need to learn how to present
+your idea. This is in theory easy but in reality it
+depends a lot on what you are proposing and to who.
+I will suggest two different approaches I have found
+to work well but before I do, I feel I need to also
+tell you that none of this matters if people are
+emotionally against you. What I mean is that no matter
+how great your idea or how worthy you are of promotion,
+it will not happen if people dislike you or if they have
+already decided that they prefer how things are working.
+This is the toughest pill to swallow for developers who
+want to innovate. You may be in a company where they do
+not want to change. The prefer it the way it is. I like
+to think about it like being a car salesman. If you try
+to sell a car to someone who loves their old rust-bucket,
+you will probably fail. It is better for you to find a
+customer that is in the market for something different
+than it is for you to hit a brick wall built on emotional
+preferences. It is a far easier task to promote change to
+people who are willing to try something different than it
+is to force your will on people who don't want change.
+
+My first approach is to ask, who am I trying to persuade?
+If it is a technical person the only thing I do after
+proposing my suggestion is to ask, "would it be ok if I
+made a pull request to show a small example of how my
+idea could work?". This is the fastest way for you to
+get away from theoretical discussion about best practices
+and get really specific about what you want them to consider.
+
+If I am dealing with a non technical person it is a bit tricky
+to just write some code and show. Here I have found that the
+most useful skill to have is the mannerisms of a professional.
+The social skills I am referring to are those of someone who
+knows how to do a presentation in a clean and effective way.
+With a bit of practice you should be able to fluently explain
+what you idea is and motivate it with good arguments. The key
+thing to understand is the same as for anyone who ever sold
+something. Make sure the arguments you present seem to benefit
+the person you are talking to. Build your suggestion on arguments
+that talk about cost, quality, development velocity and so on.
+
+To summarize. Politics are overrated if you ask me. The people
+who get the furthest are those who know how to connect with the
+people who they need on their side in order to get their ideas
+going. If you can master how to showcase your skills and how to
+make people see the value in your ideas, you will go far.
 
 ## Am I at a Bootcamp-Level of Development Skill?
 
