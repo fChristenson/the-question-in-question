@@ -604,9 +604,20 @@ people who they need on their side in order to get their ideas
 going. If you can master how to showcase your skills and how to
 make people see the value in your ideas, you will go far.
 
-## Am I at a Bootcamp-Level of Development Skill?
-
 ## What If You Took the Wrong Job in IT?
+
+This is highly likely to happen at some point. Mostly due how hard
+it is to know what you are actually going to be doing once you start.
+The tricky part about developing software is that there are so many
+way to do it. I often find it hard to connect with other developers
+since we can come from such different tech stacks. It can at times
+be hard to understand each other if our tech jargon doesn't overlap.
+However, the good news is that there are some tells of how you figure
+out if the job you are about to take is good or not. We should also
+consider how we figure out if a job is "good" or not and what to do
+if it turns out we want to switch.
+
+
 
 ## How to Pass the Trial Period at a New Job?
 
