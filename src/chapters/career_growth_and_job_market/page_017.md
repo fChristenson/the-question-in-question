@@ -609,7 +609,7 @@ make people see the value in your ideas, you will go far.
 This is highly likely to happen at some point. Mostly due how hard
 it is to know what you are actually going to be doing once you start.
 The tricky part about developing software is that there are so many
-way to do it. I often find it hard to connect with other developers
+ways to do it. I often find it hard to connect with other developers
 since we can come from such different tech stacks. It can at times
 be hard to understand each other if our tech jargon doesn't overlap.
 However, the good news is that there are some tells of how you figure
@@ -617,9 +617,82 @@ out if the job you are about to take is good or not. We should also
 consider how we figure out if a job is "good" or not and what to do
 if it turns out we want to switch.
 
+First, ask yourself where you are in your career right now? Some of
+of us have done work for years and some are just starting. What we
+need next my also differ based on our ambitions. What do you want to
+be able to do in the future? These are the two main questions you should
+ask before taking action.
 
+Once you know what you are looking for, check around. It may be that
+you have the opportunity to adjust your work in your current company.
+If however, you don't have that option or perhaps the reason for you
+not wanting to stay is more than just your personal growth, you are
+left with only one option. Go somewhere else. So how do we do that?
+I am glad you asked.
+
+Your first move should be to determine your market value. If you want
+to be able to have options when looking for work you need to sell what
+people are buying. Check the job postings for the sort of companies
+you want to work for and figure out what tech they use.
+Once you know what your market value is, either start applying for
+jobs and/or educate yourself on the tech that is new too you.
+During this period I find that it is a great idea to look at your current
+work as payed learning. Make sure you pick the tasks that will grow
+your skills. In fact, you should always be doing this if you ask me.
 
 ## How to Pass the Trial Period at a New Job?
+
+The trial period is not something that you will face in all companies.
+It is a practice employed in different ways in different regions of
+the world but the core concept is often the same. The company has some
+type of evaluation period when hiring a new developer. During this
+period they will look at how well the developer fits in the company.
+There may be legal aspects to consider for them as well depending on
+the labour laws so this period can be extra important.
+
+The suggestions I usually make are:
+
+- Smile
+- Increase positive communication by 40%
+- Be an active learner
+- Learn your environment before you change it
+
+These tips will get you most of the way through. It goes without saying
+I hope that having the skills needed to meet expectations is vital
+but I argue that it isn't really productive to suggest what can't be
+actively worked on. You can after all not magically become better than
+you are without practice and practice is something you should already
+be doing or you should at least be confident in that you have the skills.
+
+Let's elaborate a bit on this list of mine. First, smiling is a given
+I hope. During this period your social skills will factor in just as
+your tech skills so a good impression will help you. Second, learn
+how to communicate in a positive manner and how to give suggestions
+on improvements without sounding too critical. It may feel better
+to be able to vent frustration in a satisfying way but you may end
+up sending the wrong message. Third, make sure you don't just sit
+and wait for others to give you an onboarding. You are better off
+showing that you are there to get up to speed. Ask relevant questions
+so you can get your work environment up. Make sure you note important
+practices and documents. Lastly, make sure you take the time to
+understand how your coworkers view their environment. Even if you may
+have the best suggestions and love the craft more than anyone, they
+may feel differently. Even if you know that things could be better,
+remember that you may be working with people who care less than you.
+If that is the case and you start pointing out all the flaws you see
+without being careful, you may start pissing people off.
+Even if you are right it will not matter if the people you work with
+don't care about improving. This is a tough pill to swallow for some
+but the best way I can describe it is by an example.
+Imagine that you want to play football and then you join a local
+team of amateurs. Now lets say you feel that your team should be
+aiming to play as best as you can and you start pushing the others
+to practice more. After a while the rest of the team stop showing
+up or you may even get frozen out. So what could be happening?
+Well, if they want to just play around casually and have a good time
+it will get pretty annoying to have someone who is always nagging them
+over working harder. In such a situation the best course of action
+is for you to ask if this is the team for you or if you should adapt?
 
 ## Is It Okay to Take a Break from Studying Software Development?
 
