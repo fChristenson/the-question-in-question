@@ -692,7 +692,7 @@ to practice more. After a while the rest of the team stop showing
 up or you may even get frozen out. So what could be happening?
 Well, if they want to just play around casually and have a good time
 it will get pretty annoying to have someone who is always nagging them
-over working harder. In such a situation the best course of action
+about working harder. In such a situation the best course of action
 is for you to ask if this is the team for you or if you should adapt?
 
 ## Is It Okay to Take a Break from Studying Software Development?
