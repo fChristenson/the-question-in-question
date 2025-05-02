@@ -684,6 +684,7 @@ without being careful, you may start pissing people off.
 Even if you are right it will not matter if the people you work with
 don't care about improving. This is a tough pill to swallow for some
 but the best way I can describe it is by an example.
+
 Imagine that you want to play football and then you join a local
 team of amateurs. Now lets say you feel that your team should be
 aiming to play as best as you can and you start pushing the others
