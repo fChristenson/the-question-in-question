@@ -805,6 +805,9 @@ system I was working on. They joined forces with the firm and I now
 had a business developer and another software developer to work with.
 Sadly the situation did not improve. In my last months with the
 company I got notice that they felt I did not meet expectation.
+This came as no surprise to me but I still felt the hit to my confidence.
+Being the shaky leaf of insecurities that I am, I was crushed.
+
 Luckily I had been contacted by another company at around the same
 time. I took an interview, got an offer and moved on.
 At the time it felt like a failure but in hindsight it was one of
