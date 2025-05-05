@@ -697,13 +697,117 @@ is for you to ask if this is the team for you or if you should adapt?
 
 ## Is It Okay to Take a Break from Studying Software Development?
 
+I hope this goes without saying but, yes. The main thing is to be
+honest about how much effort you are putting in. It can be easy to
+make mental investments that are simply too low for you to make
+any meaningful progress. I have been learning Spanish for longer
+than I care to admit and I can still only speak enough to hold
+the simplest of conversations. This is mainly due to that my
+investment has been around 15 minutes per day. Clearly, that
+is not enough for me to master the language to the level I want.
+
+The same is true for your journey in software development. If
+you treat it as a serious effort with a time investment that is
+similar to a full time job or going to college, you will see
+results. However, if you on and off with the practice you may
+never get good enough to do it professionally. That may not be
+your goal so just set your expectations correctly.
+
 ## Is It a Red Flag If a Candidate Lacks Specific Experiences?
 
-## How can companies accurately assess senior developers in interviews, and what questions reveal true expertise?
+It depends on the experiences. There are certainly experiences
+that are one off in your career and that most of us have never
+had to dealt with. However, there are also experiences that almost
+all developer have in some way or another had. If a candidate lacks
+those we may find it hard to relate to each other and that is often
+where red flags are raised. The interviewer will most of the time
+draw upon their own ideas of what an experienced software developer
+should know and what they should have done so if they lack experience
+in these areas of evaluation, they may not get the job.
+This of course the most lamented part of the interview by all developers.
+Why are they evaluating me on these things?! These are not things that
+matter. They should be doing things differently!
+I can only sigh and agree in some cases but just as with any evaluation,
+be it at test in school, a talent show or a job interview, the judge
+dictates what a passing grade is.
+
+## What questions reveal true expertise in an interview?
+
+My argument is that one of the ways people relate to each other is
+through shared experiences. In other words, a senior developer will
+have gone through similar challenges in some areas that other seniors
+have. Here is the tricky part, how do we know what experiences to look
+for? This is the main reason I argue that hiring developers should
+be done by other developers. It is relatively easy to come up with
+some technical questions and figure out if the candidate understands
+them but requires experience to figure out what the daily challenges
+is for a software developer and how to create questions that prompts
+the candidate to respond in a meaningful way.
+
+As my little prelude on this question indicates, I believe that the
+most effective way to determine expertise in an interview is by
+asking questions related to experience. The main goal is to assert
+that the candidate has had hands on experience dealing with many of
+the daily tasks a developer faces. I try as much as possible to avoid
+asking questions about broad topics such as how their career has looked
+or what their values are when I am trying to figure out their seniority
+level. These questions can suck up a lot of time in the interview and
+a skilled candidate can easily answer such questions without ever really
+going in to any details. I much prefer to ask very specific questions
+that can be answered regardless of skill level.
+If I ask a candidate, "have you worked with any ORM's and why do we
+use them?", I know that the answer will need to be specific and it
+will help me understand to what level the candidate has worked with
+ORM's, in this case. The same approach can be applied to any tool
+and my favorite part is to follow up by asking things such as,
+"do you see any benefits or issues with using one tool over another?".
+This puts the candidate in a spot where they quickly show how much
+reflecting they have done on their work and the tools they use.
+It is this experience that helps me figure out how they think about
+technology and to what extent their decisions are based on experience.
+Understanding a candidates way of thinking is a really great way to
+get a sneak peak at what type of coworker they will be.
 
 ## What About Being a Junior Developer Who Can't Measure Up?
 
+There is reason to sugarcoat it, it sucks.
+I have sadly been here as many others. I did not care for it.
+However, there is little you can do in the moment. You need
+time to develop your skills and that takes however long it
+takes. What I like to suggest to developer who go through this
+is to find a decent coping mechanism. We all get affected by
+troublesome times differently but we all in one way or another
+find things that make the journey bearable.
+
+In addition to having things in your life to help you get through
+tough work conditions, I can recommend to view all experience as
+a net good. The old saying, "what doesn't kill you makes you stronger",
+comes to mind. It may be little comfort in the moment but I urge you
+to use the experiences you are getting, reflect on them and derive
+what is useful from them so you at least gain something from the whole
+ordeal.
+
 ## What Was Your First Job in Software Development Like?
+
+Terrible. Some of the toughest times in my life hands down. I woke
+up dreading to go to work on some days and others it was merely a
+bit of anxiety that hit me. At the time I was brought in to a firm
+that had an idea to developer a salary management system. The idea
+was simple, take what was a desktop application and make it a
+web application. The company was able to provide me some minor support
+by asking one of the original developers of the web application to
+assist me when he had time to spare away from his own project.
+This turned out to be too little for my needs at the time and as you
+can imagine, it did not get better. In the last months of my stay I
+was joined by two other partners. These where to university students
+who had managed to create a startup with a lot of overlap with the
+system I was working on. They joined forces with the firm and I now
+had another developer to work with. Sadly the situation did not improve.
+In my last months with the company I got notice that they felt I did
+not meet expectation. Luckily I had been contacted by another company
+at around the same time. I took an interview, got an offer and
+moved on. At the time it felt like a failure but in hindsight it was
+one of the best changes I have made in my career.
 
 ## How can hiring managers effectively evaluate CVs and determine developer seniority?
 
