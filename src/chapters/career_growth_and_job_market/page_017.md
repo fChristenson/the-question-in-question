@@ -799,15 +799,16 @@ by asking one of the original developers of the web application to
 assist me when he had time to spare away from his own project.
 This turned out to be too little for my needs at the time and as you
 can imagine, it did not get better. In the last months of my stay I
-was joined by two other partners. These where to university students
+was joined by two other partners. These where two university students
 who had managed to create a startup with a lot of overlap with the
 system I was working on. They joined forces with the firm and I now
-had another developer to work with. Sadly the situation did not improve.
-In my last months with the company I got notice that they felt I did
-not meet expectation. Luckily I had been contacted by another company
-at around the same time. I took an interview, got an offer and
-moved on. At the time it felt like a failure but in hindsight it was
-one of the best changes I have made in my career.
+had a business developer and another software developer to work with.
+Sadly the situation did not improve. In my last months with the
+company I got notice that they felt I did not meet expectation.
+Luckily I had been contacted by another company at around the same
+time. I took an interview, got an offer and moved on.
+At the time it felt like a failure but in hindsight it was one of
+the best changes I have made in my career.
 
 ## How can hiring managers effectively evaluate CVs and determine developer seniority?
 
