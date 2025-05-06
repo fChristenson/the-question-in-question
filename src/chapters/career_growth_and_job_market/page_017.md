@@ -813,7 +813,50 @@ time. I took an interview, got an offer and moved on.
 At the time it felt like a failure but in hindsight it was one of
 the best changes I have made in my career.
 
-## How can hiring managers effectively evaluate CVs and determine developer seniority?
+## How can hiring managers effectively evaluate CVs and determine seniority?
+
+I suggest you acknowledge if you have the tech background to evaluate
+developers or not. This is a bit of an honest moment for some since
+we need to accept that although being a manager has many challenges
+that grow skills that are important to an organization, this is an
+area managers usually don't spend a lot of time in.
+It is by far better to collaborate with people who have done the work
+for many years so the assessment becomes as accurate as it can be.
+
+The main challenge a manager will face in this scenario is biases
+from the developers. If you have inexperienced developers or perhaps
+highly opinionated developers, you may find that screening people
+becomes a struggle. Poor social skills in the developers can create
+further challenges when it comes time to do a personal interview
+and worse, you may end up with a team that is incapable of delivering
+anything or handle basic communication with stakeholders.
+
+So, what to do? I can recommend that you start by asking yourself
+if you have any developers with well developed social skills in
+the company. Seniority is of less importance at this stage since
+you first want to make sure you have people who have the needed
+social skills to handle the interview process. Once you know that
+you have people who understand how to communicate well and who
+understand the importance of having someone who fits in the company,
+you can take the next step.
+
+The next step is to list down the technology tools you use for the
+project your are hiring for. Focus on the main tool names that you
+usually see on peoples CV's or in job postings from other companies.
+This is important since this gives you a checklist of tools a new
+candidate should have. Then discuss with the developers you have
+brought in to collaborate with. Focus on aligning on determining
+what tools are most important so you can put emphasis on the tools
+that are most important to your project.
+
+Lastly, I give this advice. Focus on getting a developer who is  good
+social fit and knows the main tools. It is really hard for someone
+who is a layman in tech to figure out just how good someone is and
+more often than not you will end up hiring people who on paper are
+good but for some reason you find further down the line that the
+project is facing issues. If you hire people who know the tools
+and have strong communication skills you, at the very least, have
+a good chance to fix things with communication.
 
 ## What Is Within the Scope of a Software Engineer After 10 Years?
 
