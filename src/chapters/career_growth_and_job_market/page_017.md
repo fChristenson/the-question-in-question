@@ -939,7 +939,39 @@ them.
 
 ## What Does It Take to Excel as a Junior Developer?
 
+The obvious answer is to perform well with your coding
+and need little to no guidance other than what your
+coworkers feel is just the right amount. In theory this
+is easy to do but as you can imagine, harder in reality.
+
+My main tips will most of the time be to make sure you
+try your best to solve your own issues. Respect the time
+of your coworkers but also ask for help when you are truly
+stuck. Showing that tiny bit of consideration will go a long
+way. The rest is about being friendly, eager to learn and talent.
+You can't really control talent but you can be mindful of how
+you behave in the workplace and how you interact with your coworkers.
+Smiling, showing consideration and engaging in a positive way with
+other people can make a huge difference.
+
 ## How to Succeed as a Solo Junior Developer?
+
+This is probably the toughest situation you can find yourself
+in when you start your career as a programmer. I would advice
+against being solo in the beginning but realistically it is hard
+to be picky about your workplace before you get a few years in.
+
+The main tip I can give you is to keep it simple. Stick to the
+most popular choices in tech so you know there are tons of learning
+materials and people who have posted solutions to various problems
+online. Leverage AI systems and focus on just making things work.
+There is no benefit in you trying to guess what the best solution
+looks like and how more senior developers would do something.
+Simply check for basic tips that you can apply and accept that
+even if the code won't be as perfect as if you had years of
+experience, if it works, you get to keep your job and continue
+learning. That is the key to becoming senior. Deliver something
+that works well enough, learn from it and repeat.
 
 ## Do Seasoned Programmers Sometimes Struggle in Interviews?
 
