@@ -860,9 +860,82 @@ a good chance to fix things with communication.
 
 ## What Is Within the Scope of a Software Engineer After 10 Years?
 
-## Do You Miss Onsite Interviews?
+Potentially everything. The best way I can describe the scope change
+for a developer over the years is that the longer you do the job the
+higher the expectations go. Don't fret, there is a limit to what people
+will expect from you but there is a catch worth knowing about.
+
+The catch is that each company is different. This is the greatest challenge
+facing companies when staffing their projects, in my view. You always
+need good people but what's worse is that you need people who can handle
+your specific stack. For us developers this makes life a lot harder.
+Due to the diversity of the stacks on the market we my very well need
+to know a significant amount of workflows to confidently be able to
+apply for work. I am sure that more than a few people have reflected
+on how diverse and lengthy the profiles companies request job applicants
+to have can be. This is the fallout of having a large ecosystem of
+choices.
+
+I think it is safe to say that the pattern is usually this.
+At a junior level you are mostly responsible for knowing the
+basics of your stack. Usually you will mostly be focusing on
+just getting your deliverables in to production. Once you have
+done that for a few years people will expect you to be able to
+do an increasing amount of tasks independently. How much more
+depends on the company. In some teams there is very little
+other than the coding you need to take care of but in others
+you may find yourself doing a range of things other than the coding.
+
+The most common things that creep in to your scope are basic DevOps
+tasks. These are usually things such as checking system health, logs,
+deployments and so on. The best way I can summarize it is, you need
+to know the practical tasks that include deploying, running and
+debugging your system.
 
 ## What About Trainee Developer Positions?
+
+This is can be a great way to get a foothold in the industry.
+However, it is worth knowing what to look for before you accept.
+
+On more than a few occasions, I have seen soon to be developers
+being put in tough situations where their managers don't understand
+that being a trainee means that you need as much, if not more, support
+as a junior software developer. Some managers don't account for this
+and some blatantly exploit the trainee by using them for adhoc tasks
+that doesn't benefit them.
+
+Luckily, I have a few tips for both sides of this. The key issue is
+that the trainee lacks experience to just dive in and become productive.
+The manager is likely not interested in reducing capacity from their
+regular development teams to give support. At least, not until they
+have a sense of if they want to keep the trainee or not.
+So what to do?
+
+For trainees, I suggest you ask about the work you will be doing once
+you take the job. Make sure the manager is specific about it.
+Your goal is to get as close as possible to the development done by
+the developers already working there. You will benefit the most by
+learning from them and you will need support from them to get going.
+
+For managers, I give this advice. I have found that the best way to
+get trainees productive and to gain value from their work is by looking
+at peripheral projects. These are projects that are usually of lower
+complexity than the core systems and they will benefit the company
+but they may not be so important that you feel you should take time
+from the developers working on the main codebase.
+This is a perfect project for a trainee. You give them a real project
+that will benefit the company and regardless of how it goes there is
+no negative impact on the core projects. This is a low risk investment
+that will give both parties a chance to get to know each other.
+
+Trainees usually feel that by being in a low risk project they feel
+calmer than if you put them on a big project right away and managers
+can feel calm in the knowledge that, there is no risk involved in
+the trainees getting a chance to show what they can do.
+I believe this sort of setup will encourage more companies to consider
+what "nice to have" projects they would like to make and that would
+be a good match for new developers who want to try out working for
+them.
 
 ## What Does It Take to Excel as a Junior Developer?
 
