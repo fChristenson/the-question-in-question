@@ -975,6 +975,33 @@ that works well enough, learn from it and repeat.
 
 ## Do Seasoned Programmers Sometimes Struggle in Interviews?
 
+Oh, yes. Frankly speaking, it is hard to tell sometimes if I
+am talking to a senior or not. People get nervous, they struggle
+to answer questions and they have a hard time thinking straight.
+I am a victim of all of these and so is the vast majority of
+people I have done interviews with.
+
+There is a belief that experience builds confidence and thus things
+such as anxiety does not affect seniors. This is true to a point.
+You do gain some confidence from knowing what you have achieved in
+the past but just how much that comforts you can vary greatly.
+Personal friends of mine who I count as among the best developers
+I have worked with, feel like they don't measure up at times.
+I argue that this is due to that they view themselves differently
+than others and I am pretty sure many people you have seen doing
+things such as performing on stage or in a sport, can vouch for
+similar experiences. I have on several occasions heard performers
+explain that before a show they still feel a bit nervous but once
+they get in to their material most of it goes away.
+
+Being a senior does not mean that you are mentally prepared for
+interviews. Seniors may have more practice coding but interviews
+are different. They are not just another day at the job but a
+deliberate meeting for evaluation. It is similar to how people who
+talk a lot may have a hard time to speak in public. It is a
+different context and speaking with a few people feels different
+than speaking on a stage. Interviews are very similar in this regard.
+
 ## How to Convince Your Boss That a Certificate Is a Waste of Time?
 
 ## How can developers cultivate the mindset of a senior engineer, whether in backend or frontend development?
