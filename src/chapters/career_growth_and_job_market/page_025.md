@@ -68,7 +68,7 @@ gap being narrow enough that it is worth to take a risk.
 
 ## What If You Took the Wrong Job in IT?
 
-This is highly likely to happen at some point. Mostly due how hard
+This is highly likely to happen at some point. Mostly due to how hard
 it is to know what you are actually going to be doing once you start.
 The tricky part about developing software is that there are so many
 ways to do it. I often find it hard to connect with other developers
