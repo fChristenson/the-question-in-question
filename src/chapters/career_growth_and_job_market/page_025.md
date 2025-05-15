@@ -179,6 +179,47 @@ be to benefit the customer.
 
 ## What Should You Know Before Applying For An Entry-level Job?
 
+I would say the main things are as follows.
+
+- Make sure your CV is eye catching
+- Practice the technologies used in the company
+- Be prepared to onboard yourself
+
+Most of the time junior developers are viewed as an investment.
+This in practice means that you get picked mostly based on 2 things.
+How much potential you show and how well you interact with the people
+working at the company.
+
+Your best bet is to make sure your CV is filled with things that prove
+that you care about programming. Take extra courses, become an an
+amateur influencer, contribute to open source project and the list
+can go on and on. The aim is to make your CV stand out. This is how
+you get a callback and without a callback you won't get further.
+
+Next comes passing the interview. This will be down to how well you
+know your tech and how good you are at social interactions.
+You goal is to be able to answer questions related to tech, ideally
+tech used in the company. Remember, you don't have to know everything,
+you just have to show that you have put real effort in to developing
+your skills.
+
+During the interview your social goal should be to leave the interviewer
+with a good gut feeling. Although it is an interview and people try
+to be objective in their assessments of candidates, most of time who
+gets hired is one part experience and one part how the interviewer
+felt after.
+
+Lastly, once you start working, your main goal is to get productive
+in the most autonomous way you can. Each company is different in how
+much support they can give to their developers. This means that your
+best strategy is to actively seek out people who can show you what
+you need to know in order to become self reliant. The quickest way
+to becoming a mid level developer is to know enough to deliver software
+without needing to ask for help several times a day. We all need help
+at times but you will be better off long term if you use you apply
+real effort in to learning how to find answers to your questions
+without depending on that your coworkers do the work for you.
+
 ## Why Is Having A Career Gap On A Cv Viewed Negatively?
 
 ## Is Knowing How To Get The Right Support A Key Skill For Senior Developers?
