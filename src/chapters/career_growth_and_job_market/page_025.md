@@ -135,7 +135,47 @@ we all know that if something isn't very important to the right people
 we will just make a backlog item and promise to look at it later. As
 you can guess, that part rarely happens. You can do the same here.
 
-## How can developers cultivate the mindset of a senior engineer, whether in backend or frontend development?
+## How can developers cultivate the mindset of a senior engineer?
+
+It is a bit like growing up if you ask me. You start by just playing
+with code, trying to make it work. You keep messing up over and over,
+until you start to feel pretty good about a few things. After that,
+you start building a little confidence and you experiment with new
+ways of doing things. Now you start meeting some people who may have
+different ideas from your own and you learn how to argue your point
+and deal with the frustration of not getting your way. Finally, you
+start getting tired of dealing with excess complexity and ineffective
+solutions, coworkers and leadership. Congratulations, now you are a
+bitter old senior.
+
+The mindset you grow is best described as a mature one.
+If you want to start cultivating it early on I can summarize your focus
+area like this.
+
+Focus on creating code that is made to make your customer happy.
+
+Why is this so important? I argue that the mark of a true senior is
+that they have tried out a range of ways to make software. It is
+by doing this they learn when to use one approach over another.
+However, there is a category of people who start to forget why they
+are making code in the first place. Usually it is to deliver some type
+of business value, for us who work as professional developers.
+This is an important point because if we forget this, we tend to make
+solutions that are overly complex or using tech that may not be the
+best fit for the situation.
+This is where a senior mindset makes itself known. The trick is to
+know through experience what ways there is to solve a given problem
+and then pick the one that is best for your customer, not for you.
+
+I have a saying, "understand the problem that you are solving".
+This sentence I use to explain what I have been stating in these
+paragraphs. As a senior your mind should always be focused on making
+the right choice for the given situation. Being able to do that is
+only possible by experimenting with different approaches, learning
+from them and then being focused on the goal of the project.
+Experiment to your hearts content when the time is right but never
+forget that your choices in a professional environment, should always
+be to benefit the customer.
 
 ## How to Find IT Companies That Pay Really Well?
 
