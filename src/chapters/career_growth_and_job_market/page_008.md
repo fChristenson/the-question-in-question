@@ -1,5 +1,5 @@
 
-## What to Do When You Can’t Make Progress on a Project?
+## What To Do When You Can’t Make Progress On A Project?
 
 I suppose that depends on what the nature of the blockage is.
 After all, if you find it hard to solve a bug your approach
@@ -60,7 +60,7 @@ due to scheduling issues. Once you get the details you can
 just plug them in to the working code and this has been a
 massive help to me many times.  
 
-## How should developers handle disagreements with managers?
+## How Should Developers Handle Disagreements With Managers?
 
 Usually I approach all my disagreements the same way regardless
 of who I am disagreeing with. First I make sure that I am

@@ -1,5 +1,5 @@
 
-## How can you provide constructive feedback to developers?
+## How Can You Provide Constructive Feedback To Developers?
 
 I usually handle this in two different ways and the method
 differs slightly depending on if I am a fellow developer in
@@ -59,7 +59,7 @@ that is not welcome and as mentioned previously, you may need to
 encourage a change but without authority you can't force someone
 to do things how you want without good reason.
 
-## What Should You Know Before Starting Your Own IT Company?
+## What Should You Know Before Starting Your Own It Company?
 
 I have found that the main things are:
 

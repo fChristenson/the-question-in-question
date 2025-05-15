@@ -1,5 +1,5 @@
 
-## What Was Your Best Job Experience as a Software Developer?
+## What Was Your Best Job Experience As A Software Developer?
 
 That would be when I met Allen and Mark. At the time I was a
 junior developer on his second job, I knew nothing and had a
@@ -25,7 +25,7 @@ someone is to help them sort out their own thoughts by listening
 without judging and sharing your experiences while still keeping
 the focus on helping their thoughts along.
 
-## How to Pick a Tech Project to Advance Your Career?
+## How To Pick A Tech Project To Advance Your Career?
 
 I suggest that you ponder what skills you need to meet your
 career goals. In the very beginning I usually give the advice
@@ -63,7 +63,7 @@ On the other hand, if you aim to go in to management you will
 find that being involved in projects where your ideas and ability
 to lead to serve you more.
 
-## What’s the best way to address performance issues in developers?
+## What’s The Best Way To Address Performance Issues In Developers?
 
 I view performance issues as two categories. Low investment and
 high investment. I make a habit of looking at the practical skills

@@ -1,5 +1,5 @@
 
-## How to Deal with Impostor Syndrome in Software Development?
+## How To Deal With Impostor Syndrome In Software Development?
 
 Probably the most common insecurity of any developer is the feeling
 of not being as good as you need to be.
@@ -44,7 +44,7 @@ is cured best by improving yourself until you feel that you can do
 what you are afraid of well enough for it to no longer be an
 obstacle for you.
 
-## How to Pass the Trial Period at a New Job?
+## How To Pass The Trial Period At A New Job?
 
 For those of you who work in regions where this is not a custom.
 Trial periods is a period of time in the start of your employment
@@ -78,7 +78,7 @@ without becoming unpleasant when I am not being taken seriously
 is a way of behaving that is a sweet-spot between how I am in
 private and what my coworkers find to be someone they can accept.
 
-## Is It Okay to Take a Break from Studying Software Development?
+## Is It Okay To Take A Break From Studying Software Development?
 
 Naturally, studying too much has a negative effect on knowledge
 retention and study without retention seems ineffective to me.

@@ -26,7 +26,7 @@ media accounts where you briefly mentions what your
 main stack is, how much experience you have and
 how to get in touch with you.
 
-## Would You Accept a Position That Down-Levels Your Role?
+## Would You Accept A Position That Down-levels Your Role?
 
 Personally I would. At this point I have done enough as a software
 developer to know how to do decently in any role.
@@ -47,7 +47,7 @@ my title is. The title only really matters when you are trying
 to determine who has final say or when you are trying to pad
 your CV with things that seem impressive to a new employer.
 
-## Why Do IT Companies Ask If You Were at the Top of Your Class?
+## Why Do It Companies Ask If You Were At The Top Of Your Class?
 
 When companies hire new developers they leave that task to managers
 who don't really know what software development is about.

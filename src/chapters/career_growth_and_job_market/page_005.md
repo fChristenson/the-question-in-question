@@ -1,5 +1,5 @@
 
-## Are The First Years of a Developer’s Career The Most Transformative?
+## Are The First Years Of A Developer’s Career The Most Transformative?
 
 Yes, they have a lot of impact on your growth.
 
@@ -71,7 +71,7 @@ to have you even if you don't know exactly their stack. For
 very senior developers it takes a matter of weeks to pick a
 new stack and that is good enough for most jobs.
 
-## How Can Developers Build The Confidence to Make a Career Move?
+## How Can Developers Build The Confidence To Make A Career Move?
 
 I have always found that confidence comes from the knowledge
 that you can handle a situation. If you think back to your

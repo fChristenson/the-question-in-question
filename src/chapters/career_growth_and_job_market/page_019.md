@@ -44,7 +44,7 @@ what "nice to have" projects they would like to make and that would
 be a good match for new developers who want to try out working for
 them.
 
-## What Does It Take to Excel as a Junior Developer?
+## What Does It Take To Excel As A Junior Developer?
 
 The obvious answer is to perform well with your coding
 and need little to no guidance other than what your
@@ -61,7 +61,7 @@ you behave in the workplace and how you interact with your coworkers.
 Smiling, showing consideration and engaging in a positive way with
 other people can make a huge difference.
 
-## How to Succeed as a Solo Junior Developer?
+## How To Succeed As A Solo Junior Developer?
 
 This is probably the toughest situation you can find yourself
 in when you start your career as a programmer. I would advice
@@ -80,7 +80,7 @@ experience, if it works, you get to keep your job and continue
 learning. That is the key to becoming senior. Deliver something
 that works well enough, learn from it and repeat.
 
-## Do Seasoned Programmers Sometimes Struggle in Interviews?
+## Do Seasoned Programmers Sometimes Struggle In Interviews?
 
 Oh, yes. Frankly speaking, it is hard to tell sometimes if I
 am talking to a senior or not. People get nervous, they struggle

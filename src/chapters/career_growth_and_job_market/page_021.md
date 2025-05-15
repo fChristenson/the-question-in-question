@@ -1,5 +1,5 @@
 
-## What Are the Risks of Neglecting Developer Onboarding Processes?
+## What Are The Risks Of Neglecting Developer Onboarding Processes?
 
 Simply put, they won't be able to ship any code. Code is money,
 or at least that is what seems to be what people believe, so the
@@ -28,7 +28,7 @@ where a few people know everything and the rest know nothing.
 We risk loss of productivity and we risk loss of knowledge
 that may be vital to us.
 
-## How Long Does It Take to Measure a Developer’s Caliber?
+## How Long Does It Take To Measure A Developer’s Caliber?
 
 It depend a bit on the person but usually a few weeks
 for a senior and a few months for a junior is where I
@@ -57,7 +57,7 @@ We need to get passed what can be explained as
 just being new on the job before I at least,
 feel I can estimate someones abilities.
 
-## Do You Need to Be a Genius to Succeed in IT?
+## Do You Need To Be A Genius To Succeed In It?
 
 No not at all. You need to be able to focus for
 long periods of time. You need to be able to
@@ -71,7 +71,7 @@ as is true for many profession, are certainly gifted
 and a word such as "genius" could apply but that
 is not the norm.
 
-## Do You Research IT Companies Before Interviews?
+## Do You Research It Companies Before Interviews?
 
 A bit but not that much. The main reasons for that
 is that I personally can't figure out what I want

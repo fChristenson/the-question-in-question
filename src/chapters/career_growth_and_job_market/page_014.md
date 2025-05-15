@@ -1,5 +1,5 @@
 
-## How can teams provide constructive feedback?
+## How Can Teams Provide Constructive Feedback?
 
 As a rule I try to pose things like a suggestion. I put on my
 "Donkey" persona and much like a waiter discussing menu choices
@@ -46,7 +46,7 @@ important that as the provider of the feedback, I give myself a
 reality check so I don't trick myself into believing that what
 I believe to be true is what everyone believes.
 
-## Do You Try to Fully Understand Pull Requests During Reviews?
+## Do You Try To Fully Understand Pull Requests During Reviews?
 
 Yes, I would be worried if anyone did something besides that.
 However, I have to admit that I love comfort and have been known
@@ -81,7 +81,7 @@ doing the right thing or not. This is more important than if the
 perfect variable name was used or if someone used the right style of
 syntax.
 
-## What Traits Do the Best Software Developers Have?
+## What Traits Do The Best Software Developers Have?
 
 Most of them have almost a sixth sense for figuring out
 good solutions to technical problems. Apart from this gift,
@@ -100,7 +100,7 @@ When they speak I can see fire in their eyes and when they work
 I they put actual love in to their work, not because someone is
 making them but because they want to.
 
-## Are You a Senior Developer When Problems No Longer Scare You?
+## Are You A Senior Developer When Problems No Longer Scare You?
 
 No, I would argue not. How intimidated you are by something is
 certainly a sign, to some extent, of your confidence level but

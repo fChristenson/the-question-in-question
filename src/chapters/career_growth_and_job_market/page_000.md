@@ -1,6 +1,6 @@
-# Career Growth and Job Market
+# Career Growth And Job Market
 
-## Have You Ever Needed to Prove Yourself as a Developer?
+## Have You Ever Needed To Prove Yourself As A Developer?
 
 Yes, almost everyday.
 I reached a point where my confidence grew enough but it took years.
@@ -25,7 +25,7 @@ Try your best to raise your skills.
 When you see that you can deliver, note it and think about it.
 Realize that you are now good enough to do this job, so be glad.
 
-## How to Overcome Insecurities as a Junior Developer?
+## How To Overcome Insecurities As A Junior Developer?
 
 Start by understanding that you are new to development.
 It will take time to get good at it. There are no shortcuts.
@@ -42,7 +42,7 @@ Find coping mechanisms for the days when everything fails.
 And then.
 Do. Not. Give. Up.
 
-## What factors contribute to developer rejection in interviews?
+## What Factors Contribute To Developer Rejection In Interviews?
 
 If the company has a coding test and you pass it things are from
 that point on mostly about what feeling people get from you.
@@ -67,7 +67,7 @@ Getting rejected in the interview is almost always
 due to these 2 things missing.
 Try to make them leave the interview with a good gut feeling.
 
-## How to Add New Technology to Your CV?
+## How To Add New Technology To Your Cv?
 
 As a rule of thumb, make sure you have understood how to use it for
 the most common cases.
@@ -131,7 +131,7 @@ of waiting for them to have time to make you a priority
 or being strung along to provide proof that may or may
 not be possible to get.
 
-## How Long Does It Typically Take To Advance From Junior to Senior?
+## How Long Does It Typically Take To Advance From Junior To Senior?
 
 The industry has a lot of varying opinions on what it means to be
 a senior. The range that is most common is between 4 - 8 years

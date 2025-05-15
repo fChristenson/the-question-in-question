@@ -48,7 +48,7 @@ as well so they can make the process comfortable for the candidate.
 This is my personal process for interview and although it is not perfect
 it is as fair as I can make it right now.
 
-## Can Non-Passionate Developers Have Successful Careers?
+## Can Non-passionate Developers Have Successful Careers?
 
 Yes. Most developers are not particularly passionate about the craft.
 It is a common misconception that in order to be a software developer
@@ -73,7 +73,7 @@ people who are not on stage. These people are the norm and most of
 the industry is made up of people who develop software as a job but
 in their spare time they may have any range of other interests.
 
-## What Are Your Thoughts on Bootcamp Graduates?
+## What Are Your Thoughts On Bootcamp Graduates?
 
 It is good for soon to be developers to know that Bootcamp
 certificates of completion may not weigh as heavily as
@@ -90,7 +90,7 @@ what degree you have. Degrees are what you use to get
 in to the industry and once you are in they lose
 most of their meaning.
 
-## What Traits Do the Best Software Developers Have?
+## What Traits Do The Best Software Developers Have?
 
 I find that they have a genuine interest in their work.
 It is that interest that drives them to explore various ways
@@ -106,7 +106,7 @@ I argue that it is the developers who know how to solve a
 problem with the least amount of complexity that are the real
 rock-stars of our profession.
 
-## Are You a Senior Developer When Problems No Longer Scare You?
+## Are You A Senior Developer When Problems No Longer Scare You?
 
 Not at all. Seniority is not determined by how you feel, it
 is determined by what you are able to do.

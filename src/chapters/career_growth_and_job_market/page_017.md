@@ -1,4 +1,4 @@
-## Why do large companies hire so many developers?
+## Why Do Large Companies Hire So Many Developers?
 
 Few people outside the industry understand how much
 it takes to produce their favorite digital products.
@@ -51,7 +51,7 @@ how it all fits together. In short, company hire a lot of people because
 there is a lot of work to do and once the company grows large enough
 you struggle to keep track of it all.
 
-## Is developer compensation proportional to productivity?
+## Is Developer Compensation Proportional To Productivity?
 
 To some extent, yes. However, it is worth mentioning that your
 own ideas of what compensation is adequate for what type of productivity
@@ -79,7 +79,7 @@ your company. That brand should be noticeable by both fellow developers
 and non technical managers. Both these groups determine how far you
 go and how much you earn.
 
-## How to Determine If a Company Follows Good Software Practices?
+## How To Determine If A Company Follows Good Software Practices?
 
 Experience and tools, my friend. More often than not you will find
 that after working for a few years in a few different companies,

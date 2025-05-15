@@ -1,5 +1,5 @@
 
-## How to Balance Team Specialization With Generalist Skills in Development?
+## How To Balance Team Specialization With Generalist Skills In Development?
 
 The answer lies in what type of system you are making. There is a flaw
 the reasoning about being a specialist or being a generalist I would
@@ -43,7 +43,7 @@ you are making to analyze the data with is perhaps only 20% but those
 are some damn hard 20% to make, so you hire people who are great at
 that.
 
-## How can developers build the confidence to make a career move?
+## How Can Developers Build The Confidence To Make A Career Move?
 
 Start by checking your market value. This may seem obvious but
 it is often our mental model of what is true is a bit out of
@@ -66,7 +66,7 @@ You may never feel comfortable changing your career but
 the closest you can get to confidence in it is by feeling the
 gap being narrow enough that it is worth to take a risk.
 
-## What If You Took the Wrong Job in IT?
+## What If You Took The Wrong Job In It?
 
 This is highly likely to happen at some point. Mostly due to how hard
 it is to know what you are actually going to be doing once you start.
@@ -102,7 +102,7 @@ During this period I find that it is a great idea to look at your current
 work as payed learning. Make sure you pick the tasks that will grow
 your skills. In fact, you should always be doing this if you ask me.
 
-## How to Convince Your Boss That a Certificate Is a Waste of Time?
+## How To Convince Your Boss That A Certificate Is A Waste Of Time?
 
 The simplest way is to explain that the certificate is just proof
 that you know a topic. If your boss feels that there is value in
@@ -135,7 +135,7 @@ we all know that if something isn't very important to the right people
 we will just make a backlog item and promise to look at it later. As
 you can guess, that part rarely happens. You can do the same here.
 
-## How can developers cultivate the mindset of a senior engineer?
+## How Can Developers Cultivate The Mindset Of A Senior Engineer?
 
 It is a bit like growing up if you ask me. You start by just playing
 with code, trying to make it work. You keep messing up over and over,
@@ -177,92 +177,92 @@ Experiment to your hearts content when the time is right but never
 forget that your choices in a professional environment, should always
 be to benefit the customer.
 
-## How to Find IT Companies That Pay Really Well?
+## How To Find It Companies That Pay Really Well?
 
-## What Should You Know Before Applying for an Entry-Level Software Job?
+## What Should You Know Before Applying For An Entry-level Software Job?
 
-## Why Is Having a Career Gap on a CV Viewed Negatively?
+## Why Is Having A Career Gap On A Cv Viewed Negatively?
 
-## Is Knowing How to Get the Right Support a Key Skill for Senior Developers?
+## Is Knowing How To Get The Right Support A Key Skill For Senior Developers?
 
-## Should You Accept a Job If the Company Uses Cloud Computing?
+## Should You Accept A Job If The Company Uses Cloud Computing?
 
-## What Interesting Problems Do You Solve Daily as a Developer?
+## What Interesting Problems Do You Solve Daily As A Developer?
 
-## How to Identify If a Developer Is Overqualified for a Team?
+## How To Identify If A Developer Is Overqualified For A Team?
 
 ## Why Do Most Programming Jobs Require Tool Knowledge?
 
-## Is Long-Term Job Satisfaction in Software Tied to Personal Development?
+## Is Long-term Job Satisfaction In Software Tied To Personal Development?
 
-## Should You Consider Scalability for Resume Projects?
+## Should You Consider Scalability For Resume Projects?
 
-## In Top Companies, Would You Still Understand Tech Under the Hood?
+## In Top Companies, Would You Still Understand Tech Under The Hood?
 
-## Can a Junior Developer Be Promoted Over a Senior Developer?
+## Can A Junior Developer Be Promoted Over A Senior Developer?
 
-## Do Principal Engineers Have the Same Coding Skills as Seniors?
+## Do Principal Engineers Have The Same Coding Skills As Seniors?
 
-## Have You Worked as a Principal Engineer?
+## Have You Worked As A Principal Engineer?
 
-## What Is It Like Working as a Senior Software Developer?
+## What Is It Like Working As A Senior Software Developer?
 
-## Is Getting a Promotion More Satisfying Than Finding a New Job?
+## Is Getting A Promotion More Satisfying Than Finding A New Job?
 
-## Is Growth Limited for Developers Who Prefer Working Alone?
+## Is Growth Limited For Developers Who Prefer Working Alone?
 
-## What Are Realistic Expectations for Switching to Frontend Development?
+## What Are Realistic Expectations For Switching To Frontend Development?
 
-## How to Evaluate IT Companies When Applying for a Job?
+## How To Evaluate It Companies When Applying For A Job?
 
-## How Long Does It Take for a Junior Developer to Be in Demand?
+## How Long Does It Take For A Junior Developer To Be In Demand?
 
-## How to Choose the Best Opportunities as a Developer?
+## How To Choose The Best Opportunities As A Developer?
 
-## What Happens to Developers in Big IT Companies as They Age?
+## What Happens To Developers In Big It Companies As They Age?
 
-## How Can IT Companies Help New Developers with Onboarding?
+## How Can It Companies Help New Developers With Onboarding?
 
-## Is It a Zero-Sum Game for Tech Leads to Praise Their Teams?
+## Is It A Zero-sum Game For Tech Leads To Praise Their Teams?
 
-## How to Spot Areas of Improvement in a Developer?
+## How To Spot Areas Of Improvement In A Developer?
 
-## Should New Developers Choose Languages with Large Communities?
+## Should New Developers Choose Languages With Large Communities?
 
-## Should developers engage in business discussions, and how can they demonstrate their value to stakeholders?
+## Should Developers Engage In Business Discussions, And How Can They Demonstrate Their Value To Stakeholders?
 
-## What are the biggest reasons developers leave jobs, and how can they recognize when it’s time to move on?
+## What Are The Biggest Reasons Developers Leave Jobs, And How Can They Recognize When It’s Time To Move On?
 
-## What Should Developers Focus on When Starting a New Job?
+## What Should Developers Focus On When Starting A New Job?
 
-## How Can Developers Maintain a Long-Term Career in Tech?
+## How Can Developers Maintain A Long-term Career In Tech?
 
-## What Are the Challenges of Onboarding Developers to Complex Projects?
+## What Are The Challenges Of Onboarding Developers To Complex Projects?
 
-## What best practices ensure effective onboarding for new developers, and how can teams integrate them smoothly?
+## What Best Practices Ensure Effective Onboarding For New Developers, And How Can Teams Integrate Them Smoothly?
 
-## How to Handle Knowledge Gaps When Onboarding New Developers?
+## How To Handle Knowledge Gaps When Onboarding New Developers?
 
-## What Are the Risks of Rushing the Onboarding Process for New Developers?
+## What Are The Risks Of Rushing The Onboarding Process For New Developers?
 
-## How to Build Effective Onboarding Programs for Junior Developers?
+## How To Build Effective Onboarding Programs For Junior Developers?
 
-## How to Optimize Codebases for Easier Onboarding of New Developers?
+## How To Optimize Codebases For Easier Onboarding Of New Developers?
 
-## What Are the Challenges of Onboarding Developers in Complex Projects?
+## What Are The Challenges Of Onboarding Developers In Complex Projects?
 
-## What Are the Benefits of Creating a Developer-Friendly Onboarding Process?
+## What Are The Benefits Of Creating A Developer-friendly Onboarding Process?
 
-## What Are the Risks of Not Prioritizing Developer Onboarding?
+## What Are The Risks Of Not Prioritizing Developer Onboarding?
 
-## What Are the Risks of Ignoring Developer Onboarding Processes?
+## What Are The Risks Of Ignoring Developer Onboarding Processes?
 
-## What Are the Top 1% of Software Engineers Doing Differently?
+## What Are The Top 1% Of Software Engineers Doing Differently?
 
 ## Does Your Job Title Impact Your Results?
 
-## Why Don’t You Want to Work at a FANG Company?
+## Why Don’t You Want To Work At A Fang Company?
 
-## What Defines a Mid-Level Developer?
+## What Defines A Mid-level Developer?
 
-## Why Do Some Developers Never Outgrow the Junior Level?
+## Why Do Some Developers Never Outgrow The Junior Level?

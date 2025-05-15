@@ -1,4 +1,4 @@
-## What Was Your Best Job Experience as a Software Developer?
+## What Was Your Best Job Experience As A Software Developer?
 
 I would say that it was when I finally felt that I was good enough.
 
@@ -20,7 +20,7 @@ The tasks I faced where much larger and the potential
 consequences of getting it wrong were massive but I felt
 no fear, no anxiety. It was just another project.
 
-## How to Pick a Tech Project to Advance Your Career?
+## How To Pick A Tech Project To Advance Your Career?
 
 I always recommend that you start by asking where you are in
 your career and what goals you have. The choices a junior should
@@ -70,7 +70,7 @@ with different tools and then getting a working understanding
 of those tools is a natural choice. It really depends on what
 goals they have.
 
-## What Does It Feel Like to Succeed in a Technical Interview?
+## What Does It Feel Like To Succeed In A Technical Interview?
 
 This is where I say good, right? Yes, it feels good.
 

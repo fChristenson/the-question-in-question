@@ -1,5 +1,5 @@
 
-## Does switching programming jobs get easier over time?
+## Does Switching Programming Jobs Get Easier Over Time?
 
 Yes but only if you master the craft of programming instead of
 just one stack. There are plenty of developers who have worked
@@ -26,7 +26,7 @@ Don't tell anyone this, it is a well guarded trade secret.
 Knowing how to figure out the answers to your questions is the most
 important skill a developer can have.
 
-## What About Job Hopping During a Recession?
+## What About Job Hopping During A Recession?
 
 I don't consider recession times to be much of a factor when job hopping.
 It is always a question of how in demand your skills are. So far I
@@ -46,7 +46,7 @@ they will determine your market value. Recessions and booms impacts
 companies differently but the skills listed here are always what is
 most relevant for software professionals looking for work.
 
-## Is political savvy necessary for career growth in IT?
+## Is Political Savvy Necessary For Career Growth In It?
 
 To a point, yes. Tech skills will only get you so far before
 you hit a wall. That wall is going to be mostly down to

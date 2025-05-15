@@ -1,5 +1,5 @@
 
-## How Do Career Ladders In IT Companies Work?
+## How Do Career Ladders In It Companies Work?
 
 Each company does it differently but there is a general template.
 Most of the time the company will divide the salary brackets and

@@ -1,5 +1,5 @@
 
-## How to Pass the Trial Period at a New Job?
+## How To Pass The Trial Period At A New Job?
 
 The trial period is not something that you will face in all companies.
 It is a practice employed in different ways in different regions of
@@ -54,7 +54,7 @@ it will get pretty annoying to have someone who is always nagging them
 about working harder. In such a situation the best course of action
 is for you to ask if this is the team for you or if you should adapt?
 
-## Is It Okay to Take a Break from Studying Software Development?
+## Is It Okay To Take A Break From Studying Software Development?
 
 I hope this goes without saying but, yes. The main thing is to be
 honest about how much effort you are putting in. It can be easy to
@@ -72,7 +72,7 @@ results. However, if you on and off with the practice you may
 never get good enough to do it professionally. That may not be
 your goal so just set your expectations correctly.
 
-## Is It a Red Flag If a Candidate Lacks Specific Experiences?
+## Is It A Red Flag If A Candidate Lacks Specific Experiences?
 
 It depends on the experiences. There are certainly experiences
 that are one off in your career and that most of us have never

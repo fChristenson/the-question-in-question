@@ -65,7 +65,7 @@ find that someone has amazing skills but have a title that does
 not reflect it and of course you will find people with fancy
 titles who seem to know next to nothing.
 
-## Is It True That You Need an Hour to Evaluate a Developer?
+## Is It True That You Need An Hour To Evaluate A Developer?
 
 I would say I need less but that depends on the communication
 style of the developer. In general an hour is the amount of time

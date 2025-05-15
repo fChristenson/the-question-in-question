@@ -1,5 +1,5 @@
 
-## What Was Your First Job in Software Development Like?
+## What Was Your First Job In Software Development Like?
 
 Terrible. Some of the toughest times in my life hands down. I woke
 up dreading to go to work on some days and others it was merely a
@@ -25,7 +25,7 @@ time. I took an interview, got an offer and moved on.
 At the time it felt like a failure but in hindsight it was one of
 the best changes I have made in my career.
 
-## How can hiring managers effectively evaluate CVs and determine seniority?
+## How Can Hiring Managers Effectively Evaluate Cvs And Determine Seniority?
 
 I suggest you acknowledge if you have the tech background to evaluate
 developers or not. This is a bit of an honest moment for some since
@@ -70,7 +70,7 @@ project is facing issues. If you hire people who know the tools
 and have strong communication skills you, at the very least, have
 a good chance to fix things with communication.
 
-## What Is Within the Scope of a Software Engineer After 10 Years?
+## What Is Within The Scope Of A Software Engineer After 10 Years?
 
 Potentially everything. The best way I can describe the scope change
 for a developer over the years is that the longer you do the job the

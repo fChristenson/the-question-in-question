@@ -9,7 +9,8 @@
     "lint:spelling": "npx cspell ./src/chapters/**/*.md",
     "lint:wordcount": "node ./scripts/count_words.js ./src/chapters/",
     "lint": "npm run lint:markdown && npm run lint:spelling && npm run lint:wordcount",
-    "create:index": "node ./scripts/index_builder.js"
+    "create:index": "node ./scripts/index_builder.js",
+    "update:headers": "node ./scripts/rewrite_headers.js"
   },
   "repository": {
     "type": "git",

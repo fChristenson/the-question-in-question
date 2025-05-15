@@ -1,5 +1,5 @@
 
-## How Do You Choose a Tech Project?
+## How Do You Choose A Tech Project?
 
 I pick them mostly based on if I think I will learn something.
 Most of my personal projects are about exploring the way I think
@@ -16,7 +16,7 @@ has changed over time but the goal is always the same. Find something
 that will develop my skills, do it until I feel confident and then
 move on.
 
-## Why do tech job titles often seem unclear?
+## Why Do Tech Job Titles Often Seem Unclear?
 
 I argue that it is a bit due to how vague a roles responsibility
 can be. The role Site reliability engineer for example. Where do
@@ -35,7 +35,7 @@ we start naming roles that are so obscure that the person who has
 it needs a slide presentation to explain what they do for a living
 and why it matters.
 
-## How do career ladders in IT companies work?
+## How Do Career Ladders In It Companies Work?
 
 Career ladders differ a bit in their details for each company
 but the general idea is almost always the same. We have some
@@ -53,7 +53,7 @@ they have taken that show that they fill the roles criteria. It
 is common for the manager to also gather feedback from coworkers
 of the developer to inform the decision.
 
-## How to Deal with Impostor Syndrome in Software Development?
+## How To Deal With Impostor Syndrome In Software Development?
 
 In my experience people are on a spectrum of how much impostor
 syndrome affects them. Some of us seem nearly immune to it

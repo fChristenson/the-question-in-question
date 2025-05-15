@@ -1,5 +1,5 @@
 
-## How to Deal with Engineers Seeking Promotions Too Soon?
+## How To Deal With Engineers Seeking Promotions Too Soon?
 
 I would say that you should ask, why do you feel it is too soon?
 
@@ -22,7 +22,7 @@ that will give them a chance to prove their abilities. This is a reasonable
 thing to ask, I would argue and it will show if the request for promotion
 is too early or not.
 
-## What Does It Feel Like to Succeed in a Technical Interview?
+## What Does It Feel Like To Succeed In A Technical Interview?
 
 Pretty good, I must say. It took me a few years to understand
 something that changed my way of looking at interviews but even

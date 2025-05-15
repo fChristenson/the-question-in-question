@@ -1,5 +1,5 @@
 
-## How to Determine If a Company Follows Good Software Practices?
+## How To Determine If A Company Follows Good Software Practices?
 
 It is very hard to do this accurately because everyone things differently
 about what good practices are. Even if you ask a manager if they do

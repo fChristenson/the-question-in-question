@@ -1,5 +1,5 @@
 
-## What are the most common mistakes developers make early on?
+## What Are The Most Common Mistakes Developers Make Early On?
 
 - Taking a job that does not grow them
 - Thinking that tech gurus are always right
@@ -53,7 +53,7 @@ with small projects from time to time has helped me a great deal
 in getting better at coming up with solutions to various problems
 in my work.
 
-# How to navigate decision-making in tech teams?
+# How To Navigate Decision-making In Tech Teams?
 
 I refer to my approach as an "Expert democracy".
 I know that I am almost always right about all my great ideas
@@ -81,7 +81,7 @@ of working, we hate our peers internally for forcing us to write
 code in some bs way while lamenting their stupidity. Often
 while trying to take a calming bath.
 
-## How to Deal with Engineers Seeking Promotions Too Soon?
+## How To Deal With Engineers Seeking Promotions Too Soon?
 
 I have always favoured a merit based approach in matters that
 involve authority and compensation. In my view the only

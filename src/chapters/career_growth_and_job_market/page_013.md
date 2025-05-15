@@ -1,5 +1,5 @@
 
-## What Would You Say to a CEO Who Belittles Your Work?
+## What Would You Say To A Ceo Who Belittles Your Work?
 
 Not much. I have been on the opposing side of enough people
 to feel comfortable being doubted. I expect to be treated with
@@ -42,7 +42,7 @@ how my place of work treats me. If I am, I treat the CEO as any
 person I don't get along with but want to have a professional
 relationship with. Otherwise I look at my options and move on.
 
-## What’s the best way to address performance issues?
+## What’s The Best Way To Address Performance Issues?
 
 This is a tricky one and all I can say is that it will always
 depend on the specific situation. The main thing I want to

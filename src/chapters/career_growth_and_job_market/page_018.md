@@ -1,5 +1,5 @@
 
-## Are Biases an Issue in Software Recruitment?
+## Are Biases An Issue In Software Recruitment?
 
 Oh dear God, yes. There is not a single interviewer
 who doesn't inject their own ideas of what a "good"

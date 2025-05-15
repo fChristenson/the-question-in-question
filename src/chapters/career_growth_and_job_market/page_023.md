@@ -1,5 +1,5 @@
 
-## What Are the Best Practices for Conducting Technical Interviews?
+## What Are The Best Practices For Conducting Technical Interviews?
 
 If you ask me, a personal interview and some basic code test.
 I am not a fan of big coding challenges and lord knows I have had
@@ -26,7 +26,7 @@ to ask, you need to know the trade. For a fellow developer it is easy
 to hear if someone has used the tools they use and at about what level
 they are in their career right now.
 
-## What questions reveal true expertise in an interview?
+## What Questions Reveal True Expertise In An Interview?
 
 My argument is that one of the ways people relate to each other is
 through shared experiences. In other words, a senior developer will
@@ -63,7 +63,7 @@ technology and to what extent their decisions are based on experience.
 Understanding a candidates way of thinking is a really great way to
 get a sneak peak at what type of coworker they will be.
 
-## What About Being a Junior Developer Who Can't Measure Up?
+## What About Being A Junior Developer Who Can't Measure Up?
 
 There is reason to sugarcoat it, it sucks.
 I have sadly been here as many others. I did not care for it.
@@ -82,7 +82,7 @@ to use the experiences you are getting, reflect on them and derive
 what is useful from them so you at least gain something from the whole
 ordeal.
 
-## Are the First Years of a Developer’s Career the Most Transformative?
+## Are The First Years Of A Developer’s Career The Most Transformative?
 
 I would say so. I argue that the main reason for the average company
 wanting at least 5 years work experience from a candidate is precisely
