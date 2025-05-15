@@ -104,6 +104,37 @@ your skills. In fact, you should always be doing this if you ask me.
 
 ## How to Convince Your Boss That a Certificate Is a Waste of Time?
 
+The simplest way is to explain that the certificate is just proof
+that you know a topic. If your boss feels that there is value in
+having that proof, there is little you can argue for. It is a bit
+like trying to argue that you don't need a degree to be good
+at something but as most of us can agree, it is hard to fight
+against peoples prejudices.
+
+To make a a good case I argue that we should remind ourselves
+that there are some who have dropped out of school and gone on
+to become immensely successful. However, I argue that the reason
+for their success without a degree, is due to their ability to
+deliver value. Value is what means something, not the paper you
+get when you have graduated.
+
+In other words, show your manager that you know what the certificate
+aims to prove. If you know how to create the value you are already
+creating the benefit of having an education.
+
+Arguing for that practical skills and creating value is more important
+than having a certificate is usually a straightforward dialogue but
+if you are up against someone who wants you to get more things to add
+to your CV or someone who is less reasonable, you can't win.
+
+My favorite tip in situations like these is to be a lazy employee.
+It is a trick as old as management. Make it hard for someone to get
+something and they will likely forget about it and move on.
+We lovingly call it at times to "kill it by backlog". This means that
+we all know that if something isn't very important to the right people
+we will just make a backlog item and promise to look at it later. As
+you can guess, that part rarely happens. You can do the same here.
+
 ## How can developers cultivate the mindset of a senior engineer, whether in backend or frontend development?
 
 ## How to Find IT Companies That Pay Really Well?
