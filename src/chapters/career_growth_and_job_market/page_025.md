@@ -177,9 +177,7 @@ Experiment to your hearts content when the time is right but never
 forget that your choices in a professional environment, should always
 be to benefit the customer.
 
-## How To Find It Companies That Pay Really Well?
-
-## What Should You Know Before Applying For An Entry-level Software Job?
+## What Should You Know Before Applying For An Entry-level Job?
 
 ## Why Is Having A Career Gap On A Cv Viewed Negatively?
 
