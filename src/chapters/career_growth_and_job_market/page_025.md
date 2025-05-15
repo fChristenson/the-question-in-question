@@ -222,7 +222,28 @@ without depending on that your coworkers do the work for you.
 
 ## Why Is Having A Career Gap On A Cv Viewed Negatively?
 
+It depends on the gap and the person doing the review. In general
+however it is not something that will stand out much. My personal
+suggestion is that you view your CV as a record that tells a story
+of your professional life. No reasonable person will dismiss a CV
+that shows that the candidate has relevant experience, based on a
+gap alone. There may be some questions related to the gap or any
+other peculiarities but as long as you have a good explanation to
+them, you will be fine.
+
 ## Is Knowing How To Get The Right Support A Key Skill For Senior Developers?
+
+Yes, it is the main difference between juniors and mid level developers
+if you ask me. Juniors are viewed as a investment to many companies
+due to that they need support and that takes time away from others.
+The most common expectation on a more experienced developer, apart
+from the speed at which they deliver code, is how capable they are
+to work independently. Everyone needs help at times but you will do
+well to learn how to best figure out the answer to your own questions.
+Each company you work for will have different people and they will
+all view giving support in different ways. Some are really helpful
+and some are annoyed by it so hope for the best and prepare for
+the worst.
 
 ## Should You Accept A Job If The Company Uses Cloud Computing?
 
