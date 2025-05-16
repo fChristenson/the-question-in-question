@@ -247,7 +247,64 @@ the worst.
 
 ## Should You Accept A Job If The Company Uses Cloud Computing?
 
+This is a bit like asking if you should marry someone if they
+wear shoes. Well sure, it is a good start to a relationship if
+they conform to some basic standards but is it really a deal
+breaker if they don't? More importantly, is that really the only
+thing you would consider before committing to someone?
+
+Cloud computing is a widespread default for current web development
+but it is by no means the only way to run web applications. In
+some cases it is either not possible to do it due to a myriad of
+reasons or the company is in a state of transitioning to cloud.
+We should remember that some companies are older than cloud
+services and in fact the internet itself. These company may be
+considering to make the switch and due to a range of reasons,
+it has simply not happened yet.
+
+I would say that using cloud computing is not the only thing to
+consider but there is thought worth considering. Cloud computing
+is more or less the norm for modern development today. This is
+significant for your market value as a software developer.
+Your value is closely related to your knowledge of developing
+software with the tools used by the industry. This is a thought
+you should always keep with you when choosing where to work.
+Ideally you want to work with projects that gives you exposure
+to the technology that is most in demand.
+
 ## What Interesting Problems Do You Solve Daily As A Developer?
+
+I am not sure it meets the criteria of interesting but I would
+say, streamlining. Every single day I sit for hours and try to
+understand how I can cut wasted time from all kinds of areas.
+I like to express what programmers do as, trying to take a
+process and convert it to a virtual version of itself. Once
+that is done, we spend all our time trying to figure out how
+we can make this process as effective as possible. It is in
+a way how I imagine mathematicians feel when they break down
+something in to equations. Once that is done, they can start
+trying to figure out all kinds of improvements or answer
+questions related to the domain they are working in.
+
+Being a programmer has an effect on your way of thinking.
+After a while you start to care about naming things well,
+even outside your code. For some reason you spend time trying
+to figure out the best way to make everyday tasks streamlined.
+More than once, I have found myself feeling joy when I figured
+out a better way to store my things so they don't get in the
+way when I clean. I can be high on that for hours.
+
+Most of the time, I find that the job shapes my mind to work
+with abstract concepts very well. I often see programmers
+forget that not everyone around them has their way of thinking.
+To us it feel natural to break down large problems in to smaller
+ones and then order them in cadence of dependencies. This way of
+thinking serves us well in our work and outside of it, if you
+ask me at least. I advice all developers to think about how you
+tackle problems in code even outside of your work, there are a
+lot of benefits of that way of thinking in everyday life and
+you will be surprised how often people around you will appreciate
+your input.
 
 ## How To Identify If A Developer Is Overqualified For A Team?
 
