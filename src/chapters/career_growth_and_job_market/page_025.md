@@ -363,6 +363,37 @@ what impact a new candidate will have.
 
 ## Why Do Most Programming Jobs Require Tool Knowledge?
 
+Because you won't produce any value without them. Programming
+has no value unless the code can be used by an end user. To
+make that happen you will need tools outside of the programming
+language you pick to write your program in.
+
+In most larger development projects, it is common practice to
+at the very least have some type of delivery pipeline and a
+hosting solution for your code. Apart from these you will
+most of the time find that cloud services and Agile workflow
+tools are used. There is simply no way for you to avoid learning
+these if you want to be part of a serious software team today.
+
+The good news is that for the most part, you won't need to know
+every little detail about these tools. The main thing is to know
+how to be effective at everyday tasks.
+
+We can also expand our scope of what we consider tools. Is Git
+a tool? Well yes, it is. As you can imagine you will need to know
+it in order to save your changes and do updates to the main codebase.
+If you don't know how to do that, it won't matter much if you can write
+code, since it will never create any value for anyone.
+
+The best mindset you can have, if you ask me, is to think in terms
+of value provided. You need to learn the tools and processes
+involved in producing value for users. Without that, your coding skills
+don't earn money and you won't get paid. Some parts of the delivery
+process you may not need to know because it is someone elses job to
+do it for you but the bottom line is still the same. We do what we
+do to create value. What we need to know in order to do that changes
+over time and can differ from project to project.
+
 ## Is Long-term Job Satisfaction In Software Tied To Personal Development?
 
 ## Should You Consider Scalability For Resume Projects?
