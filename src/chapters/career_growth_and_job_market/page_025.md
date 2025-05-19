@@ -396,6 +396,49 @@ over time and can differ from project to project.
 
 ## Is Long-term Job Satisfaction In Software Tied To Personal Development?
 
+That is a tricky question. For me, absolutely. However, we should
+consider that, although personal growth is at large a human desire,
+it may not always be the most important factor in a professional
+environment. I have on many occasions had conversations with
+developers who felt that their peers did not show enthusiasm
+for their ideas about better ways of doing work or new tech to use.
+I explained to them that although they may be right about how much
+better things would get if the peers changed their ideas of how
+to work, it is perhaps not something they are interested in.
+For people who are truly engaged and want to work at the bleeding
+edge, this seems to be pure blasphemy but let me try to play
+devils advocate.
+
+I am sure that if you think about it, you have several things
+that you could improve in your daily job. You could probably
+spend more time at the gym or read more books or buy better
+items for your home. If we follow this idea to it's end you
+will at some point, I hope, agree that although this is true,
+you are simply not interested in owning the best version of
+everything or working out so much that you can compete at a
+professional level and so on. In other words, you have a limit
+of how much energy you are willing to spend on an area of your
+life. Your coworkers are doing exactly the same thing.
+
+You may find the work you do to be something that your team
+should pour the most amount of energy in to so that you can
+be "the best" at it but for most people it is just a job.
+It is a means to make a living. Their energy is likely being
+spent on other things than trying to grow as a developer.
+Right or wrong, I think we can agree that the average worker
+is not trying to be the best at their job, they are simply trying
+as hard as they feel is appropriate to live comfortably.
+
+This can be a tough pill to swallow for the achievers of the world.
+You may find that you want to push things to be better but the
+people around you don't really care about the work as much as you.
+This doesn't mean that they don't grow as people. It just means that
+they are putting their energy somewhere else. You may wish that they
+would put it in to their work but it will save you a lot of frustration
+if you can determine if there is a chance for that to happen or if
+you should look to spend more time with people who do put a lot of
+energy in to growing within the work they do.
+
 ## Should You Consider Scalability For Resume Projects?
 
 ## In Top Companies, Would You Still Understand Tech Under The Hood?
