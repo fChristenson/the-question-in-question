@@ -464,6 +464,14 @@ wrote unit tests or if you have checked the security posture.
 
 ## In Top Companies, Would You Still Understand Tech Under The Hood?
 
+Of course, source code is still source code. Depending on the complexity
+of the project, there may be  a lot of code or specific logic that
+is hard to grasp but it is not magic. If you speak your native language
+do you wonder if you will be understood if you spoke to someone who
+is better at it? Sure, they may have to explain some words if they
+are outside of your vocabulary but on average you should be able
+to hold a conversation.
+
 ## Can A Junior Developer Be Promoted Over A Senior Developer?
 
 ## Do Principal Engineers Have The Same Coding Skills As Seniors?
