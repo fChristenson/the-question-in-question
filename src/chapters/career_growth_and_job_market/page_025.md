@@ -441,6 +441,27 @@ energy in to growing within the work they do.
 
 ## Should You Consider Scalability For Resume Projects?
 
+No, not at all. Most developers overestimate how much their pet
+projects matter to the companies they apply to. If they work with
+end customers I can basically promise you that the average customer
+will care more about how nice the UI looks than if it runs on a
+scalable stack.
+
+The average recruiter won't know what scalability is and frankly, most
+don't have the time or skills to deep dive in to a candidates personal
+projects. Most people struggle to read the details in a meeting invite,
+so I can say with a fair amount of certainty that you won't see them
+dive in to the details of your project. There are of course people
+who do but it is not the norm.
+
+I advice developer to treat their resume projects as a shop owner treats
+their shop window. The key to hooking a customer is to put a nice sign
+up and put eye catching items in the window. Treat your projects the
+same way. Front the appeal of the project and don't overestimate how
+much technical details matter. Most recruiters will be swayed more
+by how the project looks and what the main tools are than if you
+wrote unit tests or if you have checked the security posture.
+
 ## In Top Companies, Would You Still Understand Tech Under The Hood?
 
 ## Can A Junior Developer Be Promoted Over A Senior Developer?
