@@ -474,6 +474,41 @@ to hold a conversation.
 
 ## Can A Junior Developer Be Promoted Over A Senior Developer?
 
+In general, no. There is one exception to this rule, at least in
+so far as I can see. The exception is if the senior in question is
+lacking the social skills to lead the team. In such a situation a
+more junior experience may become the tech lead. However, this may
+not in itself mean that the junior has more authority. It simply
+means that they will be expected to perform tasks the include
+leadership and facilitation. Hosting the standup, speaking to
+stakeholders and so on. These are tasks that anyone can do, with the
+right level of social skills but it is not everyone who is interested
+or able to do it well enough to meet the needs of the company.
+
+Promotions in software usually work on a combination of talent for
+the craft and years of experience. In other words, it is possible for
+a junior to be better than a senior but it can be tough to get promoted
+just because of that fact. This is something that, as you can imagine,
+does not sit well with a lot of us. Myself included. It is a bias that
+I argue, lives on from the value system our species has had for so
+long that it is hard to know when it started. The idea I am referring
+to is that you are worth something due to some other factor than what
+you are able to do for the world. This means more or less than being
+part or royalty, being a boss or just someone who is seen as higher
+in status, needs to be catered to in order for everyone to get along.
+Because of this, your manager can't rightly promote you higher than
+someone who is senior, mostly due to that it looks bad and can stir
+up trouble. People believe that due to the senior having more years,
+they are entitled to some consideration in this area.
+
+I would love to say that you can fight this but I suspect it will be
+a lie. Your best hope is to prove your value, get a good relationship
+with your manager and be patient. Even if you may find it hard to get
+the title "senior" before you have earned enough years, you will still
+benefit from being a good developer. Salaries and similar usually have
+a range and top performers usually earn a bit more regardless of what
+experience level they are placed in.
+
 ## Do Principal Engineers Have The Same Coding Skills As Seniors?
 
 ## Have You Worked As A Principal Engineer?
