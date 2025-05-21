@@ -566,7 +566,7 @@ Yes, at least for me.
 Finding a new job can be easier than getting promoted. Usually it is
 because companies view the path to a promotion differently. The idea
 is that getting promoted means that you have proven that you are worthy
-of the blessing to ascend the stairs to a new level of being but when
+to ascend the stairs leading to a new echelon of being but when
 hiring you just need to have the right experiences on the CV.
 
 The entire problem is best summarized like this. When you want to be
@@ -581,11 +581,11 @@ is to become your new boss.
 
 There is one more factor to weigh in. When looking to get promoted,
 you may never get anywhere. Not because you aren't good but because
-the company has no need for someone higher up the ladder or you simply
-be too good at what you do so they want to keep you where you are.
-When hiring you do so because you already need someone. You are in
-the market, looking for someone to fill a vacancy. It is a bit like
-selling door to door vs being in a store with people shopping.
+the company has no need for someone higher up the ladder or you are
+simply be too good at what you do so they want to keep you where you
+are. When hiring you do so because you already need someone. You are
+in the market, looking for someone to fill a vacancy. It is a bit like
+selling door to door versus being in a store with people shopping.
 Knocking on a door is basically trying to sell to a person who may
 not even be interested but if they are in the shop, you know that
 they are looking.
