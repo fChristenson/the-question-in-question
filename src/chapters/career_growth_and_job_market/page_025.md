@@ -533,7 +533,7 @@ coding is always relevant.
 Yes, for several years. The short story is that I started
 showing an aptitude for both the technical part of development
 and the social part. This combination is what usually is interesting
-for manager looking to promote developers to the principal level.
+for managers looking to promote developers to the principal level.
 
 Once I got the role I am happy to say that a lot of the time I spent
 learning how to speak in front of people, present my ideas and of course,
