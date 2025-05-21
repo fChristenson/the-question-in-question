@@ -546,7 +546,53 @@ connect with people, you will do well. At least if you ask me.
 
 ## What Is It Like Working As A Senior Software Developer?
 
+A lot like working as a junior. The main difference is what you need
+to be productive and what expectations people will put on you. Most
+of the time, you aren't really doing anything other than coding.
+However, people in general expect you to be faster and more capable
+of tackling tougher tasks. In some cases you are also shouldered with
+the blessing, or curse, of being the teams support person. Dealing
+with everything from helping juniors, answering questions from the
+product owner, being the main contact for all stakeholders and so on.
+
+In short, being a senior is a bit like being a grownup. For the most
+part there is not real difference between you and a teenager when
+when you work, your are just expected to be more mature.
+
 ## Is Getting A Promotion More Satisfying Than Finding A New Job?
+
+Yes, at least for me.
+
+Finding a new job can be easier than getting promoted. Usually it is
+because companies view the path to a promotion differently. The idea
+is that getting promoted means that you have proven that you are worthy
+of the blessing to ascend the stairs to a new level of being but when
+hiring you just need to have the right experiences on the CV.
+
+The entire problem is best summarized like this. When you want to be
+promoted, your manager has a whole history of events to look back on
+and reflect over. This will impact their decision a lot. However, when
+hiring, there is no such history. In other words, you get evaluated
+based on the feelings of your manager and the more history the more
+complex their process of deciding. In this regard it is easier to
+be get a new job since the decision is made based on your CV and the
+impression you gave in your first meeting with a total stranger who
+is to become your new boss.
+
+There is one more factor to weigh in. When looking to get promoted,
+you may never get anywhere. Not because you aren't good but because
+the company has no need for someone higher up the ladder or you simply
+be too good at what you do so they want to keep you where you are.
+When hiring you do so because you already need someone. You are in
+the market, looking for someone to fill a vacancy. It is a bit like
+selling door to door vs being in a store with people shopping.
+Knocking on a door is basically trying to sell to a person who may
+not even be interested but if they are in the shop, you know that
+they are looking.
+
+Thus the idea of job hopping being a better way to climb the ranks
+came to be. Well, at least in the gospel that is the loosely coupled
+strings of though I have in my mind.
 
 ## Is Growth Limited For Developers Who Prefer Working Alone?
 
