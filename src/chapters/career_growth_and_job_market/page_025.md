@@ -511,7 +511,49 @@ experience level they are placed in.
 
 ## Do Principal Engineers Have The Same Coding Skills As Seniors?
 
+Yes, more often than not. The main difference is usually that the senior
+is mostly spending their time coding whereas for principal's they
+can have a range of tasks. Most of them involve leadership, meetings,
+planning and all the fun tasks you can think of that happens outside
+of the coding.
+
+In my experience it is usually the case that seniors who become principal's
+are placed in that role based on their experience and their social
+skills. You can think of the role as the closest thing you can get
+to being a manager without having any employees. For a lot of developers
+this is as high as you can get while still having the option to code
+on a regular basis. It is a bit of a borderland, you can leave the
+coding or keep parts of it depending on how the company views the
+role but from this point on you will start to drift away from coding
+so I urge you to not fall so out of touch that you forget that the
+coding is always relevant.
+
 ## Have You Worked As A Principal Engineer?
+
+Yes, for several years. The short story is that I started
+showing an aptitude for both the technical part of development
+and the social part. This combination is what usually is interesting
+for manager looking to promote developers to the principal level.
+
+Once I got the role I am happy to say that a lot of the time I spent
+learning how to speak in front of people, present my ideas and of course,
+the time I invested in learning about all manner of programming languages,
+tools and practice, payed of. Big time.
+
+In my experience the true desire of any IT organization is to find
+leaders who are true nerds about tech and who knows how to inspire
+other developers to follow their ideals. I will not go as far as
+to say that you need to create followers but you benefit a lot from
+knowing how to connect with people. If you combine strong soft skills
+with even stronger tech skills you have the perfect unit of a leader
+in software development. A person who can relate to the developers,
+champion topics that are important to them but at the same time
+understand how to talk to non technical stakeholders and build
+the needed trust and understanding.
+
+Being a principal engineer is like having one foot in each part of
+the development process. If you know your tech and you know how to
+connect with people, you will do well. At least if you ask me.
 
 ## What Is It Like Working As A Senior Software Developer?
 
