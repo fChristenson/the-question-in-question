@@ -538,7 +538,7 @@ for managers looking to promote developers to the principal level.
 Once I got the role I am happy to say that a lot of the time I spent
 learning how to speak in front of people, present my ideas and of course,
 the time I invested in learning about all manner of programming languages,
-tools and practice, payed of. Big time.
+tools and practices, payed of. Big time.
 
 In my experience the true desire of any IT organization is to find
 leaders who are true nerds about tech and who knows how to inspire
