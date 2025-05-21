@@ -540,17 +540,6 @@ learning how to speak in front of people, present my ideas and of course,
 the time I invested in learning about all manner of programming languages,
 tools and practices, payed of. Big time.
 
-In my experience the true desire of any IT organization is to find
-leaders who are true nerds about tech and who knows how to inspire
-other developers to follow their ideals. I will not go as far as
-to say that you need to create followers but you benefit a lot from
-knowing how to connect with people. If you combine strong soft skills
-with even stronger tech skills you have the perfect unit of a leader
-in software development. A person who can relate to the developers,
-champion topics that are important to them but at the same time
-understand how to talk to non technical stakeholders and build
-the needed trust and understanding.
-
 Being a principal engineer is like having one foot in each part of
 the development process. If you know your tech and you know how to
 connect with people, you will do well. At least if you ask me.
