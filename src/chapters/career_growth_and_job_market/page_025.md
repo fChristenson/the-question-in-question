@@ -592,7 +592,7 @@ they are looking.
 
 Thus the idea of job hopping being a better way to climb the ranks
 came to be. Well, at least in the gospel that is the loosely coupled
-strings of though I have in my mind.
+strings of thought I have in my mind.
 
 ## Is Growth Limited For Developers Who Prefer Working Alone?
 
