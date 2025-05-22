@@ -614,9 +614,7 @@ but if you don't care about that sort of growth you don't have to
 worry. You are perfectly able to grow by yourself and in fact,
 more than if you only depend on your peers to teach you.
 
-## What Are Realistic Expectations For Switching To Frontend Development?
-
-## How To Evaluate It Companies When Applying For A Job?
+## How To Evaluate Companies When Applying For A Job?
 
 ## How Long Does It Take For A Junior Developer To Be In Demand?
 
