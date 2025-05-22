@@ -596,6 +596,24 @@ strings of thought I have in my mind.
 
 ## Is Growth Limited For Developers Who Prefer Working Alone?
 
+To a point. You may not get any exposure to working in a team
+and that is a major part of software development at scale.
+However, these experiences may not necessary hold your growth back
+if what you want is to do mostly freelancing work.
+
+There is an idea that working in a team is how you grow. I argue
+that this is not necessarily true. What matters is what ideas you
+are exposed to and what insights you get from experimenting.
+If you are lucky, some of those insights will come by working in a
+team but that is far from certain. You may be in teams where you learn
+nothing from the members no matter how many code reviews you go through.
+
+It is fair to say that you can always gain some exposure to social
+interactions in a team and that has value in many areas of life,
+but if you don't care about that sort of growth you don't have to
+worry. You are perfectly able to grow by yourself and in fact,
+more than if you only depend on your peers to teach you.
+
 ## What Are Realistic Expectations For Switching To Frontend Development?
 
 ## How To Evaluate It Companies When Applying For A Job?
