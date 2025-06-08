@@ -69,6 +69,17 @@ energy in to growing within the work they do.
 
 ## What Happens To Developers In Big It Companies As They Age?
 
+This varies a lot but on average they go in to management or
+similar administrative work. There is of course a breed who
+stick to their coding until they retire but based on my experience
+the average age of the developers range from people in their 20's
+to their late 40's whereas the age of people working in management,
+especially the higher levels, have a range of 40's and above.
+
+There are plenty of exceptions to these age ranges so take what I
+am sharing for what it is, a personal observation from someone who
+has been in the industry for a few years.
+
 ## How Can It Companies Help New Developers With Onboarding?
 
 ## Is It A Zero-sum Game For Tech Leads To Praise Their Teams?
