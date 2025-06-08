@@ -616,9 +616,65 @@ more than if you only depend on your peers to teach you.
 
 ## How To Evaluate Companies When Applying For A Job?
 
+It depends on what you are looking to evaluate. There are some
+general hints that I can share but for the most part you are
+going in blind each time. At least, if you want to evaluate how
+life working in the company will be. Working conditions can differ
+a great deal even within the same role from company to company.
+
+First, I usually look at the role and the tools posted in the description
+of the job role. I argue that it is fair to say that, similar tools
+mean similar working conditions regardless of company. At least, as
+far as the coding is concerned. Your coworkers will differ a lot and
+these are people you can't really evaluate before you start working.
+Their ideas and values naturally has a large impact on the coding you
+will be doing but in general the same stack means roughly the same
+type of workflow in each company.
+
+Second, I ask about how the delivery process work. This is important
+since depending on the culture you may have to shoulder most work
+planning yourself or you may have a whole team of Scrum masters,
+various types of product owners and other stakeholders. This gives
+me a rough idea of how much process I will be dealing with and how
+mature the planning process is.
+
+These are the main points I usually consider.
+
 ## How Long Does It Take For A Junior Developer To Be In Demand?
 
+On average, 5 years. However, it is worth knowing that the demand
+starts rising even after 1 year of work experience.
+
+5 years is about the time where developers have had a chance to
+work long enough to become more or less self reliant. That is the
+main thing companies care about. It can be the case that you reach
+that point quicker so don't treat 5 years as a hard number but rather
+a general estimate.
+
 ## How To Choose The Best Opportunities As A Developer?
+
+Start by considering what your long term goals are and how the
+options presented to you help you to achieve them. A good mindset
+I have followed is to think in terms of hard skills and experiences.
+In other words, what do you need to know in order to reach your long
+term goals? What opportunities do you have and what skills will they
+help you practice? A big part in finding the right career path is
+understanding what you need to learn to feel confident when taking
+the next step. In some cases you may be tempted to take on work that
+is benefitting your employer at the expense of your goals. Try to avoid
+these situations and strive to find work that have a mutual benefit
+to you and the company. If the company benefits from the work you do
+and you gain experience needed for your long term goals, that is the
+best possible situation for both parties.
+
+In short, pick opportunities that will grow your market value.
+If you you are a junior developer, pick work that will give you
+coding practice. If you are a senior, pick up work that will give
+you exposure to leadership, if your goal is to climb. What the right
+choices are very much depends on your goal but always remember to focus
+on skills and experience gained from the work you do. It is those that
+give you market value and those people will look first at when you
+want to take the next step.
 
 ## What Happens To Developers In Big It Companies As They Age?
 
