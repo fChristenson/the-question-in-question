@@ -82,6 +82,29 @@ has been in the industry for a few years.
 
 ## How Can It Companies Help New Developers With Onboarding?
 
+I usually suggest that company policy is for the tech lead to
+be responsible for making a onboarding guide that is documented
+and kept up to date. The goal of the guide is to get the developer
+up and running with their local development environment and give
+them access to all the systems they need to do their work.
+
+Apart from getting things up and running, I recommend that the
+team pick out a few basic stories that will help the developer
+learn how the delivery process works. These stories can be tiny
+bugfixes or anything really that is possible to do in less than
+a day. The goal is to put them on something small so they can
+ship something and through doing that, understand how the team
+does code reviews, testing and deployments.
+
+I suggest you have a few smaller stories ready and then ease the
+developer in to large scope work depending on their progress.
+
+Lastly, make sure that the developers in the team understand that
+at least one of them has to reserve time to answer question and
+in some cases do pair programming. This needs to be communicated
+to them and to the stakeholders so the developer can reserve the
+time without fear of falling behind on their own work.
+
 ## Is It A Zero-sum Game For Tech Leads To Praise Their Teams?
 
 ## How To Spot Areas Of Improvement In A Developer?
