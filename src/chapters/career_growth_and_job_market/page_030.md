@@ -107,6 +107,28 @@ time without fear of falling behind on their own work.
 
 ## Is It A Zero-sum Game For Tech Leads To Praise Their Teams?
 
+I am not sure how to answer this. My way of giving praise has
+mostly been about noticing growth in the people I work with.
+I make a note of when someone shows progress or is able to
+execute a task that was either helpful to the team or was
+outside of what they knew how to do before. In other words,
+praise comes with growth, when you are getting it from me.
+
+I don't praise people on a regular basis as I prefer to keep
+it genuine and focused on building pride in the work we do.
+If the developers in my team show engagement and try to help
+me ensure that the team meets the expectations put on us,
+they shower in praise and all of it comes straight from the
+heart. I don't care if it is a junior learning how to write
+code so there are no mistakes or a senior who handled an
+adhoc request when they usually never offer to help, if you
+show that you care about helping the team deliver better
+results, I will praise it.
+
+Conversely, if you show none of this, you will never hear
+a compliment come out of my mouth. Maybe, if you have a
+really nice sweater on.
+
 ## How To Spot Areas Of Improvement In A Developer?
 
 ## Should New Developers Choose Languages With Large Communities?
