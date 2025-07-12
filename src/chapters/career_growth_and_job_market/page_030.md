@@ -304,6 +304,41 @@ insecurities people in that job have, it starts to make more sense.
 
 ## How Can Developers Recognize When It’s Time To Move On?
 
+It depends on your goals, as per usual.
+
+My personal mantra is to always ask myself "is my job getting
+me closer to my next goal"? It is that simple for me at least.
+
+The reason I ask this question is because of a phenomenon that
+is very human. It is the process of adjusting to things over
+time. This is how you get spoiled kids who throw tantrums over
+not getting their way, because their parents have conditioned
+them to an environment where that is what they expect.
+This is also how people can adjust to living in horrible conditions
+that for the majority would be nightmarish. People can learn to
+be ok with a lot.
+
+For me this means that I have to commit myself to keeping my options
+open. People who stay forever in the same job regardless if they
+like it or hate it often have no other option or lack the will
+to move on. This is how stagnation creeps in.
+
+Stagnation is not the worst thing in the world and it happens to
+everyone to some degree. It only becomes dangerous when it start
+to affect your market value. As a developer your market value is
+based on your ability to meet the current markets demand for coding
+and that means knowing how to work in the stack used by the companies
+you want to work for. If you are not able to keep a working understanding
+of current tools and practices, you should consider moving on.
+
+Safeguarding your long term career depends a lot on your ability to
+understand at what phases of your career you will be and what will
+be important to know at that point. This is why I always do a personal
+reflection of what value I am adding to my CV with my current job on
+a regular basis. A simple calendar reminder is enough for me to stop
+and ponder if I have any better options to improve my market value
+or improve my skills than what I have right now.
+
 ## What Should Developers Focus On When Starting A New Job?
 
 ## How Can Developers Maintain A Long-term Career In Tech?
