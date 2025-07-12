@@ -341,6 +341,28 @@ or improve my skills than what I have right now.
 
 ## What Should Developers Focus On When Starting A New Job?
 
+Start by having your own personal workstation setup that you feel
+really comfortable using. This is very important since if you feel
+insecure in the tools you use to write code it will slow you down
+and it will impact your mood. Think about your choices in editors
+and other tools as a musician and their instrument. It is your most
+important tool for your job so make sure you know it well.
+
+Once you have a setup that you know well and allows you to write code
+the way you feel comfortable, get the source code on your workstation
+and get a local version of the system working. The quicker you can
+get this setup the better because now you can start trying out the
+system and see how it works without any risk.
+
+Next, find out who knows the most about what. Regardless if you are
+a junior or a senior, you won't know how things work in this new
+company without a bit of guidance. In every company there is almost
+always a few people who know a lot about various areas of the system
+and the workflows. These we sometimes refer to as domain experts.
+Find them, be nice to them and make sure you have easy access to them.
+They will be very important to you until you learn enough about the
+system so you can manage on your own.
+
 ## How Can Developers Maintain A Long-term Career In Tech?
 
 ## What Are The Challenges Of Onboarding Developers To Complex Projects?
