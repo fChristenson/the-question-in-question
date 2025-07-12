@@ -235,7 +235,50 @@ we are making and who benefits when we pick our tools. Especially
 when our choices has an impact on the future of our projects and
 perhaps our career.
 
-## Should Developers Engage In Business Discussions, And How Can They Demonstrate Their Value To Stakeholders?
+## How Can Developers Demonstrate Their Value To Stakeholders?
+
+The main way you become an asset to your stakeholders is by doing
+the following 2 things.
+
+First, speak with the voice of experience. Most of your stakeholders
+don't know anything about your work or how programming works. This
+means that they more or less have to trust what you tell them and
+if you give them reason to doubt your expertise it will give them
+an uneasy feeling.
+
+Think about it a bit as if you go to the doctor or when you sit in
+a plane. You don't really know anything about how medicine or planes
+work but you feel calm if the people in charge are calm, collected
+and seem to know what they are doing. You would probably be a bit
+uneasy if they had bad communication skills, seemed like they
+didn't really know their job or simply couldn't answer your questions.
+
+Getting a experienced voice comes with years of work but it can help
+to make sure that you can communicate effectively with your stakeholders.
+Remember that they don't really know anything about your job so if
+you can explain things to them so the feel that they understand to
+some small extent, they will love working with you and they will
+trust you. Trust is one of the most important things you can earn.
+It is what allows you to pick your tools and what determines if you
+get to refactor or not.
+
+Second, connect mentally with your stakeholders. In other words we
+commonly refer to this as having a business mindset.
+
+This sounds fancy but the basic meaning is that you understand why
+your are building the system, for who and what they are trying to
+gain from the features they want.
+
+If you are able to understand the stakeholders and come with suggestions
+of how things can be done, present alternatives for work that can
+be costly or explain the impact of their choices, they will love you
+for it. Remember, they don't know your craft, they just want a good
+system and if you can help guide them to that goal they will want
+you to weigh in on almost all features they want.
+
+To summarize, make your stakeholders feel like you know your craft.
+Make them feel like you are listening to their needs and understand
+them.
 
 ## What Are The Biggest Reasons Developers Leave Jobs, And How Can They Recognize When It’s Time To Move On?
 
