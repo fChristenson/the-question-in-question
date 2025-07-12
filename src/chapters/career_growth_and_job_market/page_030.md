@@ -420,7 +420,28 @@ sense of how your systems form is looking. If your developer struggle
 to teach others the system and new people struggle to deliver, you
 may want to take this as a sign to take action before it gets worse.
 
-## What Best Practices Ensure Effective Onboarding For New Developers, And How Can Teams Integrate Them Smoothly?
+## What Best Practices Ensure Effective Onboarding For New Developers?
+
+Start by making a simple onboarding step by step guide. It should just
+be a simple checklist with links and instructions of how to get the
+new developer up and running with a local setup of the system. Add
+visual aids when needed but keep the content focused on helping them
+get their development environment working so they can start writing
+code.
+
+Avoid creating excessive system diagrams and overviews. Favour instead
+having a session with the developer where the team goes through the
+systems main features, what the infrastructure looks like and what
+supporting systems you use to monitor and deliver to production.
+
+Finally, create one or two small work tasks for the developer that
+lets them commit some minor code changes and deliver that code to
+a production environment, end to end. This will help them understand
+how the workflow looks without needing to take on a big task early.
+
+For good measure, make sure that you have documentation of important
+contacts outside of the team and common tasks that may need to be done
+on a semi regular basis.
 
 ## How To Handle Knowledge Gaps When Onboarding New Developers?
 
