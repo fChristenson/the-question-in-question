@@ -166,7 +166,7 @@ daily standup, check logs for errors and of course, configure a
 build pipeline so automated tests and similar runs before the code
 is deployed.
 The dynamics I go for is similar to a teacher in school, who will
-ask a random student during class, if they can give an example
+ask a random student during class if they can give an example
 on a topic related to the subject being taught. This introduces
 a way to spot check knowledge for the teacher and with a bit of
 no prestige culture, creates a elegant way of reminding the class
@@ -180,6 +180,8 @@ team. This puts the developers in a position where they will learn
 how to handle a larger part of the end to end delivery.
 
 ## Should New Developers Choose Languages With Large Communities?
+
+
 
 ## Should Developers Engage In Business Discussions, And How Can They Demonstrate Their Value To Stakeholders?
 
