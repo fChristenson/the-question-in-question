@@ -169,7 +169,7 @@ The dynamics I go for is similar to a teacher in school, who will
 ask a random student during class if they can give an example
 on a topic related to the subject being taught. This introduces
 a way to spot check knowledge for the teacher and with a bit of
-no prestige culture, creates a elegant way of reminding the class
+no prestige culture, creates an elegant way of reminding the class
 to pay attention to at least the main lessons of the subject.
 
 This pattern works for us developers as well. Simply make sure that
