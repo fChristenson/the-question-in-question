@@ -280,7 +280,29 @@ To summarize, make your stakeholders feel like you know your craft.
 Make them feel like you are listening to their needs and understand
 them.
 
-## What Are The Biggest Reasons Developers Leave Jobs, And How Can They Recognize When It’s Time To Move On?
+## What Are The Biggest Reasons Developers Leave Jobs?
+
+The most common reasons are not as exciting as you may think.
+Well, at least not in my experience.
+
+Usually developers leave work for personal reasons, such as
+relocating with family or similar. The second most common is
+that they got a better offer from some other company. It is
+not that often I see developers leaving a job just because
+some other company offers them work but rather because they
+have felt that they needed a change for a time and for whatever
+reason, the company could not satisfy this need for them.
+
+People outside the big club we call IT, imagine that developers
+quit over bad code but in reality that is not the case.
+Usually, developer complain about bad code but few feel so
+strongly about it that they will risk their stable job over
+something like that. In a way it is similar to people who learn
+to adapt to poor working conditions in any job, from the outside
+it seems odd but if you factor in job prospects and other similar
+insecurities people in that job have, it starts to make more sense.
+
+## How Can Developers Recognize When It’s Time To Move On?
 
 ## What Should Developers Focus On When Starting A New Job?
 
