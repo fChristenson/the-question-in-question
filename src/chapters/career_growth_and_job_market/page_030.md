@@ -443,9 +443,27 @@ For good measure, make sure that you have documentation of important
 contacts outside of the team and common tasks that may need to be done
 on a semi regular basis.
 
-## How To Handle Knowledge Gaps When Onboarding New Developers?
-
 ## What Are The Risks Of Rushing The Onboarding Process For New Developers?
+
+The main risk is that their code won't work or it will cause issues
+for other developers. We have to remember that their code is likely
+connected to other code and if we want to feel secure in that this
+new code will work and that it won't break the current code, we need
+to be sure that the new developer knows enough to handle the tasks
+given to them.
+
+A good method to help mitigate this risk is to pick tasks for the new
+developer that requires less system knowledge to deliver. Some code
+changes are core to the entire system and can potentially require very
+deep knowledge of the system. This will be a bit much usually to start
+with but then there are areas of the code that are more isolated where
+adding new code or changing the existing code is less risky and requires
+only basic understanding of the area of the code.
+
+This is an ideal place to start a new developer on. It gives them a
+chance to learn some part of the system before we throw them in to
+the deep end where they will need to understand a large part of the
+system before they can change anything.
 
 ## How To Build Effective Onboarding Programs For Junior Developers?
 
