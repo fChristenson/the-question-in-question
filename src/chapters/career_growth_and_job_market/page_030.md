@@ -389,7 +389,7 @@ different type of cloud providers, databases, practices and so on
 will benefit you a lot when it comes time to step in to the promised
 land of seniors.
 
-Well, congrats, you made it. Now you are a senior. This is where it
+Well, congrats. You made it. Now you are a senior. This is where it
 gets tricky to predict what will benefit you because it will be down
 to how the market shifts and what your own goals are. As a general
 rule, it is worth making sure you master how to get software from an
