@@ -411,7 +411,9 @@ can be equally responsible for developers having a tough onboarding.
 
 This is a state that is potentially one of the worst states for a company
 to be in. It means that hiring new people and getting them productive
-is costly and losing trained staff can be catastrophic.
+is costly and losing trained staff can be catastrophic. If you want
+know how to avoid this, I will sell you a book later that is at least
+three times as expensive as this one.
 
 The onboarding is a good way to, in a very coarse manner, get a
 sense of how your systems form is looking. If your developer struggle
