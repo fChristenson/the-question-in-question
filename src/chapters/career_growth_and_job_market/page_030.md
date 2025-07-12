@@ -365,6 +365,39 @@ system so you can manage on your own.
 
 ## How Can Developers Maintain A Long-term Career In Tech?
 
+Understand what skills you need at any one point in time and
+position yourself to always be learning what you need for one
+of two important things.
+
+Number one, market value. This is by far the most important observation
+any craftsman can make. Know the market you work in and what people
+are paying for. Your choices in tools and framework should ideally
+be somewhat aligned with the market. It is fine to deviate, after all,
+IT is large and diverse. However, make sure that you understand that
+learning a cool library or picking up a obscure programming language
+may be fun and teach you new things, but it will likely not be a
+strong selling point when it comes time to send in your CV.
+
+Second, understand your career phases and what matters most in
+each phase. As a junior, your focus should be to learn the coding so
+you can ship code with as little assistance as possible. This is how
+you get to be a mid level developer, where the sweet-spot is for most
+professional programmers. During this phase you focus should be to
+mature your understanding of how to build systems of various kinds.
+What type of surrounding services and tools are common. Things like
+different type of cloud providers, databases, practices and so on
+will benefit you a lot when it comes time to step in to the promised
+land of seniors.
+
+Well, congrats, you made it. Now you are a senior. This is where it
+gets tricky to predict what will benefit you because it will be down
+to how the market shifts and what your own goals are. As a general
+rule, it is worth making sure you master how to get software from an
+idea phase, to planning out backlog items and all the way to production.
+This flow is always the most important in all companies you will work
+in and it will be invaluable to understand even if you want to move
+in to leadership in the future.
+
 ## What Are The Challenges Of Onboarding Developers To Complex Projects?
 
 ## What Best Practices Ensure Effective Onboarding For New Developers, And How Can Teams Integrate Them Smoothly?
