@@ -400,6 +400,24 @@ in to leadership in the future.
 
 ## What Are The Challenges Of Onboarding Developers To Complex Projects?
 
+Almost always, I find that the main issue is that complex systems or
+just very poorly made systems require the developer to know half the
+codebase before they feel confident to change a variable name.
+
+Sometimes we refer to this state as spaghetti code but I argue that
+this terms is a poor choice here because code that is "bad" and
+a system that simply has been architected in an complex fashion
+can be equally responsible for developers having a tough onboarding.
+
+This is a state that is potentially one of the worst states for a company
+to be in. It means that hiring new people and getting them productive
+is costly and losing trained staff can be catastrophic.
+
+The onboarding is a good way to, in a very coarse manner, get a
+sense of how your systems form is looking. If your developer struggle
+to teach others the system and new people struggle to deliver, you
+may want to take this as a sign to take action before it gets worse.
+
 ## What Best Practices Ensure Effective Onboarding For New Developers, And How Can Teams Integrate Them Smoothly?
 
 ## How To Handle Knowledge Gaps When Onboarding New Developers?
