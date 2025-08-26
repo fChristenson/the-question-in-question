@@ -628,7 +628,7 @@ love to put a lab coat on the actors in their commercials, it adds
 credibility to their message.
 
 In short, peoples impression of you matter when you want them to listen.
-Tech skills won't do much if people won't let you use them.
+Tech skills don't do much if people won't let you use them.
 
 ## Why Don’t You Want To Work At A Fang Company?
 
