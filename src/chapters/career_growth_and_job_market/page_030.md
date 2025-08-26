@@ -550,6 +550,22 @@ needed by deleting the folder where the code is.
 
 ## What Are The Challenges Of Onboarding Developers In Complex Projects?
 
+Usually their productivity is the main factor. Complex projects often
+require the developers to have a lot of upfront knowledge before they
+can confidently work. That naturally brings the second main issue.
+When developers have a hard time following the architecture of the
+system, they make mistakes. These can range from minor bugs to the
+wrong design decisions for the system.
+
+I have found that to combat these issues your best bet will be to
+foster a culture on engagement in the team. Hire people with strong
+communication skills and encourage them to interact with the stakeholders
+so they learn what they are building and for who. Too often I see
+projects become a big mess because the developers have a hard time
+understanding the needs of the people using the system and as you
+can imagine, the more complex the system the easier it is to make
+poor choices when coding.
+
 ## What Are The Benefits Of Creating A Developer-friendly Onboarding Process?
 
 ## What Are The Risks Of Not Prioritizing Developer Onboarding?
