@@ -467,6 +467,44 @@ system before they can change anything.
 
 ## How To Build Effective Onboarding Programs For Junior Developers?
 
+I argue that hiring juniors is something you should only do if you
+know that you have people who are able and willing to mentor them.
+
+If you do have the right people, the next step is to create a roadmap
+of work. I usually say that the first thing to do is to write down
+a step by step guide on how to get the local development environment
+up and running. The goal is for the reader to have the right accesses,
+configs and anything else they need to start working in place after
+completing the list.
+
+The juniors first task is to complete this onboarding guide. It will
+give you as the mentor a good feeling for how comfortable they are
+with the tools you are using in the project. If they struggle with
+installing tools or following directions from the guide, you gain
+insight in to what you will need to help them with.
+
+Once the guide has been completed and the junior can work with a local
+setup, you should give them a intro task. Pick something arbitrary
+that is as easy as you can make it or pick something from the backlog.
+The goal of this task is just to give the junior a small task that
+will help them understand how code goes from their workstation in to
+production. By the end of that first task, they will have experienced
+how the teams workflow looks.
+
+Observe the juniors comfort levels during this phase so you can spot
+any areas of discomfort for them and take measures to prepare work
+that will help them improve their understanding of those areas.
+
+Finally, device your roadmap as a onion model where the junior starts
+on tasks that are on the outer layers and by mastering work that require
+less in-depth knowledge about the system, they "earn" the option of
+working on tasks that are more complex until the reach the center of
+the onion.
+
+I am a big fan of using a gateway system of evaluation. The idea being
+that you prepare a roadmap of tasks that get increasingly more complex
+as the junior proves that they can handle the work.
+
 ## How To Optimize Codebases For Easier Onboarding Of New Developers?
 
 ## What Are The Challenges Of Onboarding Developers In Complex Projects?
