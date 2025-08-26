@@ -507,6 +507,40 @@ as the junior proves that they can handle the work.
 
 ## How To Optimize Codebases For Easier Onboarding Of New Developers?
 
+I have a saying that I refer to when I design source code architecture.
+
+I want the developers to feel like they are visiting a fast food restaurant.
+The idea behind this is that fast food restaurants feel the same regardless
+of where you visit them. They may differ to some extent but overall
+you know what their menu looks like and what their interiors will
+look like.
+
+I design source code and in fact entire company strategies the same
+way. My goal is to make each project feel similar, not exactly the
+same, just similar.
+
+I have found that using a modular style of organizing my files works
+best. I avoid using many of the styles commonly seen in projects.
+The reason being that I want to let developers learn the system
+gradually instead of having to understand all of it to start working.
+If I spread out the logic needed to work on a single endpoint or UI
+component, I am making it harder for the developer to figure out the
+scope of the logic. However, if I put all the files needed for the
+specific endpoint or UI component in the same folder, thereby centralizing
+the code that is relevant, I remove the guesswork. I have also found
+that it calms the mind of the developers since they feel they can make
+changes to the code without breaking some unknown project wide architecture
+they have yet to understand.
+
+The best way I can describe the style is to think about third party
+libraries. Each of them is just a folder of files you need to use the
+code with some entrypoint.
+For a backend module the controller with the urls and request handler
+methods is the most natural entrypoint. For UI components it is,
+at least these days, the UI component you want to put on a a page.
+You know you are on the right track if you can delete all the logic
+needed by deleting the folder where the code is.
+
 ## What Are The Challenges Of Onboarding Developers In Complex Projects?
 
 ## What Are The Benefits Of Creating A Developer-friendly Onboarding Process?
