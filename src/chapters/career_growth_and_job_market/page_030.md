@@ -570,13 +570,47 @@ it has to work a certain way. If you have developers who know when
 to stop and evaluate if they are making the right choices, then
 you have people you can rely on even if the system is complex.
 
-## What Are The Benefits Of Creating A Developer-friendly Onboarding Process?
-
-## What Are The Risks Of Not Prioritizing Developer Onboarding?
-
-## What Are The Risks Of Ignoring Developer Onboarding Processes?
-
 ## What Are The Top 1% Of Software Engineers Doing Differently?
+
+Sadly I don't know any top 1% developers on a global scale. I am
+not even sure how we would measure it. But I do know the top 1%,
+at least in my opinion, in a range of teams and companies.
+
+The red thread between all the people I would call top 1% is,
+at least from my viewpoint, that they pair strong technical skills
+with a good understanding of what they are making, for who and
+what results their customers are hoping to get.
+
+The reason this is so powerful is that if you only have strong
+tech skills, you may write great code but you will usually not
+create the right code for the situation. The best way I can
+describe it is that, imagine that you go to a blacksmith to
+buy a knife and after a bit of waiting he hands you a sword.
+Sure, it is a nice sword and proof of this mans amazing skill
+but it is the wrong result. Great craftsmen know how to use
+their skills to produce the best result for the customer.
+Sometimes that means making a really great knife and sometimes
+it means making a sword but they are always focused on getting
+the results that the customer wants.
+
+By understanding the desired result of the customer we can
+predict how we need to structure the code so it best fits
+the results we want. What the top 1% does after that is to
+stop before they do exactly what the specification tells
+them and start thinking for themselves. They understand
+that the customer has just tried to express what they
+want but they may not know that there are better ways
+to get the results they want. The top 1% then connect with
+the customer and present a few options worth considering.
+
+In summary, top developers have strong tech skills and
+a product mindset. They understand that the code they
+write is going to become a solution to someones problem
+and it is vital to understand that person so the end
+result become great. Great code has no value if the
+resulting system isn't doing what the customer wants
+so to truly write great code we need to focus on the
+end result.
 
 ## Does Your Job Title Impact Your Results?
 
