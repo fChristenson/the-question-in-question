@@ -607,10 +607,7 @@ In summary, top developers have strong tech skills and
 a product mindset. They understand that the code they
 write is going to become a solution to someones problem
 and it is vital to understand that person so the end
-result become great. Great code has no value if the
-resulting system isn't doing what the customer wants
-so to truly write great code we need to focus on the
-end result.
+result becomes great.
 
 ## Does Your Job Title Impact Your Results?
 
