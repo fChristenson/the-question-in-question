@@ -653,6 +653,8 @@ It is very hard to find people who are above this level and it
 is equally common that people start using the term "senior" when the
 skill level they have is roughly the same.
 
+## Why Do Some Developers Never Outgrow The Junior Level?
+
 It surprises many to hear that the difference between a mid-level with
 around 5 years of experience, often has the same skill level as a
 senior with 20 years. The reason often being that after devs get to
@@ -663,4 +665,17 @@ stagnate their growth because they find a routine that they like.
 Without deliberately trying harder they will stay at about the same
 fitness level no matter how many years they spend in the gym.
 
-## Why Do Some Developers Never Outgrow The Junior Level?
+This is what commonly happens and it is the worst position to be
+in when you are a senior.
+Junior developers often believe that the biggest problem is that people
+will not hire them due to their lack of experience. However, this
+is also true for seniors. Seniors have the benefit of a longer CV
+but the expectations on their skills are also higher.
+The one benefit a junior has when starting a new job is that most
+of their coworkers will understand that they are young in their
+career and will often overlook poor performance to a greater extent.
+This is not the case for more senior profiles, usually. They get judged
+much quicker. If they have mostly done basic coding without much
+personal growth, they may find that they fail to meet the expectations
+put on them.
+It is never fun to be in that situation, as a junior or as a senior.
