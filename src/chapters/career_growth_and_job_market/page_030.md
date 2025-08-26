@@ -611,6 +611,22 @@ result becomes great.
 
 ## Does Your Job Title Impact Your Results?
 
+To some extent yes. Titles paired with mannerisms have a big impact
+on how other people perceive you and that has an impact on if they
+will listen to you or not. This is a key insight you will learn when
+you start suggesting how to improve the system you are working on.
+If you try to get a junior developer to pitch that a refactor is needed
+to the stakeholders, it may be hard to do so. The junior may be completely
+correct but if they can't give the stakeholders a feeling of trust
+and comfort, the stakeholder will often doubt them.
+
+Take the same scenario but with a master level programmer. This person
+speaks with the professional calm of a veteran. Knows how to answer
+questions and how to clarify. This breeds trust in to the people they
+are speaking to. Their title is similar to why all medical companies
+love to put a lab coat on the actors in their commercials, it adds
+credibility to their message.
+
 ## Why Don’t You Want To Work At A Fang Company?
 
 ## What Defines A Mid-level Developer?
