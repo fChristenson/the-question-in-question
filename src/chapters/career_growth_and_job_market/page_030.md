@@ -536,7 +536,7 @@ The best way I can describe the style is to think about third party
 libraries. Each of them is just a folder of files you need to use the
 code with some entrypoint.
 For a backend module the controller with the urls and request handler
-methods is the most natural entrypoint. For UI components it is,
+methods is the most natural entrypoint. For UI modules it is,
 at least these days, the UI component you want to put on a a page.
 You know you are on the right track if you can delete all the logic
 needed by deleting the folder where the code is.
