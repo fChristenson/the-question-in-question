@@ -647,10 +647,12 @@ use. Then you are a mid-level, at least that is what most of my peers
 and me can agree on. Congrats, you are now at the minimum level needed
 to be a viable candidate for most of the jobs on the market.
 
-Most companies are looking for mid-level developer or they settle for
-them. It is very hard to find people who are above this level and it
+Most companies are looking for mid-level developers or they settle
+for them.
+It is very hard to find people who are above this level and it
 is equally common that people start using the term "senior" when the
 skill level they have is roughly the same.
+
 It surprises many to hear that the difference between a mid-level with
 around 5 years of experience, often has the same skill level as a
 senior with 20 years. The reason often being that after devs get to
@@ -659,6 +661,6 @@ a comfortable workflow that they know. It is a bit like strength
 training. You work hard to get in to decent shape and then most
 stagnate their growth because they find a routine that they like.
 Without deliberately trying harder they will stay at about the same
-fitness level.
+fitness level no matter how many years they spend in the gym.
 
 ## Why Do Some Developers Never Outgrow The Junior Level?
