@@ -565,6 +565,10 @@ projects become a big mess because the developers have a hard time
 understanding the needs of the people using the system and as you
 can imagine, the more complex the system the easier it is to make
 poor choices when coding.
+Good developers always know what they are making, for who and why
+it has to work a certain way. If you have developers who know when
+to stop and evaluate if they are making the right choices, then
+you have people you can rely on even if the system is complex.
 
 ## What Are The Benefits Of Creating A Developer-friendly Onboarding Process?
 
