@@ -533,8 +533,9 @@ changes to the code without breaking some unknown project wide architecture
 they have yet to understand.
 
 The best way I can describe the style is to think about third party
-libraries. Each of them is just a folder of files you need to use the
-code with some entrypoint.
+libraries. Each of them is just a folder of files. You know how to
+import the code to your project and each of them have some exposed
+entrypoint you can use.
 For a backend module the controller with the urls and request handler
 methods is the most natural entrypoint. For UI modules it is,
 at least these days, the UI component you want to put on a a page.
