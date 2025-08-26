@@ -519,6 +519,12 @@ I design source code and in fact entire company strategies the same
 way. My goal is to make each project feel similar, not exactly the
 same, just similar.
 
+The code architecture I use is done with the same mindset. I want each
+folder of source files to feel similar to popular conventions.
+Naturally, you can't perfectly replicate patterns from other projects
+but the closer you can stick to patterns developers are familiar with
+the less confusion you will usually end up with.
+
 I have found that using a modular style of organizing my files works
 best. I avoid using many of the styles commonly seen in projects.
 The reason being that I want to let developers learn the system
