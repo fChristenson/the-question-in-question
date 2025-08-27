@@ -102,6 +102,10 @@ the wrong data.
 Testing that is best done with an integration test since we want to
 be sure that the request actually works.
 
+Always focus on what can go wrong when making tests. Having unit tests
+does not mean that bugs will be caught. Having the right test for the
+code you have made will.
+
 ## Why Do Senior Developers Sometimes Use Complex Code Instead Of Simple Code?
 ## What If Complex Code Can’t Be Simplified?
 ## What Techniques Can Help Simplify Code?
