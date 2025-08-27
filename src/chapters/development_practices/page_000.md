@@ -42,6 +42,30 @@ it is after all very hard to boyscout a database schema, then you
 may want to consider a big refactor.
 
 ## How To Write Integration Tests That Aren’t Flaky?
+
+The best way I know, is to write integration tests that
+can run in a stable environment and with stable values.
+Flaky behaviour usually comes from things like race conditions
+and unrealiable systems external to your code.
+
+Take time as an example. Timestamps are a common thing in many
+programs and they can be hard to write tests for. The tricky
+part about writing tests for timestamps is usually that time
+keeps changing. So how do we fix that? Well, the simplest way
+is to not do exact assertions on timestamps and instead allow
+for a small amount of error margin so the test won't fail if
+the difference between two timestamps is just a few milliseconds.
+
+Another worthwile consideration is for functions using time internally.
+Instead of creating a timestamp inside the function, pass it as a parameter
+so the caller can control the time value. If your langauge supports
+default parameters, I find it nice to use a default value so the test
+can override it when needed.
+
+![flaky test](../assets/testing_flaky_code.png)
+
+TODO:...
+
 ## Are Unit Tests Effective As Regression Test Suites?
 ## Why Do Senior Developers Sometimes Use Complex Code Instead Of Simple Code?
 ## What If Complex Code Can’t Be Simplified?
