@@ -81,6 +81,27 @@ Sometimes close enough is the better option to pick than having to
 deal with the problems that come with exactly the same.
 
 ## Are Unit Tests Effective As Regression Test Suites?
+
+In of themselves, no. Combined with the layers commonly found on a
+testing pyramid, yes.
+
+I often see developers struggling to understand testing. They write
+some basic unit tests and call it a day. However, I argue that if
+you don't understand that the test you write depends on the code,
+then you haven't really understood why you are writing tests.
+
+Unit tests make a lot of sense to write if you are afraid that the
+function you have made will have a bug in it. They make no sense
+at all if the function isn't doing anything that can go wrong.
+They make no sense if the code you have is just connecting to an
+external API to fetch some data. We can of course make an argument
+for that checking the url or possible input parameters being added
+to the request body can be a unit test but I hope we can agree that
+the most risky part of an external API call is that the API returns
+the wrong data.
+Testing that is best done with an integration test since we want to
+be sure that the request actually works.
+
 ## Why Do Senior Developers Sometimes Use Complex Code Instead Of Simple Code?
 ## What If Complex Code Can’t Be Simplified?
 ## What Techniques Can Help Simplify Code?
