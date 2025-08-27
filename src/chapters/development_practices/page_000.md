@@ -1,7 +1,46 @@
 # Development Practices
 
 Questions about coding techniques, testing, debugging, refactoring, and maintaining high-quality code.
+
 ## When Should You Perform A Major Refactor?
+
+I am not a big fan of major refactors as a rule.
+
+I usually find that the core issues in the code can
+be fixed by "boyscouting" the issues you have in each
+delivery. By doing so you fix the mindset of the developers
+and you don't have to stop feature development.
+Too often I see developers cry for big refactors and yet
+those same developers never even try to fix smaller things
+that they could fix easily.
+
+However, let us assume that we do have a good set of developers
+who really do their best to boyscout code. In this scenario, I
+find that major refactors are needed when the overall architecture
+is wrong. An example of this would be that the data model is not right
+for the domain.
+If the data being stored is not a good reflection of the domain, all
+other logic has to account for it, which usually causes bad workarounds
+and bugs.
+As many professional developers know, changing a database schema for
+a large domain has many challenges and it is hard to do it little by
+little. Especially if you can't do something simple like a batch schema
+update by taking down the system for some maintenance.
+There are of course alternatives to this approach but I think it is
+a good example of a task that is easiest done by a big one time investment
+that may be worth doing instead of dragging it out with the boyscouting
+approach.
+
+In short, big refactors should not be your first thought. Your first
+thought should be to ponder if you can create a plan with your team.
+That plan should consider if you can make small changes in each delivery
+that over time will solve your problem. It is a bit like a fitness
+schedule. You just need to stick to the plan and you will lose legacy
+code.
+If however, you find an obstacle where there is no way to boyscout,
+it is after all very hard to boyscout a database schema, then you
+may want to consider a big refactor.
+
 ## How To Write Integration Tests That Aren’t Flaky?
 ## Are Unit Tests Effective As Regression Test Suites?
 ## Why Do Senior Developers Sometimes Use Complex Code Instead Of Simple Code?
