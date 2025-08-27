@@ -64,7 +64,21 @@ can override it when needed.
 
 ![flaky test](../assets/testing_flaky_code.png)
 
-TODO:...
+When we are dealing with external system, it is in general a good practice
+to remove unstable elements by mocking network calls we may not need.
+However, we must take care when mocking so we don't end up mocking
+away the code we want to test.
+In some cases we don't want to mock and instead we want to create
+a local setup that we can run. A good example are databases. We want
+to make sure that our queries to the database are working but we don't
+want to connect to external services. So what to do?
+My person preference, and I assume many others, is to use a local
+database that starts up with the tests and is then shut down after
+the tests are done running. Even though this is not a perfect test
+that accounts for the things that could be wrong in a production
+environment, it is still close enough.
+Sometimes close enough is the better option to pick than having to
+deal with the problems that come with exactly the same.
 
 ## Are Unit Tests Effective As Regression Test Suites?
 ## Why Do Senior Developers Sometimes Use Complex Code Instead Of Simple Code?
