@@ -204,7 +204,14 @@ directly opposing eachother.
 
 Then we have to interpretation of these best practices.
 How do we know who among us has the right idea of what
-DRY means? If you ask a room of developers
+DRY means? If you ask a room of developers to define
+this practice, most of them will be able to give some
+general deffinition. However, if we start going in to
+the nitty gritty details, usually they start having
+different ideas about how to implement this practice
+in code. Let alone when the adherance to this practice
+becomes a code smell instead of a best practice.
+
 ## How To Prevent Bugs In Software Development?
 ## Do Developers Test In Iterations?
 ## Can Automated Testing Replace Code Reviews?
