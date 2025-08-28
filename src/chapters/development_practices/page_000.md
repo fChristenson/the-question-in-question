@@ -221,6 +221,32 @@ fired because people are sick of endless debates about
 best practices.
 
 ## How To Prevent Bugs In Software Development?
+
+This is a very broad topic since bugs can happen
+in many ways. I will try my best to outline a few
+general techniques I use that I feel are working.
+
+First, learn how to break free from primitives.
+Most developers learn how to write code in the
+style taught by their very first tutorials but
+they seem to never outgrow this idea that the
+style they used to learn how to code, may not
+be the best way to write code always.
+
+To give an example, let us consider the following
+code.
+
+![controller](../assets/user_controller.png)
+
+Now, glossing over the security issues with this
+code, we can see that it follow a general pattern
+we all have seen in many codebases. It is simple,
+we get a value from the network and we store it.
+However, the problem here is that we are not sure
+if the values are valid and following the assumptions
+we have in our code.
+
+TODO: show service validation logic
 ## Do Developers Test In Iterations?
 ## Can Automated Testing Replace Code Reviews?
 ## Do Unit Tests Take As Much Time To Write As The Logic Itself?

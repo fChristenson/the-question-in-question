@@ -1,12 +1,12 @@
-// Function using internal date object
-function MyFunction() {
-  const date = new Date();
-  // Function logic
-  return date;
+class UserController {
+  public static async CreateUser(req: Request, res: Response) {
+    const body = await req.json();
+    var user = CreateUser(body.name, body.email);
+    return new Response(JSON.stringify(user), { status: 200 });
+  }
 }
 
-// Better for testing
-function MyFunction2(date = new Date()) {
-  // Function logic
-  return date;
+function CreateUser(name: string, email: string): object {
+  // Save user to database
+  return { name, email };
 }
