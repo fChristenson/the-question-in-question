@@ -212,6 +212,14 @@ different ideas about how to implement this practice
 in code. Let alone when the adherance to this practice
 becomes a code smell instead of a best practice.
 
+The best advice I have ever heard on the subject is
+as follows. The tech gurus are not in your team,
+they are not writing your code but your coworkers are.
+Winning a battle of who has the right idea of what a
+best practice means is useless if your end up getting
+fired because people are sick of endless debates about
+best practices.
+
 ## How To Prevent Bugs In Software Development?
 ## Do Developers Test In Iterations?
 ## Can Automated Testing Replace Code Reviews?
