@@ -192,6 +192,19 @@ perhaps we can discuss what you mean when you say that the system
 isn't broken.
 
 ## Do Coding Best Practices Vary Between Companies?
+
+Yes, it differs between person to person.
+
+Best practice is something some developers like to
+throw behind any argument they pitch for their own
+preffered way of doing something.
+There is certainly best practices that most of us can
+agree on but there is best practices that seem to be
+directly opposing eachother.
+
+Then we have to interpretation of these best practices.
+How do we know who among us has the right idea of what
+DRY means? If you ask a room of developers
 ## How To Prevent Bugs In Software Development?
 ## Do Developers Test In Iterations?
 ## Can Automated Testing Replace Code Reviews?
