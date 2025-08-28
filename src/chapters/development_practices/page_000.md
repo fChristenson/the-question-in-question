@@ -186,7 +186,7 @@ working, why do you need to refactor? Well dear sir or madam.
 Because working on this projects is just slightly better than
 listening to someone grind a fork against a chalkboard. When I push
 something to production, I feel the need to say a small prayer to
-any diety willing to help. Lastly, all those late nights I have had
+any diety willing to listen. Lastly, all those late nights I have had
 to wake up to fix production issues are starting to wear me down so
 perhaps we can discuss what you mean when you say that the system
 isn't broken.
