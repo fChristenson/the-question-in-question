@@ -193,7 +193,7 @@ isn't broken.
 
 ## Do Coding Best Practices Vary Between Companies?
 
-Yes, it differs between person to person.
+Yes, sometimes it differs between person to person.
 
 Best practice is something some developers like to
 throw behind any argument they pitch for their own
