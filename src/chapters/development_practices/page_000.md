@@ -146,6 +146,12 @@ many smaller problems and then order each piece as a step by
 step process. This allows us to focus on getting the first step
 in our program right before we need to think about the next part.
 
+My functional friends can hopefully relate when I say that I would
+love it if all my coworkers structured their code as a list of pure
+functions that I can follow until I find an unexpected output from
+one of them. This means that now I can forget about most of the code
+and just zero in on that function.
+
 I follow the same principle when I am debugging. My first goal
 is to remove all factors that can cause the bug. If I am working
 with an IDE, use a text editor to make sure the problem is not in
