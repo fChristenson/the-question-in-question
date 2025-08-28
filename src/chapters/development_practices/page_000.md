@@ -199,7 +199,7 @@ Best practice is something some developers like to
 throw behind any argument they pitch for their own
 preffered way of doing something.
 There are certainly best practices that most of us can
-agree on but there is best practices that seem to be
+agree on but there are also best practices that seem to be
 directly opposing eachother.
 
 Then we have to interpretation of these best practices.
