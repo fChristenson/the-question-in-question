@@ -165,6 +165,32 @@ people just see big problems when all you see is a simple first step
 that then leads to a simple next step.
 
 ## Does “if It Isn’t Broken, Don’t Fix It” Apply To Software?
+
+Yes, very much so. Though as with many sayings, there are
+nuances that get lost in translation.
+
+There is a lot of development that happens mostly due to the
+emotions of whoever is involved. The term legacy code can often
+mean any code that the reader didn't write in their own style.
+So I usually ask them, is the code bad because it is different
+or will it actually cause any bugs? Viewed from such a perspective
+our idea of what good code and bad code looks like should change.
+We love to put those labels on most things in life but if we are
+really honest, most of the time we are just expressing what we
+would prefer.
+
+However, we can of course flip this argument around and use this
+saying to justify never fixing anything in our code. This seems to
+many to be the default state of their stakeholders. If the code is
+working, why do you need to refactor? Well dear sir or madam.
+Because working on this projects is just slightly better than
+listening to someone grind a fork against a chalkboard. When I push
+something to production, I feel the need to say a small prayer to
+my diety of choice. Lastly, all those late nights I have had to
+wake up to fix production issues are starting to wear me down so
+perhaps we can discuss what you mean when you say that the system
+isn't broken.
+
 ## Do Coding Best Practices Vary Between Companies?
 ## How To Prevent Bugs In Software Development?
 ## Do Developers Test In Iterations?
