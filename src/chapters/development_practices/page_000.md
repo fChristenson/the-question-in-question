@@ -106,7 +106,38 @@ Always focus on what can go wrong when making tests. Having unit tests
 does not mean that bugs will be caught. Having the right test for the
 code you have made will.
 
-## Why Do Senior Developers Sometimes Use Complex Code Instead Of Simple Code?
+## Why Do Seniors Sometimes Use Complex Code Instead Of Simple Code?
+
+The two main reasons is usually that either, it is just the way
+they feel at the moment or there is no simpler way to do it.
+
+Senior developers are like most of us, human. Humans get bored, they
+forget that what to them is a cool idea is legacy code to the next
+developer who has to fix their mess.
+Ponder yourself how often you see people getting excited by their
+amazing idea and in their excitment they forget to consider if
+their idea will have any negative impact on others around them.
+Seniors are no different.
+
+On the off-chance that we do have a valid case for some complex
+code, however we want to define that. I am just going to point
+out that complex is a bit subjective and can mean literally
+anything. What we consider complex can differ vastly from person
+to person but in general, complex code may be the lesser evil
+at times.
+At times we simply find that a complex solution is the best way
+to solve a given problem. As an example, searching. Depending on
+what type of search our customer wants to perform, we may find
+that we need multiple types of result filters, different type of
+boolean flags that impact how the search is performed and so on.
+Simply put, a beginner friendly regular expression or string
+comparison will not be enough to meet the stakeholders needs.
+So we have to make our code complex, even if we would like it to
+be simpler.
+
+A good rule to follow, make code as complex at it has to be but
+never more.
+
 ## What If Complex Code Can’t Be Simplified?
 ## What Techniques Can Help Simplify Code?
 ## Does “if It Isn’t Broken, Don’t Fix It” Apply To Software?
