@@ -138,8 +138,26 @@ be simpler.
 A good rule to follow, make code as complex at it has to be but
 never more.
 
-## What If Complex Code Can’t Be Simplified?
 ## What Techniques Can Help Simplify Code?
+
+My personal mantra is to divide and conquer. If we are dealing
+with a big problem our best bet is usually to split it in to
+many smaller problems and then order each piece as a step by
+step process. This allows us to focus on getting the first step
+in our program right before we need to think about the next part.
+
+I follow the same principle when I am debugging. My first goal
+is to remove all factors that can cause the bug. If I am working
+with an IDE, use a text editor to make sure the problem is not in
+the IDE. If I am getting an error while using the UI, try connecting
+with a network client. Having problems in a environment? Try locally
+and vice versa.
+
+As you work you will develop an intuition for how to divide big issues
+in to smaller ones and before you know it, you find it odd that most
+people just see big problems when all you see is a simple first step
+that then leads to a simple next step.
+
 ## Does “if It Isn’t Broken, Don’t Fix It” Apply To Software?
 ## Do Coding Best Practices Vary Between Companies?
 ## How To Prevent Bugs In Software Development?
