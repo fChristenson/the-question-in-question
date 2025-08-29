@@ -1,7 +1,5 @@
 # Development Practices
 
-Questions about coding techniques, testing, debugging, refactoring, and maintaining high-quality code.
-
 ## When Should You Perform A Major Refactor?
 
 I am not a big fan of major refactors as a rule.
@@ -434,7 +432,7 @@ the agile and waterfall elements as they see fit but
 at the team level most developers are focusing on
 quick results, which very naturally means no upfront
 design, just start coding.
-At a meta level it is still common that managers want
+At a macro level it is still common that managers want
 some high level system design so things like architecture,
 security and of course cost of the system can be considered.
 
