@@ -275,8 +275,34 @@ Primitives do not give this security and most developers try to
 fix it by simply adding validation in all the functions using the data.
 This approach is in my opinion, a bit cleaner.
 
-## Do Developers Test In Iterations?
 ## Can Automated Testing Replace Code Reviews?
+
+No, code reviews are a compliment to tests.
+
+The basic idea behind a code review is that we want
+someone other than ourselves to review our code for
+issue we have failed to spot. In theory that is how
+it should work but in practice the value of a code
+review is down to who is doing it, if they care enough
+to do a thourough review and of course, if they can spot
+issues we did not.
+
+If I write code and then test it, I will approach it from
+an angle that makes sense to me. However, I can still forget
+to write tests for cases that can cause bugs or I can write
+bad tests that don't catch the bugs. This is where a second
+pair of eyes will be more useful than just having tests. Those
+eyes should hopefully be able to spot that I forget to test
+my code for certain cases, thus prompting me to expand my
+thinking and adding the tests I forgot.
+
+It is also common that a code reviewer finds that I may have
+missunderstood the acceptance criteria for the work I am doing
+and that my whole implementation is wrong. It is not fun to be
+in that situation but I hope it proves that automated tests can
+test that the thing I did is working as expected. It can not prove
+that the thing I did is the right thing.
+
 ## Do Unit Tests Take As Much Time To Write As The Logic Itself?
 ## How To Improve The Software You Develop?
 ## How Much Upfront Design Should You Do?
