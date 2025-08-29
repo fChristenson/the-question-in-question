@@ -246,7 +246,28 @@ However, the problem here is that we are not sure
 if the values are valid and following the assumptions
 we have in our code.
 
-TODO: show service validation logic
+Now let us introduce some basic validation.
+
+![validated](../assets/validate_user_controller.png)
+
+Again, nothing really wrong with this approach.
+However, if we start introducing more logic with multiple
+calls to various functions across a large codebase, we will
+start to see misstakes being made. One of the most common bugs
+I have faced is i.e down to the data being incorrect at some
+state of the program. We can remove a lot of issues if we update
+this code slightly.
+
+![class](../assets/class_user_controller.png)
+
+If we convert our input data to a class, we can trust that our data
+is already validated by the time any other logic wants to use it.
+This removes the issue where the data is in an incorrect state before
+we start working with it.
+
+This slight change in coding style has helped me remove a large amount
+of bugs from my projects.
+
 ## Do Developers Test In Iterations?
 ## Can Automated Testing Replace Code Reviews?
 ## Do Unit Tests Take As Much Time To Write As The Logic Itself?
