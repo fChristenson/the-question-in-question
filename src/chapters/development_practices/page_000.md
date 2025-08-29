@@ -304,6 +304,25 @@ prove that the thing I did is working as expected. It can not prove
 that the thing I did is the right thing.
 
 ## Do Unit Tests Take As Much Time To Write As The Logic Itself?
+
+Sometimes they can but the time it takes to write them is usually
+lower with one exception few seem to consider. Lack of practice.
+There is a saying in programming, if your code is hard to test
+it is not good code. To a point, I can agree with this.
+I find that developers who struggle to write test mostly do so
+due to a lack of experience with workflows that include them.
+This is extra true in frontend development. Very few frontend
+developers have any meaningful experience writing tests so
+it usually takes them nearly as long to test their code as
+making it in the first place.
+
+Fortunately we have moved in to an era of AI agents and writing
+tests have never been faster. I still suggest that developers
+take the time to learn how to do it properly.
+It will help you a lot if you understand how to write the right
+test for the code you have and you will spend less time dealing
+with bugs in the tests if you practice a bit.
+
 ## How To Improve The Software You Develop?
 ## How Much Upfront Design Should You Do?
 ## What Advantages Does Test-driven Development Offer?
