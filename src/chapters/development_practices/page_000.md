@@ -346,6 +346,41 @@ brick each time so the road stays smooth and heading in the
 right direction.
 
 ## How Much Upfront Design Should You Do?
+
+A good rule of thumb is to at least have some basic
+visual aids of the UI. Assuming of course that you
+have a UI.
+If you can visualize the experience you want it becomes
+easier to create a shared understanding of how the system
+should work. I almost always start UI first. The main reason
+is that by seeing the experience I am making I can roughly
+estimate what data models I need and how the backend part
+of the system needs to work.
+I advince against starting by modelling the data before you
+understand the experience you are creating. Too often I see
+developers create a data model that is a poor fit for the
+experience and then they end up adjusting the user experience
+to fit their implementation instead of making sure their
+implementation is right for the user.
+
+Apart from this rule I urge you to think in incremental steps.
+It is hard to predict a large scope when making systems so if
+you find yourself planning work, try your best to break it down
+so you only need to answer what the first logical step is.
+If you can get a rough idea of what the end product should be
+you should be able to figure out what the first step to create
+that end product is. Plan that step and no more.
+This is the heart and soul of a MVP workflow and I believe it
+is the right way to make anything.
+By starting with creating a basic version of a feature you will
+learn more and when it then is time to take the next step you
+will have more information to go on than if you had tried to
+plan it all before there was any code at all.
+My tip to you is to master this process. Learn how to create a
+first draft of a bigger project that will be easy to continue
+working on when it is time to take the next step in the development
+process.
+
 ## What Advantages Does Test-driven Development Offer?
 ## Why Have Software Teams Abandoned Upfront Design?
 ## What Are Architecture Decision Records?
