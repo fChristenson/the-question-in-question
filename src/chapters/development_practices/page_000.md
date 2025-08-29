@@ -226,7 +226,11 @@ This is a very broad topic since bugs can happen
 in many ways. I will try my best to outline a few
 general techniques I use that I feel are working.
 
-First, learn how to break free from primitives.
+First, learn how to write the right test for your
+code.
+
+Second, learn how to break free from primitives.
+
 Most developers learn how to write code in the
 style taught by their very first tutorials but
 they seem to never outgrow this idea that the
@@ -239,12 +243,11 @@ code.
 ![controller](../assets/user_controller.png)
 
 Now, glossing over the security issues with this
-code, we can see that it follow a general pattern
+code, we can see that it follows a general pattern
 we all have seen in many codebases. It is simple,
 we get a value from the network and we store it.
 However, the problem here is that we are not sure
-if the values are valid and following the assumptions
-we have in our code.
+if the values are valid.
 
 Now let us introduce some basic validation.
 
@@ -266,7 +269,9 @@ This removes the issue where the data is in an incorrect state before
 we start working with it.
 
 This slight change in coding style has helped me remove a large amount
-of bugs from my projects.
+of bugs from my projects. Even if I am passing the data around I can
+always trust that as long as the data is in a validated class, I know
+that it has been checked for issues before I start using it.
 
 ## Do Developers Test In Iterations?
 ## Can Automated Testing Replace Code Reviews?
