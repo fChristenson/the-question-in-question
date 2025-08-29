@@ -270,8 +270,10 @@ we start working with it.
 
 This slight change in coding style has helped me remove a large amount
 of bugs from my projects. Even if I am passing the data around I can
-always trust that as long as the data is in a validated class, I know
-that it has been checked for issues before I start using it.
+always trust the data in a validated class.
+Primitives do not give this security and most developers try to
+fix it by simply adding validation in all the functions using the data.
+This approach is in my opinion, a bit cleaner.
 
 ## Do Developers Test In Iterations?
 ## Can Automated Testing Replace Code Reviews?
