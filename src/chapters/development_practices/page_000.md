@@ -408,6 +408,13 @@ the way we wrote it. After all, if our logic is wrong and
 all our test is checking is that it is doing the logic,
 our test will pass but we still have a bug.
 
+It is worth mentioning that you can achieve this sort of
+test without strict TDD. TDD just helps you be honest about
+your test creation so they are focused on that the abstraction
+meet the users expectations. However, you can write tests after
+the implementation is done with the same mindset if you do it
+with some care.
+
 ## Why Have Software Teams Abandoned Upfront Design?
 ## What Are Architecture Decision Records?
 ## What Is The Trade-off Between Fast And Planned Development?
