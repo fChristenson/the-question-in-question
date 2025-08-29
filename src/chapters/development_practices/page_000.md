@@ -300,7 +300,7 @@ It is also common that a code reviewer finds that I may have
 missunderstood the acceptance criteria for the work I am doing
 and that my whole implementation is wrong. It is not fun to be
 in that situation but I hope it proves that automated tests can
-test that the thing I did is working as expected. It can not prove
+prove that the thing I did is working as expected. It can not prove
 that the thing I did is the right thing.
 
 ## Do Unit Tests Take As Much Time To Write As The Logic Itself?
