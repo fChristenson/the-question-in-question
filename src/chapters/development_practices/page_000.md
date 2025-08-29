@@ -382,6 +382,32 @@ working on when it is time to take the next step in the development
 process.
 
 ## What Advantages Does Test-driven Development Offer?
+
+The general idea is that it helps us be honest about the test
+we create.
+When developers write test, some have the bad habit of writing
+tests that act as whitebox test. This basically means that the
+test is just checking that the implementation they have made
+is working the way they wrote it.
+However, this is not have a good test should be structured.
+It will break as soon as something changes about the implentation
+and that is not what we want. We also don't really want to test
+that our implementation works a certain way.
+What we want to test is that the logic is working correctly.
+By doing TDD we can make sure our test prove that the logic
+is working without knowing the details of just how the logic
+works. As a tester we just want to make sure that the results
+are correct but the hidden logic behind the abstraction is not
+really important. As long as we have checked all the things we
+think can go wrong and the different results we expect to get,
+we have a working solution.
+This idea is true for all layers of the testing pyramid and
+TDD is a great way to make sure our tests are checking that
+the logic is correct and not that the implementation works
+the way we wrote it. After all, if our logic is wrong and
+all our test is checking is that it is doing the logic,
+our test will pass but we still have a bug.
+
 ## Why Have Software Teams Abandoned Upfront Design?
 ## What Are Architecture Decision Records?
 ## What Is The Trade-off Between Fast And Planned Development?
