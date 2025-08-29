@@ -308,7 +308,7 @@ that the thing I did is the right thing.
 Sometimes they can but the time it takes to write them is usually
 lower, with one exception few seem to consider. Lack of practice.
 There is a saying in programming, if your code is hard to test
-it is not good code. To a point, I can agree with this.
+it is not good code. To a point I can agree with this.
 I find that developers who struggle to write test mostly do so
 due to a lack of experience with workflows that include them.
 This is extra true in frontend development. Very few frontend
