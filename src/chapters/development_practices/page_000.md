@@ -324,6 +324,27 @@ test for the code you have and you will spend less time dealing
 with bugs in the tests if you practice a bit.
 
 ## How To Improve The Software You Develop?
+
+I follow a few basic principles that has helped
+me write better code, at least that is what I want
+to believe.
+
+My main rule is, always understand the problem you are solving.
+
+It is very important that you connect with your stakeholders
+and ask them to explain what they want from you, how they want
+the system to work and why they need the features.
+By making sure you understand their needs you should be able to
+use your technical knowledge to come up with proposals for how
+to implement said features.
+Never start working without understanding the problem you are
+solving. You will find that your implementations start falling
+apart over time. I like to say that working on a system is
+like laying a brick road. Each brick is a feature and together
+they make up the road. Your goal is to know how to add a new
+brick each time so the road stays smooth and heading in the
+right direction.
+
 ## How Much Upfront Design Should You Do?
 ## What Advantages Does Test-driven Development Offer?
 ## Why Have Software Teams Abandoned Upfront Design?
