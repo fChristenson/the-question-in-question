@@ -423,7 +423,7 @@ design process. UML diagrams and similar documents are
 less common in the part of IT I have worked than they
 used to be.
 As to why that is, I suspect it has to do with that
-developers have with the Agile methodolgy been
+developers have with the agile methodolgy been
 placed closer to the stakeholders and thus removing
 the need for a lot of the roles that we used to have.
 Architects and similar roles are of course still around
@@ -432,7 +432,8 @@ to instead focus on iterative deliveries.
 It is probably no secret that most companies mix both
 the agile and waterfall elements as they see fit but
 at the team level most developers are focusing on
-quick results.
+quick results, which very naturally means no upfront
+design, just start coding.
 At a meta level it is still common that managers want
 some high level system design so things like architecture,
 security and of course cost of the system can be considered.
