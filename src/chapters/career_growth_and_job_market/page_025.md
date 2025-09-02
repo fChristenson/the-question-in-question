@@ -105,4 +105,4 @@ your skills. In fact, you should always be doing this if you ask me.
 
 ### Navigation
 
-[Next Page](career_growth_and_job_market/page_026.md)
+[Next Page](page_026.md)

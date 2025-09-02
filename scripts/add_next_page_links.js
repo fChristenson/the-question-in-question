@@ -69,7 +69,7 @@ function addNextPageLinks() {
       if (index < pageFiles.length - 1) {
         // Not the last page, add link to next page
         const nextPageFile = pageFiles[index + 1];
-        const nextPageRelativePath = path.join(chapterDir, nextPageFile).replace(/\\/g, "/");
+        const nextPageRelativePath = nextPageFile; // Just the filename since they're in the same folder
         
         console.log(`  Adding next page link to ${pageFile} -> ${nextPageFile}`);
         addNextPageLink(currentPagePath, nextPageRelativePath);

@@ -112,4 +112,4 @@ for how the industry moves and adapt accordingly.
 
 ### Navigation
 
-[Next Page](career_growth_and_job_market/page_006.md)
+[Next Page](page_006.md)

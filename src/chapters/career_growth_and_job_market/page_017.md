@@ -121,4 +121,4 @@ trends are going on in their own stack.
 
 ### Navigation
 
-[Next Page](career_growth_and_job_market/page_018.md)
+[Next Page](page_018.md)
