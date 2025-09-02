@@ -26,7 +26,9 @@ function extractTitlesAndLinks(filePath) {
   const links = [];
 
   // Make the file path relative to the index.md file
-  const relativeFilePath = path.relative(path.join("src"), filePath);
+  const relativeFilePath = path
+    .relative(path.join("src"), filePath)
+    .replace(/\\/g, "/");
 
   lines.forEach((line) => {
     const titleMatch = line.match(/^#+\s+(.*)/); // Match Markdown titles
