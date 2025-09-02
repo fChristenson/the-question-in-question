@@ -1,4 +1,3 @@
-
 ## Why Do Large Companies Hire So Many Developers?
 
 Usually it is because the project stakeholders defer the
@@ -111,3 +110,9 @@ around and tried a few things out. Be wary of developers who
 can't give you any details and keep their answers vague.
 This is a common way to speak when you don't know
 how to answer.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_007.md)

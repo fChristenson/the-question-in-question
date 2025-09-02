@@ -1,4 +1,3 @@
-
 ## How Can You Provide Constructive Feedback To Developers?
 
 I usually handle this in two different ways and the method
@@ -103,3 +102,9 @@ what is paying the bills and how the choices you make impact that
 because no matter how you slice it the others who are part of your
 companies journey may leave if they don't get their way but they
 will also leave if you don't pay them.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_010.md)

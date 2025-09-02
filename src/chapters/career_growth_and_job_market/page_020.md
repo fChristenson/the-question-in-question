@@ -1,4 +1,3 @@
-
 ## How To Pass The Trial Period At A New Job?
 
 The trial period is not something that you will face in all companies.
@@ -89,3 +88,9 @@ matter. They should be doing things differently!
 I can only sigh and agree in some cases but just as with any evaluation,
 be it at test in school, a talent show or a job interview, the judge
 dictates what a passing grade is.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_021.md)

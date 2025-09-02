@@ -124,3 +124,9 @@ on time while using the current tools of the trade you will
 be considered senior by most employer. It is however important
 to understand that the title senior can be defined in many
 ways and there is no real true definition.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_003.md)

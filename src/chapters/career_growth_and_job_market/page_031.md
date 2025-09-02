@@ -1,4 +1,3 @@
-
 ## What Are The Biggest Reasons Developers Leave Jobs?
 
 The most common reasons are not as exciting as you may think.
@@ -116,3 +115,9 @@ idea phase, to planning out backlog items and all the way to production.
 This flow is always the most important in all companies you will work
 in and it will be invaluable to understand even if you want to move
 in to leadership in the future.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_032.md)

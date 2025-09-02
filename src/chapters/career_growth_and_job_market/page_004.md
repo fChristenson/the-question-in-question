@@ -1,4 +1,3 @@
-
 ## How To Determine If A Company Follows Good Software Practices?
 
 It is very hard to do this accurately because everyone things differently
@@ -87,3 +86,9 @@ I always speak honestly and softly to my managers about my views on
 my role within the company. I will gladly put my heart and soul in
 to everything I do. All I ask in return is that they do their best
 to help me reach my personal goals.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_005.md)

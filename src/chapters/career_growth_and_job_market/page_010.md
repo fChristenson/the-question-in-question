@@ -1,4 +1,3 @@
-
 ## How To Deal With Impostor Syndrome In Software Development?
 
 Probably the most common insecurity of any developer is the feeling
@@ -102,3 +101,9 @@ with the drive to go above and beyond what is required to do
 good work in our respective companies but it would be a great
 disservice to them and to the rest of us if we started treating
 their efforts as the norm.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_011.md)

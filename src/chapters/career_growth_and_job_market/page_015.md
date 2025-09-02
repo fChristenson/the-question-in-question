@@ -1,4 +1,3 @@
-
 ## How To Deal With Engineers Seeking Promotions Too Soon?
 
 I would say that you should ask, why do you feel it is too soon?
@@ -116,3 +115,9 @@ do what we all do. Try again with another company. If you have the
 skills and you have a lovable personality with a spare smile for
 the people you greet in the interview, most rational people will
 seriously consider you for the position.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_016.md)

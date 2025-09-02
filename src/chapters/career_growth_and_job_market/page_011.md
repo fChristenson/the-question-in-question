@@ -1,4 +1,3 @@
-
 ## What Are The Most Common Mistakes Developers Make Early On?
 
 - Taking a job that does not grow them
@@ -117,3 +116,9 @@ to be evaluated in the same manner. This has the benefit of being
 a less biased way of staffing and it raises up the people who
 can show that they have the right skills needed to do well in
 a given role.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_012.md)

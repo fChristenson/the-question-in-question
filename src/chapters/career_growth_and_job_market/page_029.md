@@ -1,4 +1,3 @@
-
 ## Is Getting A Promotion More Satisfying Than Finding A New Job?
 
 Yes, at least for me.
@@ -125,3 +124,9 @@ do you wonder if you will be understood if you spoke to someone who
 is better at it? Sure, they may have to explain some words if they
 are outside of your vocabulary but on average you should be able
 to hold a conversation.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_030.md)

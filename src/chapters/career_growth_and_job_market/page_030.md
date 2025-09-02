@@ -1,4 +1,3 @@
-
 ## Should You Consider Scalability For Resume Projects?
 
 No, not at all. Most developers overestimate how much their pet
@@ -128,3 +127,9 @@ results, I will praise it.
 Conversely, if you show none of this, you will never hear
 a compliment come out of my mouth. Maybe, if you have a
 really nice sweater on.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_031.md)

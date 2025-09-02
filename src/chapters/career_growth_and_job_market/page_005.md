@@ -1,4 +1,3 @@
-
 ## Are The First Years Of A Developer’s Career The Most Transformative?
 
 Yes, they have a lot of impact on your growth.
@@ -108,3 +107,9 @@ Practice and connect with job prospects. With some luck your
 previous experience will be to your benefit. Above all remember
 that the key is to be prepared for change so be on the lookout
 for how the industry moves and adapt accordingly.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_006.md)

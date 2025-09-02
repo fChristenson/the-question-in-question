@@ -1,4 +1,3 @@
-
 ## Should You Accept A Job If The Company Uses Cloud Computing?
 
 This is a bit like asking if you should marry someone if they
@@ -126,3 +125,9 @@ product owner, being the main contact for all stakeholders and so on.
 In short, being a senior is a bit like being a grownup. For the most
 part there is not real difference between you and a teenager when
 when you work, your are just expected to be more mature.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_029.md)

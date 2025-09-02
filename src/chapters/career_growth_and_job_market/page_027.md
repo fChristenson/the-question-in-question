@@ -1,4 +1,3 @@
-
 ## What Interesting Problems Do You Solve Daily As A Developer?
 
 I am not sure it meets the criteria of interesting but I would
@@ -120,3 +119,9 @@ process you may not need to know because it is someone elses job to
 do it for you but the bottom line is still the same. We do what we
 do to create value. What we need to know in order to do that changes
 over time and can differ from project to project.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_028.md)

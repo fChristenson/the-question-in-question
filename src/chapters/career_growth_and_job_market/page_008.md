@@ -1,4 +1,3 @@
-
 ## What To Do When You Can’t Make Progress On A Project?
 
 I suppose that depends on what the nature of the blockage is.
@@ -119,3 +118,9 @@ You may be right about everything you say but sadly you live in
 a world where people a lot less intelligent, good looking and
 above all else humble get their way even though they are wrong
 about everything.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_009.md)

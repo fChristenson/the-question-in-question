@@ -1,4 +1,3 @@
-
 ## How Do You Choose A Tech Project?
 
 I pick them mostly based on if I think I will learn something.
@@ -106,3 +105,9 @@ over you. So do just that, practice. Learn the trade, get a job,
 do it and when you have done it for a while, acknowledge that you
 may still feel anxious about some things but you have at least made
 progress.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_013.md)

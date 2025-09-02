@@ -1,4 +1,3 @@
-
 ## How To Convince Your Boss That A Certificate Is A Waste Of Time?
 
 The simplest way is to explain that the certificate is just proof
@@ -127,3 +126,9 @@ that shows that the candidate has relevant experience, based on a
 gap alone. There may be some questions related to the gap or any
 other peculiarities but as long as you have a good explanation to
 them, you will be fine.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_027.md)

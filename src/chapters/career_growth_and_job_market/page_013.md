@@ -1,4 +1,3 @@
-
 ## What Would You Say To A Ceo Who Belittles Your Work?
 
 Not much. I have been on the opposing side of enough people
@@ -89,3 +88,9 @@ evaluation period to determine if the developer can raise
 their skill level to an acceptable level. In some cases this
 is enough but sadly I may need to replace the developer if
 the situation does not improve.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_014.md)

@@ -1,4 +1,3 @@
-
 ## What Are The Risks Of Neglecting Developer Onboarding Processes?
 
 Simply put, they won't be able to ship any code. Code is money,
@@ -138,3 +137,9 @@ planning is even over because they have done similar things so many
 times. Be careful however, just because they have done it many times
 does not mean that they do it well or that in fact this time everything
 is exactly as it has been in the past.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_022.md)

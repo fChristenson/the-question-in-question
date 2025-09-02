@@ -1,4 +1,3 @@
-
 ## What About Trainee Developer Positions?
 
 This is can be a great way to get a foothold in the industry.
@@ -108,3 +107,9 @@ deliberate meeting for evaluation. It is similar to how people who
 talk a lot may have a hard time to speak in public. It is a
 different context and speaking with a few people feels different
 than speaking on a stage. Interviews are very similar in this regard.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_020.md)

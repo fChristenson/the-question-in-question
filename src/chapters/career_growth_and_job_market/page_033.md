@@ -1,4 +1,3 @@
-
 ## Should New Developers Choose Languages With Large Communities?
 
 Yes, almost always.
@@ -123,3 +122,9 @@ how the workflow looks without needing to take on a big task early.
 For good measure, make sure that you have documentation of important
 contacts outside of the team and common tasks that may need to be done
 on a semi regular basis.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_034.md)

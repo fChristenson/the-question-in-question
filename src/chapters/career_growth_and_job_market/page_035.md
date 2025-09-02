@@ -1,4 +1,3 @@
-
 ## How To Spot Areas Of Improvement In A Developer?
 
 First, I suggest you start by asking, is this an area they can improve

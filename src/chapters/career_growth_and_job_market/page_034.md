@@ -1,4 +1,3 @@
-
 ## How To Build Effective Onboarding Programs For Junior Developers?
 
 I argue that hiring juniors is something you should only do if you
@@ -103,3 +102,9 @@ The onboarding is a good way to, in a very coarse manner, get a
 sense of how your systems form is looking. If your developer struggle
 to teach others the system and new people struggle to deliver, you
 may want to take this as a sign to take action before it gets worse.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_035.md)

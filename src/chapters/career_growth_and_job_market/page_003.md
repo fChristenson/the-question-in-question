@@ -100,3 +100,9 @@ has one part to do with my own skill but a large part is
 down to who the judges are so even if one panel of judges
 don't like what I do it doesn't mean that another panel
 will judge the same way.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_004.md)

@@ -144,3 +144,9 @@ on this topic so don't overthink it too much and be very
 careful when someone claims to know what being a senior means.
 No one will be able to tell you a version that the industry can
 agree on fully.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_001.md)

@@ -1,4 +1,3 @@
-
 ## How To Balance Team Specialization With Generalist Skills In Development?
 
 The answer lies in what type of system you are making. There is a flaw
@@ -101,3 +100,9 @@ jobs and/or educate yourself on the tech that is new too you.
 During this period I find that it is a great idea to look at your current
 work as payed learning. Make sure you pick the tasks that will grow
 your skills. In fact, you should always be doing this if you ask me.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_026.md)

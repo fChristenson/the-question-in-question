@@ -1,4 +1,3 @@
-
 ## What Was Your First Job In Software Development Like?
 
 Terrible. Some of the toughest times in my life hands down. I woke
@@ -103,3 +102,9 @@ tasks. These are usually things such as checking system health, logs,
 deployments and so on. The best way I can summarize it is, you need
 to know the practical tasks that include deploying, running and
 debugging your system.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_023.md)

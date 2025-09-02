@@ -1,4 +1,3 @@
-
 ## What Are The Challenges Of Onboarding Developers In Complex Projects?
 
 Usually their productivity is the main factor. Complex projects often
@@ -130,3 +129,9 @@ much quicker. If they have mostly done basic coding without much
 personal growth, they may find that they fail to meet the expectations
 put on them.
 It is never fun to be in that situation, as a junior or as a senior.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_033.md)

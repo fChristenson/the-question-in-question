@@ -1,4 +1,3 @@
-
 ## How Do Career Ladders In It Companies Work?
 
 Each company does it differently but there is a general template.
@@ -110,3 +109,9 @@ the benefits you expect are shown in the experiment you can feel
 confident in expanding the scope of the idea. However, if they
 are not there you can evaluate the options again and this time
 your viewpoints may be different from the first time.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_008.md)

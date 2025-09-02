@@ -116,3 +116,9 @@ to are engaged and ready to nerd out about coding practices
 you will probably be able to guess how they will respond to good
 practices as opposed to if they can barely talk about what current
 trends are going on in their own stack.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_018.md)

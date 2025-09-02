@@ -1,4 +1,3 @@
-
 ## Are Biases An Issue In Software Recruitment?
 
 Oh dear God, yes. There is not a single interviewer
@@ -81,3 +80,9 @@ what they need to fit in without issue. I found that so
 far this strategy helped me a lot in hiring some great
 people. The code is getting shipped and it mostly works,
 so the true goal of hiring someone has been accomplished.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_019.md)

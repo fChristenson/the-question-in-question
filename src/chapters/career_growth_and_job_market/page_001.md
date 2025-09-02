@@ -104,3 +104,9 @@ Well you are not being realistic I would argue. Winning a
 race or shipping good code on time both require you to have
 the right people and the right conditions before it is time
 to deliver.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_002.md)

@@ -1,4 +1,3 @@
-
 ## What Are The Best Practices For Conducting Technical Interviews?
 
 If you ask me, a personal interview and some basic code test.
@@ -120,3 +119,9 @@ to the people who are involved in the project so everything
 goes smoothly. This is when you start looking at your code
 as something that is just there to deliver on some goal and
 it is no longer a goal in of itself.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_024.md)

@@ -1,4 +1,3 @@
-
 ## Does Switching Programming Jobs Get Easier Over Time?
 
 Yes but only if you master the craft of programming instead of
@@ -129,3 +128,9 @@ who get the furthest are those who know how to connect with the
 people who they need on their side in order to get their ideas
 going. If you can master how to showcase your skills and how to
 make people see the value in your ideas, you will go far.
+
+---
+
+### Navigation
+
+[Next Page](career_growth_and_job_market/page_025.md)
