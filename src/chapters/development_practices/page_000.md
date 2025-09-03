@@ -436,7 +436,39 @@ At a macro level it is still common that managers want
 some high level system design so things like architecture,
 security and of course cost of the system can be considered.
 
-## What Are Architecture Decision Records?
+## Are Architecture Decision Records Useful?
+
+It depends a bit on when you make them.
+To me the best way to make an ADR is when you have
+made decision that will reach further than one team.
+You can of course do it for a single team but usually
+you won't benefit as much from the rituals surrounding
+an ADR. The big benefit in my view, is that with an ADR
+you can create a collaboration between multiple teams
+on a decision that will impact all of them.
+This is very important, since you really want to make
+sure that each team shares a common vision of how to
+implement their part of the decision being made.
+It is very common to see fragmentation in large companies.
+This fragmentation means that you often find teams doing
+duplicate work, creating multiple standards and of course,
+building systems that vastly differ from eachother.
+
+ADR's are a perfect way to make sure that each team can
+share how a decision will impact them and since there is a
+record you can keep track of, you can keep track of it.
+
+I urge you to adoption this principle and even to some lesser
+extent in your own teams. If you then leverage AI tools, you
+can reduce some of the mistakes that often happen during development.
+Those documents that used to be parked in some unknown document
+storage system can with AI become truly useful.
+
+If you want to take it one step further. I recommend that you invest
+in static analysis tools such as linters or source scanners that can
+use the ADR's as reference material to validate that the code is
+following the agree upon standards.
+
 ## What Is The Trade-off Between Fast And Planned Development?
 ## How To Balance Perfectionism And Pragmatism In Software Development?
 ## What To Do When Fixing A Production Problem?
