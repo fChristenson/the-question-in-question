@@ -458,7 +458,7 @@ ADR's are a perfect way to make sure that each team can
 share how a decision will impact them and since there is a
 record you can keep track of, you can keep track of it.
 
-I urge you to adoption this principle and even to some lesser
+I urge you to adopt this principle and even to some lesser
 extent in your own teams. If you then leverage AI tools, you
 can reduce some of the mistakes that often happen during development.
 Those documents that used to be parked in some unknown document
