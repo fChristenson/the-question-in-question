@@ -705,7 +705,7 @@ is coupled in not so obvious ways and due to the fact that we
 have large amounts of it, it is nearly impossible to predict
 how we should change it so we can account for changes in requirements.
 
-A method that I would argue is more in line with the idea of diposable
+A method that I would argue is more in line with the idea of disposable
 code would look like this.
 
 ```text
