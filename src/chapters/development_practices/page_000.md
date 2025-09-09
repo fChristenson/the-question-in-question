@@ -534,7 +534,26 @@ to get the right level of quality, you need to understand the consumer
 well enough to know what will matter for the end product.
 
 The car industry has this down. Some manufacturers build high end luxury
-cars, because they have customer
+cars, because they have customers with the purchasing power to afford
+them. Other manufacturers focus on customers with more modest purchasing
+power and naturally, their choices in materials, features and so on
+will need to be more modest to fit the price range of the customer.
+
+As software developers, and in fact, any craftsman you should know
+where the sweetspot is for anything you make.
+By mastering your craft you will be able to see where you can make
+pragmatic decisions that will not be noticable to the customer.
+You will learn when to be extra mindful of your choices and when
+you can opt for a simple and fast approach.
+The trick is to understand that depending on the system and the
+customer it will vary but one thing is almost always true.
+Nothing we make needs exactly the same level of quality to give
+value to someone, your approach should be to figure out what parts
+matter most and what matters least.
+
+It takes a true master craftsman to create high quality work even
+when the product is cheap.
+
 ## What To Do When Fixing A Production Problem?
 ## How To Create An Architecture When Requirements Constantly Change?
 ## Why Do It Companies Prioritize Speed Over Quality?
