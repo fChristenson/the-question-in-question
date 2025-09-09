@@ -582,7 +582,7 @@ Below is an example of a common piece of code in a web application.
 
 Let us pretend that we had an error in production with this code.
 We would be flying blind mostly since we don't have any way of knowing
-if the problem is the data input, the saving of the data or possbly
+if the problem is the data input, the saving of the data or possibly
 what is being returned.
 
 With some slight updates to our logging strategy we can get a pretty
