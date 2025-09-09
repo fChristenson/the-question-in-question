@@ -602,8 +602,20 @@ is slightly less repetative.
 
 The same principles can be used in any language. If we can structure
 our debug logging as a way to track what data is coming in and leaving
-our abstractions, it become simpler to narrow down if the data or the
-logic is the problem.
+our abstractions, it becomes simpler to narrow down if the data or
+the logic is the problem.
+
+Lastly, it is very important that we understand how to exclude other
+factors. I see developer have issue with their IDE's, thinking they
+have a bug in their code when it is just the IDE that is acting up.
+The same is true for connecting to production environments.
+Make sure you can figure out if you are talking to your own server
+or a proxy. All to often I see developers bang their head against
+their desk, trying to understand why their debug code isn't showing
+in their logs. The problem is often that their requests are not
+being forwarded as expected by a proxy server. As a rule, make
+sure you have an easy way to track what server is responding
+to your requests. It will help narrow the scope even further.
 
 ## How To Create An Architecture When Requirements Constantly Change?
 ## Why Do It Companies Prioritize Speed Over Quality?
