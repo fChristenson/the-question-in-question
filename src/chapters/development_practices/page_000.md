@@ -517,6 +517,24 @@ the solution is obvious to the people involved, we just get on with
 it.
 
 ## How To Balance Perfectionism And Pragmatism In Software Development?
+
+This is probably the hardest question there is to answer in any craft.
+When do you say "stop, this is good enough"?
+
+I argue that the trick to getting it right is to truly understand then
+need of the people you are building for. What will they value most?
+By being honest about this you can start to think about if they truly
+care about some minor library that does something nice or if they would
+prefer to have the code a bit earlier? Then you can think about how
+they would like it if the system was really buggy.
+
+The core of this idea is that you are always able to go to the extreme
+with any concept, be it high quality or none at all. I argue, that
+to get the right level of quality, you need to understand the consumer
+well enough to know what will matter for the end product.
+
+The car industry has this down. Some manufacturers build high end luxury
+cars, because they have customer
 ## What To Do When Fixing A Production Problem?
 ## How To Create An Architecture When Requirements Constantly Change?
 ## Why Do It Companies Prioritize Speed Over Quality?
