@@ -555,6 +555,56 @@ It takes a true master craftsman to create high quality work even
 when the product is cheap.
 
 ## What To Do When Fixing A Production Problem?
+
+My approach is to narrow the scope of the issue.
+This basically means that I remove factors that can cause the problem
+until I have narrowed it down to the smallest scope I can.
+Since we are dealing with a production issue, the first move is to
+understand if the problem is just in production or if it can be replicated
+locally or in some other development environment.
+Figuring this out gives us a more narrow scope. If the issue is just
+in production, we know that we need to consider how production differs
+from the other environmets.
+If the problem exists in all environments, we know that we can use
+our non production environments to be more aggressive in our debugging
+than we could in production. Assuming of course that production debugging
+would impact our customers.
+
+Using tracing tools and logging effectively is important when dealing
+with environment issues. They are your window in to what is going on
+in the system. My personal favorite logging strategy is to treat debug
+logs as a way to understand what data is coming in to my abstractions
+and what data is leaving.
+
+Below is an example of a common piece of code in a web application.
+
+![create](../assets/create_user.png)
+
+Let us pretend that we had an error in production with this code.
+We would be flying blind mostly since we don't have any way of knowing
+if the problem is the data input, the saving of the data or possbly
+what is being returned.
+
+With some slight updates to our logging strategy we can get a pretty
+clear picture.
+
+![debug](../assets/create_user_debug.png)
+
+This is just an example but I hope the idea is conveyed. If we think
+about our application as just a tree of function calls. We can almost
+derive what has happened by just knowing what the values are at each
+step of the callchain.
+
+Depending on our langauge and framework we can improve on this to make
+is slightly less repetative.
+
+![debug func](../assets/create_user_debuglogging.png)
+
+The same principles can be used in any language. If we can structure
+our debug logging as a way to track what data is coming in and leaving
+our abstractions, it become simpler to narrow down if the data or the
+logic is the problem.
+
 ## How To Create An Architecture When Requirements Constantly Change?
 ## Why Do It Companies Prioritize Speed Over Quality?
 ## What Could Ai Do For A Software Developer?

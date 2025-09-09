@@ -1,29 +1,25 @@
 class UserController {
-  public static async CreateUser(req: Request) {
+  public static CreateUser = addDebugLogging(async (req: Request) => {
     const body = await req.json();
 
-    var validUserData = new ValidUserData(body.name, body.email);
-    var user = CreateUser(validUserData);
+    var user = createUserWithLogging(body);
 
     return new Response(JSON.stringify(user), { status: 200 });
-  }
+  });
 }
 
-function CreateUser(validUserData: ValidUserData): object {
+function CreateUser(userData: any): object {
   // Save user to database
-  return { name: validUserData.name, email: validUserData.email };
+  return { name: userData.name, email: userData.email };
 }
 
-class ValidUserData {
-  public readonly name: string;
-  public readonly email: string;
+const createUserWithLogging = addDebugLogging(CreateUser);
 
-  constructor(name: string, email: string) {
-    if (!name || !email) {
-      throw new Error("Invalid user data");
-    }
-
-    this.name = name;
-    this.email = email;
-  }
+function addDebugLogging(fn: (...args: any[]) => any) {
+  return (...args: any[]) => {
+    console.debug(`Calling ${fn.name} with args:`, JSON.stringify(args));
+    const result = fn(...args);
+    console.debug(`Result from ${fn.name}:`, JSON.stringify(result));
+    return result;
+  };
 }
