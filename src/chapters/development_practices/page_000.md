@@ -726,7 +726,7 @@ src/
 
 This structure focuses on moving all the logic that is connected to
 a given controller to the same folder. This means that as the system
-grows, complexity can grow in a folder, legacy can infact a folder
+grows, complexity can grow in a folder, legacy can impact a folder
 but the seperation of logic segments our code so that it does not
 spread across the whole system.
 
