@@ -27,5 +27,8 @@
   "devDependencies": {
     "cspell": "^8.17.2",
     "markdownlint-cli2": "^0.17.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }

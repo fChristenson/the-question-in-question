@@ -659,7 +659,151 @@ Let us assume that we are making a project that is to handler orders
 of some arbitrary product. Our most natural entities in such a system
 would probably, users, products and orders.
 
-TODO: show folder structure
+A textbook example of an architetcture for such a system would be a
+monolith using some flavour of the MVC pattern.
+
+```text
+src/
+  controllers/
+  models/
+  services/
+```
+
+If we not add in our files it may look something like this.
+
+```text
+src/
+  controllers/
+    UsersController.ts
+    ProductsController.ts
+    OrdersController.ts
+  models/
+    UsersRepo.ts
+    ProductsRepo.ts
+    OrdersRepo.ts
+  services/
+    UserService.ts
+    ProductService.ts
+    OrderService.ts
+```
+
+Different languages and frameworks would have some variation of this
+approach but it is a pattern that many would feel familiar with.
+
+So what is the problem with this approach? Well, nothing really.
+It is a tried and true pattern that most developers will feel
+comfortable with, regardless of their experience level.
+However, this pattern fell out of favour due to the tendency
+it has to create "spaghetti code". In this simple example we
+have no issues since the system is small. Now scale it up 100
+times and add multiple teams with varying degree of skill on
+top. What we quickly find is that our architecture has no strategy
+for segmenting logic so that we avoid complex dependency graphs
+between our files.
+As the system grows we will find that a large portion of our code
+is coupled in not so obvious ways and due to the fact that we
+have large amounts of it, it is nearly impossible to predict
+how we should change it so we can account for changes in requirements.
+
+A method that I would argue is more in line with the idea of diposable
+code would look like this.
+
+```text
+src/
+  users/
+    UsersController.ts
+    UsersRepo.ts
+    UsersService.ts
+  orders/
+    OrdersController.ts
+    OrdersRepo.ts
+    OrderService.ts
+  products/
+    ProductsController.ts
+    ProductsRepo.ts
+    ProductsService.ts
+```
+
+This structure focuses on moving all the logic that is connected to
+a given controller to the same folder. This means that as the system
+grows, complexity can grow in a folder, legacy can infact a folder
+but the seperation of logic segments our code so that it does not
+spread across the whole system.
+
+Naturally someone will ask, but what about shared dependencies?
+Well, the pattern continues in the same manner.
+
+```text
+src/
+  users/
+    UsersController.ts
+    UsersService.ts
+  orders/
+    OrdersController.ts
+    OrdersRepo.ts
+    OrderService.ts
+  products/
+    ProductsController.ts
+    ProductsService.ts¨
+  shared/
+    EmailService/
+    UsersRepo/
+    ProductsRepo/
+    ...
+```
+
+Here we see a common set of shared code in this sort of system.
+
+A graph that in most cases would look like this.
+
+```mermaid
+flowchart TD
+users
+orders
+products
+emails
+
+users --> orders
+products --> orders
+emails --> users
+emails --> products
+emails --> orders
+```
+
+Now instead look like this.
+
+```mermaid
+flowchart TD
+shared
+users
+orders
+products
+
+shared --> users
+shared --> orders
+shared --> products
+```
+
+I have found this structure to be easier to work with since I know
+that I can add and remove code as needed without needing to consider
+the system as a whole. A shared dependency is just that, code that
+is shared between more than one folder.
+
+To finish up, we can now treat our project as a collection of
+modules. These modules can run on their own server or in the
+simplest case, we can do this.
+
+![express](../assets/express%20server.png)
+
+In summary, if you account for that you may need to change your
+code in ways that is hard to predict, you can plan for it.
+If you design your architecture to allow individual pieces of
+the system to not be perfect without damaging the whole system,
+you are in a good spot. It is a bit like a saying used by the
+datacenters around the world. "We know that something will break,
+so we plan ahead and make it no big deal if it does".
+Use the same mindset in your architecture. You know that you will
+get legacy code sooner or later, so plan for it.
 
 ## Why Do It Companies Prioritize Speed Over Quality?
 ## What Could Ai Do For A Software Developer?
