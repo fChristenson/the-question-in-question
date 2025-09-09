@@ -591,7 +591,7 @@ clear picture.
 ![debug](../assets/create_user_debug.png)
 
 This is just an example but I hope the idea is conveyed. If we think
-about our application as just a tree of function calls. We can almost
+about our application as just a tree of function calls, we can almost
 derive what has happened by just knowing what the values are at each
 step of the callchain.
 
