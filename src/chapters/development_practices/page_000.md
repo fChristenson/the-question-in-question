@@ -470,6 +470,52 @@ use the ADR's as reference material to validate that the code is
 following the agree upon standards.
 
 ## What Is The Trade-off Between Fast And Planned Development?
+
+Fast development seems like a biword for bad code to many.
+My view is that it always depends. Planned development, as
+the term suggest, takes more time. So when do we care about
+potentially raising the quality of our work by planning things
+out before we start working? Well, I argue that even if we plan
+our outcome is determined by the talent of the developers.
+No amount of planning will help if the people involved don't know
+how to execute effectively on the task they have ahead of them.
+Too often do I see endless Scrum rituals and meetings amount to
+nothing more than a lot of wasted time without any measurable
+benefit.
+However, fast development, as almost all developers like to
+complain about, leads to tech debt and legacy code.
+The notion being that if we work fast we will do worse than
+if we work slow.
+I argue that this is logic is flawed. Truly talented people
+will be fast by default without necessarily making worse work.
+That is how some humans are able to run faster than others
+even if both are training hard. We perform at different levels.
+
+If we can agree that the idea that fast is worse than planned work,
+then we can look at what I argue are the best examples of the correct
+application of these two styles.
+Rappid development without much in terms of prep work is the natural
+default for projects where the problems being solved feel obvious to
+the team doing the work. It makes no sense to plan out something that
+you already understand how to do. Naturally, you could forget something
+that a plan would have caught but as I mentioned earlier, planning
+does not necessarily mean that you will think about all corner cases
+and you may end up with the same mistakes, plan or no plan.
+
+I argue that planning is most important when you are dealing with
+an issue that requires you to create a shared understanding of
+something that is complex. Taking your time here is important since
+if you get it wrong, you will lose even more time from issues that
+spring up due to overlooked details.
+
+My mantra when working with development teams is this, "we should all
+have the same picture of what is to be created in our heads".
+This means that depending on the people I have in the team and the
+problem we are solving, I may opt for more planning to make sure each
+members has truly understood what to do. However, if I can tell that
+the solution is obvious to the people involved, we just get on with
+it.
+
 ## How To Balance Perfectionism And Pragmatism In Software Development?
 ## What To Do When Fixing A Production Problem?
 ## How To Create An Architecture When Requirements Constantly Change?
