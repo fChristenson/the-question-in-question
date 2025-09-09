@@ -834,6 +834,9 @@ datacenters around the world. "We know that something will break,
 so we plan ahead and make it no big deal if it does".
 Use the same mindset in your architecture. You know that you will
 get legacy code sooner or later, so plan for it.
+Isolate the code so a small portion of it can grow while keeping
+the rest simple. If the growth turns in to legacy, at least you
+don't need to throw away the whole system.
 
 ## Why Do It Companies Prioritize Speed Over Quality?
 ## What Could Ai Do For A Software Developer?
