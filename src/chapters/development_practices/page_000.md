@@ -618,6 +618,49 @@ sure you have an easy way to track what server is responding
 to your requests. It will help narrow the scope even further.
 
 ## How To Create An Architecture When Requirements Constantly Change?
+
+Simple, account for it.
+This may seem obvious but more often than not do I see development
+teams struggle to understand how to create an architecture other
+than the one they where taught in school or on their first job.
+I have a similar observation when it comes to using primitives in
+the code but we will cover that in another question.
+
+My basic argument is, developers who know how to create loosely
+coupled code, know how to scale any system, no matter how much
+the requirements change. The reason being, that they design the
+system so that the cost of changing it is low. The biggest mistake
+you can make in view, is to try to make your abstractions too
+generic or too flexible too early. As features are added and
+requirements change, you will more often than not, find that
+your abstractions start to grow in complexity.
+
+Rather than trying to be generic, I suggest you think as code
+being disposable. The key difference is that when things change,
+you should not focus on what code you have commited to but rather
+focus on what the best solution right now is.
+As a rule, developers view code as an investment and if you make
+a bad one, most will just continue to add to it. Here is where
+the difference in mindset lies. If we can only ever add to our
+code without ever removing, we need to create complex abstractions
+that grows forever. However, if the cost of removing code that no
+longer is needed or that has changed so fundamentally that it is
+no longer a good fit for our requirements is low. Then why not just
+keep complexity down and rewrite?
+Big rewrites are usually the outcome of having code that can not
+be changed as a small unit of a greater whole.
+
+One of my favorite patterns that gives a practical example of this
+idea of "disposable code" is a flavour of the modular monolith.
+Frankly speaking, I never liked the term because I always associate
+the style of it I use as the "kernel pattern".
+
+Let us assume that we are making a project that is to handler orders
+of some arbitrary product. Our most natural entities in such a system
+would probably, users, products and orders.
+
+TODO: show folder structure
+
 ## Why Do It Companies Prioritize Speed Over Quality?
 ## What Could Ai Do For A Software Developer?
 ## Should Developers Have Emotional Attachment To Their Projects?
