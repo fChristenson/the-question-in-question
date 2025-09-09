@@ -789,6 +789,36 @@ that I can add and remove code as needed without needing to consider
 the system as a whole. A shared dependency is just that, code that
 is shared between more than one folder.
 
+The pattern can continue in to subfolders as well.
+
+```text
+src/
+  users/
+    modules/
+      admins/
+    UsersController.ts
+    UsersService.ts
+  orders/
+    OrdersController.ts
+    OrdersRepo.ts
+    OrderService.ts
+  products/
+    modules/
+      cars/
+      bikes/
+      shared/
+    ProductsController.ts
+    ProductsService.ts¨
+  shared/
+    EmailService/
+    UsersRepo/
+    ProductsRepo/
+    ...
+```
+
+Each level simply need to hook in to the parent when it starts up
+with the server.
+
 To finish up, we can now treat our project as a collection of
 modules. These modules can run on their own server or in the
 simplest case, we can do this.
