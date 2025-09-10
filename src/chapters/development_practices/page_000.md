@@ -839,6 +839,44 @@ the rest simple. If the growth turns in to legacy, at least you
 don't need to throw away the whole system.
 
 ## Why Do It Companies Prioritize Speed Over Quality?
+
+Quality is subjective. It is probably the most common area of
+friction between developers and their stakeholders.
+
+As software developers, we probably have the highest criteria
+of anyone when we discuss quality. The reason being, we know
+what is possible and many of us care about our craft.
+We take pride in it. So if our system is fully of issues and
+we are forced to just maintain the mess without cleaning it,
+we get upset.
+However, from the users perspective, the system may be filling
+their needs. To them the issues we feel are important don't
+cause much impact so it is hard for them to relate to what we
+say when we speak about refactors and quality.
+
+There is one thing worth mentioning though. We may not feel that
+our company cares about quality but as I have mentioned, they do,
+but perhaps less than the developers. However, no company cares
+so little that if core features are not working, they will turn
+a blind eye to it.
+
+The best way I can describe is like this. Imagine that you are a
+boat builder and we are taking a journey over a lake to visit an
+island. Your partner who is not a boat builder asks you to help
+get the boat in the water so you both can cross. You notice that
+the boat is full of leaks. As the boat builder you are, you feel
+that this needs to get fixed. Your partner tells you that it is
+fine becuase crossing will not be an issue, even with a leaky
+boat. If you want to fix the boat you would need a whole so big
+that crossing would not be possible if you wanted your partner
+to agree with you.
+
+Business works for the most part this way. The focus for the
+company is to make money and as long as the quality is good enough
+to keep making it, very little else matters. Fixing quality issues
+is always a cost vs value problem where taking time to fix issues
+has to be more important than making new features.
+
 ## What Could Ai Do For A Software Developer?
 ## Should Developers Have Emotional Attachment To Their Projects?
 ## How To Evaluate The Scalability Of A System?
