@@ -950,6 +950,27 @@ hard to fully achieve but it should be the highest priority when splitting
 up the code ownership between teams.
 
 ## Why Not Aim For Both Optimized And Readable Code?
+
+I think all developer would love to be able to do exactly that.
+I have yet to find a developer who said, "I am going to make this
+code both complex and poorly performant".
+Usually we have to pick between the two but not always. Most of the
+time we as software developers pride ourselves on writing clean and
+understandable code. Almost to the point of favoring code that is less
+performant and more readable, given the choice.
+
+However, what do we do when we can't ignore performant code?
+I like to remind developers that each problem has inherit complexity
+and if the problem is really complex, the best you can do is to make
+as simple as you can without failing the most important part of your
+job. The. code. has. to. work.
+
+Below is an example of this in practice. Let us assume that we have
+a search feature for our system. Let us also assume that the search
+feature supports free text searching with a range of custom commands.
+
+TODO: make example
+
 ## Should Simplicity Always Be The Priority In Coding?
 ## How To Apply Topological Fixes To Legacy Code?
 ## How To Improve Legacy Code Effectively?
