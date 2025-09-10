@@ -685,10 +685,28 @@ src/
     UserService.ts
     ProductService.ts
     OrderService.ts
+    EmailService.ts
 ```
 
 Different languages and frameworks would have some variation of this
 approach but it is a pattern that many would feel familiar with.
+
+Our dependency graph will look something like this.
+
+```mermaid
+flowchart TD
+users
+orders
+products
+emails
+
+users --> orders
+products --> orders
+emails --> users
+emails --> products
+emails --> orders
+```
+
 
 So what is the problem with this approach? Well, nothing really.
 It is a tried and true pattern that most developers will feel
@@ -754,23 +772,7 @@ src/
 
 Here we see a common set of shared code in this sort of system.
 
-A graph that in most cases would look like this.
-
-```mermaid
-flowchart TD
-users
-orders
-products
-emails
-
-users --> orders
-products --> orders
-emails --> users
-emails --> products
-emails --> orders
-```
-
-Now instead look like this.
+Now our dependecy graph looks like this instead.
 
 ```mermaid
 flowchart TD
