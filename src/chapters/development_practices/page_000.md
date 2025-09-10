@@ -877,8 +877,39 @@ to keep making it, very little else matters. Fixing quality issues
 is always a cost vs value problem where taking time to fix issues
 has to be more important than making new features.
 
-## What Could Ai Do For A Software Developer?
 ## Should Developers Have Emotional Attachment To Their Projects?
+
+To a point but I would rather have them have an emotional attachment
+to their craft.
+I know that for some loyalty and commitment to the goals of the project
+is an important merit to have but I have always view this as a bit
+of a one sided notion.
+Companies are a business and a business will always need to be most
+concerned with it's own survival. There are of course degrees to this
+where we often see ethically questionable decisions being made by
+companies that isn't really about survival but rather about enriching
+some at the expense of others.
+However, as an employee working on a project, we should remember that
+our commitmend should stand in proportion to what we have agreed to
+with our employer. In other words, you owe the company good work and
+not actively seeking to harm it with nefarious activities.
+More than that should be a tit for tat agreement, if you ask me.
+
+I prefer to say that my emotional attachment is to the quality of my
+work. I want my employer to feel safe in that when I do a job for them
+they will get good results, they can trust me, they can talk to me
+about their concerns and I will do my best to help them.
+However, I am still selling my time and if someone else offers me a
+better deal for that time, I expect my employer to match it if they
+want to keep me around. This is in my view no different from how
+the company operates when hiring and firing people or negotiating
+deals. It is the basics of trade.
+
+Be loyal to those who treat you with kindness and compashion.
+Be commited to always doing the best you can but never forget that
+you don't benefit from being commited to people who don't commit
+to you.
+
 ## How To Evaluate The Scalability Of A System?
 ## Why Not Aim For Both Optimized And Readable Code?
 ## Should Simplicity Always Be The Priority In Coding?
