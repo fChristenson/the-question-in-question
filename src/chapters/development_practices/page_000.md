@@ -913,6 +913,42 @@ you don't benefit from being commited to people who don't commit
 to you.
 
 ## How To Evaluate The Scalability Of A System?
+
+I usually look at 2 main things.
+
+First, I want to see what type of application we are
+working on and how the architecture is made.
+This is important since I need to figure out if there
+are any load issues we will have to account for.
+Things like high traffic or heavy computation jobs usually
+need to be considered and the architecture should reflect
+a strategy for how to deal with these performance issues.
+
+Second, I look at how the source code ownership has been
+split among the teams working on the system.
+For a single team there isn't much to consider since if
+all systems will scale with just one team working on it.
+I say this knowing full well that depending on the team
+and the people working on it, you will have varying results
+of quality and thus of course scalability.
+However, I am right now only considering if there are any
+practical issues with the way the ownership of code is split
+and not considering, what I argue in many cases is most important,
+who is going to do the work?
+
+If there will be more than one team working on the system, I
+look at how the ownership of the code will be split and try
+to make sure that the value streams of the system is divided
+so a single team can own a flow end to end.
+This is very important since if you divide the features of
+the system in a poor way the teams will need to align on
+almost every little detail and it will slow down the development
+speed of both teams.
+To the greatest extent possible, we want a team to be able to deliver
+new features without being blocked by other teams. This is in practice
+hard to fully achieve but it should be the highest priority when splitting
+up the code ownership between teams.
+
 ## Why Not Aim For Both Optimized And Readable Code?
 ## Should Simplicity Always Be The Priority In Coding?
 ## How To Apply Topological Fixes To Legacy Code?
