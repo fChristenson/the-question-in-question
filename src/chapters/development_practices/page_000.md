@@ -1036,7 +1036,27 @@ hardest time since the rest of the code is tied in to it.
 
 ## How To Improve Legacy Code Effectively?
 
-My preferred approach is to...
+My preferred approach is to pick leaves from the problem.
+Usually this means to identify small portions of code that can be
+refactored without a lot of risk to the project.
+
+Once I have found and area that I can improve without much risk,
+I try to figure out if I can create a systematic plan for how to
+fix similar issues over time. Then I speak to my coworkers to see
+if we can together agree that we want the code to follow a different
+approach. If we do agree that refactoring is the best option, I ask
+my coworkers to commit to what I call "boyscouting with a plan".
+The basic idea is that we don't just fix arbitrary things that we find
+in various places of the code but also make a commitment to fix this
+sort of issue whenver we touch code that is connected to it.
+This add a little overhead to the stories we may be working on but
+is easier to commit to than getting time to do big refactors.
+
+To make sure we remember to fix the issues we have, I like to create
+custom lint rules and mark code with deprecated so it is clear that
+we should steer away from the old approach and then point the reader
+to reference materials of how we should be doing things going forward.
+
 ## Should You Stop Mentoring New Hires In It?
 ## How To Write Code With Fewer Bugs?
 ## Is Code Coverage A Good Metric?
