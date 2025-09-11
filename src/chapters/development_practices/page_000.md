@@ -995,6 +995,17 @@ of the feature we care about instead of having to deal with all the
 logic at once.
 
 ## Should Simplicity Always Be The Priority In Coding?
+
+To a point, I would say. However, there will always be a balancing
+act to be had. Our code needs to be able to meet the requirements
+of our customers. If those requirements are simple, our code hopefully
+is going to be simple. If we are facing a complex problem we will try
+our best to make it simple but as you can imagine, making things simple
+and what we consider simple, is in the beholders eye.
+
+At best we can say that we should always try to make our code as simple
+as we can without failing on delivering what we need.
+
 ## How To Apply Topological Fixes To Legacy Code?
 ## How To Improve Legacy Code Effectively?
 ## Should You Stop Mentoring New Hires In It?
