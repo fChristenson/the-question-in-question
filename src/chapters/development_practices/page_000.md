@@ -1057,7 +1057,44 @@ custom lint rules and mark code with deprecated so it is clear that
 we should steer away from the old approach and then point the reader
 to reference materials of how we should be doing things going forward.
 
-## Should You Stop Mentoring New Hires In It?
+## Should You Stop Mentoring New Hires In IT?
+
+Why would you? The most common reason people are unhappy with
+mentoring, at least as far as I have seen, is that their either
+forced to do it when they don't want to or they have to do it with
+getting the time to do it.
+
+I argue that the hiring manager has the most responsebility in this
+situation. It is important to know who you are hiring and for what
+team. The success of the new developer joining has to do with both
+the current team dynamics and their level of skill so think carefully
+about the following.
+
+Are there people in the team who can take on a mentoring role? If so,
+to what extent are they open to mentoring someone?
+It is one thing to mentor someone on their first day so they can get
+the source code on to their laptop and a whole different thing to
+shoulder the responsebility of mentoring a junior developer until they
+can be productive.
+
+Next thing to consider is what skill level will the new developer need
+to thrive in the project? Projects can differ vastly in how team rituals
+are performed and the state of the code. If we put a junior or mid
+level developer in a team where they use very different tools from
+what they are used to, it will likely be hard for them to become productive
+and we may even cause them stress. There is also a big risk that we
+cause tension in the team if the team members feel that they are burdened
+by the new developer.
+
+If we treat our development teams a bit more like sports team we will
+often find that the best dynamic in the team is created when we place
+people of similar skill, or at least people who want to collaborate
+with people of different skill, together. Add decent communication
+skills on top and we should have a team where mentoring is a natural
+part of the work process. Just make sure that you account for the
+mentoring in the deadlines so people who are mentoring have the time
+to do it without being stressed over completing their own work.
+
 ## How To Write Code With Fewer Bugs?
 ## Is Code Coverage A Good Metric?
 ## How To Develop The Mindset Of A Senior Backend Developer?
