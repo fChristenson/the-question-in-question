@@ -969,7 +969,30 @@ Below is an example of this in practice. Let us assume that we have
 a search feature for our system. Let us also assume that the search
 feature supports free text searching with a range of custom commands.
 
-TODO: make example
+![search](../assets/search.png)
+
+This code will very quickly grow hard to understand if we treat our
+search feature as one big block of logic. However, we can't really
+escape the fact that we need to optimize this code and at the same
+time support free text search with the added complexity of commands
+that mutate the result.
+
+In this situation we can only try our best to segment our problem
+nicely in to smaller pieces that we can optimize and isolate.
+We want to segment in to small scopes so it will be easier for the
+person reading can understand what the abstraction is trying to do.
+
+Here is an example of a trivial attempt at doing this.
+
+![find](../assets/findmatches.png)
+
+When we look inside the `findMatches` function we hope to find more
+of this sort of segmentation so we as the reader can find the scope
+of logic we care about with well named abstractions. This does not
+mean that we are going to have an easy time understanding the implementation,
+it just means that we can have an easier time focusing on the piece
+of the feature we care about instead of having to deal with all the
+logic at once.
 
 ## Should Simplicity Always Be The Priority In Coding?
 ## How To Apply Topological Fixes To Legacy Code?
