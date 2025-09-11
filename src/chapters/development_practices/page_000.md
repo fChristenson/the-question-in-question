@@ -1035,6 +1035,8 @@ the orders. Had we started fixing the orders code we would have the
 hardest time since the rest of the code is tied in to it.
 
 ## How To Improve Legacy Code Effectively?
+
+My preferred approach is to...
 ## Should You Stop Mentoring New Hires In It?
 ## How To Write Code With Fewer Bugs?
 ## Is Code Coverage A Good Metric?
