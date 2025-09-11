@@ -707,7 +707,6 @@ emails --> products
 emails --> orders
 ```
 
-
 So what is the problem with this approach? Well, nothing really.
 It is a tried and true pattern that most developers will feel
 comfortable with, regardless of their experience level.
@@ -1007,6 +1006,34 @@ At best we can say that we should always try to make our code as simple
 as we can without failing on delivering what we need.
 
 ## How To Apply Topological Fixes To Legacy Code?
+
+The method I like to use is to find the leaves in my dependency
+graph. If I can track down the code that has the fewest dependants
+I can fix the issues in that code and then start unblocking the next
+piece of code in the chain.
+
+Lets consider the following graph.
+
+```mermaid
+flowchart TD
+users
+orders
+products
+emails
+
+users --> orders
+products --> orders
+emails --> users
+emails --> products
+emails --> orders
+```
+
+To fix the legacy in the system we would want to start by fixing the
+code related to emails. Once that is fixed we can move on to fixing
+either the users or products code. Lastly we can apply our fixes to
+the orders. Had we started fixing the orders code we would have the
+hardest time since the rest of the code is tied in to it.
+
 ## How To Improve Legacy Code Effectively?
 ## Should You Stop Mentoring New Hires In It?
 ## How To Write Code With Fewer Bugs?
