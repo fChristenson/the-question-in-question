@@ -1095,8 +1095,19 @@ part of the work process. Just make sure that you account for the
 mentoring in the deadlines so people who are mentoring have the time
 to do it without being stressed over completing their own work.
 
-## How To Write Code With Fewer Bugs?
 ## Is Code Coverage A Good Metric?
+
+Yes, but I argue that we have to understand what it is
+representing before we do the mental mistake of thinking
+that high coverage equals good system.
+
+A frequent argument I hear against code coverage is that it
+only proves that you have test that cover code but does not check
+if those tests are testing something meaningful. It is true that
+we can get a high coverage with test that don't catch any bugs.
+However, I argue that code coverage is not meant to prove the quality
+of our tests but rather that there are tests at all.
+
 ## How To Develop The Mindset Of A Senior Backend Developer?
 ## What To Do When The Development Team Is Failing?
 ## How To Plan For Tight Deadlines In Software Development?
