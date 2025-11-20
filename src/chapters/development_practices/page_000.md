@@ -1165,6 +1165,58 @@ person who understands the essence of the issue and comes up with
 the simplest way to solve it.
 
 ## What To Do When The Development Team Is Failing?
+
+The key things that needs to happen is to figure out why. When a
+team is failing the most likely reason is down to the people invoved.
+
+My personal mantra is, "get the right people for the job." Full stop.
+
+The solution seems simple but it takes an extraordanary person to do
+this and most teams are managed by people who know next to nothing
+about handling this sort of situation. The best a manager can do is
+usually to set up some goals for improvement for the members in the
+team.
+
+The most feasible way a person without deep knowledge of software
+development to manage this situation is to identify the painpoints
+of the customers. Are there too many bugs? Is the development speed
+too slow? We need to know what part is failing.
+
+Once we know what we believe to be the areas in which the team is
+failing, we can start to create an improvement plan. This is usually
+easiest to do by sitting down with the team and calmly explaining
+that our current process is not giving the results we want.
+Answer any questions that may come and then move the conversation to
+asking the team what we can do to improve. This is where you as the
+stakeholder need to remember that the solutions the team will give
+is based on their experience and may not necessarily be the best way
+to handling the underlying issues. It is vital you understand that
+for someone who is "bad" at something, most solutions will be limited
+due to their skill level and not the inherit complexity of the problem.
+The same issue may be a breeze for someone who is a lot better at the
+craft. You still need to do this exercise however, because it prepares
+you for what comes next.
+
+Next you start setting some goals of improvement. Make them clear.
+Stating that we should deliver faster or we should communicate more
+is a poor way to do it since it is not measurable. Stating that we
+want the total of bugs to drop by x is better. Make sure to timeframe
+it as well so you know when to check in and expect results.
+
+This brings us to the hardest part about this. What do you do if this
+does not work? The main thing you can do if you don't know how to pinpoint
+the core issues is to be a good customer. Make sure you look for regular
+status updates from the team on progress so they know that these goals
+matter. People have a million things going on each day and if you
+want to be sure that the team fails even when the goals are a priority
+you need to check in on the progress or it will be usually be forgotten.
+
+Finally, you have a plan, you have checked in and the results are still
+not there. Fire the worst performer. This usually sends a message
+and it gives you a chance to reshuffle the deck and see if some new
+blood and the impact of losing someone due to failure spurrs the team
+to better results.
+
 ## How To Plan For Tight Deadlines In Software Development?
 ## What Is The Difference Between Elegant And Clever Code?
 ## Is Software Development A Process-oriented Field?
