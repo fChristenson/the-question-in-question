@@ -1108,7 +1108,62 @@ we can get a high coverage with test that don't catch any bugs.
 However, I argue that code coverage is not meant to prove the quality
 of our tests but rather that there are tests at all.
 
-## How To Develop The Mindset Of A Senior Backend Developer?
+Using coverage as a means to make developers go through the motions
+of writining tests is in of itself a great thing. Just as with anything,
+we can't really force people to do something well if they don't want
+to. However, we can create an environment where those who will do great
+things feel like their enthusiasm is being rewarded. By taking the
+stance, that testing matters, we send a clear message to the team.
+
+For good measure I recommend to embed the coverage check in your delivery
+pipelines. Stop the deployment if the coverage drops too low but also
+be pragmatic when needed. Remember, our goal is not to keep the coverage
+high but to make sure that tests are being created. It is fine to lower
+the threshold or omit some files from the coverage as long as the team
+does so with an agreement between themselves.
+
+Finally, start updating the minimum threshold for the coverage on a
+regular basis. It is sad to see coverage rise and then fall again
+because the minimum is still at the starting point and allows for
+one developer to raise the bar and another to not write tests and
+thus lowering it again. Don't be too strict with the minimum level,
+give the threshold a little wiggleroom so minor drops won't matter
+but big ones will stop the deployment.
+
+## How To Develop The Mindset Of A Senior Developer?
+
+Oh, that is easy. Spend years of frustration working on things
+that do not turn out so well, and some that do. After you have
+learned through pain and suffering how to build things the
+way they should be built, you are in the club. Welcome!
+
+The key difference between a senior and other developer is that they
+often know more but here is the invonvinient truth. Most seniors know
+very little more than the average mid level developer. They have just
+been doing the same things for longer. So in a perverted sence this
+means that you have the mindset of a senior if you simply clock in,
+do what you are told and clock out. That is the average seniors way
+of working.
+
+True senior, who actually have a mindset worth following, know how
+to extrapolate a system from a simple conversation with a stakeholder.
+They know enough to know how to design an entire system by just knowing
+the feature requirements. This is experience talking and not strictly
+mindset. If we want to push it one step further, the mindset worth
+adoption, is to focus on the problem you are solving. What tools you
+use always comes after. A truly amazing senior can solve a problem
+in the simplest way given the complexity of the problem.
+
+If you ask a really bad senior how to automate a complex workflow,
+most of them will start listing the frameworks they need and start
+scoping out how many developers are needed.
+A great senior will simply ask how the workflow works today and likely
+figure out that the entire thing can be solved with a shell script.
+This is an extreme example but I hope it gets my point across. The
+mindset you should look for is not that of a senior but that of a
+person who understands the essence of the issue and comes up with
+the simplest way to solve it.
+
 ## What To Do When The Development Team Is Failing?
 ## How To Plan For Tight Deadlines In Software Development?
 ## What Is The Difference Between Elegant And Clever Code?
