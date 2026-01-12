@@ -1,9 +1,3 @@
-class SearchController {
-  public static Search(
-    query: string,
-    commands: Record<string, string>
-  ): string[] {
-    // complex search logic here
-    return ["result1", "result2", "result3"];
-  }
+function myFunction(time: Date = new Date()) {
+  console.log(time.toISOString());
 }

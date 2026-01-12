@@ -1218,7 +1218,96 @@ blood and the impact of losing someone due to failure spurrs the team
 to better results.
 
 ## How To Plan For Tight Deadlines In Software Development?
+
+Start by having a priority meeting with your team and stakeholders.
+It is important that you understand in what order you do things so
+that if something is not finished or needs to be simplified in the
+interest of time, you know what. Naturally you will aim to get everything
+done but you can't work on everything at once so make sure that the
+thing you can work on is the most important.
+
+Next, make sure you understand what the bare minimum of what you need
+to succeed is. When you are dealing with sharp time contraints it
+is usually natural to throw testing and other quality practices out
+the window. This is not a bad move if done correctly but we have to
+remember that these practices are not something we do just because
+it is considered good practice. We do them to make sure the system
+works.
+
+If you can safely slice away steps of your delivery process in the
+interest of time or simplify solutions without risking bugs that
+make the end result useless, consider it. It sounds odd for an
+engineer to skip on quality checks but if the deadline is a sharp
+one, we have no choice.
+
+Lastly, make sure you talk to your team and stakeholder about
+what you will need to make the deadline. Often you will need
+information or other parties ready to do everything from testing
+to calling customers for integration information. Make sure each
+stakeholder understands what you will need and when so they
+have time to adjust their priorities.
+
+The rest comes down to basic planning. Creating an iterative
+delivery process is usually a good way to work. Ship an MVP
+version of the feature, get feedback, repeat.
+
 ## What Is The Difference Between Elegant And Clever Code?
+
+This comes down a bit to semantics in my mind. My way of
+defining the differences between the two is by no means
+something you should treat as a universal deffinition
+but I shall try my best.
+
+Clever code is when we take a problem that can be a bit
+difficult and find a solution that make is a lot simpler
+to deal with. A good example of this is working with time
+in our functions. Most developers will create an instance
+of a datetime object within their functions just to later
+realize how cumbersome it is to write tests when we are
+dealing with time. Time changes and if our test needs to
+be able to control time we need to deal with all manner
+of hurdles to control it from outside our function.
+
+![time function](../assets/time_function.png)
+
+Now consider if we instead of creating the instance inside
+our function we use a feature such a default parameter.
+
+![time function with parameter](../assets/time_function_with_param.png)
+
+I will argue that this makes the issue of controlling time from outside
+the function, much simpler. It is not super elegant since we are mostly
+creating this extra parameter for no other reason that testing and
+as the top tier software developers we are we know that we should
+not mess up our production code for testing purposes. I argue that
+this is one instance where we can break that rule. The benefit
+and cost ratio makes this a simple solution without any real
+impact on production code.
+
+Now, what about elegant code? What each of us considers elegant
+will of course differ. The best estimation of a definition I can
+come up with is this. Elegant code is code that is written so
+that a you feel the simplicity and reasoning behind the solution.
+You mentally connect with the person who wrote it. You have seen
+the problem the person tries to solve many times and seen the
+various solutions people have tried to solve but this code is
+different. This code does it in a way that resonates with your
+mind. It is easy to understand and it feels intuitive to work
+with it.
+
+Arguably the best example of elegant code is found in the
+jQuery library. This is probably the best example we have of
+how much of a difference creating a consistent interface
+and easy to use abstractions will make. If you look around
+the internet I suspect you will still find people who have
+yet to understand that difference between jQuery and standard
+JavaScript syntax.
+
+I don't think it would be too far from the truth to claim that jQuery
+showed how to elegantly work with the DOM and inspired the
+standards we today use. Many other tools have followed a similar
+syntax style of chaining methods to great success.
+
 ## Is Software Development A Process-oriented Field?
 ## How To Commit To An Idea In Software Development?
 ## How To Reduce Microservice Communication Overhead?
