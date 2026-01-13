@@ -1385,7 +1385,7 @@ that the same issue will be reported by different clients.
 
 ## How To Avoid Over-engineering In Software Development?
 
-This is probabl one of the trickier things to deal with.
+This is probably one of the trickier things to deal with.
 At least if you ask me.
 
 ## Is It True That You Need An Hour To Evaluate A Developer?
