@@ -1309,10 +1309,85 @@ standards we today use. Many other tools have followed a similar
 syntax style of chaining methods to great success.
 
 ## Is Software Development A Process-oriented Field?
-## How To Commit To An Idea In Software Development?
-## How To Reduce Microservice Communication Overhead?
+
+To a point. However, there are nuances that will differ
+drastically depending on where you work and with whom.
+
+The most basic processes we find in most software teams are
+usually.
+
+- Planning
+- Development
+- Review & Testing
+- Deployment
+
+Each of these can have, and does have, entire books on the subject.
+I will try to give you a high-level overview of each so you can
+get slightly more familiar with each process and why it matters.
+
+Planning varies in it's implementation from team to to team and
+from company to company. The core format is usually the same but
+it is worth knowing that it can range from having scheduled days
+where all stakeholders and developers plan out work across long
+meetings to that your CEO drops one or two sentences in your
+instant messaging chat.
+
+Most of the time you will have a sitdown with your stakeholders
+and team members so you can get an introduction to what the next
+batch of features you will work on will be. This is the best time
+to ask clarification questions and come with suggestions.
+
+Once the planning is over your team will start working. Most of the
+time, at least in todays ways of working, this means you pick up a
+story card on some form of a Kanban board. You write code. When you
+are finished you do some self review of your work and then move the
+story card to the next step in the process.
+
+Most teams will have some form of code review and testing process.
+This can range from that you do some manual testing to that you have
+an entire team of testers. Most of the time you will submit your code
+to be reviewed by a coworkers and then they will do some basic testing
+before the next step. Usually, peer testing is done because we want
+to avoid the author of the code becoming blind to issues. Since you
+wrote the code you may also test it in the same way and thus miss
+issues someone else would find by simply looking and testing in their
+own way.
+
+During deployment we are again going to see a range of ways to do
+it. Most of the time you will either have some form of release
+schedule where you deploy new features on certain days or you
+will simply deploy when the work is done. The approach used most
+often depends on how extensive your testing process is and if you
+have other systems that need to align with the releases.
+
 ## Is It Best Practice To Provide Client Libraries For Microservices?
+
+I would say it is best practice for any API provider. The cost of
+doing it is very low if you leverage code generators and make
+sure you have API documentation in a industry standard format.
+I feel something close to anger when I see API providers send me
+a Word document with their documentation. There are plenty of
+formats that are today considered standard and not using them
+is aching to incompetence if you ask me.
+
+If you find yourself in a situation where the API provider does
+not provide a client library you can as the consumer still use
+the same tools to create your own library without much effort.
+Doing this is a missed opportunity since if you API provider
+would do it they would be able to reduce the risk of the library
+having bugs for all the client systems. As you can imagine, if
+each client needs to create their own library, odds are that there
+will be some bugs here and there. This comes back to the API provider
+team in the form of issue reports they need to investigate and respond
+to. Had they provided the library, they would be able to fix the issue
+once, respond to it once and then move on. If they do not, odds are
+that the same issue will be reported by different clients.
+
 ## How To Avoid Over-engineering In Software Development?
+
+This is probabl one of the trickier things to deal with.
+At least if you ask me.
+
 ## Is It True That You Need An Hour To Evaluate A Developer?
 ## Should Developers “measure Twice And Cut Once”?
 ## What Are The Advantages Of Incremental Software Development?
