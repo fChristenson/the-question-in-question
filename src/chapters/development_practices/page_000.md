@@ -1386,7 +1386,48 @@ that the same issue will be reported by different clients.
 ## How To Avoid Over-engineering In Software Development?
 
 This is probably one of the trickier things to deal with.
-At least if you ask me.
+At least if you ask me. The basic problem is that you have
+an idea and at the time you are convinced that this idea will
+somehow improve whatever you are doing. Stopping your own mind in
+this state is hard. If you are lucky, you will have coworkers who
+have seen enough over-engineering and are at the same time gifted
+in the art of rational argument. They will hopefully be able to
+present a viewpoint that makes you question your own genius. If
+you are unlucky, which is more often than not going to be the case,
+you lack these people or they will not be able to convince you that
+your solution is overly complex.
+
+The most tried and true way to stop yourself from over-engineering
+is to do it and then have to maintain the mess you have made. If
+you are forced to deal with your own or others code when they have
+taken something simple and made it overly complex, you learn to
+appriciate simpler solutions. It is in all honesty a bit like
+growing up. Over time you will learn why some things work the way
+they do when previously you questioned it. Don't get me wrong,
+it is important to question things and experiment. This is how
+you gain a deeper understanding of the nature of things. It is
+how you learn of to not over-engineer. We call it experience.
+
+If I am to try to give you something more than simply saying
+that you need to try to improve, fail and learn. Well, the
+best advice I have is this. When you face a problem and you
+think of the ways you can solve it, ponder the options and
+then ask, "what is the simplest way to make this work without
+causing problems?". The ideal state you can be in, I argue,
+is that your solution work well for your current situation
+and if you decide in the future that it was not a good solution,
+you can easily rewrite it.
+
+Master the art of creating abstractions that allow you to make
+a good solution for today and allow future developers to throw
+away your code without much effort. Mind that you don't create
+solutions that are supposed to do this and all of a sudden you
+have a codebase that is so generic that no one understands it,
+just so you can change anything whenever you want. Most of the
+time you will find that if you can capture your own solutions
+in a class, function or folder, future developers will be able
+to simply delete your abstraction and start over. They will never
+thank you for it but they will never hate you for it either.
 
 ## Is It True That You Need An Hour To Evaluate A Developer?
 ## Should Developers “measure Twice And Cut Once”?
