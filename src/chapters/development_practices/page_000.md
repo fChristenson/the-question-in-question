@@ -1430,6 +1430,34 @@ to simply delete your abstraction and start over. They will never
 thank you for it but they will never hate you for it either.
 
 ## Is It True That You Need An Hour To Evaluate A Developer?
+
+Yes and no. If you are going to cover the materials needed to
+get a decent picture of what technologies a developer is familiar
+with, it can take an hour. Depending on the length of the answers
+it may take longer. However, it is entirely possible to figure it
+out in minutes as well. It all depends on the candidate and the
+way you ask your interview questions.
+
+Most of the time you will be best off asking questions that relate
+to experience with tools and practices. This would be things such
+as "can you tell me how you test your code?". This is a direct
+question that helps you figure out if the candidate knows the various
+ways of testing. If their entire answer is that they do some manual
+testing, you know that they have little experience in the matter and
+odds are that then going deeper and asking about the testing pyramid
+or other more advanced subject is a waste of time. It also puts pressure
+on the candidate. Many times I have told my peers after an interview
+to feel the room a bit. If a candidate struggles with basic questions,
+just stop. There is no need to make them feel bad by pushing them
+in to a corner with even tougher questions. They are looking for work
+and just because they don't know as much as you, don't punish them.
+
+Avoid using questions as "what is your greatest strength?". If
+the candidate is gifted with social skills, you can spend an hour
+on just that one question. By the end of it you may know all kinds
+of things about them but not if they actually know anything about
+writing code.
+
 ## Should Developers “measure Twice And Cut Once”?
 ## What Are The Advantages Of Incremental Software Development?
 ## How To Balance Standards And Choices In Software Development?
