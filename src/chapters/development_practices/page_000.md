@@ -1674,9 +1674,10 @@ why they want the feature they are asking for. Most developers zone
 out and just wait for the story card to be written. If you want to
 be a top notch developer, stop that. Now. The story card is just
 a record of what really matters. The desired outcome of the stakholder.
-This is why truly great developers understand that during planning,
-their goal is to understand the reason why the system needs a new
-feature. You know you have mastered this when you not only understand
+
+Truly great developers understand that during planning, their goal
+is to understand the reason why the system needs a new feature.
+You know you have mastered this when you not only understand
 the reason the stakeholders want the feature but you also know how
 to suggest alternative approaches that the stakeholders have not
 though about but will still meet their needs.
@@ -1686,6 +1687,26 @@ use to understand.
 
 ## How Do You Choose A Tech Project?
 
+This is a highly personal choice and is heavily connected to
+whatever you value. Me, personally. I prefer to choose projects
+that will develop my skills. This is true both in personal projects
+and professional ones.
+
+Personal projects just as professional ones can serve as great teachers.
+The main thing is that your project poses a set of problems you aren't
+familiar with. Resistance build muscles, character and it is no different
+for knowledge.
+
+I am a big advocate of small focused projects when working in private.
+Pick a topic you want to learn more about and come up with a small
+pet project that allows you to practice. Repeat this process and you
+may find that your pet projects are starting to look more like
+open source libraries or even entire products.
+
+The same basic principle applies for picking professional projects.
+If my aim is to grow, I need work that forces me to use my mind.
+If I just do things I have done so many times that I almost zone out,
+I won't learn.
 
 ## How Do You Keep Pull Requests Small And Manageable?
 ## How Do You Implement Automated Tests Effectively?
