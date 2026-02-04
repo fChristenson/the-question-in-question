@@ -1458,11 +1458,141 @@ on just that one question. By the end of it you may know all kinds
 of things about them but not if they actually know anything about
 writing code.
 
-## Should Developers “measure Twice And Cut Once”?
 ## What Are The Advantages Of Incremental Software Development?
+
+Usually it comes down to scoping work. You can almost thing of it
+as similar to writing unit tests. When you have a big feature it
+is often simplest to start by making one part of the feature.
+When you have the first requirement done, you add a unit test
+that makes sure that everything about the first requirement
+works as intended. Then you start working on the next part of
+the feature in the same manner. Doing things this way allows you
+to break down the feature in to many smaller parts instead of
+having to deal with the entire thing at once.
+
+By applying incremental feature delivery we gain the same benefits.
+A secondary benefit that is also worth mentioning is that when we
+split big features in to smaller ones, we can get some parts of
+the feature in the hands of our stakeholders quicker. This will let
+our stakeholders to try out parts of the system and give us feedback.
+Getting early input on our work makes it more likely that we can fix
+and adjust the implementation if something needs changing than if
+we waited until all the work is done.
+
 ## How To Balance Standards And Choices In Software Development?
-## Are Orms Considered A Best Practice?
+
+This will differ from developer to developer. Each of us have our
+own favourite tools and if we are going to try to create a standard
+it is next to impossible to make everyone happy.
+
+When we try to create a standard we must try to consider a larger
+perspective and carefully consider what our goal is with a standard.
+We know that allowing developers to choose their own tools freely
+is the easy way and will most of the time make them the happiest.
+So why do we want a standard? My argument that we have a standard
+so we know what to expect. Once we have it in place everyone will
+adjust to following a known pattern. This saves us time and removes
+any unknowns people have around how something works.
+
+However, a good question to also ask is, when does it not make sense
+to have a standard? Once we have a standard we have all the benefits
+of people following a known pattern. The answer is simple. When the
+known pattern is worse than one off solutions. Having a standard is
+always a matter of finding a pattern that works most of the time and
+make it the default choice. If no clear pattern can be found, you
+are usually better off not having a standard. Some people always strive
+to create standards. They are there in every single agile meeting
+you have ever been part of but they can also be found in development
+teams in the form of reusable code evangelists. Now, you and I know
+that having a bad abstraction causes a lot of issues. I am willing
+to go as far as to say, creating a standard abstraction that fits
+the problem you are dealing with poorly is worse than simply breaking
+the DRY principle or whatever other best practice the author wanted
+to follow when creating the mess they proudly hold up as a standard.
+
+You know you are better of reinventing the wheel when the standard
+you are following only serves the purpose of maintining itself.
+A team that sits apathetically in a agile process meeting is a good
+example of when a standard is poorly made. You are just going through
+the motions without any benefit. This is when you should question
+the established standard and determine if you are better of without
+one or perhaps a new one.
+
+I once read that traveling companies tried to figure out a standard
+way to make people take their seats on the plane. What they found
+was that no system was faster than having the passengers sort it out.
+This story, if true, is a great example of when independent thinking
+and on the spot decisions beat a standard.
+
+Standards are supposed to bring benefits, if they most of the time
+make no difference or even hinder you, throw them out.
+
+## Are ORM's Considered A Best Practice?
+
+Depends on who you ask. I argue that ORM's are a best
+practices, not because and ORM's is a best practice
+in of itself but because they keep our code DRY.
+
+Writing out standard queries that an ORM can handle is
+not a great use of time but using an ORM for advanced
+queries is not great either.
+
+Today, we have AI agents that can assist us in creating
+our own ORM's in seconds. I am of the mind that we have
+reached a point where third party ORM's may lose a lot
+of their relevance in the face of this new development
+in our tooling. What we really want to understand is
+why we are using an ORM at all. This is what determines
+if it is a best practice or not.
+
+A good rule of thumb to follow is, are you making a query
+that is as standard as just reading up records and mapping
+them to an object? This is where you may want to use an ORM
+or at least some form of it. Are you running a query that is
+not a straightforward query to read some records and mapping
+them to an object? Just write out the query yourself. If you need
+to jump through hoops to get the ORM to do what you want just
+skip it. Just make sure that when you do, you know how to handle
+the often overlooked security benefits some ORM's bring.
+
 ## How To Choose The Right Tool For The Job?
+
+In a word, experience. It sounds obvious and boring,
+trust me, it is that boring and obvious. Most of the
+time the right tool for the job is not as cleanly cut
+as, "there is one perfect tool" but rather, there are
+pros and cons. I like to say to my frustrated friends
+when they lament their life choices in front of them.
+Option A is horrible but option B is just as bad.
+Dear, sweet friend of mine. You almost never get a perfact
+option C, you can just pick what problems you want.
+This is true for your choices in tools as well. Picking the
+right tool for the job often just comes down to you knowing
+what will suit this particular situation best.
+
+Most developers go through phases where they start experimenting
+with trendy tools. This is a bit like growing up. You are going
+out in the world and questioning the established order. You want
+to mix things up a bit. When you have tried a few times you will
+start to learn that some of your experiments turn out well and
+some turn out very poorly. Through this process you learn what
+you need to consider to solve each type of problem you are dealing
+with.
+
+A builder who needs to lift something heavy may think that a forklift
+is the right tool. After defaulting to this choice a few times they
+find that if they use this tool when working on muddy ground, things
+go horribly bad. So what does our builder do? They start to notice
+what factors are in play before they make a choice of tool. Our clever
+builder, who was blind to the factor of ground quality, is now wiser.
+They now know that making sure that the ground is stable enough has
+a large impact on what tool to use and you should think the same way.
+You can't skip this process of learning from your mistakes but you
+can always ask if the tools you pick suit the problem you are facing
+and then honestly reflect on if there is a simpler way to get the
+results you want. Remember, tools are a means to an end, focus on
+the results you want.
+
 ## How Can Developers Recover From Anti-patterns?
 ## How Do You Develop People Skills As A Software Developer?
 ## How Do You Choose A Tech Project?
