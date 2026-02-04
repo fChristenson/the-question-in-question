@@ -1721,7 +1721,7 @@ request?".
 When I feel like start a fight with the people who dont' care about
 the size of a pull request I just ask, "How are you able to approve
 my pull request in less time than it takes to read the code?.
-Surely you read it all carefully, did you not?"
+Surely you read it all carefully, did you not?".
 
 I argue that the essence of keeping pull request small is not lines
 of code. It is cognitive load on the reader. Changing a name in
