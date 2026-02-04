@@ -1655,7 +1655,38 @@ your anti-pattern, you can replace what is behind it without having
 to account for all the entities that depend on the anti-pattern.
 
 ## How Do You Develop People Skills As A Software Developer?
+
+Start by engaging in the work you do in a meaningful way. How many
+times did you speak during your meetings? Most developers I meet
+say less than a few words even in important meeting where stakeholders
+present upcoming work. If you ever intend to develop meaningful skills
+with people you have to start by at least communicating.
+
+Next, practice connecting with people. I don't mean sitting down and
+talking about your feelings. I mean, learn how other people think.
+The simplest way to do this can be summarized in a "what if" question.
+What if you had a billion money units? This is a simple game you have
+probably played while daydreaming but have you ever tried it on someone
+else and then just tried to figure out why their answer is what it
+is? When you are in a planning meeting with your stakeholders, that
+is exactly the game you are playing. You are trying to understand,
+why they want the feature they are asking for. Most developers zone
+out and just wait for the story card to be written. If you want to
+be a top notch developer, stop that. Now. The story card is just
+a record of what really matters. The desired outcome of the stakholder.
+This is why truly great developers understand that during planning,
+their goal is to understand the reason why the system needs a new
+feature. You know you have mastered this when you not only understand
+the reason the stakeholders want the feature but you also know how
+to suggest alternative approaches that the stakeholders have not
+though about but will still meet their needs.
+
+Coding skills are what you use to create. Social skills are what you
+use to understand.
+
 ## How Do You Choose A Tech Project?
+
+
 ## How Do You Keep Pull Requests Small And Manageable?
 ## How Do You Implement Automated Tests Effectively?
 ## Why Do Developers Sometimes Ignore Best Practices?
