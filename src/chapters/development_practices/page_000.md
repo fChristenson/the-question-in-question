@@ -1594,6 +1594,66 @@ results you want. Remember, tools are a means to an end, focus on
 the results you want.
 
 ## How Can Developers Recover From Anti-patterns?
+
+Coding got you in to the mess you are in, coding can get you out.
+
+Usually it is in the beholders eye what is considered an anti-pattern.
+I suggest you always try to list out the issues the approach you are
+evaluating has. If you find that your list is mostly filled with subjective
+fluff that doesn't really impact your ability to deliver code in the
+manner you want, odds are that it is not an anti-pattern you need
+to worry about.
+
+But lets pretend that this anti-pattern is causing you issues. Be
+they practical ones or just emotional ones. Then I suggest you start
+by checking what pattern would be better to follow. The tricky part
+about this questions is that an anti-pattern can be found everywhere.
+So how you approach moving to something better can range from you
+getting a better coffee machine to writing comments in code.
+
+If we assume that we are dealing with coding related anti-patterns.
+Our range of solutions become somewhat narrower. One of my personal
+favorite methods for refactoring code can be applied here.
+
+Lets pretend that some of our code is written in a style we no longer
+want to follow. In order to fix this issue, we will need to define
+a better approach and then go about refactoring our code.
+To do this in the safest way possible, we should approach the refactor
+a bit like a blue/green deployment. Start by making the new solution,
+test it and then remove the old code. We never want to remove working
+code that simply is following some anti-pattern until we are sure we
+have something that will work even better. So how do we do this?
+
+Lets look at an example.
+
+![log](../assets/refactor_log.png)
+
+In this very contrived example we can see that our `consoleLogArray`
+function is using the `.forEach` method to iterate over the input
+array. Lets pretend that this is an anti-pattern we simply can not
+live with any longer. Following my personal approach we would start
+by making a new implementation of this logic, make sure it works,
+and then remove the previous code. So how do we do this with a minimal
+amount of risk?
+
+![log v2](../assets/refactor_log_v2.png)
+
+In this even further contrived example, we can see that we now have
+2 versions of our logic. There is also a global variable that allows
+us to control which version of the logic we are using in the calling
+function. Many refer to this as a "feature flag". The main ideas
+to take away from this approach is:
+
+1. Create an abstraction that the calling code can use
+2. Update the abstraction from inside so you can replace the anti-pattern
+3. Use a feature flag to make sure your new code works
+4. Remove the old code when it is safe
+
+This approach works at a function level but works the same even for
+entire system. If you can create an interface for the consumer of
+your anti-pattern, you can replace what is behind it without having
+to account for all the entities that depend on the anti-pattern.
+
 ## How Do You Develop People Skills As A Software Developer?
 ## How Do You Choose A Tech Project?
 ## How Do You Keep Pull Requests Small And Manageable?
