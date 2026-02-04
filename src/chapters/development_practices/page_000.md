@@ -1709,6 +1709,37 @@ If I just do things I have done so many times that I almost zone out,
 I won't learn.
 
 ## How Do You Keep Pull Requests Small And Manageable?
+
+This is a debatable topic and at times I have had heated
+arguments with developers about what should and should not
+be in a pull request. My go to argument when I want to annoy
+the small pull request side is this. If I change the name of
+a symbol that is used in most files we have, how do I keep you
+from getting upset over how many files have changed in the pull
+request?
+
+When I feel like start a fight with the people who dont' care about
+the size of a pull request I just ask, "How are you able to approve
+my pull request in less time than it takes to read the code?".
+Surely you read it all carefully, did you not?
+
+I argue that the essence of keeping pull request small is not lines
+of code. It is cognitive load on the reader. Changing a name in
+dussins of files does not cause information overload for the reader.
+Working on the same feature for weeks, with a bit of extra refactoring,
+does.
+
+Try to split your pull request in to natural slices. If you can let
+the reader focus on a single feature change, you are being a nice
+coworker. A good rule of thumb is to create pull requests with a theme.
+What are you doing in this pull request? Try to express it in words.
+If you are doing several things, try to order them in to themes and
+think like an author. Create pull requests like chapters of a book.
+Each chapter has a theme and naturally leads to the next.
+
+You can't always reduce how many files you need to change. But you
+can make it easier for the reader to understand what is going on.
+
 ## How Do You Implement Automated Tests Effectively?
 ## Why Do Developers Sometimes Ignore Best Practices?
 ## How Can Feedback Loops Improve Development Processes?
