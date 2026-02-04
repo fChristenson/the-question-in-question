@@ -1650,7 +1650,7 @@ to take away from this approach is:
 4. Remove the old code when it is safe
 
 This approach works at a function level but works the same even for
-entire system. If you can create an interface for the consumer of
+entire systems. If you can create an interface for the consumer of
 your anti-pattern, you can replace what is behind it without having
 to account for all the entities that depend on the anti-pattern.
 
