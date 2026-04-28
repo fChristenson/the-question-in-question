@@ -1742,10 +1742,93 @@ You can't always reduce how many files you need to change. But you
 can make it easier for the reader to understand what is going on.
 
 ## How Do You Implement Automated Tests Effectively?
+
+The key is to understand how to create an effective testing
+strategy. The model we today commonly refer to is the testing
+pyramid. Conceptually, this model shows layers of test types.
+The basic idea being that things such as unit tests are found
+at the lowest level of the pyramid with test such as integration
+test, end to end tests and manual tests being at the higher levels.
+
+We need to understand that as we go higher on the pyramid we are
+increasing the scope of what is being tested and most of the time
+this means the time to run the tests increases as well.
+This is important to fully understand as what we are after is a test
+strategy that will prevent bugs without forcing us to test our system
+only using tests at the higher level.
+
+If we can use unit test to capture bugs in our code we have the fastest
+test we can make and it helps us pinpoint exactly where our bug is.
+The higher we go the slower the tests will get and the harder it may
+become to figure out exactly where in the code the bug is. However,
+we can't always use unit tests to make sure the bugs are caught.
+This means we as developers need to understand what type of test is
+the cheapest to use. It is not always possible to avoid manual testing
+or end to end tests but we need to understand when those are the only
+options to use and when we can use something cheaper and faster.
+
+A good example of this in action is that a team of tester can be paid
+to test a UI manually. This is very slow and costs a lot since we
+are paying them. As smart developer we can quickly figure out that
+if we could automate this testing it would be faster and cheaper.
+So we often reach for UI tests tools such as headless browsers to
+simulate a user clicking and interacting with the UI.
+Soon after we will realize that this is taking a lot of time
+as the system grows, not as much as a human doing it, but enough
+time for it to be an issue. Our next thought would then perhaps
+be that if we could remove the amount features needed to be tested
+by our UI testing tool, we can further reduce the time it takes.
+What is even better, we are possibly reduce the flaky nature of
+the web UI testing. So then we realize that could let the UI testing
+just fokus on user journey through the system and test all the trivial
+logic such as clicking all buttons, checking if form elements are
+shown properly and that error messages are where they should be, we
+can put that testing as unit test and possibly visual regression tests.
+
+What we have now built is a testing strategy where trivial logic that
+would take a lot of time to test in a UI testing tool is handled by
+unit tests, on top of that we have visual regression test that can
+assert that the UI looks right. Lastly, we have UI testing tools to
+make sure that the system works as intended when a user is interacting
+with it.
+
+Think in layers of testing. Find the simplest and cheapest way to
+test your code and segment what is being tested so the amount of
+testing that is needed at a higher level, which often is slow and
+costly, is reduced as much as possible.
+
 ## Why Do Developers Sometimes Ignore Best Practices?
-## How Can Feedback Loops Improve Development Processes?
-## What Are The Benefits Of Writing Clean Code?
-## What Are The Benefits Of Continuous Integration And Continuous Deployment?
+
+Laziness, panic due to an approaching deadline, take your pick.
+Aside from this the main reason is due to a difference in opnion
+about what is in fact a best practice. Most of the time you will
+find that there are more best practices than what the average developer
+is aware of, in fact most developer are just aware of a handfull of
+them. This is probably where the most telling clash between developers
+experience level and maturity happens. Junior developers can often
+find that their modern knowledge of best practices has almost no
+persuasive power on their senior coworkers. The following frustration
+is natural and I feel confident when I say this is what every person
+who has ever seen something that works poorly, tried to change it
+and found that no one cares or the people they need to care,
+do not.
+
+It is hard to fault developers completely in situations like this.
+After all, most humans live out their lives without always trying
+their best to do whatever they do in the best possible manner.
+
+The best suggestion I can give you in times like these is to pick
+your battles. When a practice makes or breaks the system it is worth
+fuzzing over but if someone does something less than perfect without
+it posing impending doom, raise it with the people involved, present
+your arguments for change and move on.
+
+## What Are The Benefits Of Continuous Deployment?
+
+The key ones, at least if you ask me, is as follows.
+
+
+
 ## How To Create A Sustainable Software Development Process?
 ## How To Ensure Code Consistency Across A Large Team?
 ## What Are The Core Principles Of Devops?
