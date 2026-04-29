@@ -1827,9 +1827,142 @@ your arguments for change and move on.
 
 The key ones, at least if you ask me, is as follows.
 
+Deploying often is a sign that you trust your process. The most telling
+sign that your system has quality issues is that there is extra care
+needed when deploying in to a production environment. If you fear
+deploying and you batch up tons of code changes, odds are that you
+will have issues once the deployment is over. Now you are in a bit
+of a bind. If you have waited for long enough, it may become hard
+to figure what changes are behind the issues you now have in production.
 
+If we deploy often each potential issue becomes trivial to track down.
+We can easily pinpoint what changes are wrong if we deploy them as
+they are done. The more we deploy at one time the bigger the scope
+and the larger the area we need to search to find issues.
+
+If your team fears deploying as soon as the code is ready, odds are
+that you have lacking quality standards. Frequent bugs and release
+fear is a negative spiral that has eroded many systems. If you want
+to break that spiral, start by coming up with a strong test pyramid
+model that will reduce the risk of bugs. Then follow up with an easy
+to implement rollback strategy. Top it all off with a feature flagging
+process for features you want to safely test in production and you
+should see that you start to build confidence enough to deploy often.
 
 ## How To Create A Sustainable Software Development Process?
+
+The main thing you need to make this happen is the right people.
+No process you create will be able to bridge confusion between the
+stakeholders and the development team. If the team has weak communication
+skills and bad comprehension of what needs to be done, all you will
+gain is a system that rots more and more.
+
+Testing, rollbacks, DevOps and so on. These are all great things
+but they are meaningless if the people who are going to do the work
+barely know enough to actually apply these tools effectively.
+Having someone who writes bad code and has a hard time understanding
+expectations write tests will just be a pointless exercise in writing
+a test that doesn't actually prevent any bugs.
+I have lost count of how many times managers have been saying we need
+DevOps to succeed only to later realize that the people they have
+hired lack the experience to do it effectively. Then the next step
+is to educate people. Funny how we all seem to agree that hiring a
+junior and teaching them the craft of programming is a big investment
+that may not yield much but trying to teach developers who could not
+care less to learn tools that take years of effort to master is the
+obvious investment to make. So far I have never seen it work out.
+The people you want on your project are the people who have a inherit
+interest in doing a good job and focus on improving themselves.
+
+Once you have the right people the playbook is pretty simple. Your
+most basic building block are going to be as follows.
+
+- Product roadmap
+- Architecture
+- Process quality
+
+Starting from the top, product roadmap. This is one of the most key
+elements in having an effective team. As programmers write code there
+is a myriads of small decisions to make. How should we organize our
+logic? What type of database suits our system? What about schemas?
+The UI, what would be the best stack for it?
+
+All of these tiny decisions will be closer to the mark if the people
+making them know what they are supposed to make and what their customers
+hope to get from their work. If your development team never ask any
+questions about the product or the users need, replace them.
+Failing to understand what your customer wants is in my view an
+unforgivable sin of any craftsman and as a customer you should never
+work with people who will lay the blame of why your system fails on
+the customer. As the provider of a service, and developing software
+is a service, it is on us to make sure we understand what we need
+to do so without causing undue issues. Inversely, it is the stakeholders
+job to make sure the craftsman understand what the vision is. If either
+side fail in this regard, trouble is sure to follow.
+
+Once we know the details of what we are making and what our customer
+hopes to get from our work, we need to decide on how to go about it.
+This brings us to architecture. Now, there is an entire suite of job
+roles dedicated to this subject. In my very biased view, most of them
+are not fit to design a hello world application, let alone create
+a coherrent plan for development teams.
+
+My advice is to start small and create a system that can grow. To
+do this we will need to leverage the insights we got from understanding
+how our customers want to use our system and what they hope it will
+do for them. The architecture should always be based on the experience
+the customer wants. If they intend to run a lot of heavy computations,
+we need to account for that in how we design the system. If they want
+workflows that lock parts of the UI under certain conditions, we need
+to account for it. If they have a plethora of various access personas
+we need to account for that when we design the security model. All
+of these needs and more, impact how we build our system. Good architecture
+almost never come down to how your flowchart looks, it comes down
+to how you design your system at the code level. To this day I argue
+the default architecture for your run of the mill CRUD application
+should be a modular monolith. It is a source code architecture that
+is easy to start with and can easily be expanded or even split up
+in to a distributed system over time. The rest comes down to knowing
+what features need special design decisions. Sadly, knowing what to
+pick for what feature is mostly based on your experience level.
+No magic playbook that will help here but you can try to gain insight
+from looking at how other products have done it.
+
+Finally, quality of our process plays in. This is where a strong tech
+lead has the biggest impact on the result. Just as there is a product
+vision a tech lead needs to create a delivery process that is easy
+to follow for all team members. Key areas to focus on is to make guides
+for manual tasks, create automated pipelines that enforce code standards
+and run automated tests. Perhaps most important of all, the tech lead
+needs to create a easy to follow code architecture that makes it super
+clear how to write boilerplate code that feels consistent over time.
+Most of the time backend developers have as many API designs as there
+are people who work on the project. Frontend developers adhoc everything
+they make and lets not even talk about how often the tech lead is
+a backend developer who couldn't give two shits about what the
+frontend developers are doing so the two junior developers they hired
+so the backend developers don't have to bother with learning frontend
+are more or less on their own.
+
+If the tech lead fails to create simple to follow patterns that are
+followed, the code will start to rot. I personally prefer to create
+custom linters and pipeline scripts that do everything from checking
+that controllers follow the right patterns to that code shared across
+the project is placed in a shared location instead of having a big
+ball of spiderweb imports spread across willy nilly. My best advice
+here is to learn the quirks of the job and find simple ways to mitigate
+the most common issues a developer will introduce. Here a bit of knowing
+human nature is best. You know that some developers will forget to
+write tests, some will just copy paste the closest piece of code
+they find that is similar to their feature. So, don't ignore it.
+Add checks that force them to write tests. Create reference code
+that show how to create key features. Think like a coach. Your team
+have strengths and weaknesses. Know what they are and design your
+source code and pipelines to break bad habits. Don't just write it
+down in some wiki. You know that the average developer won't read
+it, let alone remember it while working. Build it in to your merge
+request pipelines instead.
+
 ## How To Ensure Code Consistency Across A Large Team?
 ## What Are The Core Principles Of Devops?
 ## How Can Teams Make Better Use Of Version Control Systems?
