@@ -1997,6 +1997,75 @@ an important design rule is much more effective than only doing a
 code review.
 
 ## What Are The Core Principles Of Devops?
+
+It depends on how we define DevOps. If we assume that DevOps
+means the development team handle development and operations,
+then I feel qualified to speak on the matter. If we define it
+as the currently popular role of a DevOps engineer, I will keep
+silent. I am not in the right headspace right now for a long
+winded rant about all the grieavances I have with this version.
+
+Principle one of DevOps, the pipeline is how code reaches users.
+The basic principles behind creating a good pipeline is to start
+with a git repository or similar. Create a set of scripts that
+run the checks you want to happen before you ship your code to
+users. These checks are commonly running automated tests but can
+include any types of checks really. Linting the code, checking if
+documentation is up to date, anything really. My mantra is, if you
+would suggest it in a code review, create a pipeline script or lint
+rule for it instead. If possible, ofcourse.
+
+This is our first principle because we want to make sure that we have
+a main arbiter for if our code is ready to deploy. When we work in
+teams we all have our own workstation and we want to make sure that
+regardless of what your own personal setup looks like, our checks
+work the same for everyone.
+
+Once the automated checks pass we usually want our manual checks
+to happen. Things like code reviews and manual testing happens now.
+To be clear. Ideally we don't want any manual work but sometimes it
+can not be avoided. Our goal should be to recude the amount of manual
+work with automation. A good example is testing. Automated tests should
+be our first goal and we should only do manual testing for things
+we can't automate.
+
+Finally our pipeline should allow us to deploy our code. Normally
+we find that teams use one pipeline to deploy to testing environments
+and similar before deploying to production but the same basic principle
+applies.
+
+The heart and soul of the first principle is that there should be
+a gateway system the each change to our code goes through before
+reaching the users. That system should ensure that the end product
+measures up the expectations of the stakeholders.
+
+Second principle, monitoring. Monitoring the systems health through
+hardware load gauges and application logging is the bread and butter
+of any serious DevOps strategy. At the very least we want to make
+sure we are monitoring the system load and application errors so
+we can pinpoint where issues occur.
+
+Entire books are written on this subject alone and there are as
+many strategies as there are systems. My personal strategy is
+best summed up like this.
+
+First, I want to see the path a failed request took.
+
+This I most of the time handle by creating custom errors that
+return a unique error identifier. If we think about how we usually
+learn of errors we will know that there are 2 main ways. First and
+probably best, there is an error log. Second, the users contact us.
+In both cases it helps us a lot if there is a unique identifier code
+or similar we can take from the logs or the user and then use to search
+our monitoring system for. This is sometimes called request tracing
+and it is not possible to overstate how important this is for debugging
+errors. I even go as far as to say that UI design should include error
+message designs that make it easy for developers to get the information
+they need from the users in order to find the problem. If your users
+calls and  just says "it is not working", it won't help much.
+
+Second, I want to know what the state of the data was.
+
 ## How Can Teams Make Better Use Of Version Control Systems?
 ## Why Is Code Readability More Important Than Cleverness?
 ## What Are The Challenges Of Implementing Ci/cd Pipelines?
