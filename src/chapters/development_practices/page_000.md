@@ -1964,6 +1964,38 @@ it, let alone remember it while working. Build it in to your merge
 request pipelines instead.
 
 ## How To Ensure Code Consistency Across A Large Team?
+
+I will be the first to say, don't. Now before you judge.
+I am not saying that code consistency isn't important. I
+am saying that there is a sweetspot for everything.
+
+Too many times have I argued with developers over trivial
+things like loops vs iterator functions and everything else
+you can imagine becomes a subject for debate when people don't
+have enough real problems to worry about.
+
+I argue that any good tech lead should act as any good ruler.
+You will start a rebellion if you try to micro manage every
+tiny detail of your subjects lives. The trick is to put up laws
+that keep everyone moving in the right direction without suffocating
+them. Use the least amount of rules needed to get the results needed
+and allow the rest to be chaos. Controlled chaos is what makes life
+fun enough to keep it interesting.
+
+When you want code to be consistent you simply need to reach for your
+favourite linting tool. This will give you the control you need for
+syntax styles. Keep in mind the lesson from earlier. Only use lint
+rules that are really important to keep the code clean and maintainable.
+
+Most linting tools support a base template of rules to follow. Pick
+one and modify it until your team is happy.
+
+I urge developers to consider making custom lint rules for project
+specific patterns as well. Often you will find that having a lint
+rule that stops developers from duplicating the same code or breaking
+an important design rule is much more effective than only doing a
+code review.
+
 ## What Are The Core Principles Of Devops?
 ## How Can Teams Make Better Use Of Version Control Systems?
 ## Why Is Code Readability More Important Than Cleverness?
