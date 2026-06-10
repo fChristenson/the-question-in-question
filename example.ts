@@ -1,24 +1,32 @@
-const v2: boolean = false;
+const save = (o: object) => o;
 
-function logWithTimeStamp(...args: any[]): void {
-  const timeStamp = new Date().toISOString();
-  console.log(`Timestamp: ${timeStamp}`);
-  consoleLogArray(args);
-}
-
-function consoleLogArray(arr: any[]): void {
-  if (v2) {
-    consoleLogArrayV2(arr);
-    return;
+function processData(data: object) {
+  try {
+    // Simulate processing data
+  } catch (error) {
+    console.error(
+      "Error processing data in processData function:",
+      error,
+      "Data:",
+      data,
+    );
   }
-
-  arr.forEach((item) => {
-    console.log(item);
-  });
 }
 
-function consoleLogArrayV2(arr: any[]): void {
-  for (const item of arr) {
-    console.log(item);
+function saveData(data: object) {
+  let savedData;
+  try {
+    savedData = save(data);
+    savedData = processData(savedData);
+    return savedData;
+  } catch (error) {
+    console.error(
+      "Error saving data in saveData function:",
+      error,
+      "Data:",
+      data,
+      "Saved Data:",
+      savedData,
+    );
   }
 }

@@ -2066,10 +2066,234 @@ calls and  just says "it is not working", it won't help much.
 
 Second, I want to know what the state of the data was.
 
+The most common issue developers have once they can identify when
+and where an error has occurred in their system is to figure out
+why. Why did the error happen? My mindset when asking this question
+almost always comes back to that I want to know what code was running
+and what data was being used. To solve this I follow a principle I
+call "input output". This principle is applied when adding logs to
+the system. It means that I want my error logs to include what data
+was coming in to my function at the time of error and what data the
+code was sending over a possible database connection or API call.
+
+Here we have a simple example.
+
+![logging](../assets/light_logging.png)
+
+Notice that if this code fails we will have all the data we need to
+know how the function ran when it failed. However, we can also have
+a trickier case where we need to do something a bit fancier to get
+the same understanding.
+
+Here we get an issue where our data is changing and we are none
+the wiser.
+
+![logging problem](../assets/light_logging_problem.png)
+
+For more advanced cases like this I like to enrich my logging a bit.
+
+![fix](../assets/light_logging_problem_fix.png)
+
+Now we have made sure that the data that left our function is included
+if there is an error and we added the function name in the log so
+we can find it. Why do you ask? Well, because of the `processData`
+function. In our current code we don't know if the saving or the processing
+function is the culprit. However, if we follow the input output principle
+we expect our `processData` function to look something like this.
+
+![process](../assets/light_logging_problem_process.png)
+
+This example breaks a number of other principles I like to follow
+but I hope that for learning purposes it highlights that if we can
+read the source and we have the data that was being used we can
+often derive what happened.
+
+Third and lastly, at least on my list. I want an undo button.
+
+Probably the most invisble feature of any system. Undoing a
+change of any type is so second nature to most of us that we
+expect it for nearly everything we do on our devices.
+
+Sadly, few teams have a robust solution to this and in some
+cases it is really hard to implement it. I am usually happy
+when a change is done in my system at the code level. This is
+usually easy to handle. We can simply use things like tagging
+a commit, deploy, check for errors and deploy the previous tag
+if something breaks. This is probably the most basic way to have
+an undo button. However, if we can't wait that long we can leverage
+modern deployment tools that does basically the same thing but a
+lot more effectively. Blue/green deployments, rollovers and a
+myriad of other techniques exist that can give us that sweet undo
+button.
+
+If we want to get fancy or if we simply can't just revert our
+changes as is the case with web. Mobile development comes to mind.
+In such cases we can't really know when the users will download
+our application and when they have it we can't really force them
+to download an updated fixed version. They may just uninstall the
+application and we never see them again. In this situation clever
+feature flagging gives us our undo button. We can ship our new
+code and enable it. If it breaks we can update our feature flag
+and disable the feature again.
+
+These are some of my favourite ways to create an undo button.
+There is however a case I have faced a lot that always fills
+me with a bit of unease, data changes. By far and wide the most
+troublesome issue to create an undo button for is statefull changes
+where our data changes. Why you ask? Well, because someone came up
+with the silly idea that all websites should be available at all
+times. No downtime is my least favourite trend in web application
+development, winning over The clean architecture by just a hair.
+
+In cases of stateful changes, such as with a database change, we
+need to get a bit more creative. If at all possible, I prefer to
+shut down the system, migrate and restart. This is sadly not always
+possible and that brings us to the problem of high availability.
+What to do if you need to change the database without blocking
+users from using the system?
+
+My personal favorite way is to adopt a eventual consistency strategy
+and simply run a job that migrates records that are not currently
+and top it of with some temporary code that reads old data when
+requests come in but then writes the data in the new format.
+This allows the migration to run without blocking the users and
+is the least bad way I have found to solve this problem without
+resorting to grpc or other stack specific tools.
+
 ## How Can Teams Make Better Use Of Version Control Systems?
+
+I suppose that depends on how you are using it today. Me personally,
+I use git and treat everything related to my project as something
+that will be version controlled. I much prefer to work with git
+friendly formats for my files whenever possible. Markdown, Mermaid
+and similar formats are my go to choices. Anything that is text based
+really.
+
+In the age of AI this becomes even more useful since simple text
+formats work especially well when working. Commit changes, prompt
+AI, evaluate the results and either commit again or revert the changes.
+Often I find that by using version control it is faster to revert
+failed attempts by an AI agent and start over than it is to try to
+keep going down the prompt rabbit hole.
+
+I think of version control like the save and load feature in video
+games. It is such a important safety net that anything you want to
+keep safe from unintended changes should be in it.
+
+This becomes even more powerful when applying Gitops practices where
+entire workflows can be created using version control. Having a
+repository of configurations and custom scripts that run pipelines
+the manage your infrastructure brings both tracability and a deterministic
+pipeline that you can fully customize.
+
 ## Why Is Code Readability More Important Than Cleverness?
+
+It is not strictly true that readability is more important. I would
+argue that it is rather that we only want to trade readability away
+if the benefits are so great that it is worth it. Remember, if you
+or your coworkers can't understand the code, it will cause bugs.
+Often we need to come up with a solution to a problem and if we are
+lucky we can strike a good balance between readability and cleverness.
+That balance is sometimes forgotten by developers who fall in love
+with their own solution or who forget that what is simple to them
+may not be simple to others. This is a coding crime that many will
+commit at one time or another.
+
+What follows is usually frustration. Either with yourself when you
+come back and you have realized that your clever solution isn't as
+fun to fix bugs in after not coding on it for months and now you
+can't even understand your own mess or when your coworkers can't
+figure out how to work on the code properly.
+
+A sign of maturity in a developer is that you consider how to be
+clever enough to solve the problem you are facing in such a way
+that your solution is understandable at a glance. You can't always
+make things simple and readable but when you really get that your
+code has to work in the moment and not cause issues in the future,
+you usually end up with a more well rounded solution.
+
 ## What Are The Challenges Of Implementing Ci/cd Pipelines?
+
+The endless cycle of getting an error with the pipeline host.
+Pushing a fix. Waiting for the host to fail and then adding debugging
+code in a soul crushing loop until you figure out that the problem
+is that the host file system is different from what you expect.
+
+I hate debugging pipelines with a passion. Running a pipeline several
+times to figure out the differences between a locally working one
+and the remote host takes a toll on me so severe that I age visibly
+when I have to do it. This becomes less of an issue if I have direct
+access to the host but I have so far never worked in a professional
+environment where such a luxury was available.
+
+Whenever I can I try to create pipelines that only perform whatever
+tasks needed in a folder on the host file system that is created
+before the run. This removes the issue of navigating the file system
+on the host.
+
+If at all possible I try to avoid statefull pipeline hosts. I would
+rather have a fresh base image with the tools needed for my pipeline
+each run. This helps a lot with bugs that can often happen because
+the pipeline scripts assume things about the filesystem that can
+become inconsistent if a run failed or some part of the run failed.
+
+As with anything that happens in a remote environment, what happened
+and what caused a problem is the main question you will have when
+working. I recommend that you add a nearly absurd level of logging
+to your pipeline. It will help a lot when you want to check how the
+run ended. My personal favourite is to log before a pipeline task
+is about to start, what the state of the host is. Run the task. Then
+logging out what task did and what the state is. Following this pattern
+helps a lot when trying to pinpoint where something did or did not
+happen properly and what the result was.
+
 ## What Are The Best Practices For Version Control In Collaborative Teams?
+
+I solemnly hope you never have to work in anything besides a collaborative
+team.
+
+Best practices when working with version control system such as git
+is to most a matter of learning a few basic commands. Pull, commit,
+push and merge willy nilly until your code is in the main branch.
+Rebase is something to be feared and cherry-pick is a command you
+have never used but you love the name.
+
+However, to some, this is a cult. These diciples of the way of git
+who have meditated on this subject can and will make anyones life
+a living hell of endless discussions about what is and what is not
+the proper way to write a commit message. The correct way of naming
+branches. They will judge your value as a human based mostly on
+how clean your git history tree is.
+
+If you fall in to this group of people feel free to ignore everything
+I am about to write. The following are the only practices I have found
+to be applicable and truly useful to the average team. Because we
+have to remember, most developers know only the most basic command.
+
+If you only take away one thing, please remember to create a git tag
+each time you deploy your code. This is by far the simplest way to
+do a rollback if something goes wrong. The evangelists will push for
+clean history trees and so far I have always found the same thing.
+Wishing for a clean tree with mainly atomic commits from all your
+coworkers is like expecting that they will all wash the coffee muggs
+after using them. Some will and a lot will put the dirty mugs in the
+sink for someone else to handle later. With git tags you at the very
+least know the last time you had code that was working. In a pinch
+that is what you care about most so add them for every deployment
+just in case you need to roll the code back.
+
+Next, add the story id in the branch name. I won't debate how to
+name branches or which of the many branching strategies you should
+use but so far this has always been a pattern that works well
+regardless of situation. Adding the story id makes finding the
+right branch a lot easier and makes it simple to go to your issue
+tracking system and get the needed context for the work. Which is
+usually a one line description with no acceptance criteria but still,
+better than trying to guess the name of the right branch. I apply
+the same principle in the pull requests create good story cards and
+link to them rather than repeating descriptions. Always treat the
+storycard as the single source of truth if possible.
+
 ## What Are The Risks Of Poor Version Control Practices?
 ## What Are The Common Pitfalls In Continuous Integration?
 ## What Are The Benefits Of Creating A Unified Code Style Guide?
