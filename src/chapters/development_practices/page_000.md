@@ -2499,7 +2499,7 @@ from long running or boring work. Getting a short break to fix an
 issue in the code can have a refreshing effect on the mind.
 The key insight here is that big improvements may need planning
 but inspiration is not something you plan, it is a spurr of the moment
-phenomenon so make sure you have a way to fan that flame in to action
+phenomenon, so make sure you have a way to fan that flame in to action
 if you want anything to happen.
 
 ## How To Optimize Ci/cd Pipelines For Fast Feedback?
