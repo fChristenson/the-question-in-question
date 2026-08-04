@@ -2495,9 +2495,9 @@ a POC of the improvement. Our goal is to encourage responsible action
 without too much upfront work that kills the motivation.
 
 This method also acts as a nice valve for developers who need a break
-from long running or boring work. Getting a short break to fix a spur
-of the moment issue in the code can have a refreshing effect on the
-mind. The key insight here is that big improvements may need planning
+from long running or boring work. Getting a short break to fix an
+issue in the code can have a refreshing effect on the mind.
+The key insight here is that big improvements may need planning
 but inspiration is not something you plan, it is a spurr of the moment
 phenomenon so make sure you have a way to fan that flame in to action
 if you want anything to happen.
