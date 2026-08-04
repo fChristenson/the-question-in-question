@@ -2457,7 +2457,51 @@ A well formulated test with a description focusing on the intent of
 the code is my favorite way to both document code and create a reminder
 system for how the system has been built.
 
-## How To Ensure Continuous Improvement 
+## How To Ensure Continuous Improvement
+
+This varies from team to team. If your office culture
+is focused mostly on delivery it is all but impossible
+to get meaningful improvement project prioritized.
+
+For the most part I have found that there is a category
+of person who see an issue and just fix it as they work.
+The other type will go out of their way to ignore issues
+they don't feel they have to deal with unless there is an
+entire planning session behind it.
+
+The worst quality is almost always found in the group who
+have no boyscouting developers and mostly consist of people
+we suggest improvements, create a card for it and then
+promise it will get priority in the future.
+
+I have found that some developers behave like each decision they
+make needs to be treated like a community hearing and be approved
+by a range of stakeholders. Imagine if you had to go and check with
+all your coworkers if it was ok to go to the bathroom. Then making
+extra sure that it is also ok the wash your hands or not. This is
+how politics work, a slow grinding process where you need to hear
+from every single person who has an opinion. This may be an effective
+method to make sure no one is overlooked but it is an impractical
+method for when autonomy is required to see any results.
+
+The more opinions you try to include the greater the odds are that
+you will be dragged in to a lengthy process that will kill any energy
+you have to follow through. So I usually propose to my teams that
+we allocated a improvement budget. This is usually one or two days
+a week. Any of the developers in the team can at any time say that
+they found an issue and suggest an improvement. If the team isn't
+strictly against it they opt out of the normal workflow to create
+a POC of the improvement. Our goal is to encourage responsible action
+without too much upfront work that kills the motivation.
+
+This method also acts as a nice valve for developers who need a break
+from long running or boring work. Getting a short break to fix a spur
+of the moment issue in the code can have a refreshing effect on the
+mind. The key insight here is that big improvements may need planning
+but inspiration is not something you plan, it is a spurr of the moment
+phenomenon so make sure you have a way to fan that flame in to action
+if you want anything to happen.
+
 ## How To Optimize Ci/cd Pipelines For Fast Feedback?
 ## What Are The Key Principles Of Devops Success?
 ## What Are The Benefits Of Creating Reusable Code Libraries?
