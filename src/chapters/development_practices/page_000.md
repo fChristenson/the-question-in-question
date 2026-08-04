@@ -254,7 +254,7 @@ Now let us introduce some basic validation.
 Again, nothing really wrong with this approach.
 However, if we start introducing more logic with multiple
 calls to various functions across a large codebase, we will
-start to see misstakes being made. One of the most common bugs
+start to see mistakes being made. One of the most common bugs
 I have faced is i.e down to the data being incorrect at some
 state of the program. We can remove a lot of issues if we update
 this code slightly.
@@ -2290,16 +2290,173 @@ right branch a lot easier and makes it simple to go to your issue
 tracking system and get the needed context for the work. Which is
 usually a one line description with no acceptance criteria but still,
 better than trying to guess the name of the right branch. I apply
-the same principle in the pull requests create good story cards and
+the same principle in the pull requests, create good story cards and
 link to them rather than repeating descriptions. Always treat the
 storycard as the single source of truth if possible.
 
+Finally we can open the jar of worms that is what branching strategy
+the team should use. This is a debate with no clear winner. Some swear
+by trunk based and others feel that release branches is the way. This
+is for some reason such an area of debate that I have met developers
+who mock or even get in to arguments over the subject. So instead
+of debating over which approach is best practice, I will do something
+different. I will give you a workflow that I use with my teams that
+I have so far have had great success with.
+
+We first have to agree that each merge we make is a unit of work.
+The way we track a unit of work is through our issue tracking system
+that holds all the cards we have written for things we need to make.
+
+With this out of the way we can move on to defining a release of code.
+A release is just a bucket of features we want to ship. A feature
+is just bucket full of tasks we need to complete in order for the
+feature to be ready.
+
+This means that if we create a top level story card, commonly
+referred to as an epic, we have our release. This card should
+just contain feature cards that outline what each feature should
+do and inside the feature cards we have our stories that need to
+be completed. Now we can map a git tag to an epic card. This means
+that we simply need to create a version tag for the epic card and
+we now have intuitive way of tracking what was in a release.
+If we feel the need to split out individual features or bugfixes
+we can again leverage the semver system and use a version tag to
+earmark each individual merge we make.
+
+The most common next subject to debate is if we have one main branch
+or if we have one branch per environment. I have found that using
+a single main branch, branching from it, doing work and the merging
+it back is easiest for developers to work with. This is probably by
+most defined as a trunk based approach and I can only say that the
+main drawback people critique about this is the case when you have
+issues with differences between environments or functionality that
+differs based on various factors. I prefer to solve these issues
+with feature flagging and configurations rather than having multiple
+branches to keep up to date. I find that it is more common that
+teams get problems with knowing what code is in what environment
+than it is to make sure the feature flagging configs are correct.
+
 ## What Are The Risks Of Poor Version Control Practices?
-## What Are The Common Pitfalls In Continuous Integration?
+
+The most significant ones are loss of code, delays and of course,
+seering hatred between coworkers. I can not understate how passionate
+people can get about the workflow in a software team. I argue to my
+team that if it does not cause a bug and a reasonable person can agree
+that the approach is valid, keep your opinions to yourself and get
+on with your life. Not a popular opinion to all developers but most
+of the time your coworkers will appriciate some breathing room.
+
+However, if the team doesn't take care to align on who is changing
+what code or if you use a branching strategy that cause confusion,
+you will find that merge conflicts and the easy to make mistakes
+that often follow, become the norm.
+
+To keep things short and sweet. If you have no strategy odds are
+that you will have issues with merge conflicts and finding the
+right commit to roll back to when something is breaking with more
+recent code. If you have a complex strategy you will have issues
+keeping track of what branch is being merged where and in what
+state it is. Both have the risk of causing confusion, delays and
+bugs.
+
+## What Are The Common Pitfalls In Continuous Delivery?
+
+The main one would be quality control. Most teams struggle with
+creating a testing strategy that they trust fully. It can be argued
+that you can run a CI/CD workflow with a bit of manual testing but
+the norm is usually that you should aim for such confidence in your
+delivery pipeline that once the code is merged the rest of the process
+is mostly automated.
+
+The second one that comes to bite you is the stability of your environments.
+An example of where CI/CD can break quickly is when you are pushing
+schema updates or other potentially breaking changes. Most teams optimize
+for stateless CI/CD because it is relatively easy to do so but when
+dealing with state it gets a bit trickier.
+
+My advice is usually to focus on a pipeline that you trust before
+trying to fully automate deployments. Most teams never get to a point
+where their testing strategy is good enough that they can go "true"
+CI/CD but then again it is not really a pattern that has any proven
+value in of itself. The value is not in that you don't have to press
+a button to do the release, the value is that you don't have any pile
+up of work due to people just stacking more things in the release.
+If you do that odds are that you will have multiple things going out
+in to production at the same time. That is not a great situation for
+you if something breaks and your not sure what is causing it. Now
+you need to get out the detective hat and figure out what commits
+are safe and which are not.
+
+The average team never runs a fully automated delivery pipeline.
+There are automated tests on a completed pull request with deployment
+to a testing environment for manual testing and then finally a manual
+deployment button to press or some flavor of it.
+
 ## What Are The Benefits Of Creating A Unified Code Style Guide?
-## What Are The Benefits Of Aligni
+
+Most of the time it only comes down to consistency in syntax.
+This is in my view not an important area of debate and I even
+have a catch-phrase for my view on this subject. "If you want me
+to do it, make a lint rule for it". I truly do not care about minor
+debates around syntax but habits die hard so I always sit down with
+my team and ask what styles we want to follow. When we have agreed
+on what standards to follow I set up a linter that handles any
+mistakes.
+
+Where this gets more complex is when we aren't dealing with some
+arbitrary syntax rules but in how we solve problems. My personal
+favorite example is when we are creating API's. Depending on who
+is implementing a new API endpoint you may find that convetions
+differ quite a bit between endpoints. A classic one is listing of
+data endpoint. Does your API support pagination? Sorting? If so
+what style of client request schema do you use?
+This is so often overlooked that you find many API's who may send
+back different flavours of responses depending on who created the
+endpoint. This is a terrible experience for the client but an easy
+mistake to make.
+
 ## What Are The Benefits Of Writing Self-documenting Code?
-## What Are The Best Practices For Optimizing Ci/cd Pipelines?
+
+This largely depends on the method of documentation. If we look
+at language documentation the favored pattern is to use inline
+comments that we then extract out to websites or other documentation
+formats. We can argue about if that is truly self documenting code
+or simply documentation website build tool.
+
+This is in my view the simplest manifestation of documentation and
+is invaluable for things like SDK's or third party libraries.
+However, this is not a pattern you will commonly see in most projects
+since most of them are not libraries but rather application that don't
+need a documentation system for every function.
+
+I would argue that the most common benefit of self documenting code
+is that it helps the developers keep track of the requirements put
+on the code they write. If you ask me, we should treat our requirement
+documents as a list of tests to create. Most developer don't do this
+but rather focus on writing tests that focus on testing the implementation
+rather than the expectations.
+
+Consider the following example.
+
+![docs](../assets/test_docs.png)
+
+Notices that in the first test we express that we want the user to
+saved to the database. This test has captured the intent of the function.
+The second test is testing that the database save method was called.
+It focuses on the implementation details which misses the point.
+If we change the specifics of the code this test will need updating
+but the requirements are still the same.
+Taking care when creating tests and making sure that all the requirements
+have a test is one of the best methods of documenting code.
+
+The approach is still the same even if we go high up in the application
+layers. The main takeaway is that self documenting code can never
+truly be created through comments or documents but we can create systems
+around our code that proves if our documentation is up to date.
+A well formulated test with a description focusing on the intent of
+the code is my favorite way to both document code and create a reminder
+system for how the system has been built.
+
 ## How To Ensure Continuous Improvement 
 ## How To Optimize Ci/cd Pipelines For Fast Feedback?
 ## What Are The Key Principles Of Devops Success?
