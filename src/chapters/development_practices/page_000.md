@@ -2587,7 +2587,7 @@ is getting the wrong input or sending the wrong output.
 
 ## What Are The Key Principles Of Devops Success?
 
-I would say my list would look something liek this.
+I would say my list would look something like this.
 
 - Experience
 - Complexity management
