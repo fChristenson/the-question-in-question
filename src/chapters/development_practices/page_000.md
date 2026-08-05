@@ -2503,7 +2503,190 @@ phenomenon, so make sure you have a way to fan that flame in to action
 if you want anything to happen.
 
 ## How To Optimize Ci/cd Pipelines For Fast Feedback?
+
+The safest bet you have for a stable pipeline is most of the time
+to create a centralized set of configuration files with the least
+amount of complexity. Ideally these pipelines should focus on a
+narrow task that is responsible for one step in the delivery process.
+Any custom scripts should be version controlled and ideally also
+focus on one task. A good example of a simple list of tasks that
+a pipeline can have is as follows.
+
+- Run lint tools
+- Run tests
+- Build project
+- Package distribution artifact
+
+This pipeline has a small list of steps that has an ordering that
+starts from the simplest checks and move on to more important checks
+before finally producing a artifact that can be distributed. The mindset
+we are after is that we want to mimic the behaviour we would have
+if we manually wanted to make sure our code was ready for production.
+We then want to order it in increasing task weight. In our example
+we will find that linting is usually fast, thus we want it to run
+early so that we get quick feedback before we move on to heavier work.
+The tests can be the slowest thing we need to run but it doesn't
+really make sense to test the code after we have built it. Reasonable
+people can debate that statement but I hope the general idea is clear.
+
+Next we need to remember that some tasks are slower than others so
+we may want to consider running tasks in parallel. Linting and
+tests are not strictly dependant on each other so we could run them
+at the same time and abort the pipeline if any of them fail. This
+will boost our speed. However, if we have a lot of tests we may want
+to split the running of that task in to multiple parallel test runs.
+Most of the time our best bet here will be to create test tasks that
+target a specific area of our code and convert one big test task in
+to a suite of test tasks. Take the following change as an example.
+
+- Run lint tools
+- Run tests
+  - Run unit tests
+  - Run integration tests
+- Build project
+- Package distribution artifact
+
+Now we have a sub-list of tasks that will speed up the testing.
+This can even go further depending on the size of the test suites.
+
+- Run lint tools
+- Run tests
+  - Run unit tests
+    - Run user api tests
+    - Run product api tests
+    - Run order api tests
+  - Run integration tests
+- Build project
+- Package distribution artifact
+
+My personal rule for splitting tests is to split on the controller
+or page level.
+
+Next we want to make sure to frontload our heavier tests so they start
+first. Note, this is only the case for test we run in parallel since
+we want slow tests to have more time to run so they have a chance
+to catch up to the faster tests that will start up last. After all,
+we need them all to pass before the pipeline is completed.
+
+Finally, we want to create small targeted pipelines that we can
+compose together in to a whole deployment. It is not a great idea
+to create one big delivery script as it becomes hard to pinpoint
+where issues are happening. Instead think of the pipeline as an
+assembly line. Each station is responsible for performing a group
+of tasks that are dependant on eachother before passing the code
+over to the next station. A simple deployment pipeline could be,
+
+- Run tests
+- Package release artifact
+- Version release artifact
+- Deploy
+
+Each of these steps should provide logging for the starting state
+and the end state during a run so you can figure out if one step
+is getting the wrong input or sending the wrong output.
+
 ## What Are The Key Principles Of Devops Success?
+
+I would say my list would look something liek this.
+
+- Experience
+- Complexity management
+- Logging
+- Error recovery
+
+Let us break this down a bit.
+
+### Experience
+
+The ugly truth about DevOps is that not all teams can handle it. The
+expectations put on the developers is i.e that they should know about
+an entire ecosystem of cloud services or similar options that in of
+themselves are an entire education to learn. The sad fact is that
+most developers do not have the interest to self learn the skills
+needed to handle operations of their own system. This is why companies
+tend to fall in two buckets. Either their teams are self learning
+on the job through trial and error or they provide a operations team
+that centrally take on the task of setting up the teams environments,
+thus lowering the skill need from the team. Running devops effectively
+is almost always dependant on the profiles in the team. With the right
+profiles it is easy, with the wrong ones you will have a lot of issues.
+
+### Complexity management
+
+One of the key insights a successful DevOps engineers can have is
+how to setup the ecosystem of services around the application.
+I go as far as to judge the maturity of a operations team and indeed
+anyone who configures operational services based on their ability
+to know what should be pushed down to the source code repository
+and what should be in the cloud environments. I can not stress
+enough how important it is to understand that as soon as you
+leave the local workstation and move to a distributed network
+of services, complexity explodes. Debugging is harder.
+Flaky behaviour becomes a factor. Raceconditions and syncronization
+between services needs to be accounted for.
+These are pains that anyone who has ever tried to run a large set
+of microservices with a service mesh on top and a range of other
+bells and whistles will know all too well. Consider carefully
+what you can do to keep anything that may fail in an easy to
+debug environment. Moving work to a network of services should
+only be done when you have no other choice.
+
+### Logging
+
+I hope it goes without saying that I argue for making various
+DevOps tasks in to a local affair based on the previous section.
+However, sometimes creating a git repository with scripts that run
+various tasks, configurations and all the other tools you need to
+manage your system isn't enough. Enter the most important tool there
+is to figure out what's going on, logging.
+
+Effective logging and error messaging is key to figure out where
+issues happen. I promote creating standard error messages in the
+application code paired with trace identifiers so we can quickly
+go from error found to an overview of the path the request took.
+
+But what to log? Well, usually I find that a basic information log
+for the incoming request and it's path is a good start. Logging
+is closely dependant on how you write code as well. If you log willy
+nilly in the code your debugging will be harder. I advocate for a
+"always throw" convention in the code. This means that there is exactly
+one place where the error logging is happening. That is in a global
+error handler that will catch all thrown errors, log exactly one error
+with a trace id for the request and respond to the client system.
+This keeps the logs clean from a noisy log spam that can happen
+if logs are sprinkled around the codebase.
+On top of this I urge developers to think about good logging as
+a pure function at each level of the stacktrace. When we are checking
+on errors we want to know what data came in to the function and what
+data was returned. This is vital for us to figure out what data the
+logic in our system was working with at the time of running.
+
+These basic tips will give you the following:
+
+- Startpoint with the url and trace identifier for a request
+- Easy to spot errors
+- The data that was used at the time of error and the result
+
+This is most of the time the key needs when logging.
+
+### Error recovery
+
+Error recovery is probably one of the least appriciated ways of
+giving development teams peace of mind. I like to say that the
+true measurement of system quality is how much release fear the
+team has. Having a good error recovery strategy is key to this.
+Even if something goes wrong, most of us calm down when we know
+that there is a super easy undo button we can press.
+
+Probably the most basic example of this is to make sure you follow
+semantiv versioning conventions and store your release artifacts for
+quick redeployment. Pair this with error alerts so you know if someting
+broke in production and you can with the press of a button deploy
+the previous version of the system. This gets a bit trickier when
+you are working with schema updates or similar breaking changes
+but figuring out an easy to follow approach is well worth the
+investment.
+
 ## What Are The Benefits Of Creating Reusable Code Libraries?
 ## What Are The Key Factors Of A Resilient Devops Pipeline?
 ## How To Encourage Developers To Adopt Best Practices?
