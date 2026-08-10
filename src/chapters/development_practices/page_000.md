@@ -2679,7 +2679,7 @@ Even if something goes wrong, most of us calm down when we know
 that there is a super easy undo button we can press.
 
 Probably the most basic example of this is to make sure you follow
-semantiv versioning conventions and store your release artifacts for
+semantic versioning conventions and store your release artifacts for
 quick redeployment. Pair this with error alerts so you know if someting
 broke in production and you can with the press of a button deploy
 the previous version of the system. This gets a bit trickier when
@@ -2688,8 +2688,104 @@ but figuring out an easy to follow approach is well worth the
 investment.
 
 ## What Are The Benefits Of Creating Reusable Code Libraries?
+
+Speed most of the time. If you can reuse code rather than write
+it from scratch you will save time. Other than that you get a
+central piece of code that will ensure that bug fixes and other
+important updates will spread to all the users. This can be a
+life saver for UI components where changes to UI designs can
+in a large organization take a very long time to make since
+each team need to schedule updates for their own code but if
+all of them are using a central library they only need to update
+the version of the library to get the changes.
+
+I feel I should also mention that making reusable libraries is
+a choice that can go wrong quickly. It is suprisingly hard to
+create reusable code that stays simple and actually is used.
+If you design it incorrectly you will block the users from
+their work or force them to create their own implementation.
+If there are bugs you need a strategy to fix them quickly
+since it may potentially block other teams.
+I have seen more failed attempts at creating reusable code
+that never got adopted than I have seen true succeess cases
+outside the libraries provided by the hard work done in the
+open source community.
+
+I suggest you only attempt to make something reusable if it
+is in fact something that will make a significant difference.
+Saving a few seconds of coding for someone may be more DRY
+but it doesn't really measure up against the cost and risk
+of moving the code to a reusable library. Reusable libraries
+should be treated as a product if they are to be successful
+so only create them if you know you can make a product people
+will value and enjoy using.
+
 ## What Are The Key Factors Of A Resilient Devops Pipeline?
+
+Logging, logging and more logging. Whenever anything goes
+wrong in a remote environment your first problem will be to
+track down the steps that took place and which of them did
+what they were supposed to and which did not. If you follow
+my personal favorite logging strategy, log the state
+you start with and the state you end up with before moving
+on in the pipline, you will have a pretty strong starting
+point.
+
+Most of the time you will find that through logging other
+options become clear as well. Things like retries for flaky
+jobs or handling race conditions between jobs become apparant
+once you can figure out what weakpoint you have in the pipeline.
+
+Most of the time I prefer to run a gitops workflow where all my
+configurations, documentations and custom scripts are in a git
+repository. When I have this setup I can design nearly any workflow
+by simply creating scripts that do the work. This is especially
+usefull when working with AI since all the AI needs is in a local
+environment with documentation in a markdown format.
+
 ## How To Encourage Developers To Adopt Best Practices?
+
+Honestly, it is always down to emotions with developers. Most
+developers have their personal favorite way of doing things and
+if they feel strongly about them they will not be open to alternatives.
+The best example of this is probably seen in the way juniors and seniors
+react to changes in their workflow. I find that juniors are more open
+to change on average, especially if it is proposed by someone they
+see as a senior. My theory is that many have yet to establish confidence
+in their craft so they bend easier. There are exceptions here naturally
+but it is more common to find a senior who feel that whatever they
+have been doing is the better way than facing that sort of confidence
+in a junior.
+
+Most of the time you will be best served by making a value proposition
+for the best practices you want the developers to adopt. Showcase
+a few examples of the practice when it shines and lean heavy on what
+will be improved. A bit of salesmanship is your best option here.
+Trust me, you can link as many articles of best practices you want
+and odds are that none of them will be read if you are dealing with
+developers who have already made up their mind about how they want
+to work.
+
+Finally I will say that depending on the best practice we are talking
+about we may have to put it to a vote. In any healthy team you should
+be able to agree that if most of the team wants something, that is
+what you should all do. In the wrong team you will find one or two
+very opposed parties and a majority who do not care either way so
+the proposal may go nowhere. There are even cases when you have a
+senior profile who i.e decideds on everything for the team. Not
+because they are always right but because they are seen as the most
+experienced member. This can be extra troubling when we speak about
+testing for example. If your team oppose the idea you may need to
+escalate to your managers but that really only works if the practice
+you want to introduce is something they can understand the value of
+and are willing to push on the team. Weigh the value of a best practice
+and be honest about it. Is the practice a nice to have or something
+that is critical. Pick your next step based on how important the
+practice is and understand that there are more best practices than
+you will be able to adopt. Best practices are just that, a practice.
+They are not a strict laws and they can be ignored if the situation
+calls for it.
+
 ## How To Optimize Development Processes For Continuous Improvement?
 ## What Are The Risks Of Neglecting Regular Dependency Updates?
 ## What Are The Benefits Of Implementing Developer-friendly Tooling?
