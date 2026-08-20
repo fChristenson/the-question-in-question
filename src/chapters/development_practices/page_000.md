@@ -2787,7 +2787,73 @@ They are not a strict laws and they can be ignored if the situation
 calls for it.
 
 ## How To Optimize Development Processes For Continuous Improvement?
+
+Start by having the right people. The developers who actively seek
+to better themselves and the project are few in number. This is the
+true insight that most companies fail to grasp, you can't hire random
+people and expect them to just magically care about helping your project
+improve. The average person will do what you tell them to do. If
+the job they do can be made slightly nicer they may suggest improvements
+they like but that is not always something that aligns with the goals
+of the project. Most developers will suggest improvements they personally
+care about and if you are lucky those suggestions will have a net
+benefit to the project but they can also just be a cost you take
+on so the developers can try out something that is more about them
+than the goals of the project.
+
+The key element to add is the right person. You don't need a whole
+team of developers who live and breathe code but you need at least
+one person who has a genuine interest in taking on the challenge of
+understanding the goals of the project stakeholders. Once these
+goals are understood the real work can begin. Updating processes
+and tools to streamline quality and delivery speed. It is well worth
+making sure you can entice at least one person who is a good fit for
+this role if you want anything to happen.
+
+Once you have someone who has the profile you need, make it clear
+to them what you want to see happen. You can leave it to them to figure
+out how to improve the project and the related processes but if they
+truly are the right sort of person they will do so. However, if you
+want to see specific improvements, make sure you communicate them.
+Should the focus be on reducing bugs? Faster delivery speed?
+Be clear about what you want to see and then ask them to make suggestions
+of what can be done. Act as a stakeholder would for a new feature.
+Ask them to motivate their ideas before they commit to them.
+
+Finally, make sure the process of doing something to improve has the
+lowest thought to action bar there is. If you require people with
+ideas to go through a lengthy planning process you can kiss most
+improvements goodbye. Steam builds quickly and is lost just as quickly
+for most people so make sure that there is a time budget to implement
+improvements.
+
 ## What Are The Risks Of Neglecting Regular Dependency Updates?
+
+The most common would be security risks. If you fall behind on updates
+you may be the target of attacks from bad actors. This is likely the
+most well known risk but I would argue there is another that is
+slightly more subtle. One of the key benefits behind continous delivery
+is that we create a streamlined pipeline that release new features
+to production environments when they are done. There are a number
+topics worthy of debate to this but one key benefit is that if we
+ship often we reduce the scope of the changes happening. This has
+the benefit of reducing the area of impact when we do something that
+can break production. The same benefit applies to dependency updates.
+If you wait for too long the risk is that you build up a codebase
+that depends on outdated packages and when you then need to update
+the cost is massive since you are so far behind that you may have
+to make extensive changes. The more packages you let fall behind,
+the larger the impact area becomes. It is not uncommon to find
+projects that are locked in to specific versions of tools just
+because they have a workflow that would break if they updated.
+
+If we keep updates on a regular basis the changes are usually minor
+and introduces less risk. A good rule of thumb is that the longer
+you wait the higher the potential cost of updates is so you want
+to do it regularly. Being a bit behind in versions is not an issue
+most of the time, just make sure it doesn't go on so long that you
+can't updates without major risk.
+
 ## What Are The Benefits Of Implementing Developer-friendly Tooling?
 ## What Are The Best Practices For Managing Continuous Integration?
 ## How To Build Tools That Empower Developers Without Overwhelming Them?
