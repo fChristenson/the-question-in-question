@@ -3123,7 +3123,7 @@ a breaking change.
 I suppose the best way I can describe it is that each person writing
 code have different ways of solving problems at times. Getting code
 syntax to be consistent is pretty simple with modern tools but
-the real challange is to manage large codebases where you simply
+the real challenge is to manage large codebases where you simply
 have too much code to know if you are duplicating code that is
 already found somewhere else. It is a talent to design a codebase
 in such a way that developer find overlaps easily and can follow
