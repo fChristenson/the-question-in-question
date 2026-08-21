@@ -3118,7 +3118,38 @@ Write test code that simulate a client that wrote their code based
 on this documentation and you will know before you ship if there is
 a breaking change.
 
-## What Are The Challenges Of Maintaining Code Consistency In Large Teams?
+## What Are The Challenges Of Code Consistency In Large Teams?
+
+I suppose the best way I can describe it is that each person writing
+code have different ways of solving problems at times. Getting code
+syntax to be consistent is pretty simple with modern tools but
+the real challange is to manage large codebases where you simply
+have too much code to know if you are duplicating code that is
+already found somewhere else. It is a talent to design a codebase
+in such a way that developer find overlaps easily and can follow
+well working patterns. It can get even trickier to write your own
+code so that other developers feel that the approach is worth
+following. Personal taste is a big factor in what developers use
+when they decide on how to solve coding problems. Sometimes we
+have very similar ideas of how to best write our code and the
+more experienced you get the more common it is that you see
+the viewpoint of other developers when looking at how they
+tackle a given problem. However, I have always found that code
+consistency sometimes becomes the focus for those who have loud
+gremlins in their head who scream out in anger if elegant patterns
+aren't used to their liking. My approach is almost always to look
+at the macro level of how code is writtern and design my solutions
+so that they are a good fit for similar problems. In doing so my
+solution can either be reused or at the very least nearly copy
+pasted for some other purpose. There is no benefit in arguing
+the semantics of what is consistent and what is not if the end
+result doesn't benefit. I don't consider my most strongly opinionated
+coworkers mental itch a good enough reason to conform to trivial
+differences. I only comment in my pull request or accept comments
+that amounts to more than, I just want you to do it my way. That
+is in my view a more relaxed approach that makes people happier
+to work with you without compromising the code.
+
 ## How To Encourage Teams To Adopt Continuous Delivery Practices?
 ## What Are The Key Metrics For Monitoring Ci/cd Pipelines?
 ## What Are The Risks Of Ignoring Devops Practices In Modern Development?
