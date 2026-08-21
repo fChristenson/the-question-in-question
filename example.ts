@@ -1,59 +1,55 @@
-const describe = (description: string, callback: () => void) => {
-  console.log(description);
-  callback();
-};
+class HttpError extends Error {
+  public statusCode: number;
 
-const it = (description: string, callback: () => void) => {
-  console.log(`  ${description}`);
-  callback();
-};
-
-const expect = (value: any) => ({
-  toBe: (expected: any) => {
-    if (value !== expected) {
-      throw new Error(`Expected ${value} to be ${expected}`);
-    }
-  },
-  toBeCalledWith: (expected: any) => {
-    if (typeof value !== "function") {
-      throw new Error(`Expected ${value} to be a function`);
-    }
-  },
-  toEqual: (expected: any) => {
-    if (JSON.stringify(value) !== JSON.stringify(expected)) {
-      throw new Error(
-        `Expected ${JSON.stringify(value)} to equal ${JSON.stringify(expected)}`,
-      );
-    }
-  },
-});
-
-const db = {
-  save: (user: { name: string; age: number }) => {
-    // Simulate saving user to a database
-    console.log(`User ${user.name} saved to the database.`);
-  },
-};
-
-function saveUser(user: { name: string; age: number }): {
-  name: string;
-  id: number;
-  age: number;
-} {
-  db.save(user);
-  return { id: 1, ...user };
+  constructor(message: string, statusCode: number) {
+    super(message);
+    this.statusCode = statusCode;
+  }
 }
 
-describe("User saving", () => {
-  it("should save a user to the database", () => {
-    const user = { name: "Alice", age: 30 };
-    const savedUser = saveUser(user);
-    expect(savedUser).toEqual({ id: 1, name: "Alice", age: 30 });
-  });
+class BaseError extends HttpError {
+  constructor({
+    expected,
+    actual,
+    name,
+    statusCode,
+  }: {
+    expected: string;
+    actual: string;
+    name: string;
+    statusCode: number;
+  }) {
+    super(
+      `Error ${name}. Expected: ${expected}, Actual: ${actual}`,
+      statusCode,
+    );
+  }
+}
 
-  it("should call db.save with the user", () => {
-    const user = { name: "Alice", age: 30 };
-    saveUser(user);
-    expect(db.save).toBeCalledWith(user);
-  });
-});
+class UserNotFoundError extends BaseError {
+  constructor(id: number) {
+    super({
+      expected: `User with ID ${id}`,
+      actual: `User not found`,
+      name: "UserNotFoundError",
+      statusCode: 404,
+    });
+  }
+}
+
+export default class UserController {
+  public getUser(id: number): Record<string, any> {
+    const user = getUserById(id);
+
+    if (!user) {
+      throw new UserNotFoundError(id);
+    }
+
+    return user;
+  }
+}
+
+function getUserById(id: number): Record<string, any> {
+  // Simulate fetching user data from a database or API
+  return { id, name: `User with ID: ${id}` };
+}

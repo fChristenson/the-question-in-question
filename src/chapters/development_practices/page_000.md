@@ -2855,8 +2855,269 @@ most of the time, just make sure it doesn't go on so long that you
 can't updates without major risk.
 
 ## What Are The Benefits Of Implementing Developer-friendly Tooling?
-## What Are The Best Practices For Managing Continuous Integration?
-## How To Build Tools That Empower Developers Without Overwhelming Them?
+
+Well the obvious answer would be that developers enjoy working with
+them and thus increase their happniess and potentially their productivity.
+However, this is a common area of corporate waste. There are more
+attempts at improving workflows out there than true success cases.
+It is really hard to figure out how to build something that is a net
+benefit to developers workflow. Often I promote that instead of investing
+in building custom tools you simply create template configurations
+and setups using the tools of the trade. This gives developers a starting
+point for things like cloud infrastructure and new projects without
+creating a abstraction on top that removes their ability to customize.
+Instead of building a custom UI application that under the hood is
+just using tools like Terraform to handle your infrastructure. Just
+make a simple to download template project with clear instructions.
+
+When we create custom tools we also add knowledge requirements. Now
+our developers need to learn this tool and we rob people of the chance
+to learn industry adopted tools that will be knowledge that serves
+them better than our custom tool, at least most of the time.
+
+It is worth making custom tools just remember that there are many
+ways to do it. If you create a tool that blocks people because it
+fails to predict some use case, thats not great. However, if you
+have tedious processes or manual work you can automate without having
+to invest tons of time, it is usually a good idea. Just make sure
+that you are product minded and do the one thing so few do. Talk.
+To.The. Customer. If you want people to use your tools and like it,
+make sure you know what they like first.
+
+## What Are The Best Practices For Managing Integration?
+
+This is a tricky one as it depends on if you are the one doing the
+integration to another system or if you are the one providing an API
+that others will integrate to.
+
+If we handle the simpler case first, at least for me as the author
+trying to explain this complex topic, you are integrating to someone
+elses API.
+
+Most of the time you won't know what type of communication formats
+are going to be used. We who work in IT companies can get a bit accustomed
+to integrating to other IT companies who use JSON with simple to follow
+documentation websites but in the wild your integration may use all
+manner of approaches. Some companies use third party platforms that
+use their own flavour of XML. Some only use FTP and some only use
+emails. Then there is a range of quirks that may be part of the data
+being transferred.
+
+To battle this complexity we need some way to isolate each integration
+from the rest of our code. The worst thing we can do is to let the
+integration details leak in to our own codebase. My approach is most
+of the time to create a simple folder with the name of the platform
+I am integrating to. In this folder I have at least 2 things. A readme
+file that has all the information I need about the integration. Links
+to documentation, contact information and anything else that is relevant.
+My goal is to have all knowledge about the intgration in that folder.
+Second, a class with a name like `CompanyNameApiClient`. This class
+exposes the methods that will perform the API calls. This class has
+one other very important job. It has to act as a converter between
+data models that make sense for my system and models that make sense
+to the system I am integrating to. I do not want data models that
+make sense for the other system to leak in to my system. I only want
+to pick out the data from the responses and put them in a data model
+that makes sense to my system.
+
+Consider the code below.
+
+![integration](../assets/integration_mapping.png)
+
+The key thing here is that the raw data we are getting is data we
+are getting from a system that was not designed for our system.
+Instead of leaking the names and other values we don't want in to
+our system we simply create a clean interface that makes sense to
+our system and map over the data. If we are sending data we perform
+the same process. This means that we can add as many integrations
+as we want without bringing in the quirks of each in to our own code.
+
+Next is important to consider the robustness of our integration. We
+will want to consider adding retry code and other practices to make
+sure we don't have issues with flaky connections.
+
+Lastly, I almost always add contract testing on top of my integrations.
+To keep it brief, contract tests are tests that simply check that
+the code follows the documented request schemas. This means that we
+have an easy way to know if our own code follows the provided documentation.
+We can't really know if the code works in practices since we don't
+know if the API providers documentation is correct or not. It is common
+to see providers change their API's without updating the documentation
+or telling client system beforehand. This often leads to confusion
+stakeholders ask why the system stopped working and you now have to
+figure out if it is your own code or the providers code that is failing.
+With contract test it is easy for you to know if you are following
+the provided documentation so you can easily exclude the possibility
+that this is the reason the system fails.
+
+As an extra layer of protection, always log the data being transferred
+over the integration in it's raw format if you see issues with data
+quality. It is important you have some way to check the raw data before
+it gets mapped in to your own code so you can easily show if the bug
+was due to your code or if the provider sent data that was incorrect.
+If you are the one sending the data the same idea applies. Make sure
+you know what is being sent over the network.
+This is a massive timesaver when bugs happen since the first thing
+to figure out is who has the bug. You will save yourself many video
+conferences of debugging sessions if you follow these steps.
+
+Next, lets talk about being a provider. This will be an oversimplification
+of a subject that is so big that it requires several books to cover
+all the details in being a good API provider. So instead of trying
+to relay all these details to you I urge you to learn from the patterns
+found to be useful by the companies who do this really well. I will
+share some of the tips I have found to be most useful. These tips
+work pretty well for the average IT company who is looking to do one
+off integration for a few customers or create a service that has
+various teams integrating to it.
+
+First, as API provider we need to understand that an API is a product.
+We are trying to create an API that is easy to work with and supports
+the operations our client systems need. One of the most common mistakes
+developer make is that they create a system that is designed for one
+client and then latch on functionality needed for a integration.
+
+Take the following example.
+
+![usercontroller](../assets/integration_user_controller.png)
+
+For a simple UI application this is perfectly fine. We are getting
+some users with basic pagination support. Now lets pretend that we
+are going to open up so external parties can access our users. We
+are now faced with a predicament. How do we secure our API so that
+external systems can access them? How do we support the features
+for our own client system and the external clients if they differ?
+Often you will see this happening.
+
+![usercontroller](../assets/integration_user_controller_with_divide.png)
+
+This is a trivial example but I hope you understand the core idea.
+You have one implementation of your own client systems logic flow
+that was designed with the focus being a single client that you own.
+The way that API works may be specific to your own client and not
+suited for direct integration. Naturally your new integration API
+will be designed the same way. You focus on creating an endpoint that
+will work for this new integration. This process will the continue
+for the next integration. I argue that each iteration of this API
+will focus on patching oversights in the design so it can meet new
+requirements without ever considering if you are making a nice API.
+If we want to create a product minded API without having to maintain
+two different flows that can in theory create a split in our own code
+because we are treating our own systems needs as different from those
+of the external clients. What we want is to design an API where our
+own systems need can live peacefully next to our integration clients.
+This means that we need to create an API that solves the problem of
+listing users in the manner the clients need without treating them
+as two different groups.
+
+Consider the following code.
+
+![usercontroller](../assets/integration_user_controller_with_validation.png)
+
+In this API we provide the most basic CRUD operations to the client.
+Each client needs to provide an API token to validate their authentication
+and we can maintain the same code flow regardless of who is making
+the call. This is by far the simplest approach we can take to make
+sure our clients can work with our system. If we design our API to
+work as a thin layer on top of the database we can easily extend the
+API with query parameters that change the behaviour of these basic
+calls without dividing our logic flows in two flows that need to
+be individually tested and maintained.
+
+However, we are now faced with a very important issue we need to handle.
+Since each client is accessing the same data now, we need a way to
+control these operations. We may want our own system to be able to
+delete users but that would probably be really bad to allow other
+clients to do. Now most of us will naturally think about adding
+role based access. This is a model most learn as their first approach
+to system authorization. I however argue that this model is best suited
+for dealing with simple user experiences with clear roles but it lacks
+the granularity needed to manage access to a datamodel that can grow
+over time. If we want to keep the whole user model private usng a
+a role is easy but if we just want specific fields to be private we
+quickly find that we potentially need one role for every variant of
+client we have. This is where a policy system is better suited. We
+can express complex operations and restricitons on the client easily
+if we create a library of operations the client has to provide to
+be allowed to do something. A good example where this is important
+is for destructive operations such as deleting and updating. We want
+our own system to be able to do this for any user but for other clients
+we want them to only be allowed to do it for their own.
+
+![policy](../assets/integration_user_controller_with_validation_policy.png)
+
+In this example we have converted our updating to account for when
+we need different access behaviour depending on who is making the
+call. A simple practice to follow is to use a dot notated string
+that expresses the resource and the operation. We can extend this
+even further and have greater granularity where we can allow updates
+on specific fields on the user such as `user.write.email` or for a
+client `user.write.me.email`. Custom operations that may trigger other
+logic flows can easily be created as well. `[user.write.status, email.notify.statusUpdate]`
+would be a simple way to allow the client to control if we are going
+to trigger a notification email after the update or not without hardcoding
+in client specific logic or create several different endpoints. We
+support the feature without assuming all our clients will want the
+same behaviour. Giving each client the control to decide if an email
+is to be sent or not. All we need to do is to update our code to check
+for the policy.
+
+Next we will need to account for another telltale sign of great product
+design. Consistency. One of the most frustrating parts of integrations
+is to have endpoints and especially errors differ in how they work.
+The best approach here in my view is to decide on standars for how
+your API will look and behave. If searching is possible on one endpoint,
+all similar endpoints support it too. If one endpoint responds with
+a resource after it was created, all of them do. To enforce this I
+recommend using static tools such as linters. Using AI, creating a
+suite of linters that validate that all your endpoints follow the
+same pattern is a great help. If you can, add OpenApi generators to
+your build so that you can add another layer of linters on top to
+check that the API documentation is there for all your endpoints
+and that they all follow the agreed upon pattern. The rule here is
+that humans forget and they are terrible at being consistent so use
+static analysis to correct mistakes.
+
+One of my favorite ways to fix this problem is to combine linters
+with code design that will force developers to write more consistent
+code. Take the following example.
+
+![error](../assets/error_response.png)
+
+This is a pretty commone pattern. There is an error and we create
+a short message statis what was wrong. However, this can quickly
+create a lot of variation in what information is in the message
+and some messages can become pretty arbitrary. This is not something
+we can really write tests for but we can design a coding standard
+that raises the chance of getting consistent messages.
+
+![error format](../assets/error_response_formatted.png)
+
+By creating a custom error template we can make sure all our errors
+are consistent and they include key information for the client. If
+we top this off with a linter that will block our developers from
+throwing errors without using the standard error classes we get
+an easy way to change coding behaviour during development.
+
+Lastly, we need to account for changes to the API and especially breaking
+changes. Here contract testing and static analysis is a great help
+again. Do not and I repeat, do not, auto generate your API documentation
+without having a reference version saved in your repository. The most
+common mistake of developers who do this is that they change the code,
+cause a breaking change, documentation is updated and then they ship,
+breaking client code. Your build pipeline should generate your documentation
+to save you time from having to manually write it but it should also
+check that the new version doesn't introduce breaking changes.
+The best way to make sure this doesn't happen is to create contract
+test that focuses on building client code that was written with the
+published documentation as the reference. If your test breaks that
+means that your clients will break with the new API update.
+It is easy to check yourself when doing this. Do not look at your
+code when you write the tests, look at the API documentation.
+Write test code that simulate a client that wrote their code based
+on this documentation and you will know before you ship if there is
+a breaking change.
+
 ## What Are The Challenges Of Maintaining Code Consistency In Large Teams?
 ## How To Encourage Teams To Adopt Continuous Delivery Practices?
 ## What Are The Key Metrics For Monitoring Ci/cd Pipelines?
