@@ -48,8 +48,3 @@ export default class UserController {
     return user;
   }
 }
-
-function getUserById(id: number): Record<string, any> {
-  // Simulate fetching user data from a database or API
-  return { id, name: `User with ID: ${id}` };
-}
