@@ -11,7 +11,8 @@
     "lint": "npm run lint:markdown && npm run lint:spelling && npm run lint:wordcount",
     "create:index": "node ./scripts/index_builder.js",
     "update:headers": "node ./scripts/rewrite_headers.js",
-    "update:navigation": "node ./scripts/add_next_page_links.js"
+    "update:navigation": "node ./scripts/add_next_page_links.js",
+    "generate:snapshots": "node ./scripts/generate_snapshots.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,8 @@
   "homepage": "https://github.com/fChristenson/the-question-in-question#readme",
   "devDependencies": {
     "cspell": "^8.17.2",
+    "puppeteer": "^23.10.4",
+    "shiki": "^1.24.0",
     "markdownlint-cli2": "^0.17.2"
   },
   "dependencies": {
