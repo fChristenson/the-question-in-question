@@ -113,7 +113,10 @@ function wrapFile(filePath) {
 
     const hardBreak = / {2,}$/.test(line);
     const { prefix, continuationPrefix, text } = splitPrefix(line.trimEnd());
-    const { line: filled, rest } = fill(prefix, [...carry, ...splitWords(text)]);
+    const { line: filled, rest } = fill(prefix, [
+      ...carry,
+      ...splitWords(text),
+    ]);
     output.push(filled);
     carry = rest;
     carryPrefix = continuationPrefix;
