@@ -1,6 +1,7 @@
 # Productivity And Time Management
 
-Questions about improving efficiency, handling stress, and managing time effectively.
+Questions about improving efficiency, handling stress, and
+managing time effectively.
 ## How To Avoid Work That Hurts Your Career?
 ## What Wastes The Most Time In Software Development?
 ## Does Working With Vue Affect Your Market Value?

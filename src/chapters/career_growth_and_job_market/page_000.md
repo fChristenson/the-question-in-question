@@ -3,14 +3,15 @@
 ## Have You Ever Needed To Prove Yourself As A Developer?
 
 Yes, almost everyday.
-I reached a point where my confidence grew enough but it took years.
+I reached a point where my confidence grew enough but it took
+years.
 
 It is common for developers to feel insecure.
-Everything from how fast they deliver to how good their solutions is.
-God forbid that you cause a serious bug.
+Everything from how fast they deliver to how good their solutions
+is. God forbid that you cause a serious bug.
 
-In the beginning of my career I felt the need to prove myself often.
-It was to a point where it was about all I thought about.
+In the beginning of my career I felt the need to prove myself
+often. It was to a point where it was about all I thought about.
 At least while my mind was unoccupied.
 
 People handle these sorts of insecurities differently.
@@ -18,8 +19,9 @@ I know senior developers who still feel this way.
 It is hard to say if it ever truly goes away for everyone.
 
 For me however the insecurities became easier to handle.
-I started to notice that my skills were good enough to meet expectations.
-As I could deliver easier and faster. They melted away.
+I started to notice that my skills were good enough to meet
+expectations. As I could deliver easier and faster. They melted
+away.
 
 Try your best to raise your skills.
 When you see that you can deliver, note it and think about it.
@@ -36,7 +38,8 @@ However, you can own that you are new.
 
 Be transparent and honest about where you are in your career.
 You will become great with time but right now you need practice.
-Get secure enough to admit that you are new to others and yourself.
+Get secure enough to admit that you are new to others and
+yourself.
 
 Find coping mechanisms for the days when everything fails.
 And then.
@@ -47,7 +50,8 @@ Do. Not. Give. Up.
 If the company has a coding test and you pass it things are from
 that point on mostly about what feeling people get from you.
 
-The most valuable thing you can do in a personal interview are 2 things.
+The most valuable thing you can do in a personal interview are 2
+things.
 
 First. Prove that you care about the work.
 
@@ -69,8 +73,8 @@ Try to make them leave the interview with a good gut feeling.
 
 ## How To Add New Technology To Your Cv?
 
-As a rule of thumb, make sure you have understood how to use it for
-the most common cases.
+As a rule of thumb, make sure you have understood how to use it
+for the most common cases.
 
 It is a bit like claiming that you know a spoken language.
 If you can communicate decently people will agree that you know it
@@ -84,8 +88,8 @@ common tasks. You do not have to be a master.
 You just have to be able to produce something useful with them.
 
 A good example is learning a new web language. If you know how to
-produce an API and hook it up with a database you are in the ballpark
-of what is considered useful knowledge.
+produce an API and hook it up with a database you are in the
+ballpark of what is considered useful knowledge.
 
 Frontend is similar. Can you ship a mobile first UI that fetches
 some data to display? Good, put it on the CV.
@@ -102,8 +106,9 @@ always possible. You may be in a company where there is not path
 to a promotion for you.
 
 Start by bringing it up with your manager and see what they say.
-If you find that they are open to it you now need to know something.
-It may never happen even if they say that they will help.
+If you find that they are open to it you now need to know
+something. It may never happen even if they say that they will
+help.
 
 Most companies have a clear strategy for hiring new people
 but few have as clear a strategy for promotions.
@@ -114,16 +119,16 @@ Often you will find that the path to a promotion is tougher
 than getting a new job. This is mainly due to that companies
 think differently about promotions and hiring.
 
-When hiring, managers tend to look at candidates with a limited context.
-They go by the gut feeling and CV but when promoting they tend
-to think differently. Usually they will look to you for proof
+When hiring, managers tend to look at candidates with a limited
+context. They go by the gut feeling and CV but when promoting they
+tend to think differently. Usually they will look to you for proof
 that you should get promoted and that can get tricky to provide.
 It can get even more tricky to convince them that your proof
 is enough for a promotion.
 
 If you find another job it is very common that the company
-offers you benefits to stay. Now that you are about to go they need
-to keep you if you are a real asset.
+offers you benefits to stay. Now that you are about to go they
+need to keep you if you are a real asset.
 
 What has just happened is that you have switched the
 power dynamic and forced them to take action instead

@@ -43,13 +43,13 @@ compensation is not necessarily tied to how good your code is.
 
 ## Why Do Tech Job Titles Often Seem Unclear?
 
-Usually it is a reflection of the company internals and their structure.
-What this in practice means is that companies name roles depending
-on semantics that make sense to their own corporate structure.
-If a company has a need for a role that is common within the
-industry at large they will use that name but for more complex
-roles they will invent something or borrow names that roughly
-fits the bill.
+Usually it is a reflection of the company internals and their
+structure. What this in practice means is that companies name
+roles depending on semantics that make sense to their own
+corporate structure. If a company has a need for a role that is
+common within the industry at large they will use that name but
+for more complex roles they will invent something or borrow names
+that roughly fits the bill.
 
 The main thing to know is that a title is a bit like when you
 name a function in programming. For a simple function the name

@@ -3,35 +3,38 @@
 Yes but only if you master the craft of programming instead of
 just one stack. There are plenty of developers who have worked
 for many years and fail to learn how to code well in any stack,
-they are lost without the tools they learned first. These developers
-are the ones who are most impacted by layoffs and shifts in the market.
-Their value is mostly based on the popularity of a specific tool or
-a given work environment.
+they are lost without the tools they learned first. These
+developers are the ones who are most impacted by layoffs and
+shifts in the market. Their value is mostly based on the
+popularity of a specific tool or a given work environment.
 
-The developers who find switching jobs the simplest are usually the
-ones who learn that a tech stack can change but the core concepts are
-almost always the same. Backend developers all know that in todays
-modern stack there will always be things like package managers,
-web frameworks, databases and test runners. Frontend developers know
-that there will be some form build tools involved and so on.
+The developers who find switching jobs the simplest are usually
+the ones who learn that a tech stack can change but the core
+concepts are almost always the same. Backend developers all know
+that in todays modern stack there will always be things like
+package managers, web frameworks, databases and test runners.
+Frontend developers know that there will be some form build tools
+involved and so on.
 
-The tools will differ but the process is the same and in fact it gets
-easier the more times you switch. Each time you bring previous
-knowledge with you and then you do the thing you did from the first
-day, you look up what you don't know. That is the big secret to lifelong
-growth. Try to do something you don't know and then search for answers.
-Don't tell anyone this, it is a well guarded trade secret.
+The tools will differ but the process is the same and in fact it
+gets easier the more times you switch. Each time you bring
+previous knowledge with you and then you do the thing you did from
+the first day, you look up what you don't know. That is the big
+secret to lifelong growth. Try to do something you don't know and
+then search for answers. Don't tell anyone this, it is a well
+guarded trade secret.
 
-Knowing how to figure out the answers to your questions is the most
-important skill a developer can have.
+Knowing how to figure out the answers to your questions is the
+most important skill a developer can have.
 
 ## What About Job Hopping During A Recession?
 
-I don't consider recession times to be much of a factor when job hopping.
-It is always a question of how in demand your skills are. So far I
-see companies hire and fire people regardless of the economic predictions
-made by economists. Granted, the scale may differ but it does not change
-my personal strategy for job security.
+I don't consider recession times to be much of a factor when job
+hopping. It is always a question of how in demand your skills are.
+So far I see companies hire and fire people regardless of the
+economic predictions made by economists. Granted, the scale may
+differ but it does not change my personal strategy for job
+security.
 
 The practice I preach is to do the following.
 
@@ -40,10 +43,11 @@ The practice I preach is to do the following.
 - Work on projects that grow your experience
 - Have a relevant CV
 
-These practices are in my view, ever-green and regardless of the market,
-they will determine your market value. Recessions and booms impacts
-companies differently but the skills listed here are always what is
-most relevant for software professionals looking for work.
+These practices are in my view, ever-green and regardless of the
+market, they will determine your market value. Recessions and
+booms impacts companies differently but the skills listed here are
+always what is most relevant for software professionals looking
+for work.
 
 ## Is Political Savvy Necessary For Career Growth In It?
 

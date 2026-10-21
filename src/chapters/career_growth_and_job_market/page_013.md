@@ -26,13 +26,14 @@ Odds or that a group of average people will show up to your
 door and do the work. If you expect them to be bodybuilders
 your expectations are probably not realistic. However, if a group
 of frail people who can barely move anything appears, it is
-reasonable to expect more from people who move things professionally.
+reasonable to expect more from people who move things
+professionally.
 
-If the CEO expects high results and they don't have an understanding
-of what is realistic, why would I care about their viewpoint. At
-best it is a viewpoint of someone who doesn't have realistic
-expectations and so arguing with them is pointless. I simply
-try my best to explain why the results look as they do.
+If the CEO expects high results and they don't have an
+understanding of what is realistic, why would I care about their
+viewpoint. At best it is a viewpoint of someone who doesn't have
+realistic expectations and so arguing with them is pointless. I
+simply try my best to explain why the results look as they do.
 I find that this usually is enough for a rationally minded person
 and then we make a action plan to improve the situation.
 However, if the CEO is not a reasonable person and is simply

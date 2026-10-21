@@ -62,27 +62,28 @@ your knowledge of the projects needs and you will get a good
 feeling for their fit for the team.
 
 The second thing to consider is the social dynamics of the team.
-If you underestimate this you will end up with a lot of frustration
-and problems in the team. Start by considering the current team
-and the types of personalities you are dealing with. Two classic
-mismatches is when you have a team of average developers who for
-the most part are fine with keeping a good enough quality level
-and then you put in a high energy, ambitious and strongly opinionated
-developer. Trouble is just a matter of time. The frustration usually
-comes from that the new developer feels frustration over the lack of
-enthusiasm from their peers and the peers find their sticking their
-nose in everyone's business, irritating.
+If you underestimate this you will end up with a lot of
+frustration and problems in the team. Start by considering the
+current team and the types of personalities you are dealing with.
+Two classic mismatches is when you have a team of average
+developers who for the most part are fine with keeping a good
+enough quality level and then you put in a high energy, ambitious
+and strongly opinionated developer. Trouble is just a matter of
+time. The frustration usually comes from that the new developer
+feels frustration over the lack of enthusiasm from their peers and
+the peers find their sticking their nose in everyone's business,
+irritating.
 
 The other case is when the roles are reversed and you put a mellow
 type of developer, who prefers to work in a team where there are
-processes in place that let them focus on their area without having
-to take on a lot of extra responsibilities, in a team with highly
-social developers. More than once, I have heard about cases where
-the team wants to mob code all the time and feeling disheartened
-that some team mates really don't want to work that way. Who is
-to say what is right, but I hope we can agree that it is hard to
-create a productive work environment when the team members are
-too far apart in how they want to do work.
+processes in place that let them focus on their area without
+having to take on a lot of extra responsibilities, in a team with
+highly social developers. More than once, I have heard about cases
+where the team wants to mob code all the time and feeling
+disheartened that some team mates really don't want to work that
+way. Who is to say what is right, but I hope we can agree that it
+is hard to create a productive work environment when the team
+members are too far apart in how they want to do work.
 
 By knowing the project and the team you can usually figure out
 what impact a new candidate will have.
@@ -107,18 +108,19 @@ how to be effective at everyday tasks.
 
 We can also expand our scope of what we consider tools. Is Git
 a tool? Well yes, it is. As you can imagine you will need to know
-it in order to save your changes and do updates to the main codebase.
-If you don't know how to do that, it won't matter much if you can write
-code, since it will never create any value for anyone.
+it in order to save your changes and do updates to the main
+codebase. If you don't know how to do that, it won't matter much
+if you can write code, since it will never create any value for
+anyone.
 
 The best mindset you can have, if you ask me, is to think in terms
 of value provided. You need to learn the tools and processes
-involved in producing value for users. Without that, your coding skills
-don't earn money and you won't get paid. Some parts of the delivery
-process you may not need to know because it is someone elses job to
-do it for you but the bottom line is still the same. We do what we
-do to create value. What we need to know in order to do that changes
-over time and can differ from project to project.
+involved in producing value for users. Without that, your coding
+skills don't earn money and you won't get paid. Some parts of the
+delivery process you may not need to know because it is someone
+elses job to do it for you but the bottom line is still the same.
+We do what we do to create value. What we need to know in order to
+do that changes over time and can differ from project to project.
 
 ---
 

@@ -2,39 +2,40 @@
 
 No, not at all. Most developers overestimate how much their pet
 projects matter to the companies they apply to. If they work with
-end customers I can basically promise you that the average customer
-will care more about how nice the UI looks than if it runs on a
-scalable stack.
+end customers I can basically promise you that the average
+customer will care more about how nice the UI looks than if it
+runs on a scalable stack.
 
-The average recruiter won't know what scalability is and frankly, most
-don't have the time or skills to deep dive in to a candidates personal
-projects. Most people struggle to read the details in a meeting invite,
-so I can say with a fair amount of certainty that you won't see them
-dive in to the details of your project. There are of course people
-who do but it is not the norm.
+The average recruiter won't know what scalability is and frankly,
+most don't have the time or skills to deep dive in to a candidates
+personal projects. Most people struggle to read the details in a
+meeting invite, so I can say with a fair amount of certainty that
+you won't see them dive in to the details of your project. There
+are of course people who do but it is not the norm.
 
-I advice developer to treat their resume projects as a shop owner treats
-their shop window. The key to hooking a customer is to put a nice sign
-up and put eye catching items in the window. Treat your projects the
-same way. Front the appeal of the project and don't overestimate how
-much technical details matter. Most recruiters will be swayed more
-by how the project looks and what the main tools are than if you
-wrote unit tests or if you have checked the security posture.
+I advice developer to treat their resume projects as a shop owner
+treats their shop window. The key to hooking a customer is to put
+a nice sign up and put eye catching items in the window. Treat
+your projects the same way. Front the appeal of the project and
+don't overestimate how much technical details matter. Most
+recruiters will be swayed more by how the project looks and what
+the main tools are than if you wrote unit tests or if you have
+checked the security posture.
 
 ## Is Long-term Job Satisfaction In Software Tied To Personal Development?
 
 That is a tricky question. For me, absolutely. However, we should
-consider that, although personal growth is at large a human desire,
-it may not always be the most important factor in a professional
-environment. I have on many occasions had conversations with
-developers who felt that their peers did not show enthusiasm
-for their ideas about better ways of doing work or new tech to use.
-I explained to them that although they may be right about how much
-better things would get if the peers changed their ideas of how
-to work, it is perhaps not something they are interested in.
-For people who are truly engaged and want to work at the bleeding
-edge, this seems to be pure blasphemy but let me try to play
-devils advocate.
+consider that, although personal growth is at large a human
+desire, it may not always be the most important factor in a
+professional environment. I have on many occasions had
+conversations with developers who felt that their peers did not
+show enthusiasm for their ideas about better ways of doing work or
+new tech to use. I explained to them that although they may be
+right about how much better things would get if the peers changed
+their ideas of how to work, it is perhaps not something they are
+interested in. For people who are truly engaged and want to work
+at the bleeding edge, this seems to be pure blasphemy but let me
+try to play devils advocate.
 
 I am sure that if you think about it, you have several things
 that you could improve in your daily job. You could probably
@@ -56,15 +57,16 @@ Right or wrong, I think we can agree that the average worker
 is not trying to be the best at their job, they are simply trying
 as hard as they feel is appropriate to live comfortably.
 
-This can be a tough pill to swallow for the achievers of the world.
-You may find that you want to push things to be better but the
-people around you don't really care about the work as much as you.
-This doesn't mean that they don't grow as people. It just means that
-they are putting their energy somewhere else. You may wish that they
-would put it in to their work but it will save you a lot of frustration
-if you can determine if there is a chance for that to happen or if
-you should look to spend more time with people who do put a lot of
-energy in to growing within the work they do.
+This can be a tough pill to swallow for the achievers of the
+world. You may find that you want to push things to be better but
+the people around you don't really care about the work as much as
+you. This doesn't mean that they don't grow as people. It just
+means that they are putting their energy somewhere else. You may
+wish that they would put it in to their work but it will save you
+a lot of frustration if you can determine if there is a chance for
+that to happen or if you should look to spend more time with
+people who do put a lot of energy in to growing within the work
+they do.
 
 ## What Happens To Developers In Big It Companies As They Age?
 
@@ -72,8 +74,9 @@ This varies a lot but on average they go in to management or
 similar administrative work. There is of course a breed who
 stick to their coding until they retire but based on my experience
 the average age of the developers range from people in their 20's
-to their late 40's whereas the age of people working in management,
-especially the higher levels, have a range of 40's and above.
+to their late 40's whereas the age of people working in
+management, especially the higher levels, have a range of 40's and
+above.
 
 There are plenty of exceptions to these age ranges so take what I
 am sharing for what it is, a personal observation from someone who

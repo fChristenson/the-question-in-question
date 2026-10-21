@@ -33,25 +33,26 @@ ship an application. Once you know what it means to start with
 nothing and getting a working application to the end user, you
 know the basics. Next is understanding that there are many types
 of applications and ways to ship software. This is when you can
-start looking at options, look at what others are using, try things
-out to see how it compares to what you already know. There is no such
-thing as a perfect stack so just pick what seems to meet your needs.
+start looking at options, look at what others are using, try
+things out to see how it compares to what you already know. There
+is no such thing as a perfect stack so just pick what seems to
+meet your needs.
 
-Once you feel ready to work as a professional you will need to learn
-a suite of other tools that are needed to ship software. This is
-where it gets a bit tricky. Companies use a range of tools and even
-if you have done your homework and studies up on what companies
-use in your region, you will find that not all of it is there.
-Fret not, most of the time companies are looking for someone who
-is close enough for the role they are hiring for.
+Once you feel ready to work as a professional you will need to
+learn a suite of other tools that are needed to ship software.
+This is where it gets a bit tricky. Companies use a range of tools
+and even if you have done your homework and studies up on what
+companies use in your region, you will find that not all of it is
+there. Fret not, most of the time companies are looking for
+someone who is close enough for the role they are hiring for.
 
 From this point on you will grow the most by joining a company
 and learning what you can. Once you have a few years of experience
 you will find that further growth is best done by doing work in
 different types of companies. The main thing to keep an eye on is
-your own career strategy. It is easy to stay put where it feels safe
-and then you will not grow as much so be honest about if you feel
-that you have reached your goals or if you need to push more.
+your own career strategy. It is easy to stay put where it feels
+safe and then you will not grow as much so be honest about if you
+feel that you have reached your goals or if you need to push more.
 
 It is fine to do coding just for the sake of having an income.
 What I suggest you do is to ask if you have long term goals that
@@ -109,9 +110,9 @@ candidates to fill the role.
 The most common strategy at this point is to provide the candidate
 with the feedback and create a work plan for them with some form
 of evaluation deadline. This is not something you can do without
-having an effect on morale usually. I suggest you limit the feedback
-to the candidate so not to shame them. Simply talk to them in private
-and take it from there.
+having an effect on morale usually. I suggest you limit the
+feedback to the candidate so not to shame them. Simply talk to
+them in private and take it from there.
 
 ---
 

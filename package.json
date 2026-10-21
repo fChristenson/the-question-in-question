@@ -12,6 +12,7 @@
     "create:index": "node ./scripts/index_builder.js",
     "update:headers": "node ./scripts/rewrite_headers.js",
     "update:navigation": "node ./scripts/add_next_page_links.js",
+    "update:linelength": "node ./scripts/wrap_lines.js",
     "generate:snapshots": "node ./scripts/generate_snapshots.js"
   },
   "repository": {

@@ -1,6 +1,7 @@
 # Testing And Quality Assurance
 
-Questions about writing effective tests, preventing bugs, and improving software quality.
+Questions about writing effective tests, preventing bugs, and
+improving software quality.
 ## Do Most Software Developers Dislike Testing?
 ## When Should You Run Regression Tests?
 ## What Happens If A 10x Tester Works With A 10x Developer?

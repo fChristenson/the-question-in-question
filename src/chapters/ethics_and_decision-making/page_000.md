@@ -1,6 +1,7 @@
 # Ethics And Decision-making
 
-Questions about making ethical decisions, balancing perfectionism, and managing technical debt.
+Questions about making ethical decisions, balancing perfectionism,
+and managing technical debt.
 ## Is It Okay To Ship Software With Bugs Sometimes?
 ## Should Developers Test In Production?
 ## Is Code A Cost In Software Development?

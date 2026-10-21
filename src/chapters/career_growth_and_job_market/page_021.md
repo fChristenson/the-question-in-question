@@ -6,10 +6,10 @@ longer it takes the developer to ship the more the cost is to the
 company. I have a standing argument with FinOps enthusiasts and
 managers about cost when dealing with system development.
 Based on the systems I have worked on, it is clear that the
-most expensive part of software development is paying the developer.
-No amount of micro tuning machines or doing Agile work practices
-will save the amount of money it will cost to ignore the developers
-ability to ship code.
+most expensive part of software development is paying the
+developer. No amount of micro tuning machines or doing Agile work
+practices will save the amount of money it will cost to ignore the
+developers ability to ship code.
 
 Most business owners I know agree that the salaries are often
 the main cost they pay and yet somehow we seem to forget that
@@ -106,37 +106,39 @@ intuition has been fairly accurate.
 
 Naturally, however it may not be the type of patterns you have
 read about in design pattern books. Usually the key difference
-between a mid level developer and a senior developer is experience.
-It is worth stating that I have so far not been able to draw a
-conclusive line between the coding skill of a mid level developer
-and a senior developer. It is in my view almost impossible to say
-how much difference there is between a mid level and senior developer
-in terms of coding skill, assuming that something like that can be
-measured accurately. I argue that the thing that determines seniority
-is not if the developer is amazing at solving competitive coding problems
-or similar coding challenges but rather if they have faced problems
-similar to the one they have at the moment.
+between a mid level developer and a senior developer is
+experience. It is worth stating that I have so far not been able
+to draw a conclusive line between the coding skill of a mid level
+developer and a senior developer. It is in my view almost
+impossible to say how much difference there is between a mid level
+and senior developer in terms of coding skill, assuming that
+something like that can be measured accurately. I argue that the
+thing that determines seniority is not if the developer is amazing
+at solving competitive coding problems or similar coding
+challenges but rather if they have faced problems similar to the
+one they have at the moment.
 
-Once a developer has worked for long enough the daily grind becomes
-mostly repetition of things that you have already done. In the start
-you can imagine your learning as a line that keeps on going forever.
-Everything is new so you learn something each day. However, after a
-while you start to get tasks that are the same as what you have done
-before. This is when the line starts to loop on itself. At first the
-extra repetition is good for you since it helps you embed your
-existing knowledge but after a while you simply repeat the same
-process over and over.
+Once a developer has worked for long enough the daily grind
+becomes mostly repetition of things that you have already done. In
+the start you can imagine your learning as a line that keeps on
+going forever. Everything is new so you learn something each day.
+However, after a while you start to get tasks that are the same as
+what you have done before. This is when the line starts to loop on
+itself. At first the extra repetition is good for you since it
+helps you embed your existing knowledge but after a while you
+simply repeat the same process over and over.
 This is the state where you have reached a proficiency level high
 enough that you know what to almost without being able to explain
-it. In fact this is a common problem for seniors, they know exactly
-what to do but the rest of the team may not. I have on many occasions
-talked to seniors who feel annoyed at that they have to write story
-cards and show how they intend to solve problems that they already
-know how to solve in their head. They know what to do before the
-planning is even over because they have done similar things so many
-times. Be careful however, just because they have done it many times
-does not mean that they do it well or that in fact this time everything
-is exactly as it has been in the past.
+it. In fact this is a common problem for seniors, they know
+exactly what to do but the rest of the team may not. I have on
+many occasions talked to seniors who feel annoyed at that they
+have to write story cards and show how they intend to solve
+problems that they already know how to solve in their head. They
+know what to do before the planning is even over because they have
+done similar things so many times. Be careful however, just
+because they have done it many times does not mean that they do it
+well or that in fact this time everything is exactly as it has
+been in the past.
 
 ---
 

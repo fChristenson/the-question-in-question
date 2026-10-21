@@ -1,6 +1,7 @@
 # Teamwork And Collaboration
 
-Questions about working in teams, code reviews, knowledge sharing, and managing team dynamics.
+Questions about working in teams, code reviews, knowledge sharing,
+and managing team dynamics.
 ## Are You A Senior Developer When Problems No Longer Scare You?
 ## How To Handle A Nice Developer Who Doesn’t Deliver Results?
 ## How To Contribute To More Complex Software Projects?

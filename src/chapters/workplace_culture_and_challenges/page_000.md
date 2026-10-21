@@ -1,6 +1,7 @@
 # Workplace Culture And Challenges
 
-Questions about dealing with toxic environments, work-life balance, and handling workplace conflicts.
+Questions about dealing with toxic environments, work-life
+balance, and handling workplace conflicts.
 ## Why Do Tech Companies Have Informal Dress Codes?
 ## Are Developers Constantly Judged By Their Code Quality?
 ## Are Developers Known For Using Overly Technical Jargon?

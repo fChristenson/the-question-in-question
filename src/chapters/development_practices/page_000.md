@@ -15,29 +15,29 @@ that they could fix easily.
 However, let us assume that we do have a good set of developers
 who really do their best to boyscout code. In this scenario, I
 find that major refactors are needed when the overall architecture
-is wrong. An example of this would be that the data model is not right
-for the domain.
-If the data being stored is not a good reflection of the domain, all
-other logic has to account for it, which usually causes bad workarounds
-and bugs.
-As many professional developers know, changing a database schema for
-a large domain has many challenges and it is hard to do it little by
-little. Especially if you can't do something simple like a batch schema
-update by taking down the system for some maintenance.
-There are of course alternatives to this approach but I think it is
-a good example of a task that is easiest done by a big one time investment
-that may be worth doing instead of dragging it out with the boyscouting
-approach.
+is wrong. An example of this would be that the data model is not
+right for the domain.
+If the data being stored is not a good reflection of the domain,
+all other logic has to account for it, which usually causes bad
+workarounds and bugs.
+As many professional developers know, changing a database schema
+for a large domain has many challenges and it is hard to do it
+little by little. Especially if you can't do something simple like
+a batch schema update by taking down the system for some
+maintenance. There are of course alternatives to this approach but
+I think it is a good example of a task that is easiest done by a
+big one time investment that may be worth doing instead of
+dragging it out with the boyscouting approach.
 
-In short, big refactors should not be your first thought. Your first
-thought should be to ponder if you can create a plan with your team.
-That plan should consider if you can make small changes in each delivery
-that over time will solve your problem. It is a bit like a fitness
-schedule. You just need to stick to the plan and you will lose legacy
-code.
-If however, you find an obstacle where there is no way to boyscout,
-it is after all very hard to boyscout a database schema, then you
-may want to consider a big refactor.
+In short, big refactors should not be your first thought. Your
+first thought should be to ponder if you can create a plan with
+your team. That plan should consider if you can make small changes
+in each delivery that over time will solve your problem. It is a
+bit like a fitness schedule. You just need to stick to the plan
+and you will lose legacy code.
+If however, you find an obstacle where there is no way to
+boyscout, it is after all very hard to boyscout a database schema,
+then you may want to consider a big refactor.
 
 ## How To Write Integration Tests That Aren’t Flaky?
 
@@ -54,22 +54,22 @@ is to not do exact assertions on timestamps and instead allow
 for a small amount of error margin so the test won't fail if
 the difference between two timestamps is just a few milliseconds.
 
-Another worthwile consideration is for functions using time internally.
-Instead of creating a timestamp inside the function, pass it as a parameter
-so the caller can control the time value. If your langauge supports
-default parameters, I find it nice to use a default value so the test
-can override it when needed.
+Another worthwile consideration is for functions using time
+internally. Instead of creating a timestamp inside the function,
+pass it as a parameter so the caller can control the time value.
+If your langauge supports default parameters, I find it nice to
+use a default value so the test can override it when needed.
 
 ![flaky test](../assets/testing_flaky_code.png)
 
-When we are dealing with external system, it is in general a good practice
-to remove unstable elements by mocking network calls we may not need.
-However, we must take care when mocking so we don't end up mocking
-away the code we want to test.
+When we are dealing with external system, it is in general a good
+practice to remove unstable elements by mocking network calls we
+may not need. However, we must take care when mocking so we don't
+end up mocking away the code we want to test.
 In some cases we don't want to mock and instead we want to create
-a local setup that we can run. A good example are databases. We want
-to make sure that our queries to the database are working but we don't
-want to connect to external services. So what to do?
+a local setup that we can run. A good example are databases. We
+want to make sure that our queries to the database are working but
+we don't want to connect to external services. So what to do?
 My person preference, and I assume many others, is to use a local
 database that starts up with the tests and is then shut down after
 the tests are done running. Even though this is not a perfect test
@@ -83,10 +83,11 @@ deal with the problems that come with exactly the same.
 In of themselves, no. Combined with the layers commonly found on a
 testing pyramid, yes.
 
-I often see developers struggling to understand testing. They write
-some basic unit tests and call it a day. However, I argue that if
-you don't understand that the test you write depends on the code,
-then you haven't really understood why you are writing tests.
+I often see developers struggling to understand testing. They
+write some basic unit tests and call it a day. However, I argue
+that if you don't understand that the test you write depends on
+the code, then you haven't really understood why you are writing
+tests.
 
 Unit tests make a lot of sense to write if you are afraid that the
 function you have made will have a bug in it. They make no sense
@@ -94,24 +95,24 @@ at all if the function isn't doing anything that can go wrong.
 They make no sense if the code you have is just connecting to an
 external API to fetch some data. We can of course make an argument
 for that checking the url or possible input parameters being added
-to the request body can be a unit test but I hope we can agree that
-the most risky part of an external API call is that the API returns
-the wrong data.
-Testing that is best done with an integration test since we want to
-be sure that the request actually works.
+to the request body can be a unit test but I hope we can agree
+that the most risky part of an external API call is that the API
+returns the wrong data.
+Testing that is best done with an integration test since we want
+to be sure that the request actually works.
 
-Always focus on what can go wrong when making tests. Having unit tests
-does not mean that bugs will be caught. Having the right test for the
-code you have made will.
+Always focus on what can go wrong when making tests. Having unit
+tests does not mean that bugs will be caught. Having the right
+test for the code you have made will.
 
 ## Why Do Seniors Sometimes Use Complex Code Instead Of Simple Code?
 
 The two main reasons is usually that either, it is just the way
 they feel at the moment or there is no simpler way to do it.
 
-Senior developers are like most of us, human. Humans get bored, they
-forget that what to them is a cool idea is legacy code to the next
-developer who has to fix their mess.
+Senior developers are like most of us, human. Humans get bored,
+they forget that what to them is a cool idea is legacy code to the
+next developer who has to fix their mess.
 Ponder yourself how often you see people getting excited by their
 amazing idea and in their excitment they forget to consider if
 their idea will have any negative impact on others around them.
@@ -145,22 +146,22 @@ step process. This allows us to focus on getting the first step
 in our program right before we need to think about the next part.
 
 My functional friends can hopefully relate when I say that I would
-love it if all my coworkers structured their code as a list of pure
-functions that I can follow until I find an unexpected output from
-one of them. This means that now I can forget about most of the code
-and just zero in on that function.
+love it if all my coworkers structured their code as a list of
+pure functions that I can follow until I find an unexpected output
+from one of them. This means that now I can forget about most of
+the code and just zero in on that function.
 
 I follow the same principle when I am debugging. My first goal
 is to remove all factors that can cause the bug. If I am working
 with an IDE, use a text editor to make sure the problem is not in
-the IDE. If I am getting an error while using the UI, try connecting
-with a network client. Having problems in a environment? Try locally
-and vice versa.
+the IDE. If I am getting an error while using the UI, try
+connecting with a network client. Having problems in a
+environment? Try locally and vice versa.
 
-As you work you will develop an intuition for how to divide big issues
-in to smaller ones and before you know it, you find it odd that most
-people just see big problems when all you see is a simple first step
-that then leads to a simple next step.
+As you work you will develop an intuition for how to divide big
+issues in to smaller ones and before you know it, you find it odd
+that most people just see big problems when all you see is a
+simple first step that then leads to a simple next step.
 
 ## Does “if It Isn’t Broken, Don’t Fix It” Apply To Software?
 
@@ -182,12 +183,12 @@ saying to justify never fixing anything in our code. This seems to
 many to be the default state of their stakeholders. If the code is
 working, why do you need to refactor? Well dear sir or madam.
 Because working on this projects is just slightly better than
-listening to someone grind a fork against a chalkboard. When I push
-something to production, I feel the need to say a small prayer to
-any diety willing to listen. Lastly, all those late nights I have had
-to wake up to fix production issues are starting to wear me down so
-perhaps we can discuss what you mean when you say that the system
-isn't broken.
+listening to someone grind a fork against a chalkboard. When I
+push something to production, I feel the need to say a small
+prayer to any diety willing to listen. Lastly, all those late
+nights I have had to wake up to fix production issues are starting
+to wear me down so perhaps we can discuss what you mean when you
+say that the system isn't broken.
 
 ## Do Coding Best Practices Vary Between Companies?
 
@@ -261,17 +262,17 @@ this code slightly.
 
 ![class](../assets/class_user_controller.png)
 
-If we convert our input data to a class, we can trust that our data
-is already validated by the time any other logic wants to use it.
-This removes the issue where the data is in an incorrect state before
-we start working with it.
+If we convert our input data to a class, we can trust that our
+data is already validated by the time any other logic wants to use
+it. This removes the issue where the data is in an incorrect state
+before we start working with it.
 
-This slight change in coding style has helped me remove a large amount
-of bugs from my projects. Even if I am passing the data around I can
-always trust the data in a validated class.
+This slight change in coding style has helped me remove a large
+amount of bugs from my projects. Even if I am passing the data
+around I can always trust the data in a validated class.
 Primitives do not give this security and most developers try to
-fix it by simply adding validation in all the functions using the data.
-This approach is in my opinion, a bit cleaner.
+fix it by simply adding validation in all the functions using the
+data. This approach is in my opinion, a bit cleaner.
 
 ## Can Automated Testing Replace Code Reviews?
 
@@ -298,8 +299,8 @@ It is also common that a code reviewer finds that I may have
 missunderstood the acceptance criteria for the work I am doing
 and that my whole implementation is wrong. It is not fun to be
 in that situation but I hope it shows that automated tests can
-prove that the thing I did is working as expected. It can not prove
-that the thing I did is the right thing.
+prove that the thing I did is working as expected. It can not
+prove that the thing I did is the right thing.
 
 ## Do Unit Tests Take As Much Time To Write As The Logic Itself?
 
@@ -376,8 +377,8 @@ will have more information to go on than if you had tried to
 plan it all before there was any code at all.
 My tip to you is to master this process. Learn how to create a
 first draft of a bigger project that will be easy to continue
-working on when it is time to take the next step in the development
-process.
+working on when it is time to take the next step in the
+development process.
 
 ## What Advantages Does Test-driven Development Offer?
 
@@ -460,14 +461,14 @@ record you can keep track of, you can keep track of it.
 
 I urge you to adopt this principle and even to some lesser
 extent in your own teams. If you then leverage AI tools, you
-can reduce some of the mistakes that often happen during development.
-Those documents that used to be parked in some unknown document
-storage system can with AI become truly useful.
+can reduce some of the mistakes that often happen during
+development. Those documents that used to be parked in some
+unknown document storage system can with AI become truly useful.
 
-If you want to take it one step further. I recommend that you invest
-in static analysis tools such as linters or source scanners that can
-use the ADR's as reference material to validate that the code is
-following the agree upon standards.
+If you want to take it one step further. I recommend that you
+invest in static analysis tools such as linters or source scanners
+that can use the ADR's as reference material to validate that the
+code is following the agree upon standards.
 
 ## What Is The Trade-off Between Fast And Planned Development?
 
@@ -491,53 +492,57 @@ will be fast by default without necessarily making worse work.
 That is how some humans are able to run faster than others
 even if both are training hard. We perform at different levels.
 
-If we can agree that the idea that fast is worse than planned work,
-then we can look at what I argue are the best examples of the correct
-application of these two styles.
-Rappid development without much in terms of prep work is the natural
-default for projects where the problems being solved feel obvious to
-the team doing the work. It makes no sense to plan out something that
-you already understand how to do. Naturally, you could forget something
-that a plan would have caught but as I mentioned earlier, planning
-does not necessarily mean that you will think about all corner cases
-and you may end up with the same mistakes, plan or no plan.
+If we can agree that the idea that fast is worse than planned
+work, then we can look at what I argue are the best examples of
+the correct application of these two styles.
+Rappid development without much in terms of prep work is the
+natural default for projects where the problems being solved feel
+obvious to the team doing the work. It makes no sense to plan out
+something that you already understand how to do. Naturally, you
+could forget something that a plan would have caught but as I
+mentioned earlier, planning does not necessarily mean that you
+will think about all corner cases and you may end up with the same
+mistakes, plan or no plan.
 
 I argue that planning is most important when you are dealing with
 an issue that requires you to create a shared understanding of
-something that is complex. Taking your time here is important since
-if you get it wrong, you will lose even more time from issues that
-spring up due to overlooked details.
+something that is complex. Taking your time here is important
+since if you get it wrong, you will lose even more time from
+issues that spring up due to overlooked details.
 
-My mantra when working with development teams is this, "we should all
-have the same picture of what is to be created in our heads".
+My mantra when working with development teams is this, "we should
+all have the same picture of what is to be created in our heads".
 This means that depending on the people I have in the team and the
-problem we are solving, I may opt for more planning to make sure each
-members has truly understood what to do. However, if I can tell that
-the solution is obvious to the people involved, we just get on with
-it.
+problem we are solving, I may opt for more planning to make sure
+each members has truly understood what to do. However, if I can
+tell that the solution is obvious to the people involved, we just
+get on with it.
 
 ## How To Balance Perfectionism And Pragmatism In Software Development?
 
-This is probably the hardest question there is to answer in any craft.
-When do you say "stop, this is good enough"?
+This is probably the hardest question there is to answer in any
+craft. When do you say "stop, this is good enough"?
 
-I argue that the trick to getting it right is to truly understand then
-need of the people you are building for. What will they value most?
-By being honest about this you can start to think about if they truly
-care about some minor library that does something nice or if they would
-prefer to have the code a bit earlier? Then you can think about how
-they would like it if the system was really buggy.
+I argue that the trick to getting it right is to truly understand
+then need of the people you are building for. What will they value
+most? By being honest about this you can start to think about if
+they truly care about some minor library that does something nice
+or if they would prefer to have the code a bit earlier? Then you
+can think about how they would like it if the system was really
+buggy.
 
-The core of this idea is that you are always able to go to the extreme
-with any concept, be it high quality or none at all. I argue, that
-to get the right level of quality, you need to understand the consumer
-well enough to know what will matter for the end product.
+The core of this idea is that you are always able to go to the
+extreme with any concept, be it high quality or none at all. I
+argue, that to get the right level of quality, you need to
+understand the consumer well enough to know what will matter for
+the end product.
 
-The car industry has this down. Some manufacturers build high end luxury
-cars, because they have customers with the purchasing power to afford
-them. Other manufacturers focus on customers with more modest purchasing
-power and naturally, their choices in materials, features and so on
-will need to be more modest to fit the price range of the customer.
+The car industry has this down. Some manufacturers build high end
+luxury cars, because they have customers with the purchasing power
+to afford them. Other manufacturers focus on customers with more
+modest purchasing power and naturally, their choices in materials,
+features and so on will need to be more modest to fit the price
+range of the customer.
 
 As software developers, and in fact, any craftsman you should know
 where the sweetspot is for anything you make.
@@ -557,65 +562,67 @@ when the product is cheap.
 ## What To Do When Fixing A Production Problem?
 
 My approach is to narrow the scope of the issue.
-This basically means that I remove factors that can cause the problem
-until I have narrowed it down to the smallest scope I can.
+This basically means that I remove factors that can cause the
+problem until I have narrowed it down to the smallest scope I can.
 Since we are dealing with a production issue, the first move is to
-understand if the problem is just in production or if it can be replicated
-locally or in some other development environment.
-Figuring this out gives us a more narrow scope. If the issue is just
-in production, we know that we need to consider how production differs
-from the other environmets.
+understand if the problem is just in production or if it can be
+replicated locally or in some other development environment.
+Figuring this out gives us a more narrow scope. If the issue is
+just in production, we know that we need to consider how
+production differs from the other environmets.
 If the problem exists in all environments, we know that we can use
-our non production environments to be more aggressive in our debugging
-than we could in production. Assuming of course that production debugging
-would impact our customers.
+our non production environments to be more aggressive in our
+debugging than we could in production. Assuming of course that
+production debugging would impact our customers.
 
-Using tracing tools and logging effectively is important when dealing
-with environment issues. They are your window in to what is going on
-in the system. My personal favorite logging strategy is to treat debug
-logs as a way to understand what data is coming in to my abstractions
-and what data is leaving.
+Using tracing tools and logging effectively is important when
+dealing with environment issues. They are your window in to what
+is going on in the system. My personal favorite logging strategy
+is to treat debug logs as a way to understand what data is coming
+in to my abstractions and what data is leaving.
 
-Below is an example of a common piece of code in a web application.
+Below is an example of a common piece of code in a web
+application.
 
 ![create](../assets/create_user.png)
 
 Let us pretend that we had an error in production with this code.
-We would be flying blind mostly since we don't have any way of knowing
-if the problem is the data input, the saving of the data or possibly
-what is being returned.
+We would be flying blind mostly since we don't have any way of
+knowing if the problem is the data input, the saving of the data
+or possibly what is being returned.
 
-With some slight updates to our logging strategy we can get a pretty
-clear picture.
+With some slight updates to our logging strategy we can get a
+pretty clear picture.
 
 ![debug](../assets/create_user_debug.png)
 
-This is just an example but I hope the idea is conveyed. If we think
-about our application as just a tree of function calls, we can almost
-derive what has happened by just knowing what the values are at each
-step of the callchain.
+This is just an example but I hope the idea is conveyed. If we
+think about our application as just a tree of function calls, we
+can almost derive what has happened by just knowing what the
+values are at each step of the callchain.
 
-Depending on our langauge and framework we can improve on this to make
-is slightly less repetative.
+Depending on our langauge and framework we can improve on this to
+make is slightly less repetative.
 
 ![debug func](../assets/create_user_debuglogging.png)
 
-The same principles can be used in any language. If we can structure
-our debug logging as a way to track what data is coming in and leaving
-our abstractions, it becomes simpler to narrow down if the data or
-the logic is the problem.
+The same principles can be used in any language. If we can
+structure our debug logging as a way to track what data is coming
+in and leaving our abstractions, it becomes simpler to narrow down
+if the data or the logic is the problem.
 
-Lastly, it is very important that we understand how to exclude other
-factors. I see developer have issue with their IDE's, thinking they
-have a bug in their code when it is just the IDE that is acting up.
-The same is true for connecting to production environments.
-Make sure you can figure out if you are talking to your own server
-or a proxy. All to often I see developers bang their head against
-their desk, trying to understand why their debug code isn't showing
-in their logs. The problem is often that their requests are not
-being forwarded as expected by a proxy server. As a rule, make
-sure you have an easy way to track what server is responding
-to your requests. It will help narrow the scope even further.
+Lastly, it is very important that we understand how to exclude
+other factors. I see developer have issue with their IDE's,
+thinking they have a bug in their code when it is just the IDE
+that is acting up. The same is true for connecting to production
+environments. Make sure you can figure out if you are talking to
+your own server or a proxy. All to often I see developers bang
+their head against their desk, trying to understand why their
+debug code isn't showing in their logs. The problem is often that
+their requests are not being forwarded as expected by a proxy
+server. As a rule, make sure you have an easy way to track what
+server is responding to your requests. It will help narrow the
+scope even further.
 
 ## How To Create An Architecture When Requirements Constantly Change?
 
@@ -645,22 +652,22 @@ the difference in mindset lies. If we can only ever add to our
 code without ever removing, we need to create complex abstractions
 that grows forever. However, if the cost of removing code that no
 longer is needed or that has changed so fundamentally that it is
-no longer a good fit for our requirements is low. Then why not just
-keep complexity down and rewrite?
+no longer a good fit for our requirements is low. Then why not
+just keep complexity down and rewrite?
 Big rewrites are usually the outcome of having code that can not
 be changed as a small unit of a greater whole.
 
 One of my favorite patterns that gives a practical example of this
 idea of "disposable code" is a flavour of the modular monolith.
-Frankly speaking, I never liked the term because I always associate
-the style of it I use as the "kernel pattern".
+Frankly speaking, I never liked the term because I always
+associate the style of it I use as the "kernel pattern".
 
-Let us assume that we are making a project that is to handler orders
-of some arbitrary product. Our most natural entities in such a system
-would probably, users, products and orders.
+Let us assume that we are making a project that is to handler
+orders of some arbitrary product. Our most natural entities in
+such a system would probably, users, products and orders.
 
-A textbook example of an architetcture for such a system would be a
-monolith using some flavour of the MVC pattern.
+A textbook example of an architetcture for such a system would be
+a monolith using some flavour of the MVC pattern.
 
 ```text
 src/
@@ -688,8 +695,9 @@ src/
     EmailService.ts
 ```
 
-Different languages and frameworks would have some variation of this
-approach but it is a pattern that many would feel familiar with.
+Different languages and frameworks would have some variation of
+this approach but it is a pattern that many would feel familiar
+with.
 
 Our dependency graph will look something like this.
 
@@ -720,10 +728,11 @@ between our files.
 As the system grows we will find that a large portion of our code
 is coupled in not so obvious ways and due to the fact that we
 have large amounts of it, it is nearly impossible to predict
-how we should change it so we can account for changes in requirements.
+how we should change it so we can account for changes in
+requirements.
 
-A method that I would argue is more in line with the idea of disposable
-code would look like this.
+A method that I would argue is more in line with the idea of
+disposable code would look like this.
 
 ```text
 src/
@@ -741,11 +750,11 @@ src/
     ProductsService.ts
 ```
 
-This structure focuses on moving all the logic that is connected to
-a given controller to the same folder. This means that as the system
-grows, complexity can grow in a folder, legacy can impact a folder
-but the seperation of logic segments our code so that it does not
-spread across the whole system.
+This structure focuses on moving all the logic that is connected
+to a given controller to the same folder. This means that as the
+system grows, complexity can grow in a folder, legacy can impact a
+folder but the seperation of logic segments our code so that it
+does not spread across the whole system.
 
 Naturally someone will ask, but what about shared dependencies?
 Well, the pattern continues in the same manner.
@@ -786,9 +795,9 @@ shared --> products
 ```
 
 I have found this structure to be easier to work with since I know
-that I can add and remove code as needed without needing to consider
-the system as a whole. A shared dependency is just that, code that
-is shared between more than one folder.
+that I can add and remove code as needed without needing to
+consider the system as a whole. A shared dependency is just that,
+code that is shared between more than one folder.
 
 The pattern can continue in to subfolders as well.
 
@@ -880,31 +889,32 @@ has to be more important than making new features.
 
 ## Should Developers Have Emotional Attachment To Their Projects?
 
-To a point but I would rather have them have an emotional attachment
-to their craft.
-I know that for some loyalty and commitment to the goals of the project
-is an important merit to have but I have always view this as a bit
-of a one sided notion.
-Companies are a business and a business will always need to be most
-concerned with it's own survival. There are of course degrees to this
-where we often see ethically questionable decisions being made by
-companies that isn't really about survival but rather about enriching
-some at the expense of others.
-However, as an employee working on a project, we should remember that
-our commitmend should stand in proportion to what we have agreed to
-with our employer. In other words, you owe the company good work and
-not actively seeking to harm it with nefarious activities.
-More than that should be a tit for tat agreement, if you ask me.
+To a point but I would rather have them have an emotional
+attachment to their craft.
+I know that for some loyalty and commitment to the goals of the
+project is an important merit to have but I have always view this
+as a bit of a one sided notion.
+Companies are a business and a business will always need to be
+most concerned with it's own survival. There are of course degrees
+to this where we often see ethically questionable decisions being
+made by companies that isn't really about survival but rather
+about enriching some at the expense of others.
+However, as an employee working on a project, we should remember
+that our commitmend should stand in proportion to what we have
+agreed to with our employer. In other words, you owe the company
+good work and not actively seeking to harm it with nefarious
+activities. More than that should be a tit for tat agreement, if
+you ask me.
 
-I prefer to say that my emotional attachment is to the quality of my
-work. I want my employer to feel safe in that when I do a job for them
-they will get good results, they can trust me, they can talk to me
-about their concerns and I will do my best to help them.
-However, I am still selling my time and if someone else offers me a
-better deal for that time, I expect my employer to match it if they
-want to keep me around. This is in my view no different from how
-the company operates when hiring and firing people or negotiating
-deals. It is the basics of trade.
+I prefer to say that my emotional attachment is to the quality of
+my work. I want my employer to feel safe in that when I do a job
+for them they will get good results, they can trust me, they can
+talk to me about their concerns and I will do my best to help
+them. However, I am still selling my time and if someone else
+offers me a better deal for that time, I expect my employer to
+match it if they want to keep me around. This is in my view no
+different from how the company operates when hiring and firing
+people or negotiating deals. It is the basics of trade.
 
 Be loyal to those who treat you with kindness and compashion.
 Be commited to always doing the best you can but never forget that
@@ -943,74 +953,77 @@ This is very important since if you divide the features of
 the system in a poor way the teams will need to align on
 almost every little detail and it will slow down the development
 speed of both teams.
-To the greatest extent possible, we want a team to be able to deliver
-new features without being blocked by other teams. This is in practice
-hard to fully achieve but it should be the highest priority when splitting
-up the code ownership between teams.
+To the greatest extent possible, we want a team to be able to
+deliver new features without being blocked by other teams. This is
+in practice hard to fully achieve but it should be the highest
+priority when splitting up the code ownership between teams.
 
 ## Why Not Aim For Both Optimized And Readable Code?
 
 I think all developer would love to be able to do exactly that.
 I have yet to find a developer who said, "I am going to make this
 code both complex and poorly performant".
-Usually we have to pick between the two but not always. Most of the
-time we as software developers pride ourselves on writing clean and
-understandable code. Almost to the point of favoring code that is less
-performant and more readable, given the choice.
+Usually we have to pick between the two but not always. Most of
+the time we as software developers pride ourselves on writing
+clean and understandable code. Almost to the point of favoring
+code that is less performant and more readable, given the choice.
 
 However, what do we do when we can't ignore performant code?
-I like to remind developers that each problem has inherit complexity
-and if the problem is really complex, the best you can do is to make
-as simple as you can without failing the most important part of your
-job. The. code. has. to. work.
+I like to remind developers that each problem has inherit
+complexity and if the problem is really complex, the best you can
+do is to make as simple as you can without failing the most
+important part of your job. The. code. has. to. work.
 
-Below is an example of this in practice. Let us assume that we have
-a search feature for our system. Let us also assume that the search
-feature supports free text searching with a range of custom commands.
+Below is an example of this in practice. Let us assume that we
+have a search feature for our system. Let us also assume that the
+search feature supports free text searching with a range of custom
+commands.
 
 ![search](../assets/search.png)
 
-This code will very quickly grow hard to understand if we treat our
-search feature as one big block of logic. However, we can't really
-escape the fact that we need to optimize this code and at the same
-time support free text search with the added complexity of commands
-that mutate the result.
+This code will very quickly grow hard to understand if we treat
+our search feature as one big block of logic. However, we can't
+really escape the fact that we need to optimize this code and at
+the same time support free text search with the added complexity
+of commands that mutate the result.
 
 In this situation we can only try our best to segment our problem
 nicely in to smaller pieces that we can optimize and isolate.
 We want to segment in to small scopes so it will be easier for the
-person reading can understand what the abstraction is trying to do.
+person reading can understand what the abstraction is trying to
+do.
 
 Here is an example of a trivial attempt at doing this.
 
 ![find](../assets/findmatches.png)
 
-When we look inside the `findMatches` function we hope to find more
-of this sort of segmentation so we as the reader can find the scope
-of logic we care about with well named abstractions. This does not
-mean that we are going to have an easy time understanding the implementation,
-it just means that we can have an easier time focusing on the piece
-of the feature we care about instead of having to deal with all the
-logic at once.
+When we look inside the `findMatches` function we hope to find
+more of this sort of segmentation so we as the reader can find the
+scope of logic we care about with well named abstractions. This
+does not mean that we are going to have an easy time understanding
+the implementation, it just means that we can have an easier time
+focusing on the piece of the feature we care about instead of
+having to deal with all the logic at once.
 
 ## Should Simplicity Always Be The Priority In Coding?
 
 To a point, I would say. However, there will always be a balancing
 act to be had. Our code needs to be able to meet the requirements
-of our customers. If those requirements are simple, our code hopefully
-is going to be simple. If we are facing a complex problem we will try
-our best to make it simple but as you can imagine, making things simple
-and what we consider simple, is in the beholders eye.
+of our customers. If those requirements are simple, our code
+hopefully is going to be simple. If we are facing a complex
+problem we will try our best to make it simple but as you can
+imagine, making things simple and what we consider simple, is in
+the beholders eye.
 
-At best we can say that we should always try to make our code as simple
-as we can without failing on delivering what we need.
+At best we can say that we should always try to make our code as
+simple as we can without failing on delivering what we need.
 
 ## How To Apply Topological Fixes To Legacy Code?
 
 The method I like to use is to find the leaves in my dependency
 graph. If I can track down the code that has the fewest dependants
-I can fix the issues in that code and then start unblocking the next
-piece of code in the chain.
+I can fix the issues in that code and then start unblocking the
+next piece of code in the chain.
 
 Lets consider the following graph.
 
@@ -1028,11 +1041,12 @@ emails --> products
 emails --> orders
 ```
 
-To fix the legacy in the system we would want to start by fixing the
-code related to emails. Once that is fixed we can move on to fixing
-either the users or products code. Lastly we can apply our fixes to
-the orders. Had we started fixing the orders code we would have the
-hardest time since the rest of the code is tied in to it.
+To fix the legacy in the system we would want to start by fixing
+the code related to emails. Once that is fixed we can move on to
+fixing either the users or products code. Lastly we can apply our
+fixes to the orders. Had we started fixing the orders code we
+would have the hardest time since the rest of the code is tied in
+to it.
 
 ## How To Improve Legacy Code Effectively?
 
@@ -1043,19 +1057,21 @@ refactored without a lot of risk to the project.
 Once I have found and area that I can improve without much risk,
 I try to figure out if I can create a systematic plan for how to
 fix similar issues over time. Then I speak to my coworkers to see
-if we can together agree that we want the code to follow a different
-approach. If we do agree that refactoring is the best option, I ask
-my coworkers to commit to what I call "boyscouting with a plan".
-The basic idea is that we don't just fix arbitrary things that we find
-in various places of the code but also make a commitment to fix this
-sort of issue whenver we touch code that is connected to it.
-This add a little overhead to the stories we may be working on but
-is easier to commit to than getting time to do big refactors.
+if we can together agree that we want the code to follow a
+different approach. If we do agree that refactoring is the best
+option, I ask my coworkers to commit to what I call "boyscouting
+with a plan". The basic idea is that we don't just fix arbitrary
+things that we find in various places of the code but also make a
+commitment to fix this sort of issue whenver we touch code that is
+connected to it. This add a little overhead to the stories we may
+be working on but is easier to commit to than getting time to do
+big refactors.
 
-To make sure we remember to fix the issues we have, I like to create
-custom lint rules and mark code with deprecated so it is clear that
-we should steer away from the old approach and then point the reader
-to reference materials of how we should be doing things going forward.
+To make sure we remember to fix the issues we have, I like to
+create custom lint rules and mark code with deprecated so it is
+clear that we should steer away from the old approach and then
+point the reader to reference materials of how we should be doing
+things going forward.
 
 ## Should You Stop Mentoring New Hires In IT?
 
@@ -1064,36 +1080,37 @@ mentoring, at least as far as I have seen, is that their either
 forced to do it when they don't want to or they have to do it with
 getting the time to do it.
 
-I argue that the hiring manager has the most responsebility in this
-situation. It is important to know who you are hiring and for what
-team. The success of the new developer joining has to do with both
-the current team dynamics and their level of skill so think carefully
-about the following.
+I argue that the hiring manager has the most responsebility in
+this situation. It is important to know who you are hiring and for
+what team. The success of the new developer joining has to do with
+both the current team dynamics and their level of skill so think
+carefully about the following.
 
-Are there people in the team who can take on a mentoring role? If so,
-to what extent are they open to mentoring someone?
-It is one thing to mentor someone on their first day so they can get
-the source code on to their laptop and a whole different thing to
-shoulder the responsebility of mentoring a junior developer until they
-can be productive.
+Are there people in the team who can take on a mentoring role? If
+so, to what extent are they open to mentoring someone?
+It is one thing to mentor someone on their first day so they can
+get the source code on to their laptop and a whole different thing
+to shoulder the responsebility of mentoring a junior developer
+until they can be productive.
 
-Next thing to consider is what skill level will the new developer need
-to thrive in the project? Projects can differ vastly in how team rituals
-are performed and the state of the code. If we put a junior or mid
-level developer in a team where they use very different tools from
-what they are used to, it will likely be hard for them to become productive
-and we may even cause them stress. There is also a big risk that we
-cause tension in the team if the team members feel that they are burdened
-by the new developer.
+Next thing to consider is what skill level will the new developer
+need to thrive in the project? Projects can differ vastly in how
+team rituals are performed and the state of the code. If we put a
+junior or mid level developer in a team where they use very
+different tools from what they are used to, it will likely be hard
+for them to become productive and we may even cause them stress.
+There is also a big risk that we cause tension in the team if the
+team members feel that they are burdened by the new developer.
 
-If we treat our development teams a bit more like sports team we will
-often find that the best dynamic in the team is created when we place
-people of similar skill, or at least people who want to collaborate
-with people of different skill, together. Add decent communication
-skills on top and we should have a team where mentoring is a natural
-part of the work process. Just make sure that you account for the
-mentoring in the deadlines so people who are mentoring have the time
-to do it without being stressed over completing their own work.
+If we treat our development teams a bit more like sports team we
+will often find that the best dynamic in the team is created when
+we place people of similar skill, or at least people who want to
+collaborate with people of different skill, together. Add decent
+communication skills on top and we should have a team where
+mentoring is a natural part of the work process. Just make sure
+that you account for the mentoring in the deadlines so people who
+are mentoring have the time to do it without being stressed over
+completing their own work.
 
 ## Is Code Coverage A Good Metric?
 
@@ -1105,30 +1122,32 @@ A frequent argument I hear against code coverage is that it
 only proves that you have test that cover code but does not check
 if those tests are testing something meaningful. It is true that
 we can get a high coverage with test that don't catch any bugs.
-However, I argue that code coverage is not meant to prove the quality
-of our tests but rather that there are tests at all.
+However, I argue that code coverage is not meant to prove the
+quality of our tests but rather that there are tests at all.
 
-Using coverage as a means to make developers go through the motions
-of writining tests is in of itself a great thing. Just as with anything,
-we can't really force people to do something well if they don't want
-to. However, we can create an environment where those who will do great
-things feel like their enthusiasm is being rewarded. By taking the
-stance, that testing matters, we send a clear message to the team.
+Using coverage as a means to make developers go through the
+motions of writining tests is in of itself a great thing. Just as
+with anything, we can't really force people to do something well
+if they don't want to. However, we can create an environment where
+those who will do great things feel like their enthusiasm is being
+rewarded. By taking the stance, that testing matters, we send a
+clear message to the team.
 
-For good measure I recommend to embed the coverage check in your delivery
-pipelines. Stop the deployment if the coverage drops too low but also
-be pragmatic when needed. Remember, our goal is not to keep the coverage
-high but to make sure that tests are being created. It is fine to lower
-the threshold or omit some files from the coverage as long as the team
-does so with an agreement between themselves.
+For good measure I recommend to embed the coverage check in your
+delivery pipelines. Stop the deployment if the coverage drops too
+low but also be pragmatic when needed. Remember, our goal is not
+to keep the coverage high but to make sure that tests are being
+created. It is fine to lower the threshold or omit some files from
+the coverage as long as the team does so with an agreement between
+themselves.
 
-Finally, start updating the minimum threshold for the coverage on a
-regular basis. It is sad to see coverage rise and then fall again
-because the minimum is still at the starting point and allows for
-one developer to raise the bar and another to not write tests and
-thus lowering it again. Don't be too strict with the minimum level,
-give the threshold a little wiggleroom so minor drops won't matter
-but big ones will stop the deployment.
+Finally, start updating the minimum threshold for the coverage on
+a regular basis. It is sad to see coverage rise and then fall
+again because the minimum is still at the starting point and
+allows for one developer to raise the bar and another to not write
+tests and thus lowering it again. Don't be too strict with the
+minimum level, give the threshold a little wiggleroom so minor
+drops won't matter but big ones will stop the deployment.
 
 ## How To Develop The Mindset Of A Senior Developer?
 
@@ -1137,102 +1156,109 @@ that do not turn out so well, and some that do. After you have
 learned through pain and suffering how to build things the
 way they should be built, you are in the club. Welcome!
 
-The key difference between a senior and other developer is that they
-often know more but here is the invonvinient truth. Most seniors know
-very little more than the average mid level developer. They have just
-been doing the same things for longer. So in a perverted sence this
-means that you have the mindset of a senior if you simply clock in,
-do what you are told and clock out. That is the average seniors way
-of working.
+The key difference between a senior and other developer is that
+they often know more but here is the invonvinient truth. Most
+seniors know very little more than the average mid level
+developer. They have just been doing the same things for longer.
+So in a perverted sence this means that you have the mindset of a
+senior if you simply clock in, do what you are told and clock out.
+That is the average seniors way of working.
 
 True senior, who actually have a mindset worth following, know how
-to extrapolate a system from a simple conversation with a stakeholder.
-They know enough to know how to design an entire system by just knowing
-the feature requirements. This is experience talking and not strictly
-mindset. If we want to push it one step further, the mindset worth
-adoption, is to focus on the problem you are solving. What tools you
-use always comes after. A truly amazing senior can solve a problem
-in the simplest way given the complexity of the problem.
+to extrapolate a system from a simple conversation with a
+stakeholder. They know enough to know how to design an entire
+system by just knowing the feature requirements. This is
+experience talking and not strictly mindset. If we want to push it
+one step further, the mindset worth adoption, is to focus on the
+problem you are solving. What tools you use always comes after. A
+truly amazing senior can solve a problem in the simplest way given
+the complexity of the problem.
 
 If you ask a really bad senior how to automate a complex workflow,
 most of them will start listing the frameworks they need and start
 scoping out how many developers are needed.
-A great senior will simply ask how the workflow works today and likely
-figure out that the entire thing can be solved with a shell script.
-This is an extreme example but I hope it gets my point across. The
-mindset you should look for is not that of a senior but that of a
-person who understands the essence of the issue and comes up with
-the simplest way to solve it.
+A great senior will simply ask how the workflow works today and
+likely figure out that the entire thing can be solved with a shell
+script. This is an extreme example but I hope it gets my point
+across. The mindset you should look for is not that of a senior
+but that of a person who understands the essence of the issue and
+comes up with the simplest way to solve it.
 
 ## What To Do When The Development Team Is Failing?
 
 The key things that needs to happen is to figure out why. When a
-team is failing the most likely reason is down to the people invoved.
+team is failing the most likely reason is down to the people
+invoved.
 
-My personal mantra is, "get the right people for the job." Full stop.
+My personal mantra is, "get the right people for the job." Full
+stop.
 
-The solution seems simple but it takes an extraordanary person to do
-this and most teams are managed by people who know next to nothing
-about handling this sort of situation. The best a manager can do is
-usually to set up some goals for improvement for the members in the
-team.
+The solution seems simple but it takes an extraordanary person to
+do this and most teams are managed by people who know next to
+nothing about handling this sort of situation. The best a manager
+can do is usually to set up some goals for improvement for the
+members in the team.
 
 The most feasible way a person without deep knowledge of software
 development to manage this situation is to identify the painpoints
-of the customers. Are there too many bugs? Is the development speed
-too slow? We need to know what part is failing.
+of the customers. Are there too many bugs? Is the development
+speed too slow? We need to know what part is failing.
 
 Once we know what we believe to be the areas in which the team is
-failing, we can start to create an improvement plan. This is usually
-easiest to do by sitting down with the team and calmly explaining
-that our current process is not giving the results we want.
-Answer any questions that may come and then move the conversation to
-asking the team what we can do to improve. This is where you as the
-stakeholder need to remember that the solutions the team will give
-is based on their experience and may not necessarily be the best way
-to handling the underlying issues. It is vital you understand that
-for someone who is "bad" at something, most solutions will be limited
-due to their skill level and not the inherit complexity of the problem.
-The same issue may be a breeze for someone who is a lot better at the
-craft. You still need to do this exercise however, because it prepares
-you for what comes next.
+failing, we can start to create an improvement plan. This is
+usually easiest to do by sitting down with the team and calmly
+explaining that our current process is not giving the results we
+want. Answer any questions that may come and then move the
+conversation to asking the team what we can do to improve. This is
+where you as the stakeholder need to remember that the solutions
+the team will give is based on their experience and may not
+necessarily be the best way to handling the underlying issues. It
+is vital you understand that for someone who is "bad" at
+something, most solutions will be limited due to their skill level
+and not the inherit complexity of the problem. The same issue may
+be a breeze for someone who is a lot better at the craft. You
+still need to do this exercise however, because it prepares you
+for what comes next.
 
 Next you start setting some goals of improvement. Make them clear.
-Stating that we should deliver faster or we should communicate more
-is a poor way to do it since it is not measurable. Stating that we
-want the total of bugs to drop by x is better. Make sure to timeframe
-it as well so you know when to check in and expect results.
+Stating that we should deliver faster or we should communicate
+more is a poor way to do it since it is not measurable. Stating
+that we want the total of bugs to drop by x is better. Make sure
+to timeframe it as well so you know when to check in and expect
+results.
 
-This brings us to the hardest part about this. What do you do if this
-does not work? The main thing you can do if you don't know how to pinpoint
-the core issues is to be a good customer. Make sure you look for regular
-status updates from the team on progress so they know that these goals
-matter. People have a million things going on each day and if you
-want to be sure that the team fails even when the goals are a priority
-you need to check in on the progress or it will be usually be forgotten.
+This brings us to the hardest part about this. What do you do if
+this does not work? The main thing you can do if you don't know
+how to pinpoint the core issues is to be a good customer. Make
+sure you look for regular status updates from the team on progress
+so they know that these goals matter. People have a million things
+going on each day and if you want to be sure that the team fails
+even when the goals are a priority you need to check in on the
+progress or it will be usually be forgotten.
 
-Finally, you have a plan, you have checked in and the results are still
-not there. Fire the worst performer. This usually sends a message
-and it gives you a chance to reshuffle the deck and see if some new
-blood and the impact of losing someone due to failure spurrs the team
-to better results.
+Finally, you have a plan, you have checked in and the results are
+still not there. Fire the worst performer. This usually sends a
+message and it gives you a chance to reshuffle the deck and see if
+some new blood and the impact of losing someone due to failure
+spurrs the team to better results.
 
 ## How To Plan For Tight Deadlines In Software Development?
 
-Start by having a priority meeting with your team and stakeholders.
-It is important that you understand in what order you do things so
-that if something is not finished or needs to be simplified in the
-interest of time, you know what. Naturally you will aim to get everything
-done but you can't work on everything at once so make sure that the
-thing you can work on is the most important.
+Start by having a priority meeting with your team and
+stakeholders. It is important that you understand in what order
+you do things so that if something is not finished or needs to be
+simplified in the interest of time, you know what. Naturally you
+will aim to get everything done but you can't work on everything
+at once so make sure that the thing you can work on is the most
+important.
 
-Next, make sure you understand what the bare minimum of what you need
-to succeed is. When you are dealing with sharp time contraints it
-is usually natural to throw testing and other quality practices out
-the window. This is not a bad move if done correctly but we have to
-remember that these practices are not something we do just because
-it is considered good practice. We do them to make sure the system
-works.
+Next, make sure you understand what the bare minimum of what you
+need to succeed is. When you are dealing with sharp time
+contraints it is usually natural to throw testing and other
+quality practices out the window. This is not a bad move if done
+correctly but we have to remember that these practices are not
+something we do just because it is considered good practice. We do
+them to make sure the system works.
 
 If you can safely slice away steps of your delivery process in the
 interest of time or simplify solutions without risking bugs that
@@ -1273,16 +1299,17 @@ of hurdles to control it from outside our function.
 Now consider if we instead of creating the instance inside
 our function we use a feature such a default parameter.
 
-![time function with parameter](../assets/time_function_with_param.png)
+![time function with
+parameter](../assets/time_function_with_param.png)
 
-I will argue that this makes the issue of controlling time from outside
-the function, much simpler. It is not super elegant since we are mostly
-creating this extra parameter for no other reason that testing and
-as the top tier software developers we are we know that we should
-not mess up our production code for testing purposes. I argue that
-this is one instance where we can break that rule. The benefit
-and cost ratio makes this a simple solution without any real
-impact on production code.
+I will argue that this makes the issue of controlling time from
+outside the function, much simpler. It is not super elegant since
+we are mostly creating this extra parameter for no other reason
+that testing and as the top tier software developers we are we
+know that we should not mess up our production code for testing
+purposes. I argue that this is one instance where we can break
+that rule. The benefit and cost ratio makes this a simple solution
+without any real impact on production code.
 
 Now, what about elegant code? What each of us considers elegant
 will of course differ. The best estimation of a definition I can
@@ -1303,8 +1330,8 @@ the internet I suspect you will still find people who have
 yet to understand that difference between jQuery and standard
 JavaScript syntax.
 
-I don't think it would be too far from the truth to claim that jQuery
-showed how to elegantly work with the DOM and inspired the
+I don't think it would be too far from the truth to claim that
+jQuery showed how to elegantly work with the DOM and inspired the
 standards we today use. Many other tools have followed a similar
 syntax style of chaining methods to great success.
 
@@ -1321,9 +1348,10 @@ usually.
 - Review & Testing
 - Deployment
 
-Each of these can have, and does have, entire books on the subject.
-I will try to give you a high-level overview of each so you can
-get slightly more familiar with each process and why it matters.
+Each of these can have, and does have, entire books on the
+subject. I will try to give you a high-level overview of each so
+you can get slightly more familiar with each process and why it
+matters.
 
 Planning varies in it's implementation from team to to team and
 from company to company. The core format is usually the same but
@@ -1337,21 +1365,21 @@ and team members so you can get an introduction to what the next
 batch of features you will work on will be. This is the best time
 to ask clarification questions and come with suggestions.
 
-Once the planning is over your team will start working. Most of the
-time, at least in todays ways of working, this means you pick up a
-story card on some form of a Kanban board. You write code. When you
-are finished you do some self review of your work and then move the
-story card to the next step in the process.
+Once the planning is over your team will start working. Most of
+the time, at least in todays ways of working, this means you pick
+up a story card on some form of a Kanban board. You write code.
+When you are finished you do some self review of your work and
+then move the story card to the next step in the process.
 
 Most teams will have some form of code review and testing process.
-This can range from that you do some manual testing to that you have
-an entire team of testers. Most of the time you will submit your code
-to be reviewed by a coworkers and then they will do some basic testing
-before the next step. Usually, peer testing is done because we want
-to avoid the author of the code becoming blind to issues. Since you
-wrote the code you may also test it in the same way and thus miss
-issues someone else would find by simply looking and testing in their
-own way.
+This can range from that you do some manual testing to that you
+have an entire team of testers. Most of the time you will submit
+your code to be reviewed by a coworkers and then they will do some
+basic testing before the next step. Usually, peer testing is done
+because we want to avoid the author of the code becoming blind to
+issues. Since you wrote the code you may also test it in the same
+way and thus miss issues someone else would find by simply looking
+and testing in their own way.
 
 During deployment we are again going to see a range of ways to do
 it. Most of the time you will either have some form of release
@@ -1377,11 +1405,12 @@ Doing this is a missed opportunity since if you API provider
 would do it they would be able to reduce the risk of the library
 having bugs for all the client systems. As you can imagine, if
 each client needs to create their own library, odds are that there
-will be some bugs here and there. This comes back to the API provider
-team in the form of issue reports they need to investigate and respond
-to. Had they provided the library, they would be able to fix the issue
-once, respond to it once and then move on. If they do not, odds are
-that the same issue will be reported by different clients.
+will be some bugs here and there. This comes back to the API
+provider team in the form of issue reports they need to
+investigate and respond to. Had they provided the library, they
+would be able to fix the issue once, respond to it once and then
+move on. If they do not, odds are that the same issue will be
+reported by different clients.
 
 ## How To Avoid Over-engineering In Software Development?
 
@@ -1393,9 +1422,9 @@ this state is hard. If you are lucky, you will have coworkers who
 have seen enough over-engineering and are at the same time gifted
 in the art of rational argument. They will hopefully be able to
 present a viewpoint that makes you question your own genius. If
-you are unlucky, which is more often than not going to be the case,
-you lack these people or they will not be able to convince you that
-your solution is overly complex.
+you are unlucky, which is more often than not going to be the
+case, you lack these people or they will not be able to convince
+you that your solution is overly complex.
 
 The most tried and true way to stop yourself from over-engineering
 is to do it and then have to maintain the mess you have made. If
@@ -1441,16 +1470,17 @@ way you ask your interview questions.
 Most of the time you will be best off asking questions that relate
 to experience with tools and practices. This would be things such
 as "can you tell me how you test your code?". This is a direct
-question that helps you figure out if the candidate knows the various
-ways of testing. If their entire answer is that they do some manual
-testing, you know that they have little experience in the matter and
-odds are that then going deeper and asking about the testing pyramid
-or other more advanced subject is a waste of time. It also puts pressure
-on the candidate. Many times I have told my peers after an interview
-to feel the room a bit. If a candidate struggles with basic questions,
-just stop. There is no need to make them feel bad by pushing them
-in to a corner with even tougher questions. They are looking for work
-and just because they don't know as much as you, don't punish them.
+question that helps you figure out if the candidate knows the
+various ways of testing. If their entire answer is that they do
+some manual testing, you know that they have little experience in
+the matter and odds are that then going deeper and asking about
+the testing pyramid or other more advanced subject is a waste of
+time. It also puts pressure on the candidate. Many times I have
+told my peers after an interview to feel the room a bit. If a
+candidate struggles with basic questions, just stop. There is no
+need to make them feel bad by pushing them in to a corner with
+even tougher questions. They are looking for work and just because
+they don't know as much as you, don't punish them.
 
 Avoid using questions as "what is your greatest strength?". If
 the candidate is gifted with social skills, you can spend an hour
@@ -1470,59 +1500,63 @@ the feature in the same manner. Doing things this way allows you
 to break down the feature in to many smaller parts instead of
 having to deal with the entire thing at once.
 
-By applying incremental feature delivery we gain the same benefits.
-A secondary benefit that is also worth mentioning is that when we
-split big features in to smaller ones, we can get some parts of
-the feature in the hands of our stakeholders quicker. This will let
-our stakeholders to try out parts of the system and give us feedback.
-Getting early input on our work makes it more likely that we can fix
-and adjust the implementation if something needs changing than if
-we waited until all the work is done.
+By applying incremental feature delivery we gain the same
+benefits. A secondary benefit that is also worth mentioning is
+that when we split big features in to smaller ones, we can get
+some parts of the feature in the hands of our stakeholders
+quicker. This will let our stakeholders to try out parts of the
+system and give us feedback. Getting early input on our work makes
+it more likely that we can fix and adjust the implementation if
+something needs changing than if we waited until all the work is
+done.
 
 ## How To Balance Standards And Choices In Software Development?
 
 This will differ from developer to developer. Each of us have our
-own favourite tools and if we are going to try to create a standard
-it is next to impossible to make everyone happy.
+own favourite tools and if we are going to try to create a
+standard it is next to impossible to make everyone happy.
 
 When we try to create a standard we must try to consider a larger
-perspective and carefully consider what our goal is with a standard.
-We know that allowing developers to choose their own tools freely
-is the easy way and will most of the time make them the happiest.
-So why do we want a standard? My argument that we have a standard
-so we know what to expect. Once we have it in place everyone will
-adjust to following a known pattern. This saves us time and removes
-any unknowns people have around how something works.
+perspective and carefully consider what our goal is with a
+standard. We know that allowing developers to choose their own
+tools freely is the easy way and will most of the time make them
+the happiest. So why do we want a standard? My argument that we
+have a standard so we know what to expect. Once we have it in
+place everyone will adjust to following a known pattern. This
+saves us time and removes any unknowns people have around how
+something works.
 
-However, a good question to also ask is, when does it not make sense
-to have a standard? Once we have a standard we have all the benefits
-of people following a known pattern. The answer is simple. When the
-known pattern is worse than one off solutions. Having a standard is
-always a matter of finding a pattern that works most of the time and
-make it the default choice. If no clear pattern can be found, you
-are usually better off not having a standard. Some people always strive
-to create standards. They are there in every single agile meeting
-you have ever been part of but they can also be found in development
-teams in the form of reusable code evangelists. Now, you and I know
-that having a bad abstraction causes a lot of issues. I am willing
-to go as far as to say, creating a standard abstraction that fits
-the problem you are dealing with poorly is worse than simply breaking
-the DRY principle or whatever other best practice the author wanted
-to follow when creating the mess they proudly hold up as a standard.
+However, a good question to also ask is, when does it not make
+sense to have a standard? Once we have a standard we have all the
+benefits of people following a known pattern. The answer is
+simple. When the known pattern is worse than one off solutions.
+Having a standard is always a matter of finding a pattern that
+works most of the time and make it the default choice. If no clear
+pattern can be found, you are usually better off not having a
+standard. Some people always strive to create standards. They are
+there in every single agile meeting you have ever been part of but
+they can also be found in development teams in the form of
+reusable code evangelists. Now, you and I know that having a bad
+abstraction causes a lot of issues. I am willing to go as far as
+to say, creating a standard abstraction that fits the problem you
+are dealing with poorly is worse than simply breaking the DRY
+principle or whatever other best practice the author wanted to
+follow when creating the mess they proudly hold up as a standard.
 
 You know you are better of reinventing the wheel when the standard
 you are following only serves the purpose of maintining itself.
-A team that sits apathetically in a agile process meeting is a good
-example of when a standard is poorly made. You are just going through
-the motions without any benefit. This is when you should question
-the established standard and determine if you are better of without
-one or perhaps a new one.
+A team that sits apathetically in a agile process meeting is a
+good example of when a standard is poorly made. You are just going
+through the motions without any benefit. This is when you should
+question the established standard and determine if you are better
+of without one or perhaps a new one.
 
-I once read that traveling companies tried to figure out a standard
-way to make people take their seats on the plane. What they found
-was that no system was faster than having the passengers sort it out.
-This story, if true, is a great example of when independent thinking
-and on the spot decisions beat a standard.
+I once read that traveling companies tried to figure out a
+standard way to make people take their seats on the plane. What
+they found was that no system was faster than having the
+passengers sort it out. This story, if true, is a great example of
+when independent thinking and on the spot decisions beat a
+standard.
 
 Standards are supposed to bring benefits, if they most of the time
 make no difference or even hinder you, throw them out.
@@ -1579,101 +1613,109 @@ some turn out very poorly. Through this process you learn what
 you need to consider to solve each type of problem you are dealing
 with.
 
-A builder who needs to lift something heavy may think that a forklift
-is the right tool. After defaulting to this choice a few times they
-find that if they use this tool when working on muddy ground, things
-go horribly bad. So what does our builder do? They start to notice
-what factors are in play before they make a choice of tool. Our clever
-builder, who was blind to the factor of ground quality, is now wiser.
-They now know that making sure that the ground is stable enough has
-a large impact on what tool to use and you should think the same way.
-You can't skip this process of learning from your mistakes but you
-can always ask if the tools you pick suit the problem you are facing
-and then honestly reflect on if there is a simpler way to get the
-results you want. Remember, tools are a means to an end, focus on
-the results you want.
+A builder who needs to lift something heavy may think that a
+forklift is the right tool. After defaulting to this choice a few
+times they find that if they use this tool when working on muddy
+ground, things go horribly bad. So what does our builder do? They
+start to notice what factors are in play before they make a choice
+of tool. Our clever builder, who was blind to the factor of ground
+quality, is now wiser. They now know that making sure that the
+ground is stable enough has a large impact on what tool to use and
+you should think the same way. You can't skip this process of
+learning from your mistakes but you can always ask if the tools
+you pick suit the problem you are facing and then honestly reflect
+on if there is a simpler way to get the results you want.
+Remember, tools are a means to an end, focus on the results you
+want.
 
 ## How Can Developers Recover From Anti-patterns?
 
 Coding got you in to the mess you are in, coding can get you out.
 
-Usually it is in the beholders eye what is considered an anti-pattern.
-I suggest you always try to list out the issues the approach you are
-evaluating has. If you find that your list is mostly filled with subjective
-fluff that doesn't really impact your ability to deliver code in the
-manner you want, odds are that it is not an anti-pattern you need
-to worry about.
+Usually it is in the beholders eye what is considered an
+anti-pattern. I suggest you always try to list out the issues the
+approach you are evaluating has. If you find that your list is
+mostly filled with subjective fluff that doesn't really impact
+your ability to deliver code in the manner you want, odds are that
+it is not an anti-pattern you need to worry about.
 
 But lets pretend that this anti-pattern is causing you issues. Be
-they practical ones or just emotional ones. Then I suggest you start
-by checking what pattern would be better to follow. The tricky part
-about this questions is that an anti-pattern can be found everywhere.
-So how you approach moving to something better can range from you
-getting a better coffee machine to writing comments in code.
+they practical ones or just emotional ones. Then I suggest you
+start by checking what pattern would be better to follow. The
+tricky part about this questions is that an anti-pattern can be
+found everywhere. So how you approach moving to something better
+can range from you getting a better coffee machine to writing
+comments in code.
 
-If we assume that we are dealing with coding related anti-patterns.
-Our range of solutions become somewhat narrower. One of my personal
-favorite methods for refactoring code can be applied here.
+If we assume that we are dealing with coding related
+anti-patterns. Our range of solutions become somewhat narrower.
+One of my personal favorite methods for refactoring code can be
+applied here.
 
-Lets pretend that some of our code is written in a style we no longer
-want to follow. In order to fix this issue, we will need to define
-a better approach and then go about refactoring our code.
-To do this in the safest way possible, we should approach the refactor
-a bit like a blue/green deployment. Start by making the new solution,
-test it and then remove the old code. We never want to remove working
-code that simply is following some anti-pattern until we are sure we
-have something that will work even better. So how do we do this?
+Lets pretend that some of our code is written in a style we no
+longer want to follow. In order to fix this issue, we will need to
+define a better approach and then go about refactoring our code.
+To do this in the safest way possible, we should approach the
+refactor a bit like a blue/green deployment. Start by making the
+new solution, test it and then remove the old code. We never want
+to remove working code that simply is following some anti-pattern
+until we are sure we have something that will work even better. So
+how do we do this?
 
 Lets look at an example.
 
 ![log](../assets/refactor_log.png)
 
-In this very contrived example we can see that our `consoleLogArray`
-function is using the `.forEach` method to iterate over the input
-array. Lets pretend that this is an anti-pattern we simply can not
-live with any longer. Following my personal approach we would start
-by making a new implementation of this logic, make sure it works,
-and then remove the previous code. So how do we do this with a minimal
-amount of risk?
+In this very contrived example we can see that our
+`consoleLogArray` function is using the `.forEach` method to
+iterate over the input array. Lets pretend that this is an
+anti-pattern we simply can not live with any longer. Following my
+personal approach we would start by making a new implementation of
+this logic, make sure it works, and then remove the previous code.
+So how do we do this with a minimal amount of risk?
 
 ![log v2](../assets/refactor_log_v2.png)
 
-In this even further contrived example, we can see that we now have
-2 versions of our logic. There is also a global variable that allows
-us to control which version of the logic we are using in the calling
-function. Many refer to this as a "feature flag". The main ideas
-to take away from this approach is:
+In this even further contrived example, we can see that we now
+have 2 versions of our logic. There is also a global variable that
+allows us to control which version of the logic we are using in
+the calling function. Many refer to this as a "feature flag". The
+main ideas to take away from this approach is:
 
 1. Create an abstraction that the calling code can use
-2. Update the abstraction from inside so you can replace the anti-pattern
+2. Update the abstraction from inside so you can replace the
+   anti-pattern
 3. Use a feature flag to make sure your new code works
 4. Remove the old code when it is safe
 
-This approach works at a function level but works the same even for
-entire systems. If you can create an interface for the consumer of
-your anti-pattern, you can replace what is behind it without having
-to account for all the entities that depend on the anti-pattern.
+This approach works at a function level but works the same even
+for entire systems. If you can create an interface for the
+consumer of your anti-pattern, you can replace what is behind it
+without having to account for all the entities that depend on the
+anti-pattern.
 
 ## How Do You Develop People Skills As A Software Developer?
 
 Start by engaging in the work you do in a meaningful way. How many
 times did you speak during your meetings? Most developers I meet
-say less than a few words even in important meeting where stakeholders
-present upcoming work. If you ever intend to develop meaningful skills
-with people you have to start by at least communicating.
+say less than a few words even in important meeting where
+stakeholders present upcoming work. If you ever intend to develop
+meaningful skills with people you have to start by at least
+communicating.
 
-Next, practice connecting with people. I don't mean sitting down and
-talking about your feelings. I mean, learn how other people think.
-The simplest way to do this can be summarized in a "what if" question.
-What if you had a billion money units? This is a simple game you have
-probably played while daydreaming but have you ever tried it on someone
-else and then just tried to figure out why their answer is what it
-is? When you are in a planning meeting with your stakeholders, that
-is exactly the game you are playing. You are trying to understand,
-why they want the feature they are asking for. Most developers zone
-out and just wait for the story card to be written. If you want to
-be a top notch developer, stop that. Now. The story card is just
-a record of what really matters. The desired outcome of the stakholder.
+Next, practice connecting with people. I don't mean sitting down
+and talking about your feelings. I mean, learn how other people
+think. The simplest way to do this can be summarized in a "what
+if" question. What if you had a billion money units? This is a
+simple game you have probably played while daydreaming but have
+you ever tried it on someone else and then just tried to figure
+out why their answer is what it is? When you are in a planning
+meeting with your stakeholders, that is exactly the game you are
+playing. You are trying to understand, why they want the feature
+they are asking for. Most developers zone out and just wait for
+the story card to be written. If you want to be a top notch
+developer, stop that. Now. The story card is just a record of what
+really matters. The desired outcome of the stakholder.
 
 Truly great developers understand that during planning, their goal
 is to understand the reason why the system needs a new feature.
@@ -1682,31 +1724,31 @@ the reason the stakeholders want the feature but you also know how
 to suggest alternative approaches that the stakeholders have not
 though about but will still meet their needs.
 
-Coding skills are what you use to create. Social skills are what you
-use to understand.
+Coding skills are what you use to create. Social skills are what
+you use to understand.
 
 ## How Do You Choose A Tech Project?
 
 This is a highly personal choice and is heavily connected to
 whatever you value. Me, personally. I prefer to choose projects
-that will develop my skills. This is true both in personal projects
-and professional ones.
+that will develop my skills. This is true both in personal
+projects and professional ones.
 
-Personal projects just as professional ones can serve as great teachers.
-The main thing is that your project poses a set of problems you aren't
-familiar with. Resistance build muscles, character and it is no different
-for knowledge.
+Personal projects just as professional ones can serve as great
+teachers. The main thing is that your project poses a set of
+problems you aren't familiar with. Resistance build muscles,
+character and it is no different for knowledge.
 
-I am a big advocate of small focused projects when working in private.
-Pick a topic you want to learn more about and come up with a small
-pet project that allows you to practice. Repeat this process and you
-may find that your pet projects are starting to look more like
-open source libraries or even entire products.
+I am a big advocate of small focused projects when working in
+private. Pick a topic you want to learn more about and come up
+with a small pet project that allows you to practice. Repeat this
+process and you may find that your pet projects are starting to
+look more like open source libraries or even entire products.
 
-The same basic principle applies for picking professional projects.
-If my aim is to grow, I need work that forces me to use my mind.
-If I just do things I have done so many times that I almost zone out,
-I won't learn.
+The same basic principle applies for picking professional
+projects. If my aim is to grow, I need work that forces me to use
+my mind. If I just do things I have done so many times that I
+almost zone out, I won't learn.
 
 ## How Do You Keep Pull Requests Small And Manageable?
 
@@ -1718,25 +1760,26 @@ a symbol that is used in most files we have, how do I keep you
 from getting upset over how many files have changed in the pull
 request?".
 
-When I feel like start a fight with the people who dont' care about
-the size of a pull request I just ask, "How are you able to approve
-my pull request in less time than it takes to read the code?.
-Surely you read it all carefully, did you not?". The look of guilt
-on their face is all I need to confirm my suspicions.
+When I feel like start a fight with the people who dont' care
+about the size of a pull request I just ask, "How are you able to
+approve my pull request in less time than it takes to read the
+code?. Surely you read it all carefully, did you not?". The look
+of guilt on their face is all I need to confirm my suspicions.
 
-I argue that the essence of keeping pull request small is not lines
-of code. It is cognitive load on the reader. Changing a name in
-dussins of files does not cause information overload for the reader.
-Working on the same feature for weeks, with a bit of extra refactoring,
-does.
+I argue that the essence of keeping pull request small is not
+lines of code. It is cognitive load on the reader. Changing a name
+in dussins of files does not cause information overload for the
+reader. Working on the same feature for weeks, with a bit of extra
+refactoring, does.
 
-Try to split your pull request in to natural slices. If you can let
-the reader focus on a single feature change, you are being a nice
-coworker. A good rule of thumb is to create pull requests with a theme.
-What are you doing in this pull request? Try to express it in words.
-If you are doing several things, try to order them in to themes and
-think like an author. Create pull requests like chapters of a book.
-Each chapter has a theme and naturally leads to the next.
+Try to split your pull request in to natural slices. If you can
+let the reader focus on a single feature change, you are being a
+nice coworker. A good rule of thumb is to create pull requests
+with a theme. What are you doing in this pull request? Try to
+express it in words. If you are doing several things, try to order
+them in to themes and think like an author. Create pull requests
+like chapters of a book. Each chapter has a theme and naturally
+leads to the next.
 
 You can't always reduce how many files you need to change. But you
 can make it easier for the reader to understand what is going on.
@@ -1748,49 +1791,52 @@ strategy. The model we today commonly refer to is the testing
 pyramid. Conceptually, this model shows layers of test types.
 The basic idea being that things such as unit tests are found
 at the lowest level of the pyramid with test such as integration
-test, end to end tests and manual tests being at the higher levels.
+test, end to end tests and manual tests being at the higher
+levels.
 
 We need to understand that as we go higher on the pyramid we are
 increasing the scope of what is being tested and most of the time
 this means the time to run the tests increases as well.
-This is important to fully understand as what we are after is a test
-strategy that will prevent bugs without forcing us to test our system
-only using tests at the higher level.
+This is important to fully understand as what we are after is a
+test strategy that will prevent bugs without forcing us to test
+our system only using tests at the higher level.
 
-If we can use unit test to capture bugs in our code we have the fastest
-test we can make and it helps us pinpoint exactly where our bug is.
-The higher we go the slower the tests will get and the harder it may
-become to figure out exactly where in the code the bug is. However,
-we can't always use unit tests to make sure the bugs are caught.
-This means we as developers need to understand what type of test is
-the cheapest to use. It is not always possible to avoid manual testing
-or end to end tests but we need to understand when those are the only
-options to use and when we can use something cheaper and faster.
+If we can use unit test to capture bugs in our code we have the
+fastest test we can make and it helps us pinpoint exactly where
+our bug is. The higher we go the slower the tests will get and the
+harder it may become to figure out exactly where in the code the
+bug is. However, we can't always use unit tests to make sure the
+bugs are caught. This means we as developers need to understand
+what type of test is the cheapest to use. It is not always
+possible to avoid manual testing or end to end tests but we need
+to understand when those are the only options to use and when we
+can use something cheaper and faster.
 
-A good example of this in action is that a team of tester can be paid
-to test a UI manually. This is very slow and costs a lot since we
-are paying them. As smart developer we can quickly figure out that
-if we could automate this testing it would be faster and cheaper.
-So we often reach for UI tests tools such as headless browsers to
-simulate a user clicking and interacting with the UI.
+A good example of this in action is that a team of tester can be
+paid to test a UI manually. This is very slow and costs a lot
+since we are paying them. As smart developer we can quickly figure
+out that if we could automate this testing it would be faster and
+cheaper. So we often reach for UI tests tools such as headless
+browsers to simulate a user clicking and interacting with the UI.
 Soon after we will realize that this is taking a lot of time
 as the system grows, not as much as a human doing it, but enough
 time for it to be an issue. Our next thought would then perhaps
 be that if we could remove the amount features needed to be tested
 by our UI testing tool, we can further reduce the time it takes.
 What is even better, we are possibly reduce the flaky nature of
-the web UI testing. So then we realize that could let the UI testing
-just fokus on user journey through the system and test all the trivial
-logic such as clicking all buttons, checking if form elements are
-shown properly and that error messages are where they should be, we
-can put that testing as unit test and possibly visual regression tests.
+the web UI testing. So then we realize that could let the UI
+testing just fokus on user journey through the system and test all
+the trivial logic such as clicking all buttons, checking if form
+elements are shown properly and that error messages are where they
+should be, we can put that testing as unit test and possibly
+visual regression tests.
 
-What we have now built is a testing strategy where trivial logic that
-would take a lot of time to test in a UI testing tool is handled by
-unit tests, on top of that we have visual regression test that can
-assert that the UI looks right. Lastly, we have UI testing tools to
-make sure that the system works as intended when a user is interacting
-with it.
+What we have now built is a testing strategy where trivial logic
+that would take a lot of time to test in a UI testing tool is
+handled by unit tests, on top of that we have visual regression
+test that can assert that the UI looks right. Lastly, we have UI
+testing tools to make sure that the system works as intended when
+a user is interacting with it.
 
 Think in layers of testing. Find the simplest and cheapest way to
 test your code and segment what is being tested so the amount of
@@ -1802,77 +1848,81 @@ costly, is reduced as much as possible.
 Laziness, panic due to an approaching deadline, take your pick.
 Aside from this the main reason is due to a difference in opnion
 about what is in fact a best practice. Most of the time you will
-find that there are more best practices than what the average developer
-is aware of, in fact most developer are just aware of a handfull of
-them. This is probably where the most telling clash between developers
-experience level and maturity happens. Junior developers can often
-find that their modern knowledge of best practices has almost no
-persuasive power on their senior coworkers. The following frustration
-is natural and I feel confident when I say this is what every person
-who has ever seen something that works poorly, tried to change it
-and found that no one cares or the people they need to care,
-do not.
+find that there are more best practices than what the average
+developer is aware of, in fact most developer are just aware of a
+handfull of them. This is probably where the most telling clash
+between developers experience level and maturity happens. Junior
+developers can often find that their modern knowledge of best
+practices has almost no persuasive power on their senior
+coworkers. The following frustration is natural and I feel
+confident when I say this is what every person who has ever seen
+something that works poorly, tried to change it and found that no
+one cares or the people they need to care, do not.
 
 It is hard to fault developers completely in situations like this.
 After all, most humans live out their lives without always trying
 their best to do whatever they do in the best possible manner.
 
 The best suggestion I can give you in times like these is to pick
-your battles. When a practice makes or breaks the system it is worth
-fuzzing over but if someone does something less than perfect without
-it posing impending doom, raise it with the people involved, present
-your arguments for change and move on.
+your battles. When a practice makes or breaks the system it is
+worth fuzzing over but if someone does something less than perfect
+without it posing impending doom, raise it with the people
+involved, present your arguments for change and move on.
 
 ## What Are The Benefits Of Continuous Deployment?
 
 The key ones, at least if you ask me, is as follows.
 
-Deploying often is a sign that you trust your process. The most telling
-sign that your system has quality issues is that there is extra care
-needed when deploying in to a production environment. If you fear
-deploying and you batch up tons of code changes, odds are that you
-will have issues once the deployment is over. Now you are in a bit
-of a bind. If you have waited for long enough, it may become hard
-to figure what changes are behind the issues you now have in production.
+Deploying often is a sign that you trust your process. The most
+telling sign that your system has quality issues is that there is
+extra care needed when deploying in to a production environment.
+If you fear deploying and you batch up tons of code changes, odds
+are that you will have issues once the deployment is over. Now you
+are in a bit of a bind. If you have waited for long enough, it may
+become hard to figure what changes are behind the issues you now
+have in production.
 
-If we deploy often each potential issue becomes trivial to track down.
-We can easily pinpoint what changes are wrong if we deploy them as
-they are done. The more we deploy at one time the bigger the scope
-and the larger the area we need to search to find issues.
+If we deploy often each potential issue becomes trivial to track
+down. We can easily pinpoint what changes are wrong if we deploy
+them as they are done. The more we deploy at one time the bigger
+the scope and the larger the area we need to search to find
+issues.
 
-If your team fears deploying as soon as the code is ready, odds are
-that you have lacking quality standards. Frequent bugs and release
-fear is a negative spiral that has eroded many systems. If you want
-to break that spiral, start by coming up with a strong test pyramid
-model that will reduce the risk of bugs. Then follow up with an easy
-to implement rollback strategy. Top it all off with a feature flagging
-process for features you want to safely test in production and you
-should see that you start to build confidence enough to deploy often.
+If your team fears deploying as soon as the code is ready, odds
+are that you have lacking quality standards. Frequent bugs and
+release fear is a negative spiral that has eroded many systems. If
+you want to break that spiral, start by coming up with a strong
+test pyramid model that will reduce the risk of bugs. Then follow
+up with an easy to implement rollback strategy. Top it all off
+with a feature flagging process for features you want to safely
+test in production and you should see that you start to build
+confidence enough to deploy often.
 
 ## How To Create A Sustainable Software Development Process?
 
 The main thing you need to make this happen is the right people.
 No process you create will be able to bridge confusion between the
-stakeholders and the development team. If the team has weak communication
-skills and bad comprehension of what needs to be done, all you will
-gain is a system that rots more and more.
+stakeholders and the development team. If the team has weak
+communication skills and bad comprehension of what needs to be
+done, all you will gain is a system that rots more and more.
 
 Testing, rollbacks, DevOps and so on. These are all great things
-but they are meaningless if the people who are going to do the work
-barely know enough to actually apply these tools effectively.
-Having someone who writes bad code and has a hard time understanding
-expectations write tests will just be a pointless exercise in writing
-a test that doesn't actually prevent any bugs.
-I have lost count of how many times managers have been saying we need
-DevOps to succeed only to later realize that the people they have
-hired lack the experience to do it effectively. Then the next step
-is to educate people. Funny how we all seem to agree that hiring a
-junior and teaching them the craft of programming is a big investment
-that may not yield much but trying to teach developers who could not
-care less to learn tools that take years of effort to master is the
-obvious investment to make. So far I have never seen it work out.
-The people you want on your project are the people who have a inherit
-interest in doing a good job and focus on improving themselves.
+but they are meaningless if the people who are going to do the
+work barely know enough to actually apply these tools effectively.
+Having someone who writes bad code and has a hard time
+understanding expectations write tests will just be a pointless
+exercise in writing a test that doesn't actually prevent any bugs.
+I have lost count of how many times managers have been saying we
+need DevOps to succeed only to later realize that the people they
+have hired lack the experience to do it effectively. Then the next
+step is to educate people. Funny how we all seem to agree that
+hiring a junior and teaching them the craft of programming is a
+big investment that may not yield much but trying to teach
+developers who could not care less to learn tools that take years
+of effort to master is the obvious investment to make. So far I
+have never seen it work out. The people you want on your project
+are the people who have a inherit interest in doing a good job and
+focus on improving themselves.
 
 Once you have the right people the playbook is pretty simple. Your
 most basic building block are going to be as follows.
@@ -1881,87 +1931,93 @@ most basic building block are going to be as follows.
 - Architecture
 - Process quality
 
-Starting from the top, product roadmap. This is one of the most key
-elements in having an effective team. As programmers write code there
-is a myriads of small decisions to make. How should we organize our
-logic? What type of database suits our system? What about schemas?
-The UI, what would be the best stack for it?
+Starting from the top, product roadmap. This is one of the most
+key elements in having an effective team. As programmers write
+code there is a myriads of small decisions to make. How should we
+organize our logic? What type of database suits our system? What
+about schemas? The UI, what would be the best stack for it?
 
-All of these tiny decisions will be closer to the mark if the people
-making them know what they are supposed to make and what their customers
-hope to get from their work. If your development team never ask any
-questions about the product or the users need, replace them.
-Failing to understand what your customer wants is in my view an
-unforgivable sin of any craftsman and as a customer you should never
-work with people who will lay the blame of why your system fails on
-the customer. As the provider of a service, and developing software
-is a service, it is on us to make sure we understand what we need
-to do so without causing undue issues. Inversely, it is the stakeholders
-job to make sure the craftsman understand what the vision is. If either
-side fail in this regard, trouble is sure to follow.
+All of these tiny decisions will be closer to the mark if the
+people making them know what they are supposed to make and what
+their customers hope to get from their work. If your development
+team never ask any questions about the product or the users need,
+replace them. Failing to understand what your customer wants is in
+my view an unforgivable sin of any craftsman and as a customer you
+should never work with people who will lay the blame of why your
+system fails on the customer. As the provider of a service, and
+developing software is a service, it is on us to make sure we
+understand what we need to do so without causing undue issues.
+Inversely, it is the stakeholders job to make sure the craftsman
+understand what the vision is. If either side fail in this regard,
+trouble is sure to follow.
 
-Once we know the details of what we are making and what our customer
-hopes to get from our work, we need to decide on how to go about it.
-This brings us to architecture. Now, there is an entire suite of job
-roles dedicated to this subject. In my very biased view, most of them
-are not fit to design a hello world application, let alone create
-a coherrent plan for development teams.
+Once we know the details of what we are making and what our
+customer hopes to get from our work, we need to decide on how to
+go about it. This brings us to architecture. Now, there is an
+entire suite of job roles dedicated to this subject. In my very
+biased view, most of them are not fit to design a hello world
+application, let alone create a coherrent plan for development
+teams.
 
 My advice is to start small and create a system that can grow. To
-do this we will need to leverage the insights we got from understanding
-how our customers want to use our system and what they hope it will
-do for them. The architecture should always be based on the experience
-the customer wants. If they intend to run a lot of heavy computations,
-we need to account for that in how we design the system. If they want
-workflows that lock parts of the UI under certain conditions, we need
-to account for it. If they have a plethora of various access personas
-we need to account for that when we design the security model. All
-of these needs and more, impact how we build our system. Good architecture
-almost never come down to how your flowchart looks, it comes down
-to how you design your system at the code level. To this day I argue
-the default architecture for your run of the mill CRUD application
-should be a modular monolith. It is a source code architecture that
-is easy to start with and can easily be expanded or even split up
-in to a distributed system over time. The rest comes down to knowing
-what features need special design decisions. Sadly, knowing what to
-pick for what feature is mostly based on your experience level.
-No magic playbook that will help here but you can try to gain insight
-from looking at how other products have done it.
+do this we will need to leverage the insights we got from
+understanding how our customers want to use our system and what
+they hope it will do for them. The architecture should always be
+based on the experience the customer wants. If they intend to run
+a lot of heavy computations, we need to account for that in how we
+design the system. If they want workflows that lock parts of the
+UI under certain conditions, we need to account for it. If they
+have a plethora of various access personas we need to account for
+that when we design the security model. All of these needs and
+more, impact how we build our system. Good architecture almost
+never come down to how your flowchart looks, it comes down to how
+you design your system at the code level. To this day I argue the
+default architecture for your run of the mill CRUD application
+should be a modular monolith. It is a source code architecture
+that is easy to start with and can easily be expanded or even
+split up in to a distributed system over time. The rest comes down
+to knowing what features need special design decisions. Sadly,
+knowing what to pick for what feature is mostly based on your
+experience level. No magic playbook that will help here but you
+can try to gain insight from looking at how other products have
+done it.
 
-Finally, quality of our process plays in. This is where a strong tech
-lead has the biggest impact on the result. Just as there is a product
-vision a tech lead needs to create a delivery process that is easy
-to follow for all team members. Key areas to focus on is to make guides
-for manual tasks, create automated pipelines that enforce code standards
-and run automated tests. Perhaps most important of all, the tech lead
-needs to create a easy to follow code architecture that makes it super
-clear how to write boilerplate code that feels consistent over time.
-Most of the time backend developers have as many API designs as there
-are people who work on the project. Frontend developers adhoc everything
-they make and lets not even talk about how often the tech lead is
-a backend developer who couldn't give two shits about what the
-frontend developers are doing so the two junior developers they hired
-so the backend developers don't have to bother with learning frontend
-are more or less on their own.
+Finally, quality of our process plays in. This is where a strong
+tech lead has the biggest impact on the result. Just as there is a
+product vision a tech lead needs to create a delivery process that
+is easy to follow for all team members. Key areas to focus on is
+to make guides for manual tasks, create automated pipelines that
+enforce code standards and run automated tests. Perhaps most
+important of all, the tech lead needs to create a easy to follow
+code architecture that makes it super clear how to write
+boilerplate code that feels consistent over time. Most of the time
+backend developers have as many API designs as there are people
+who work on the project. Frontend developers adhoc everything they
+make and lets not even talk about how often the tech lead is a
+backend developer who couldn't give two shits about what the
+frontend developers are doing so the two junior developers they
+hired so the backend developers don't have to bother with learning
+frontend are more or less on their own.
 
-If the tech lead fails to create simple to follow patterns that are
-followed, the code will start to rot. I personally prefer to create
-custom linters and pipeline scripts that do everything from checking
-that controllers follow the right patterns to that code shared across
-the project is placed in a shared location instead of having a big
-ball of spiderweb imports spread across willy nilly. My best advice
-here is to learn the quirks of the job and find simple ways to mitigate
-the most common issues a developer will introduce. Here a bit of knowing
-human nature is best. You know that some developers will forget to
-write tests, some will just copy paste the closest piece of code
-they find that is similar to their feature. So, don't ignore it.
-Add checks that force them to write tests. Create reference code
-that show how to create key features. Think like a coach. Your team
-have strengths and weaknesses. Know what they are and design your
-source code and pipelines to break bad habits. Don't just write it
-down in some wiki. You know that the average developer won't read
-it, let alone remember it while working. Build it in to your merge
-request pipelines instead.
+If the tech lead fails to create simple to follow patterns that
+are followed, the code will start to rot. I personally prefer to
+create custom linters and pipeline scripts that do everything from
+checking that controllers follow the right patterns to that code
+shared across the project is placed in a shared location instead
+of having a big ball of spiderweb imports spread across willy
+nilly. My best advice here is to learn the quirks of the job and
+find simple ways to mitigate the most common issues a developer
+will introduce. Here a bit of knowing human nature is best. You
+know that some developers will forget to write tests, some will
+just copy paste the closest piece of code they find that is
+similar to their feature. So, don't ignore it. Add checks that
+force them to write tests. Create reference code that show how to
+create key features. Think like a coach. Your team have strengths
+and weaknesses. Know what they are and design your source code and
+pipelines to break bad habits. Don't just write it down in some
+wiki. You know that the average developer won't read it, let alone
+remember it while working. Build it in to your merge request
+pipelines instead.
 
 ## How To Ensure Code Consistency Across A Large Team?
 
@@ -1977,24 +2033,25 @@ have enough real problems to worry about.
 I argue that any good tech lead should act as any good ruler.
 You will start a rebellion if you try to micro manage every
 tiny detail of your subjects lives. The trick is to put up laws
-that keep everyone moving in the right direction without suffocating
-them. Use the least amount of rules needed to get the results needed
-and allow the rest to be chaos. Controlled chaos is what makes life
-fun enough to keep it interesting.
+that keep everyone moving in the right direction without
+suffocating them. Use the least amount of rules needed to get the
+results needed and allow the rest to be chaos. Controlled chaos is
+what makes life fun enough to keep it interesting.
 
-When you want code to be consistent you simply need to reach for your
-favourite linting tool. This will give you the control you need for
-syntax styles. Keep in mind the lesson from earlier. Only use lint
-rules that are really important to keep the code clean and maintainable.
+When you want code to be consistent you simply need to reach for
+your favourite linting tool. This will give you the control you
+need for syntax styles. Keep in mind the lesson from earlier. Only
+use lint rules that are really important to keep the code clean
+and maintainable.
 
-Most linting tools support a base template of rules to follow. Pick
-one and modify it until your team is happy.
+Most linting tools support a base template of rules to follow.
+Pick one and modify it until your team is happy.
 
 I urge developers to consider making custom lint rules for project
 specific patterns as well. Often you will find that having a lint
-rule that stops developers from duplicating the same code or breaking
-an important design rule is much more effective than only doing a
-code review.
+rule that stops developers from duplicating the same code or
+breaking an important design rule is much more effective than only
+doing a code review.
 
 ## What Are The Core Principles Of Devops?
 
@@ -2012,38 +2069,38 @@ run the checks you want to happen before you ship your code to
 users. These checks are commonly running automated tests but can
 include any types of checks really. Linting the code, checking if
 documentation is up to date, anything really. My mantra is, if you
-would suggest it in a code review, create a pipeline script or lint
-rule for it instead. If possible, ofcourse.
+would suggest it in a code review, create a pipeline script or
+lint rule for it instead. If possible, ofcourse.
 
-This is our first principle because we want to make sure that we have
-a main arbiter for if our code is ready to deploy. When we work in
-teams we all have our own workstation and we want to make sure that
-regardless of what your own personal setup looks like, our checks
-work the same for everyone.
+This is our first principle because we want to make sure that we
+have a main arbiter for if our code is ready to deploy. When we
+work in teams we all have our own workstation and we want to make
+sure that regardless of what your own personal setup looks like,
+our checks work the same for everyone.
 
 Once the automated checks pass we usually want our manual checks
-to happen. Things like code reviews and manual testing happens now.
-To be clear. Ideally we don't want any manual work but sometimes it
-can not be avoided. Our goal should be to recude the amount of manual
-work with automation. A good example is testing. Automated tests should
-be our first goal and we should only do manual testing for things
-we can't automate.
+to happen. Things like code reviews and manual testing happens
+now. To be clear. Ideally we don't want any manual work but
+sometimes it can not be avoided. Our goal should be to recude the
+amount of manual work with automation. A good example is testing.
+Automated tests should be our first goal and we should only do
+manual testing for things we can't automate.
 
 Finally our pipeline should allow us to deploy our code. Normally
-we find that teams use one pipeline to deploy to testing environments
-and similar before deploying to production but the same basic principle
-applies.
+we find that teams use one pipeline to deploy to testing
+environments and similar before deploying to production but the
+same basic principle applies.
 
 The heart and soul of the first principle is that there should be
 a gateway system the each change to our code goes through before
 reaching the users. That system should ensure that the end product
 measures up the expectations of the stakeholders.
 
-Second principle, monitoring. Monitoring the systems health through
-hardware load gauges and application logging is the bread and butter
-of any serious DevOps strategy. At the very least we want to make
-sure we are monitoring the system load and application errors so
-we can pinpoint where issues occur.
+Second principle, monitoring. Monitoring the systems health
+through hardware load gauges and application logging is the bread
+and butter of any serious DevOps strategy. At the very least we
+want to make sure we are monitoring the system load and
+application errors so we can pinpoint where issues occur.
 
 Entire books are written on this subject alone and there are as
 many strategies as there are systems. My personal strategy is
@@ -2054,52 +2111,56 @@ First, I want to see the path a failed request took.
 This I most of the time handle by creating custom errors that
 return a unique error identifier. If we think about how we usually
 learn of errors we will know that there are 2 main ways. First and
-probably best, there is an error log. Second, the users contact us.
-In both cases it helps us a lot if there is a unique identifier code
-or similar we can take from the logs or the user and then use to search
-our monitoring system for. This is sometimes called request tracing
-and it is not possible to overstate how important this is for debugging
-errors. I even go as far as to say that UI design should include error
-message designs that make it easy for developers to get the information
-they need from the users in order to find the problem. If your users
-calls and  just says "it is not working", it won't help much.
+probably best, there is an error log. Second, the users contact
+us. In both cases it helps us a lot if there is a unique
+identifier code or similar we can take from the logs or the user
+and then use to search our monitoring system for. This is
+sometimes called request tracing and it is not possible to
+overstate how important this is for debugging errors. I even go as
+far as to say that UI design should include error message designs
+that make it easy for developers to get the information they need
+from the users in order to find the problem. If your users calls
+and just says "it is not working", it won't help much.
 
 Second, I want to know what the state of the data was.
 
 The most common issue developers have once they can identify when
 and where an error has occurred in their system is to figure out
-why. Why did the error happen? My mindset when asking this question
-almost always comes back to that I want to know what code was running
-and what data was being used. To solve this I follow a principle I
-call "input output". This principle is applied when adding logs to
-the system. It means that I want my error logs to include what data
-was coming in to my function at the time of error and what data the
-code was sending over a possible database connection or API call.
+why. Why did the error happen? My mindset when asking this
+question almost always comes back to that I want to know what code
+was running and what data was being used. To solve this I follow a
+principle I call "input output". This principle is applied when
+adding logs to the system. It means that I want my error logs to
+include what data was coming in to my function at the time of
+error and what data the code was sending over a possible database
+connection or API call.
 
 Here we have a simple example.
 
 ![logging](../assets/light_logging.png)
 
-Notice that if this code fails we will have all the data we need to
-know how the function ran when it failed. However, we can also have
-a trickier case where we need to do something a bit fancier to get
-the same understanding.
+Notice that if this code fails we will have all the data we need
+to know how the function ran when it failed. However, we can also
+have a trickier case where we need to do something a bit fancier
+to get the same understanding.
 
 Here we get an issue where our data is changing and we are none
 the wiser.
 
 ![logging problem](../assets/light_logging_problem.png)
 
-For more advanced cases like this I like to enrich my logging a bit.
+For more advanced cases like this I like to enrich my logging a
+bit.
 
 ![fix](../assets/light_logging_problem_fix.png)
 
-Now we have made sure that the data that left our function is included
-if there is an error and we added the function name in the log so
-we can find it. Why do you ask? Well, because of the `processData`
-function. In our current code we don't know if the saving or the processing
-function is the culprit. However, if we follow the input output principle
-we expect our `processData` function to look something like this.
+Now we have made sure that the data that left our function is
+included if there is an error and we added the function name in
+the log so we can find it. Why do you ask? Well, because of the
+`processData` function. In our current code we don't know if the
+saving or the processing function is the culprit. However, if we
+follow the input output principle we expect our `processData`
+function to look something like this.
 
 ![process](../assets/light_logging_problem_process.png)
 
@@ -2120,11 +2181,11 @@ when a change is done in my system at the code level. This is
 usually easy to handle. We can simply use things like tagging
 a commit, deploy, check for errors and deploy the previous tag
 if something breaks. This is probably the most basic way to have
-an undo button. However, if we can't wait that long we can leverage
-modern deployment tools that does basically the same thing but a
-lot more effectively. Blue/green deployments, rollovers and a
-myriad of other techniques exist that can give us that sweet undo
-button.
+an undo button. However, if we can't wait that long we can
+leverage modern deployment tools that does basically the same
+thing but a lot more effectively. Blue/green deployments,
+rollovers and a myriad of other techniques exist that can give us
+that sweet undo button.
 
 If we want to get fancy or if we simply can't just revert our
 changes as is the case with web. Mobile development comes to mind.
@@ -2139,65 +2200,66 @@ and disable the feature again.
 These are some of my favourite ways to create an undo button.
 There is however a case I have faced a lot that always fills
 me with a bit of unease, data changes. By far and wide the most
-troublesome issue to create an undo button for is statefull changes
-where our data changes. Why you ask? Well, because someone came up
-with the silly idea that all websites should be available at all
-times. No downtime is my least favourite trend in web application
-development, winning over The clean architecture by just a hair.
+troublesome issue to create an undo button for is statefull
+changes where our data changes. Why you ask? Well, because someone
+came up with the silly idea that all websites should be available
+at all times. No downtime is my least favourite trend in web
+application development, winning over The clean architecture by
+just a hair.
 
 In cases of stateful changes, such as with a database change, we
 need to get a bit more creative. If at all possible, I prefer to
-shut down the system, migrate and restart. This is sadly not always
-possible and that brings us to the problem of high availability.
-What to do if you need to change the database without blocking
-users from using the system?
+shut down the system, migrate and restart. This is sadly not
+always possible and that brings us to the problem of high
+availability. What to do if you need to change the database
+without blocking users from using the system?
 
-My personal favorite way is to adopt a eventual consistency strategy
-and simply run a job that migrates records that are not currently
-and top it of with some temporary code that reads old data when
-requests come in but then writes the data in the new format.
-This allows the migration to run without blocking the users and
-is the least bad way I have found to solve this problem without
-resorting to grpc or other stack specific tools.
+My personal favorite way is to adopt a eventual consistency
+strategy and simply run a job that migrates records that are not
+currently and top it of with some temporary code that reads old
+data when requests come in but then writes the data in the new
+format. This allows the migration to run without blocking the
+users and is the least bad way I have found to solve this problem
+without resorting to grpc or other stack specific tools.
 
 ## How Can Teams Make Better Use Of Version Control Systems?
 
-I suppose that depends on how you are using it today. Me personally,
-I use git and treat everything related to my project as something
-that will be version controlled. I much prefer to work with git
-friendly formats for my files whenever possible. Markdown, Mermaid
-and similar formats are my go to choices. Anything that is text based
-really.
+I suppose that depends on how you are using it today. Me
+personally, I use git and treat everything related to my project
+as something that will be version controlled. I much prefer to
+work with git friendly formats for my files whenever possible.
+Markdown, Mermaid and similar formats are my go to choices.
+Anything that is text based really.
 
 In the age of AI this becomes even more useful since simple text
 formats work especially well when working. Commit changes, prompt
-AI, evaluate the results and either commit again or revert the changes.
-Often I find that by using version control it is faster to revert
-failed attempts by an AI agent and start over than it is to try to
-keep going down the prompt rabbit hole.
+AI, evaluate the results and either commit again or revert the
+changes. Often I find that by using version control it is faster
+to revert failed attempts by an AI agent and start over than it is
+to try to keep going down the prompt rabbit hole.
 
 I think of version control like the save and load feature in video
 games. It is such a important safety net that anything you want to
 keep safe from unintended changes should be in it.
 
-This becomes even more powerful when applying Gitops practices where
-entire workflows can be created using version control. Having a
-repository of configurations and custom scripts that run pipelines
-the manage your infrastructure brings both tracability and a deterministic
-pipeline that you can fully customize.
+This becomes even more powerful when applying Gitops practices
+where entire workflows can be created using version control.
+Having a repository of configurations and custom scripts that run
+pipelines the manage your infrastructure brings both tracability
+and a deterministic pipeline that you can fully customize.
 
 ## Why Is Code Readability More Important Than Cleverness?
 
-It is not strictly true that readability is more important. I would
-argue that it is rather that we only want to trade readability away
-if the benefits are so great that it is worth it. Remember, if you
-or your coworkers can't understand the code, it will cause bugs.
-Often we need to come up with a solution to a problem and if we are
-lucky we can strike a good balance between readability and cleverness.
-That balance is sometimes forgotten by developers who fall in love
-with their own solution or who forget that what is simple to them
-may not be simple to others. This is a coding crime that many will
-commit at one time or another.
+It is not strictly true that readability is more important. I
+would argue that it is rather that we only want to trade
+readability away if the benefits are so great that it is worth it.
+Remember, if you or your coworkers can't understand the code, it
+will cause bugs. Often we need to come up with a solution to a
+problem and if we are lucky we can strike a good balance between
+readability and cleverness. That balance is sometimes forgotten by
+developers who fall in love with their own solution or who forget
+that what is simple to them may not be simple to others. This is a
+coding crime that many will commit at one time or another.
 
 What follows is usually frustration. Either with yourself when you
 come back and you have realized that your clever solution isn't as
@@ -2215,72 +2277,77 @@ you usually end up with a more well rounded solution.
 ## What Are The Challenges Of Implementing Ci/cd Pipelines?
 
 The endless cycle of getting an error with the pipeline host.
-Pushing a fix. Waiting for the host to fail and then adding debugging
-code in a soul crushing loop until you figure out that the problem
-is that the host file system is different from what you expect.
+Pushing a fix. Waiting for the host to fail and then adding
+debugging code in a soul crushing loop until you figure out that
+the problem is that the host file system is different from what
+you expect.
 
-I hate debugging pipelines with a passion. Running a pipeline several
-times to figure out the differences between a locally working one
-and the remote host takes a toll on me so severe that I age visibly
-when I have to do it. This becomes less of an issue if I have direct
-access to the host but I have so far never worked in a professional
-environment where such a luxury was available.
+I hate debugging pipelines with a passion. Running a pipeline
+several times to figure out the differences between a locally
+working one and the remote host takes a toll on me so severe that
+I age visibly when I have to do it. This becomes less of an issue
+if I have direct access to the host but I have so far never worked
+in a professional environment where such a luxury was available.
 
-Whenever I can I try to create pipelines that only perform whatever
-tasks needed in a folder on the host file system that is created
-before the run. This removes the issue of navigating the file system
-on the host.
+Whenever I can I try to create pipelines that only perform
+whatever tasks needed in a folder on the host file system that is
+created before the run. This removes the issue of navigating the
+file system on the host.
 
-If at all possible I try to avoid statefull pipeline hosts. I would
-rather have a fresh base image with the tools needed for my pipeline
-each run. This helps a lot with bugs that can often happen because
-the pipeline scripts assume things about the filesystem that can
-become inconsistent if a run failed or some part of the run failed.
+If at all possible I try to avoid statefull pipeline hosts. I
+would rather have a fresh base image with the tools needed for my
+pipeline each run. This helps a lot with bugs that can often
+happen because the pipeline scripts assume things about the
+filesystem that can become inconsistent if a run failed or some
+part of the run failed.
 
-As with anything that happens in a remote environment, what happened
-and what caused a problem is the main question you will have when
-working. I recommend that you add a nearly absurd level of logging
-to your pipeline. It will help a lot when you want to check how the
-run ended. My personal favourite is to log before a pipeline task
-is about to start, what the state of the host is. Run the task. Then
-logging out what task did and what the state is. Following this pattern
-helps a lot when trying to pinpoint where something did or did not
-happen properly and what the result was.
+As with anything that happens in a remote environment, what
+happened and what caused a problem is the main question you will
+have when working. I recommend that you add a nearly absurd level
+of logging to your pipeline. It will help a lot when you want to
+check how the run ended. My personal favourite is to log before a
+pipeline task is about to start, what the state of the host is.
+Run the task. Then logging out what task did and what the state
+is. Following this pattern helps a lot when trying to pinpoint
+where something did or did not happen properly and what the result
+was.
 
 ## What Are The Best Practices For Version Control In Collaborative Teams?
 
-I solemnly hope you never have to work in anything besides a collaborative
-team.
+I solemnly hope you never have to work in anything besides a
+collaborative team.
 
-Best practices when working with version control system such as git
-is to most a matter of learning a few basic commands. Pull, commit,
-push and merge willy nilly until your code is in the main branch.
-Rebase is something to be feared and cherry-pick is a command you
-have never used but you love the name.
+Best practices when working with version control system such as
+git is to most a matter of learning a few basic commands. Pull,
+commit, push and merge willy nilly until your code is in the main
+branch. Rebase is something to be feared and cherry-pick is a
+command you have never used but you love the name.
 
 However, to some, this is a cult. These diciples of the way of git
 who have meditated on this subject can and will make anyones life
 a living hell of endless discussions about what is and what is not
-the proper way to write a commit message. The correct way of naming
-branches. They will judge your value as a human based mostly on
-how clean your git history tree is.
+the proper way to write a commit message. The correct way of
+naming branches. They will judge your value as a human based
+mostly on how clean your git history tree is.
 
-If you fall in to this group of people feel free to ignore everything
-I am about to write. The following are the only practices I have found
-to be applicable and truly useful to the average team. Because we
-have to remember, most developers know only the most basic command.
+If you fall in to this group of people feel free to ignore
+everything I am about to write. The following are the only
+practices I have found to be applicable and truly useful to the
+average team. Because we have to remember, most developers know
+only the most basic command.
 
-If you only take away one thing, please remember to create a git tag
-each time you deploy your code. This is by far the simplest way to
-do a rollback if something goes wrong. The evangelists will push for
-clean history trees and so far I have always found the same thing.
-Wishing for a clean tree with mainly atomic commits from all your
-coworkers is like expecting that they will all wash the coffee muggs
-after using them. Some will and a lot will put the dirty mugs in the
-sink for someone else to handle later. With git tags you at the very
-least know the last time you had code that was working. In a pinch
-that is what you care about most so add them for every deployment
-just in case you need to roll the code back.
+If you only take away one thing, please remember to create a git
+tag each time you deploy your code. This is by far the simplest
+way to do a rollback if something goes wrong. The evangelists will
+push for clean history trees and so far I have always found the
+same thing. Wishing for a clean tree with mainly atomic commits
+from all your coworkers is like expecting that they will all wash
+the coffee muggs after using them. Some will and a lot will put
+the dirty mugs in the sink for someone else to handle later. With
+git tags you at the very least know the last time you had code
+that was working. In a pinch that is what you care about most so
+add them for every deployment just in case you need to roll the
+code back.
 
 Next, add the story id in the branch name. I won't debate how to
 name branches or which of the many branching strategies you should
@@ -2288,29 +2355,31 @@ use but so far this has always been a pattern that works well
 regardless of situation. Adding the story id makes finding the
 right branch a lot easier and makes it simple to go to your issue
 tracking system and get the needed context for the work. Which is
-usually a one line description with no acceptance criteria but still,
-better than trying to guess the name of the right branch. I apply
-the same principle in the pull requests, create good story cards and
-link to them rather than repeating descriptions. Always treat the
-storycard as the single source of truth if possible.
+usually a one line description with no acceptance criteria but
+still, better than trying to guess the name of the right branch. I
+apply the same principle in the pull requests, create good story
+cards and link to them rather than repeating descriptions. Always
+treat the storycard as the single source of truth if possible.
 
-Finally we can open the jar of worms that is what branching strategy
-the team should use. This is a debate with no clear winner. Some swear
-by trunk based and others feel that release branches is the way. This
-is for some reason such an area of debate that I have met developers
-who mock or even get in to arguments over the subject. So instead
-of debating over which approach is best practice, I will do something
-different. I will give you a workflow that I use with my teams that
-I have so far have had great success with.
+Finally we can open the jar of worms that is what branching
+strategy the team should use. This is a debate with no clear
+winner. Some swear by trunk based and others feel that release
+branches is the way. This is for some reason such an area of
+debate that I have met developers who mock or even get in to
+arguments over the subject. So instead of debating over which
+approach is best practice, I will do something different. I will
+give you a workflow that I use with my teams that I have so far
+have had great success with.
 
 We first have to agree that each merge we make is a unit of work.
-The way we track a unit of work is through our issue tracking system
-that holds all the cards we have written for things we need to make.
+The way we track a unit of work is through our issue tracking
+system that holds all the cards we have written for things we need
+to make.
 
-With this out of the way we can move on to defining a release of code.
-A release is just a bucket of features we want to ship. A feature
-is just bucket full of tasks we need to complete in order for the
-feature to be ready.
+With this out of the way we can move on to defining a release of
+code. A release is just a bucket of features we want to ship. A
+feature is just bucket full of tasks we need to complete in order
+for the feature to be ready.
 
 This means that if we create a top level story card, commonly
 referred to as an epic, we have our release. This card should
@@ -2323,28 +2392,30 @@ If we feel the need to split out individual features or bugfixes
 we can again leverage the semver system and use a version tag to
 earmark each individual merge we make.
 
-The most common next subject to debate is if we have one main branch
-or if we have one branch per environment. I have found that using
-a single main branch, branching from it, doing work and the merging
-it back is easiest for developers to work with. This is probably by
-most defined as a trunk based approach and I can only say that the
-main drawback people critique about this is the case when you have
-issues with differences between environments or functionality that
-differs based on various factors. I prefer to solve these issues
-with feature flagging and configurations rather than having multiple
-branches to keep up to date. I find that it is more common that
-teams get problems with knowing what code is in what environment
-than it is to make sure the feature flagging configs are correct.
+The most common next subject to debate is if we have one main
+branch or if we have one branch per environment. I have found that
+using a single main branch, branching from it, doing work and the
+merging it back is easiest for developers to work with. This is
+probably by most defined as a trunk based approach and I can only
+say that the main drawback people critique about this is the case
+when you have issues with differences between environments or
+functionality that differs based on various factors. I prefer to
+solve these issues with feature flagging and configurations rather
+than having multiple branches to keep up to date. I find that it
+is more common that teams get problems with knowing what code is
+in what environment than it is to make sure the feature flagging
+configs are correct.
 
 ## What Are The Risks Of Poor Version Control Practices?
 
 The most significant ones are loss of code, delays and of course,
-seering hatred between coworkers. I can not understate how passionate
-people can get about the workflow in a software team. I argue to my
-team that if it does not cause a bug and a reasonable person can agree
-that the approach is valid, keep your opinions to yourself and get
-on with your life. Not a popular opinion to all developers but most
-of the time your coworkers will appriciate some breathing room.
+seering hatred between coworkers. I can not understate how
+passionate people can get about the workflow in a software team. I
+argue to my team that if it does not cause a bug and a reasonable
+person can agree that the approach is valid, keep your opinions to
+yourself and get on with your life. Not a popular opinion to all
+developers but most of the time your coworkers will appriciate
+some breathing room.
 
 However, if the team doesn't take care to align on who is changing
 what code or if you use a branching strategy that cause confusion,
@@ -2362,46 +2433,47 @@ bugs.
 ## What Are The Common Pitfalls In Continuous Delivery?
 
 The main one would be quality control. Most teams struggle with
-creating a testing strategy that they trust fully. It can be argued
-that you can run a CI/CD workflow with a bit of manual testing but
-the norm is usually that you should aim for such confidence in your
-delivery pipeline that once the code is merged the rest of the process
-is mostly automated.
+creating a testing strategy that they trust fully. It can be
+argued that you can run a CI/CD workflow with a bit of manual
+testing but the norm is usually that you should aim for such
+confidence in your delivery pipeline that once the code is merged
+the rest of the process is mostly automated.
 
-The second one that comes to bite you is the stability of your environments.
-An example of where CI/CD can break quickly is when you are pushing
-schema updates or other potentially breaking changes. Most teams optimize
-for stateless CI/CD because it is relatively easy to do so but when
-dealing with state it gets a bit trickier.
+The second one that comes to bite you is the stability of your
+environments. An example of where CI/CD can break quickly is when
+you are pushing schema updates or other potentially breaking
+changes. Most teams optimize for stateless CI/CD because it is
+relatively easy to do so but when dealing with state it gets a bit
+trickier.
 
 My advice is usually to focus on a pipeline that you trust before
-trying to fully automate deployments. Most teams never get to a point
-where their testing strategy is good enough that they can go "true"
-CI/CD but then again it is not really a pattern that has any proven
-value in of itself. The value is not in that you don't have to press
-a button to do the release, the value is that you don't have any pile
-up of work due to people just stacking more things in the release.
-If you do that odds are that you will have multiple things going out
-in to production at the same time. That is not a great situation for
-you if something breaks and your not sure what is causing it. Now
-you need to get out the detective hat and figure out what commits
-are safe and which are not.
+trying to fully automate deployments. Most teams never get to a
+point where their testing strategy is good enough that they can go
+"true" CI/CD but then again it is not really a pattern that has
+any proven value in of itself. The value is not in that you don't
+have to press a button to do the release, the value is that you
+don't have any pile up of work due to people just stacking more
+things in the release. If you do that odds are that you will have
+multiple things going out in to production at the same time. That
+is not a great situation for you if something breaks and your not
+sure what is causing it. Now you need to get out the detective hat
+and figure out what commits are safe and which are not.
 
 The average team never runs a fully automated delivery pipeline.
-There are automated tests on a completed pull request with deployment
-to a testing environment for manual testing and then finally a manual
-deployment button to press or some flavor of it.
+There are automated tests on a completed pull request with
+deployment to a testing environment for manual testing and then
+finally a manual deployment button to press or some flavor of it.
 
 ## What Are The Benefits Of Creating A Unified Code Style Guide?
 
 Most of the time it only comes down to consistency in syntax.
 This is in my view not an important area of debate and I even
 have a catch-phrase for my view on this subject. "If you want me
-to do it, make a lint rule for it". I truly do not care about minor
-debates around syntax but habits die hard so I always sit down with
-my team and ask what styles we want to follow. When we have agreed
-on what standards to follow I set up a linter that handles any
-mistakes.
+to do it, make a lint rule for it". I truly do not care about
+minor debates around syntax but habits die hard so I always sit
+down with my team and ask what styles we want to follow. When we
+have agreed on what standards to follow I set up a linter that
+handles any mistakes.
 
 Where this gets more complex is when we aren't dealing with some
 arbitrary syntax rules but in how we solve problems. My personal
@@ -2419,43 +2491,46 @@ mistake to make.
 
 This largely depends on the method of documentation. If we look
 at language documentation the favored pattern is to use inline
-comments that we then extract out to websites or other documentation
-formats. We can argue about if that is truly self documenting code
-or simply documentation website build tool.
+comments that we then extract out to websites or other
+documentation formats. We can argue about if that is truly self
+documenting code or simply documentation website build tool.
 
 This is in my view the simplest manifestation of documentation and
 is invaluable for things like SDK's or third party libraries.
-However, this is not a pattern you will commonly see in most projects
-since most of them are not libraries but rather application that don't
-need a documentation system for every function.
+However, this is not a pattern you will commonly see in most
+projects since most of them are not libraries but rather
+application that don't need a documentation system for every
+function.
 
-I would argue that the most common benefit of self documenting code
-is that it helps the developers keep track of the requirements put
-on the code they write. If you ask me, we should treat our requirement
-documents as a list of tests to create. Most developer don't do this
-but rather focus on writing tests that focus on testing the implementation
-rather than the expectations.
+I would argue that the most common benefit of self documenting
+code is that it helps the developers keep track of the
+requirements put on the code they write. If you ask me, we should
+treat our requirement documents as a list of tests to create. Most
+developer don't do this but rather focus on writing tests that
+focus on testing the implementation rather than the expectations.
 
 Consider the following example.
 
 ![docs](../assets/test_docs.png)
 
 Notices that in the first test we express that we want the user to
-saved to the database. This test has captured the intent of the function.
-The second test is testing that the database save method was called.
-It focuses on the implementation details which misses the point.
-If we change the specifics of the code this test will need updating
-but the requirements are still the same.
-Taking care when creating tests and making sure that all the requirements
-have a test is one of the best methods of documenting code.
+saved to the database. This test has captured the intent of the
+function. The second test is testing that the database save method
+was called. It focuses on the implementation details which misses
+the point. If we change the specifics of the code this test will
+need updating but the requirements are still the same.
+Taking care when creating tests and making sure that all the
+requirements have a test is one of the best methods of documenting
+code.
 
-The approach is still the same even if we go high up in the application
-layers. The main takeaway is that self documenting code can never
-truly be created through comments or documents but we can create systems
-around our code that proves if our documentation is up to date.
-A well formulated test with a description focusing on the intent of
-the code is my favorite way to both document code and create a reminder
-system for how the system has been built.
+The approach is still the same even if we go high up in the
+application layers. The main takeaway is that self documenting
+code can never truly be created through comments or documents but
+we can create systems around our code that proves if our
+documentation is up to date. A well formulated test with a
+description focusing on the intent of the code is my favorite way
+to both document code and create a reminder system for how the
+system has been built.
 
 ## How To Ensure Continuous Improvement
 
@@ -2476,41 +2551,43 @@ promise it will get priority in the future.
 
 I have found that some developers behave like each decision they
 make needs to be treated like a community hearing and be approved
-by a range of stakeholders. Imagine if you had to go and check with
-all your coworkers if it was ok to go to the bathroom. Then making
-extra sure that it is also ok the wash your hands or not. This is
-how politics work, a slow grinding process where you need to hear
-from every single person who has an opinion. This may be an effective
-method to make sure no one is overlooked but it is an impractical
-method for when autonomy is required to see any results.
+by a range of stakeholders. Imagine if you had to go and check
+with all your coworkers if it was ok to go to the bathroom. Then
+making extra sure that it is also ok the wash your hands or not.
+This is how politics work, a slow grinding process where you need
+to hear from every single person who has an opinion. This may be
+an effective method to make sure no one is overlooked but it is an
+impractical method for when autonomy is required to see any
+results.
 
 The more opinions you try to include the greater the odds are that
-you will be dragged in to a lengthy process that will kill any energy
-you have to follow through. So I usually propose to my teams that
-we allocated a improvement budget. This is usually one or two days
-a week. Any of the developers in the team can at any time say that
-they found an issue and suggest an improvement. If the team isn't
-strictly against it they opt out of the normal workflow to create
-a POC of the improvement. Our goal is to encourage responsible action
-without too much upfront work that kills the motivation.
+you will be dragged in to a lengthy process that will kill any
+energy you have to follow through. So I usually propose to my
+teams that we allocated a improvement budget. This is usually one
+or two days a week. Any of the developers in the team can at any
+time say that they found an issue and suggest an improvement. If
+the team isn't strictly against it they opt out of the normal
+workflow to create a POC of the improvement. Our goal is to
+encourage responsible action without too much upfront work that
+kills the motivation.
 
-This method also acts as a nice valve for developers who need a break
-from long running or boring work. Getting a short break to fix an
-issue in the code can have a refreshing effect on the mind.
+This method also acts as a nice valve for developers who need a
+break from long running or boring work. Getting a short break to
+fix an issue in the code can have a refreshing effect on the mind.
 The key insight here is that big improvements may need planning
-but inspiration is not something you plan, it is a spurr of the moment
-phenomenon, so make sure you have a way to fan that flame in to action
-if you want anything to happen.
+but inspiration is not something you plan, it is a spurr of the
+moment phenomenon, so make sure you have a way to fan that flame
+in to action if you want anything to happen.
 
 ## How To Optimize Ci/cd Pipelines For Fast Feedback?
 
 The safest bet you have for a stable pipeline is most of the time
 to create a centralized set of configuration files with the least
 amount of complexity. Ideally these pipelines should focus on a
-narrow task that is responsible for one step in the delivery process.
-Any custom scripts should be version controlled and ideally also
-focus on one task. A good example of a simple list of tasks that
-a pipeline can have is as follows.
+narrow task that is responsible for one step in the delivery
+process. Any custom scripts should be version controlled and
+ideally also focus on one task. A good example of a simple list of
+tasks that a pipeline can have is as follows.
 
 - Run lint tools
 - Run tests
@@ -2518,26 +2595,28 @@ a pipeline can have is as follows.
 - Package distribution artifact
 
 This pipeline has a small list of steps that has an ordering that
-starts from the simplest checks and move on to more important checks
-before finally producing a artifact that can be distributed. The mindset
-we are after is that we want to mimic the behaviour we would have
-if we manually wanted to make sure our code was ready for production.
-We then want to order it in increasing task weight. In our example
-we will find that linting is usually fast, thus we want it to run
-early so that we get quick feedback before we move on to heavier work.
-The tests can be the slowest thing we need to run but it doesn't
-really make sense to test the code after we have built it. Reasonable
-people can debate that statement but I hope the general idea is clear.
+starts from the simplest checks and move on to more important
+checks before finally producing a artifact that can be
+distributed. The mindset we are after is that we want to mimic the
+behaviour we would have if we manually wanted to make sure our
+code was ready for production. We then want to order it in
+increasing task weight. In our example we will find that linting
+is usually fast, thus we want it to run early so that we get quick
+feedback before we move on to heavier work. The tests can be the
+slowest thing we need to run but it doesn't really make sense to
+test the code after we have built it. Reasonable people can debate
+that statement but I hope the general idea is clear.
 
 Next we need to remember that some tasks are slower than others so
 we may want to consider running tasks in parallel. Linting and
-tests are not strictly dependant on each other so we could run them
-at the same time and abort the pipeline if any of them fail. This
-will boost our speed. However, if we have a lot of tests we may want
-to split the running of that task in to multiple parallel test runs.
-Most of the time our best bet here will be to create test tasks that
-target a specific area of our code and convert one big test task in
-to a suite of test tasks. Take the following change as an example.
+tests are not strictly dependant on each other so we could run
+them at the same time and abort the pipeline if any of them fail.
+This will boost our speed. However, if we have a lot of tests we
+may want to split the running of that task in to multiple parallel
+test runs. Most of the time our best bet here will be to create
+test tasks that target a specific area of our code and convert one
+big test task in to a suite of test tasks. Take the following
+change as an example.
 
 - Run lint tools
 - Run tests
@@ -2562,11 +2641,12 @@ This can even go further depending on the size of the test suites.
 My personal rule for splitting tests is to split on the controller
 or page level.
 
-Next we want to make sure to frontload our heavier tests so they start
-first. Note, this is only the case for test we run in parallel since
-we want slow tests to have more time to run so they have a chance
-to catch up to the faster tests that will start up last. After all,
-we need them all to pass before the pipeline is completed.
+Next we want to make sure to frontload our heavier tests so they
+start first. Note, this is only the case for test we run in
+parallel since we want slow tests to have more time to run so they
+have a chance to catch up to the faster tests that will start up
+last. After all, we need them all to pass before the pipeline is
+completed.
 
 Finally, we want to create small targeted pipelines that we can
 compose together in to a whole deployment. It is not a great idea
@@ -2598,32 +2678,33 @@ Let us break this down a bit.
 
 ### Experience
 
-The ugly truth about DevOps is that not all teams can handle it. The
-expectations put on the developers is i.e that they should know about
-an entire ecosystem of cloud services or similar options that in of
-themselves are an entire education to learn. The sad fact is that
-most developers do not have the interest to self learn the skills
-needed to handle operations of their own system. This is why companies
-tend to fall in two buckets. Either their teams are self learning
-on the job through trial and error or they provide a operations team
-that centrally take on the task of setting up the teams environments,
-thus lowering the skill need from the team. Running devops effectively
-is almost always dependant on the profiles in the team. With the right
-profiles it is easy, with the wrong ones you will have a lot of issues.
+The ugly truth about DevOps is that not all teams can handle it.
+The expectations put on the developers is i.e that they should
+know about an entire ecosystem of cloud services or similar
+options that in of themselves are an entire education to learn.
+The sad fact is that most developers do not have the interest to
+self learn the skills needed to handle operations of their own
+system. This is why companies tend to fall in two buckets. Either
+their teams are self learning on the job through trial and error
+or they provide a operations team that centrally take on the task
+of setting up the teams environments, thus lowering the skill need
+from the team. Running devops effectively is almost always
+dependant on the profiles in the team. With the right profiles it
+is easy, with the wrong ones you will have a lot of issues.
 
 ### Complexity management
 
 One of the key insights a successful DevOps engineers can have is
 how to setup the ecosystem of services around the application.
-I go as far as to judge the maturity of a operations team and indeed
-anyone who configures operational services based on their ability
-to know what should be pushed down to the source code repository
-and what should be in the cloud environments. I can not stress
-enough how important it is to understand that as soon as you
-leave the local workstation and move to a distributed network
+I go as far as to judge the maturity of a operations team and
+indeed anyone who configures operational services based on their
+ability to know what should be pushed down to the source code
+repository and what should be in the cloud environments. I can not
+stress enough how important it is to understand that as soon as
+you leave the local workstation and move to a distributed network
 of services, complexity explodes. Debugging is harder.
-Flaky behaviour becomes a factor. Raceconditions and syncronization
-between services needs to be accounted for.
+Flaky behaviour becomes a factor. Raceconditions and
+syncronization between services needs to be accounted for.
 These are pains that anyone who has ever tried to run a large set
 of microservices with a service mesh on top and a range of other
 bells and whistles will know all too well. Consider carefully
@@ -2637,8 +2718,8 @@ I hope it goes without saying that I argue for making various
 DevOps tasks in to a local affair based on the previous section.
 However, sometimes creating a git repository with scripts that run
 various tasks, configurations and all the other tools you need to
-manage your system isn't enough. Enter the most important tool there
-is to figure out what's going on, logging.
+manage your system isn't enough. Enter the most important tool
+there is to figure out what's going on, logging.
 
 Effective logging and error messaging is key to figure out where
 issues happen. I promote creating standard error messages in the
@@ -2647,19 +2728,20 @@ go from error found to an overview of the path the request took.
 
 But what to log? Well, usually I find that a basic information log
 for the incoming request and it's path is a good start. Logging
-is closely dependant on how you write code as well. If you log willy
-nilly in the code your debugging will be harder. I advocate for a
-"always throw" convention in the code. This means that there is exactly
-one place where the error logging is happening. That is in a global
-error handler that will catch all thrown errors, log exactly one error
-with a trace id for the request and respond to the client system.
-This keeps the logs clean from a noisy log spam that can happen
-if logs are sprinkled around the codebase.
+is closely dependant on how you write code as well. If you log
+willy nilly in the code your debugging will be harder. I advocate
+for a "always throw" convention in the code. This means that there
+is exactly one place where the error logging is happening. That is
+in a global error handler that will catch all thrown errors, log
+exactly one error with a trace id for the request and respond to
+the client system. This keeps the logs clean from a noisy log spam
+that can happen if logs are sprinkled around the codebase.
 On top of this I urge developers to think about good logging as
-a pure function at each level of the stacktrace. When we are checking
-on errors we want to know what data came in to the function and what
-data was returned. This is vital for us to figure out what data the
-logic in our system was working with at the time of running.
+a pure function at each level of the stacktrace. When we are
+checking on errors we want to know what data came in to the
+function and what data was returned. This is vital for us to
+figure out what data the logic in our system was working with at
+the time of running.
 
 These basic tips will give you the following:
 
@@ -2679,13 +2761,13 @@ Even if something goes wrong, most of us calm down when we know
 that there is a super easy undo button we can press.
 
 Probably the most basic example of this is to make sure you follow
-semantic versioning conventions and store your release artifacts for
-quick redeployment. Pair this with error alerts so you know if someting
-broke in production and you can with the press of a button deploy
-the previous version of the system. This gets a bit trickier when
-you are working with schema updates or similar breaking changes
-but figuring out an easy to follow approach is well worth the
-investment.
+semantic versioning conventions and store your release artifacts
+for quick redeployment. Pair this with error alerts so you know if
+someting broke in production and you can with the press of a
+button deploy the previous version of the system. This gets a bit
+trickier when you are working with schema updates or similar
+breaking changes but figuring out an easy to follow approach is
+well worth the investment.
 
 ## What Are The Benefits Of Creating Reusable Code Libraries?
 
@@ -2738,187 +2820,195 @@ once you can figure out what weakpoint you have in the pipeline.
 
 Most of the time I prefer to run a gitops workflow where all my
 configurations, documentations and custom scripts are in a git
-repository. When I have this setup I can design nearly any workflow
-by simply creating scripts that do the work. This is especially
-usefull when working with AI since all the AI needs is in a local
-environment with documentation in a markdown format.
+repository. When I have this setup I can design nearly any
+workflow by simply creating scripts that do the work. This is
+especially usefull when working with AI since all the AI needs is
+in a local environment with documentation in a markdown format.
 
 ## How To Encourage Developers To Adopt Best Practices?
 
 Honestly, it is always down to emotions with developers. Most
 developers have their personal favorite way of doing things and
-if they feel strongly about them they will not be open to alternatives.
-The best example of this is probably seen in the way juniors and seniors
-react to changes in their workflow. I find that juniors are more open
-to change on average, especially if it is proposed by someone they
-see as a senior. My theory is that many have yet to establish confidence
-in their craft so they bend easier. There are exceptions here naturally
-but it is more common to find a senior who feel that whatever they
-have been doing is the better way than facing that sort of confidence
-in a junior.
+if they feel strongly about them they will not be open to
+alternatives. The best example of this is probably seen in the way
+juniors and seniors react to changes in their workflow. I find
+that juniors are more open to change on average, especially if it
+is proposed by someone they see as a senior. My theory is that
+many have yet to establish confidence in their craft so they bend
+easier. There are exceptions here naturally but it is more common
+to find a senior who feel that whatever they have been doing is
+the better way than facing that sort of confidence in a junior.
 
-Most of the time you will be best served by making a value proposition
-for the best practices you want the developers to adopt. Showcase
-a few examples of the practice when it shines and lean heavy on what
-will be improved. A bit of salesmanship is your best option here.
-Trust me, you can link as many articles of best practices you want
-and odds are that none of them will be read if you are dealing with
-developers who have already made up their mind about how they want
-to work.
+Most of the time you will be best served by making a value
+proposition for the best practices you want the developers to
+adopt. Showcase a few examples of the practice when it shines and
+lean heavy on what will be improved. A bit of salesmanship is your
+best option here. Trust me, you can link as many articles of best
+practices you want and odds are that none of them will be read if
+you are dealing with developers who have already made up their
+mind about how they want to work.
 
-Finally I will say that depending on the best practice we are talking
-about we may have to put it to a vote. In any healthy team you should
-be able to agree that if most of the team wants something, that is
-what you should all do. In the wrong team you will find one or two
-very opposed parties and a majority who do not care either way so
-the proposal may go nowhere. There are even cases when you have a
-senior profile who i.e decideds on everything for the team. Not
-because they are always right but because they are seen as the most
-experienced member. This can be extra troubling when we speak about
-testing for example. If your team oppose the idea you may need to
-escalate to your managers but that really only works if the practice
-you want to introduce is something they can understand the value of
-and are willing to push on the team. Weigh the value of a best practice
-and be honest about it. Is the practice a nice to have or something
-that is critical. Pick your next step based on how important the
-practice is and understand that there are more best practices than
-you will be able to adopt. Best practices are just that, a practice.
-They are not a strict laws and they can be ignored if the situation
+Finally I will say that depending on the best practice we are
+talking about we may have to put it to a vote. In any healthy team
+you should be able to agree that if most of the team wants
+something, that is what you should all do. In the wrong team you
+will find one or two very opposed parties and a majority who do
+not care either way so the proposal may go nowhere. There are even
+cases when you have a senior profile who i.e decideds on
+everything for the team. Not because they are always right but
+because they are seen as the most experienced member. This can be
+extra troubling when we speak about testing for example. If your
+team oppose the idea you may need to escalate to your managers but
+that really only works if the practice you want to introduce is
+something they can understand the value of and are willing to push
+on the team. Weigh the value of a best practice and be honest
+about it. Is the practice a nice to have or something that is
+critical. Pick your next step based on how important the practice
+is and understand that there are more best practices than you will
+be able to adopt. Best practices are just that, a practice. They
+are not a strict laws and they can be ignored if the situation
 calls for it.
 
 ## How To Optimize Development Processes For Continuous Improvement?
 
 Start by having the right people. The developers who actively seek
-to better themselves and the project are few in number. This is the
-true insight that most companies fail to grasp, you can't hire random
-people and expect them to just magically care about helping your project
-improve. The average person will do what you tell them to do. If
-the job they do can be made slightly nicer they may suggest improvements
-they like but that is not always something that aligns with the goals
-of the project. Most developers will suggest improvements they personally
-care about and if you are lucky those suggestions will have a net
-benefit to the project but they can also just be a cost you take
-on so the developers can try out something that is more about them
-than the goals of the project.
+to better themselves and the project are few in number. This is
+the true insight that most companies fail to grasp, you can't hire
+random people and expect them to just magically care about helping
+your project improve. The average person will do what you tell
+them to do. If the job they do can be made slightly nicer they may
+suggest improvements they like but that is not always something
+that aligns with the goals of the project. Most developers will
+suggest improvements they personally care about and if you are
+lucky those suggestions will have a net benefit to the project but
+they can also just be a cost you take on so the developers can try
+out something that is more about them than the goals of the
+project.
 
 The key element to add is the right person. You don't need a whole
 team of developers who live and breathe code but you need at least
-one person who has a genuine interest in taking on the challenge of
-understanding the goals of the project stakeholders. Once these
+one person who has a genuine interest in taking on the challenge
+of understanding the goals of the project stakeholders. Once these
 goals are understood the real work can begin. Updating processes
-and tools to streamline quality and delivery speed. It is well worth
-making sure you can entice at least one person who is a good fit for
-this role if you want anything to happen.
+and tools to streamline quality and delivery speed. It is well
+worth making sure you can entice at least one person who is a good
+fit for this role if you want anything to happen.
 
 Once you have someone who has the profile you need, make it clear
-to them what you want to see happen. You can leave it to them to figure
-out how to improve the project and the related processes but if they
-truly are the right sort of person they will do so. However, if you
-want to see specific improvements, make sure you communicate them.
-Should the focus be on reducing bugs? Faster delivery speed?
-Be clear about what you want to see and then ask them to make suggestions
-of what can be done. Act as a stakeholder would for a new feature.
-Ask them to motivate their ideas before they commit to them.
+to them what you want to see happen. You can leave it to them to
+figure out how to improve the project and the related processes
+but if they truly are the right sort of person they will do so.
+However, if you want to see specific improvements, make sure you
+communicate them. Should the focus be on reducing bugs? Faster
+delivery speed? Be clear about what you want to see and then ask
+them to make suggestions of what can be done. Act as a stakeholder
+would for a new feature. Ask them to motivate their ideas before
+they commit to them.
 
-Finally, make sure the process of doing something to improve has the
-lowest thought to action bar there is. If you require people with
-ideas to go through a lengthy planning process you can kiss most
-improvements goodbye. Steam builds quickly and is lost just as quickly
-for most people so make sure that there is a time budget to implement
-improvements.
+Finally, make sure the process of doing something to improve has
+the lowest thought to action bar there is. If you require people
+with ideas to go through a lengthy planning process you can kiss
+most improvements goodbye. Steam builds quickly and is lost just
+as quickly for most people so make sure that there is a time
+budget to implement improvements.
 
 ## What Are The Risks Of Neglecting Regular Dependency Updates?
 
-The most common would be security risks. If you fall behind on updates
-you may be the target of attacks from bad actors. This is likely the
-most well known risk but I would argue there is another that is
-slightly more subtle. One of the key benefits behind continous delivery
-is that we create a streamlined pipeline that release new features
-to production environments when they are done. There are a number
-topics worthy of debate to this but one key benefit is that if we
-ship often we reduce the scope of the changes happening. This has
-the benefit of reducing the area of impact when we do something that
-can break production. The same benefit applies to dependency updates.
-If you wait for too long the risk is that you build up a codebase
-that depends on outdated packages and when you then need to update
-the cost is massive since you are so far behind that you may have
-to make extensive changes. The more packages you let fall behind,
-the larger the impact area becomes. It is not uncommon to find
-projects that are locked in to specific versions of tools just
-because they have a workflow that would break if they updated.
+The most common would be security risks. If you fall behind on
+updates you may be the target of attacks from bad actors. This is
+likely the most well known risk but I would argue there is another
+that is slightly more subtle. One of the key benefits behind
+continous delivery is that we create a streamlined pipeline that
+release new features to production environments when they are
+done. There are a number topics worthy of debate to this but one
+key benefit is that if we ship often we reduce the scope of the
+changes happening. This has the benefit of reducing the area of
+impact when we do something that can break production. The same
+benefit applies to dependency updates. If you wait for too long
+the risk is that you build up a codebase that depends on outdated
+packages and when you then need to update the cost is massive
+since you are so far behind that you may have to make extensive
+changes. The more packages you let fall behind, the larger the
+impact area becomes. It is not uncommon to find projects that are
+locked in to specific versions of tools just because they have a
+workflow that would break if they updated.
 
-If we keep updates on a regular basis the changes are usually minor
-and introduces less risk. A good rule of thumb is that the longer
-you wait the higher the potential cost of updates is so you want
-to do it regularly. Being a bit behind in versions is not an issue
-most of the time, just make sure it doesn't go on so long that you
-can't updates without major risk.
+If we keep updates on a regular basis the changes are usually
+minor and introduces less risk. A good rule of thumb is that the
+longer you wait the higher the potential cost of updates is so you
+want to do it regularly. Being a bit behind in versions is not an
+issue most of the time, just make sure it doesn't go on so long
+that you can't updates without major risk.
 
 ## What Are The Benefits Of Implementing Developer-friendly Tooling?
 
-Well the obvious answer would be that developers enjoy working with
-them and thus increase their happniess and potentially their productivity.
-However, this is a common area of corporate waste. There are more
-attempts at improving workflows out there than true success cases.
-It is really hard to figure out how to build something that is a net
-benefit to developers workflow. Often I promote that instead of investing
-in building custom tools you simply create template configurations
-and setups using the tools of the trade. This gives developers a starting
-point for things like cloud infrastructure and new projects without
-creating a abstraction on top that removes their ability to customize.
+Well the obvious answer would be that developers enjoy working
+with them and thus increase their happniess and potentially their
+productivity. However, this is a common area of corporate waste.
+There are more attempts at improving workflows out there than true
+success cases. It is really hard to figure out how to build
+something that is a net benefit to developers workflow. Often I
+promote that instead of investing in building custom tools you
+simply create template configurations and setups using the tools
+of the trade. This gives developers a starting point for things
+like cloud infrastructure and new projects without creating a
+abstraction on top that removes their ability to customize.
 Instead of building a custom UI application that under the hood is
-just using tools like Terraform to handle your infrastructure. Just
-make a simple to download template project with clear instructions.
+just using tools like Terraform to handle your infrastructure.
+Just make a simple to download template project with clear
+instructions.
 
-When we create custom tools we also add knowledge requirements. Now
-our developers need to learn this tool and we rob people of the chance
-to learn industry adopted tools that will be knowledge that serves
-them better than our custom tool, at least most of the time.
+When we create custom tools we also add knowledge requirements.
+Now our developers need to learn this tool and we rob people of
+the chance to learn industry adopted tools that will be knowledge
+that serves them better than our custom tool, at least most of the
+time.
 
 It is worth making custom tools just remember that there are many
 ways to do it. If you create a tool that blocks people because it
 fails to predict some use case, thats not great. However, if you
-have tedious processes or manual work you can automate without having
-to invest tons of time, it is usually a good idea. Just make sure
-that you are product minded and do the one thing so few do. Talk.
-To.The. Customer. If you want people to use your tools and like it,
-make sure you know what they like first.
+have tedious processes or manual work you can automate without
+having to invest tons of time, it is usually a good idea. Just
+make sure that you are product minded and do the one thing so few
+do. Talk. To.The. Customer. If you want people to use your tools
+and like it, make sure you know what they like first.
 
 ## What Are The Best Practices For Managing Integration?
 
 This is a tricky one as it depends on if you are the one doing the
-integration to another system or if you are the one providing an API
-that others will integrate to.
+integration to another system or if you are the one providing an
+API that others will integrate to.
 
 If we handle the simpler case first, at least for me as the author
-trying to explain this complex topic, you are integrating to someone
-elses API.
+trying to explain this complex topic, you are integrating to
+someone elses API.
 
 Most of the time you won't know what type of communication formats
-are going to be used. We who work in IT companies can get a bit accustomed
-to integrating to other IT companies who use JSON with simple to follow
-documentation websites but in the wild your integration may use all
-manner of approaches. Some companies use third party platforms that
-use their own flavour of XML. Some only use FTP and some only use
-emails. Then there is a range of quirks that may be part of the data
-being transferred.
+are going to be used. We who work in IT companies can get a bit
+accustomed to integrating to other IT companies who use JSON with
+simple to follow documentation websites but in the wild your
+integration may use all manner of approaches. Some companies use
+third party platforms that use their own flavour of XML. Some only
+use FTP and some only use emails. Then there is a range of quirks
+that may be part of the data being transferred.
 
-To battle this complexity we need some way to isolate each integration
-from the rest of our code. The worst thing we can do is to let the
-integration details leak in to our own codebase. My approach is most
-of the time to create a simple folder with the name of the platform
-I am integrating to. In this folder I have at least 2 things. A readme
-file that has all the information I need about the integration. Links
-to documentation, contact information and anything else that is relevant.
-My goal is to have all knowledge about the intgration in that folder.
-Second, a class with a name like `CompanyNameApiClient`. This class
-exposes the methods that will perform the API calls. This class has
-one other very important job. It has to act as a converter between
-data models that make sense for my system and models that make sense
-to the system I am integrating to. I do not want data models that
-make sense for the other system to leak in to my system. I only want
-to pick out the data from the responses and put them in a data model
-that makes sense to my system.
+To battle this complexity we need some way to isolate each
+integration from the rest of our code. The worst thing we can do
+is to let the integration details leak in to our own codebase. My
+approach is most of the time to create a simple folder with the
+name of the platform I am integrating to. In this folder I have at
+least 2 things. A readme file that has all the information I need
+about the integration. Links to documentation, contact information
+and anything else that is relevant. My goal is to have all
+knowledge about the intgration in that folder. Second, a class
+with a name like `CompanyNameApiClient`. This class exposes the
+methods that will perform the API calls. This class has one other
+very important job. It has to act as a converter between data
+models that make sense for my system and models that make sense to
+the system I am integrating to. I do not want data models that
+make sense for the other system to leak in to my system. I only
+want to pick out the data from the responses and put them in a
+data model that makes sense to my system.
 
 Consider the code below.
 
@@ -2928,54 +3018,59 @@ The key thing here is that the raw data we are getting is data we
 are getting from a system that was not designed for our system.
 Instead of leaking the names and other values we don't want in to
 our system we simply create a clean interface that makes sense to
-our system and map over the data. If we are sending data we perform
-the same process. This means that we can add as many integrations
-as we want without bringing in the quirks of each in to our own code.
+our system and map over the data. If we are sending data we
+perform the same process. This means that we can add as many
+integrations as we want without bringing in the quirks of each in
+to our own code.
 
-Next is important to consider the robustness of our integration. We
-will want to consider adding retry code and other practices to make
-sure we don't have issues with flaky connections.
+Next is important to consider the robustness of our integration.
+We will want to consider adding retry code and other practices to
+make sure we don't have issues with flaky connections.
 
-Lastly, I almost always add contract testing on top of my integrations.
-To keep it brief, contract tests are tests that simply check that
-the code follows the documented request schemas. This means that we
-have an easy way to know if our own code follows the provided documentation.
-We can't really know if the code works in practices since we don't
-know if the API providers documentation is correct or not. It is common
-to see providers change their API's without updating the documentation
-or telling client system beforehand. This often leads to confusion
-stakeholders ask why the system stopped working and you now have to
-figure out if it is your own code or the providers code that is failing.
-With contract test it is easy for you to know if you are following
-the provided documentation so you can easily exclude the possibility
-that this is the reason the system fails.
+Lastly, I almost always add contract testing on top of my
+integrations. To keep it brief, contract tests are tests that
+simply check that the code follows the documented request schemas.
+This means that we have an easy way to know if our own code
+follows the provided documentation. We can't really know if the
+code works in practices since we don't know if the API providers
+documentation is correct or not. It is common to see providers
+change their API's without updating the documentation or telling
+client system beforehand. This often leads to confusion
+stakeholders ask why the system stopped working and you now have
+to figure out if it is your own code or the providers code that is
+failing. With contract test it is easy for you to know if you are
+following the provided documentation so you can easily exclude the
+possibility that this is the reason the system fails.
 
-As an extra layer of protection, always log the data being transferred
-over the integration in it's raw format if you see issues with data
-quality. It is important you have some way to check the raw data before
-it gets mapped in to your own code so you can easily show if the bug
-was due to your code or if the provider sent data that was incorrect.
-If you are the one sending the data the same idea applies. Make sure
-you know what is being sent over the network.
-This is a massive timesaver when bugs happen since the first thing
-to figure out is who has the bug. You will save yourself many video
-conferences of debugging sessions if you follow these steps.
+As an extra layer of protection, always log the data being
+transferred over the integration in it's raw format if you see
+issues with data quality. It is important you have some way to
+check the raw data before it gets mapped in to your own code so
+you can easily show if the bug was due to your code or if the
+provider sent data that was incorrect. If you are the one sending
+the data the same idea applies. Make sure you know what is being
+sent over the network. This is a massive timesaver when bugs
+happen since the first thing to figure out is who has the bug. You
+will save yourself many video conferences of debugging sessions if
+you follow these steps.
 
-Next, lets talk about being a provider. This will be an oversimplification
-of a subject that is so big that it requires several books to cover
-all the details in being a good API provider. So instead of trying
-to relay all these details to you I urge you to learn from the patterns
-found to be useful by the companies who do this really well. I will
-share some of the tips I have found to be most useful. These tips
-work pretty well for the average IT company who is looking to do one
-off integration for a few customers or create a service that has
-various teams integrating to it.
+Next, lets talk about being a provider. This will be an
+oversimplification of a subject that is so big that it requires
+several books to cover all the details in being a good API
+provider. So instead of trying to relay all these details to you I
+urge you to learn from the patterns found to be useful by the
+companies who do this really well. I will share some of the tips I
+have found to be most useful. These tips work pretty well for the
+average IT company who is looking to do one off integration for a
+few customers or create a service that has various teams
+integrating to it.
 
-First, as API provider we need to understand that an API is a product.
-We are trying to create an API that is easy to work with and supports
-the operations our client systems need. One of the most common mistakes
-developer make is that they create a system that is designed for one
-client and then latch on functionality needed for a integration.
+First, as API provider we need to understand that an API is a
+product. We are trying to create an API that is easy to work with
+and supports the operations our client systems need. One of the
+most common mistakes developer make is that they create a system
+that is designed for one client and then latch on functionality
+needed for a integration.
 
 Take the following example.
 
@@ -2993,56 +3088,59 @@ Often you will see this happening.
 
 This is a trivial example but I hope you understand the core idea.
 You have one implementation of your own client systems logic flow
-that was designed with the focus being a single client that you own.
-The way that API works may be specific to your own client and not
-suited for direct integration. Naturally your new integration API
-will be designed the same way. You focus on creating an endpoint that
-will work for this new integration. This process will the continue
-for the next integration. I argue that each iteration of this API
-will focus on patching oversights in the design so it can meet new
-requirements without ever considering if you are making a nice API.
-If we want to create a product minded API without having to maintain
-two different flows that can in theory create a split in our own code
-because we are treating our own systems needs as different from those
-of the external clients. What we want is to design an API where our
-own systems need can live peacefully next to our integration clients.
-This means that we need to create an API that solves the problem of
-listing users in the manner the clients need without treating them
-as two different groups.
+that was designed with the focus being a single client that you
+own. The way that API works may be specific to your own client and
+not suited for direct integration. Naturally your new integration
+API will be designed the same way. You focus on creating an
+endpoint that will work for this new integration. This process
+will the continue for the next integration. I argue that each
+iteration of this API will focus on patching oversights in the
+design so it can meet new requirements without ever considering if
+you are making a nice API. If we want to create a product minded
+API without having to maintain two different flows that can in
+theory create a split in our own code because we are treating our
+own systems needs as different from those of the external clients.
+What we want is to design an API where our own systems need can
+live peacefully next to our integration clients. This means that
+we need to create an API that solves the problem of listing users
+in the manner the clients need without treating them as two
+different groups.
 
 Consider the following code.
 
 ![usercontroller](../assets/integration_user_controller_with_validation.png)
 
-In this API we provide the most basic CRUD operations to the client.
-Each client needs to provide an API token to validate their authentication
-and we can maintain the same code flow regardless of who is making
-the call. This is by far the simplest approach we can take to make
-sure our clients can work with our system. If we design our API to
-work as a thin layer on top of the database we can easily extend the
-API with query parameters that change the behaviour of these basic
-calls without dividing our logic flows in two flows that need to
-be individually tested and maintained.
+In this API we provide the most basic CRUD operations to the
+client. Each client needs to provide an API token to validate
+their authentication and we can maintain the same code flow
+regardless of who is making the call. This is by far the simplest
+approach we can take to make sure our clients can work with our
+system. If we design our API to work as a thin layer on top of the
+database we can easily extend the API with query parameters that
+change the behaviour of these basic calls without dividing our
+logic flows in two flows that need to be individually tested and
+maintained.
 
-However, we are now faced with a very important issue we need to handle.
-Since each client is accessing the same data now, we need a way to
-control these operations. We may want our own system to be able to
-delete users but that would probably be really bad to allow other
-clients to do. Now most of us will naturally think about adding
-role based access. This is a model most learn as their first approach
-to system authorization. I however argue that this model is best suited
-for dealing with simple user experiences with clear roles but it lacks
-the granularity needed to manage access to a datamodel that can grow
-over time. If we want to keep the whole user model private usng a
-a role is easy but if we just want specific fields to be private we
-quickly find that we potentially need one role for every variant of
-client we have. This is where a policy system is better suited. We
-can express complex operations and restricitons on the client easily
-if we create a library of operations the client has to provide to
-be allowed to do something. A good example where this is important
-is for destructive operations such as deleting and updating. We want
-our own system to be able to do this for any user but for other clients
-we want them to only be allowed to do it for their own.
+However, we are now faced with a very important issue we need to
+handle. Since each client is accessing the same data now, we need
+a way to control these operations. We may want our own system to
+be able to delete users but that would probably be really bad to
+allow other clients to do. Now most of us will naturally think
+about adding role based access. This is a model most learn as
+their first approach to system authorization. I however argue that
+this model is best suited for dealing with simple user experiences
+with clear roles but it lacks the granularity needed to manage
+access to a datamodel that can grow over time. If we want to keep
+the whole user model private usng a a role is easy but if we just
+want specific fields to be private we quickly find that we
+potentially need one role for every variant of client we have.
+This is where a policy system is better suited. We can express
+complex operations and restricitons on the client easily if we
+create a library of operations the client has to provide to be
+allowed to do something. A good example where this is important is
+for destructive operations such as deleting and updating. We want
+our own system to be able to do this for any user but for other
+clients we want them to only be allowed to do it for their own.
 
 ![policy](../assets/integration_user_controller_with_validation_policy.png)
 
@@ -3050,87 +3148,91 @@ In this example we have converted our updating to account for when
 we need different access behaviour depending on who is making the
 call. A simple practice to follow is to use a dot notated string
 that expresses the resource and the operation. We can extend this
-even further and have greater granularity where we can allow updates
-on specific fields on the user such as `user.write.email` or for a
-client `user.write.me.email`. Custom operations that may trigger other
-logic flows can easily be created as well. `[user.write.status, email.notify.statusUpdate]`
-would be a simple way to allow the client to control if we are going
-to trigger a notification email after the update or not without hardcoding
-in client specific logic or create several different endpoints. We
+even further and have greater granularity where we can allow
+updates on specific fields on the user such as `user.write.email`
+or for a client `user.write.me.email`. Custom operations that may
+trigger other logic flows can easily be created as well.
+`[user.write.status, email.notify.statusUpdate]` would be a simple
+way to allow the client to control if we are going to trigger a
+notification email after the update or not without hardcoding in
+client specific logic or create several different endpoints. We
 support the feature without assuming all our clients will want the
-same behaviour. Giving each client the control to decide if an email
-is to be sent or not. All we need to do is to update our code to check
-for the policy.
+same behaviour. Giving each client the control to decide if an
+email is to be sent or not. All we need to do is to update our
+code to check for the policy.
 
-Next we will need to account for another telltale sign of great product
-design. Consistency. One of the most frustrating parts of integrations
-is to have endpoints and especially errors differ in how they work.
-The best approach here in my view is to decide on standars for how
-your API will look and behave. If searching is possible on one endpoint,
-all similar endpoints support it too. If one endpoint responds with
-a resource after it was created, all of them do. To enforce this I
-recommend using static tools such as linters. Using AI, creating a
-suite of linters that validate that all your endpoints follow the
-same pattern is a great help. If you can, add OpenApi generators to
-your build so that you can add another layer of linters on top to
-check that the API documentation is there for all your endpoints
-and that they all follow the agreed upon pattern. The rule here is
-that humans forget and they are terrible at being consistent so use
-static analysis to correct mistakes.
+Next we will need to account for another telltale sign of great
+product design. Consistency. One of the most frustrating parts of
+integrations is to have endpoints and especially errors differ in
+how they work. The best approach here in my view is to decide on
+standars for how your API will look and behave. If searching is
+possible on one endpoint, all similar endpoints support it too. If
+one endpoint responds with a resource after it was created, all of
+them do. To enforce this I recommend using static tools such as
+linters. Using AI, creating a suite of linters that validate that
+all your endpoints follow the same pattern is a great help. If you
+can, add OpenApi generators to your build so that you can add
+another layer of linters on top to check that the API
+documentation is there for all your endpoints and that they all
+follow the agreed upon pattern. The rule here is that humans
+forget and they are terrible at being consistent so use static
+analysis to correct mistakes.
 
 One of my favorite ways to fix this problem is to combine linters
-with code design that will force developers to write more consistent
-code. Take the following example.
+with code design that will force developers to write more
+consistent code. Take the following example.
 
 ![error](../assets/error_response.png)
 
 This is a pretty commone pattern. There is an error and we create
 a short message statis what was wrong. However, this can quickly
 create a lot of variation in what information is in the message
-and some messages can become pretty arbitrary. This is not something
-we can really write tests for but we can design a coding standard
-that raises the chance of getting consistent messages.
+and some messages can become pretty arbitrary. This is not
+something we can really write tests for but we can design a coding
+standard that raises the chance of getting consistent messages.
 
 ![error format](../assets/error_response_formatted.png)
 
-By creating a custom error template we can make sure all our errors
-are consistent and they include key information for the client. If
-we top this off with a linter that will block our developers from
-throwing errors without using the standard error classes we get
-an easy way to change coding behaviour during development.
+By creating a custom error template we can make sure all our
+errors are consistent and they include key information for the
+client. If we top this off with a linter that will block our
+developers from throwing errors without using the standard error
+classes we get an easy way to change coding behaviour during
+development.
 
-Lastly, we need to account for changes to the API and especially breaking
-changes. Here contract testing and static analysis is a great help
-again. Do not and I repeat, do not, auto generate your API documentation
-without having a reference version saved in your repository. The most
-common mistake of developers who do this is that they change the code,
-cause a breaking change, documentation is updated and then they ship,
-breaking client code. Your build pipeline should generate your documentation
-to save you time from having to manually write it but it should also
-check that the new version doesn't introduce breaking changes.
-The best way to make sure this doesn't happen is to create contract
-test that focuses on building client code that was written with the
-published documentation as the reference. If your test breaks that
-means that your clients will break with the new API update.
-It is easy to check yourself when doing this. Do not look at your
-code when you write the tests, look at the API documentation.
-Write test code that simulate a client that wrote their code based
-on this documentation and you will know before you ship if there is
-a breaking change.
+Lastly, we need to account for changes to the API and especially
+breaking changes. Here contract testing and static analysis is a
+great help again. Do not and I repeat, do not, auto generate your
+API documentation without having a reference version saved in your
+repository. The most common mistake of developers who do this is
+that they change the code, cause a breaking change, documentation
+is updated and then they ship, breaking client code. Your build
+pipeline should generate your documentation to save you time from
+having to manually write it but it should also check that the new
+version doesn't introduce breaking changes. The best way to make
+sure this doesn't happen is to create contract test that focuses
+on building client code that was written with the published
+documentation as the reference. If your test breaks that means
+that your clients will break with the new API update. It is easy
+to check yourself when doing this. Do not look at your code when
+you write the tests, look at the API documentation. Write test
+code that simulate a client that wrote their code based on this
+documentation and you will know before you ship if there is a
+breaking change.
 
 ## What Are The Challenges Of Code Consistency In Large Teams?
 
-I suppose the best way I can describe it is that each person writing
-code have different ways of solving problems at times. Getting code
-syntax to be consistent is pretty simple with modern tools but
-the real challenge is to manage large codebases where you simply
-have too much code to know if you are duplicating code that is
-already found somewhere else. It is a talent to design a codebase
-in such a way that developer find overlaps easily and can follow
-well working patterns. It can get even trickier to write your own
-code so that other developers feel that the approach is worth
-following. Personal taste is a big factor in what developers use
-when they decide on how to solve coding problems. Sometimes we
+I suppose the best way I can describe it is that each person
+writing code have different ways of solving problems at times.
+Getting code syntax to be consistent is pretty simple with modern
+tools but the real challenge is to manage large codebases where
+you simply have too much code to know if you are duplicating code
+that is already found somewhere else. It is a talent to design a
+codebase in such a way that developer find overlaps easily and can
+follow well working patterns. It can get even trickier to write
+your own code so that other developers feel that the approach is
+worth following. Personal taste is a big factor in what developers
+use when they decide on how to solve coding problems. Sometimes we
 have very similar ideas of how to best write our code and the
 more experienced you get the more common it is that you see
 the viewpoint of other developers when looking at how they
@@ -3143,12 +3245,12 @@ so that they are a good fit for similar problems. In doing so my
 solution can either be reused or at the very least nearly copy
 pasted for some other purpose. There is no benefit in arguing
 the semantics of what is consistent and what is not if the end
-result doesn't benefit. I don't consider my most strongly opinionated
-coworkers mental itch a good enough reason to conform to trivial
-differences. I only comment in my pull request or accept comments
-that amounts to more than, I just want you to do it my way. That
-is in my view a more relaxed approach that makes people happier
-to work with you without compromising the code.
+result doesn't benefit. I don't consider my most strongly
+opinionated coworkers mental itch a good enough reason to conform
+to trivial differences. I only comment in my pull request or
+accept comments that amounts to more than, I just want you to do
+it my way. That is in my view a more relaxed approach that makes
+people happier to work with you without compromising the code.
 
 ## How To Encourage Teams To Adopt Continuous Delivery Practices?
 
@@ -3161,25 +3263,25 @@ done we limit the scope of what can go wrong. If you batch up code
 changes odds increase that something will go wrong. The more code
 that has been changed the larger the search area is. Sometimes you
 are lucky and the issue following a big batch release is obvious
-and you can fix it. However, your ability to do smooth rollbacks can
-also get impacted since if only a part of the batch has issues you
-now have to figure out how to roll back that code without doing it
-with the code that works. Usually this ends with teams having to use
-a hotfix approach instead of being able to simply do rollbacks or
-they opt for rolling back all code.
-This translates to broken code being in production while the hotfix
-is being made. In my experience teams do not argue with this line
-of logic unless they have exactly one ugly secret. That secret is
-that they and the stakeholders fear changes because the system has
-quality issues. This usually leads to a team of testers doing manual
-testing who need time to do their job and thus a slow moving release train
-is created organically. If you want anyone to hear you out and this
-is the case for your system you are facing a steep uphill battle
-because you will need to convince the team that the way forward is
-to increase the automated testing and surrounding safeguards to
-remove the need for batch releases. You need to remove release fear
-and that is not something you can convince people of, you have to
-change the way the team works.
+and you can fix it. However, your ability to do smooth rollbacks
+can also get impacted since if only a part of the batch has issues
+you now have to figure out how to roll back that code without
+doing it with the code that works. Usually this ends with teams
+having to use a hotfix approach instead of being able to simply do
+rollbacks or they opt for rolling back all code.
+This translates to broken code being in production while the
+hotfix is being made. In my experience teams do not argue with
+this line of logic unless they have exactly one ugly secret. That
+secret is that they and the stakeholders fear changes because the
+system has quality issues. This usually leads to a team of testers
+doing manual testing who need time to do their job and thus a slow
+moving release train is created organically. If you want anyone to
+hear you out and this is the case for your system you are facing a
+steep uphill battle because you will need to convince the team
+that the way forward is to increase the automated testing and
+surrounding safeguards to remove the need for batch releases. You
+need to remove release fear and that is not something you can
+convince people of, you have to change the way the team works.
 
 ## What Are The Key Metrics For Monitoring Ci/cd Pipelines?
 ## What Are The Risks Of Ignoring Devops Practices In Modern Development?

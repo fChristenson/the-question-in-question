@@ -1,6 +1,7 @@
 # Software Architecture And Design
 
-Questions about building scalable systems, simplifying complex code, and designing fault-tolerant architectures.
+Questions about building scalable systems, simplifying complex
+code, and designing fault-tolerant architectures.
 ## Do Abstractions Sacrifice Flexibility In Software Design?
 ## Can You Describe An Over-engineered Software System?
 ## How To Pick A Tech Project To Advance Your Career?

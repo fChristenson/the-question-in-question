@@ -5,7 +5,8 @@ Most out-doors enthusiast will tell you that the key to survival
 is to be prepared.
 
 In the woods being prepared means things like having shelter
-and a water source. In software development it means something different.
+and a water source. In software development it means something
+different.
 
 Survival tips for software developers are as follows:
 
@@ -49,8 +50,8 @@ your CV with things that seem impressive to a new employer.
 
 ## Why Do It Companies Ask If You Were At The Top Of Your Class?
 
-When companies hire new developers they leave that task to managers
-who don't really know what software development is about.
+When companies hire new developers they leave that task to
+managers who don't really know what software development is about.
 What they will do is to look at what other companies are doing
 for inspiration and they will guess what they believe are signs
 of a good developer.
@@ -78,13 +79,13 @@ What I have found is that problems can only be solved by doing
 one of two things. Either you simplify the problem or you increase
 your capacity for solving the problem.
 
-If your managers sets and unrealistic deadline they fail to understand
-this simple truth and more often than not their reason for the
-deadline is not that if they fail to meet it something bad will happen
-but rather they want to move fast enough to meet some expectation.
-This is mean nothing practical for you other than that you will be
-part of a missed deadline and if you are ok with that emotionally
-you don't need to be bothered by it.
+If your managers sets and unrealistic deadline they fail to
+understand this simple truth and more often than not their reason
+for the deadline is not that if they fail to meet it something bad
+will happen but rather they want to move fast enough to meet some
+expectation. This is mean nothing practical for you other than
+that you will be part of a missed deadline and if you are ok with
+that emotionally you don't need to be bothered by it.
 
 The main tip I can give you is to avoid giving false promises
 to your stakeholders and try to be realistic. If your managers

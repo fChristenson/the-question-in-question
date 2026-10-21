@@ -27,13 +27,14 @@ go through each step of the program but you don't need one to
 do it. It does speed things up I find though but I am known to
 be too lazy at times and just use simple log statements.
 
-The general idea is applicable when I get stuck on a feature I need
-to develop. I try to remove the things I am unsure about how to do
-and focus on what I know the code has to do. So I start small.
-This approach fits pretty well with Test driven development and
-I use this approach at times to slow down the development process
-for myself. It helps a bit to write tests in cases such as these
-since the test almost become like a checklist of functionality.
+The general idea is applicable when I get stuck on a feature I
+need to develop. I try to remove the things I am unsure about how
+to do and focus on what I know the code has to do. So I start
+small. This approach fits pretty well with Test driven development
+and I use this approach at times to slow down the development
+process for myself. It helps a bit to write tests in cases such as
+these since the test almost become like a checklist of
+functionality.
 
 Once I know what parts of the feature I can handle I start trying
 to make a first version of the implementation. Once I am happy
@@ -90,26 +91,28 @@ person understands that you are not assuming how they feel,
 you are just stating how you feel about the subject.
 
 Now that I know that I can calmly express how I view the subject,
-it is time to present my arguments for my idea. I do this by adopting
-my company persona "Donkey". Smile, polite tone and speak as if I am
-helping a restaurant customer pick their dinner.
+it is time to present my arguments for my idea. I do this by
+adopting my company persona "Donkey". Smile, polite tone and speak
+as if I am helping a restaurant customer pick their dinner.
 
-Once I have presented my view I almost always end with these words.
-"This is of course just how I look at it and perhaps you feel differently."
-This messages my peer in the argument that it is time for them to
-step in and continue the conversation. What I want is a nice flow
-to the conversation. A good flow builds comfort and reduces the chance
-of unnecessary escalations. The last thing I want is to get in to a
-shouting match over who is the most right with someone. What I think
-in private, that is my business but at work I want to be "Donkey".
+Once I have presented my view I almost always end with these
+words. "This is of course just how I look at it and perhaps you
+feel differently." This messages my peer in the argument that it
+is time for them to step in and continue the conversation. What I
+want is a nice flow to the conversation. A good flow builds
+comfort and reduces the chance of unnecessary escalations. The
+last thing I want is to get in to a shouting match over who is the
+most right with someone. What I think in private, that is my
+business but at work I want to be "Donkey".
 
-This process goes back and forth until both sides have presented their
-views to the satisfaction or boredom of the group, now comes the time
-to move forward. Usually you will find some common ground and the best
-case is if you get the benefit of doubt from your peers so they are
-fine with trying your approach. I usually say that if it is too hard
-to sell a big idea, sell a small one to try out so we can see if we
-like it. This is easier to argue for and gets the same results.
+This process goes back and forth until both sides have presented
+their views to the satisfaction or boredom of the group, now comes
+the time to move forward. Usually you will find some common ground
+and the best case is if you get the benefit of doubt from your
+peers so they are fine with trying your approach. I usually say
+that if it is too hard to sell a big idea, sell a small one to try
+out so we can see if we like it. This is easier to argue for and
+gets the same results.
 
 My last tip, pick your battles. There is no point in winning an
 argument if you end up losing your job over it. Stand up for

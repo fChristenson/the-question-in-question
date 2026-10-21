@@ -1,6 +1,7 @@
 # Interpersonal Skills And Communication
 
-Questions about interacting with non-technical stakeholders, handling criticism, and presenting ideas effectively.
+Questions about interacting with non-technical stakeholders,
+handling criticism, and presenting ideas effectively.
 ## Are People Skills The Most Important Quality For Senior Developers?
 ## How To Explain Technical Challenges To Non-technical Stakeholders?
 ## Do Developers Get Annoyed By Endless Pull Request Comments?

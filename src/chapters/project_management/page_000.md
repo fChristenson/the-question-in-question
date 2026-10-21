@@ -1,6 +1,7 @@
 # Project Management
 
-Questions about managing deadlines, prioritizing work, and balancing scope and quality.
+Questions about managing deadlines, prioritizing work, and
+balancing scope and quality.
 ## How To Pick A Tech Project To Advance Your Career?
 ## Do You Start Thinking Of Solutions Immediately After Receiving Requirements?
 ## How To Commit To An Idea In Software Development?

@@ -1,7 +1,7 @@
 ## How To Deal With Impostor Syndrome In Software Development?
 
-Probably the most common insecurity of any developer is the feeling
-of not being as good as you need to be.
+Probably the most common insecurity of any developer is the
+feeling of not being as good as you need to be.
 To this day I am not completely rid of the feeling of anxiety
 that comes from not being able to meet expectations.
 It has changed from being about my level of coding to being more
@@ -9,39 +9,41 @@ about my ability to interact without stakeholders without friction
 but it is still the same sensation.
 
 Luckily I managed to put most of my fears related to my level of
-coding skill to rest. The trick was simple, be good at what you do.
-Now that may sounds obvious but let me explain. I hope we both can
-agree that a term I like is applicable to your skills as a software
-developer. That term is "reasonable expectations". Why is this
-important? It is important because when you feel like you are not good
-enough, I argue that the first thing to ask is if you are meeting
-reasonable expectations given your situation. We can almost always
-be better than we are but when you are doing work what matters is
-if your results stand in proportion to the role you have.
+coding skill to rest. The trick was simple, be good at what you
+do. Now that may sounds obvious but let me explain. I hope we both
+can agree that a term I like is applicable to your skills as a
+software developer. That term is "reasonable expectations". Why is
+this important? It is important because when you feel like you are
+not good enough, I argue that the first thing to ask is if you are
+meeting reasonable expectations given your situation. We can
+almost always be better than we are but when you are doing work
+what matters is if your results stand in proportion to the role
+you have.
 
 Once I started thinking less about how much worse I am at my job
-than the true masters of software development and I started to thinking
-about how good my results are in comparison with others at my level,
-a big portion of my fears vanished.
-I will not go as far as to say that this will remove all your fear.
-After all each of us feel things in our own way and you may want to
-consider medical help if you find yourself crippled by your anxiety.
-However, I would like to think that the best medicine for impostor
-syndrome is to work hard at your craft until you know that you can
-meet the expectations of the projects you work on.
+than the true masters of software development and I started to
+thinking about how good my results are in comparison with others
+at my level, a big portion of my fears vanished.
+I will not go as far as to say that this will remove all your
+fear. After all each of us feel things in our own way and you may
+want to consider medical help if you find yourself crippled by
+your anxiety. However, I would like to think that the best
+medicine for impostor syndrome is to work hard at your craft until
+you know that you can meet the expectations of the projects you
+work on.
 
 Remember, you can always be better but it is important to look
 at where you are right now. You need stop a little bit and reflect
 on if you are good enough for your level or not. Regardless of how
-you feel your best bet is to accept that the fear of not being good
-enough will always be there and the way forward is to understand what
-productive actions you can take to feel more confident. When you Practices
-this approach you will hopefully understand that just as how you
-are now no longer afraid of some things you used to be afraid of,
-you can view the impostor syndrome the same way. It is a fear that
-is cured best by improving yourself until you feel that you can do
-what you are afraid of well enough for it to no longer be an
-obstacle for you.
+you feel your best bet is to accept that the fear of not being
+good enough will always be there and the way forward is to
+understand what productive actions you can take to feel more
+confident. When you Practices this approach you will hopefully
+understand that just as how you are now no longer afraid of some
+things you used to be afraid of, you can view the impostor
+syndrome the same way. It is a fear that is cured best by
+improving yourself until you feel that you can do what you are
+afraid of well enough for it to no longer be an obstacle for you.
 
 ## How To Pass The Trial Period At A New Job?
 
@@ -89,12 +91,12 @@ is considered a prerequisite for finding work.
 
 There are companies who have hiring policies that may seem like
 the lifestyle of those developer who spend their free time working
-on open source projects or are active in other areas of the community.
-However, it is important to take note of something if you ask me.
-When you watch tech talks, count how many people are in the audience
-and how many speakers there is on stage. It is easy to forget that
-most of the people who work as software developer are just regular
-people doing a job.
+on open source projects or are active in other areas of the
+community. However, it is important to take note of something if
+you ask me. When you watch tech talks, count how many people are
+in the audience and how many speakers there is on stage. It is
+easy to forget that most of the people who work as software
+developer are just regular people doing a job.
 
 I believe that we should give thanks to those in the community
 with the drive to go above and beyond what is required to do

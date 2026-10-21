@@ -1,6 +1,7 @@
 # Leadership And Mentorship
 
-Questions about guiding teams, mentoring developers, and building trust as a tech lead.
+Questions about guiding teams, mentoring developers, and building
+trust as a tech lead.
 ## What Does Exhibiting Thought Leadership Mean For Developers?
 ## Are The Best Developers Self-managing?
 ## Are The Best Tech Managers Also The Best Contributors?

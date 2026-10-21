@@ -2,14 +2,14 @@
 
 Yes, they have a lot of impact on your growth.
 
-Since experience is what most companies care about your first few years
-will matter a lot since you won't have a big range of tools you have
-work experience with. This means that when it is time to switch job
-the meat of your CV is found in what you have done in previous roles.
-This is true for senior developers as well and it can quickly become
-a pattern in your career. You have worked with something and so you
-look for that again since it is the most valuable thing you have to
-offer.
+Since experience is what most companies care about your first few
+years will matter a lot since you won't have a big range of tools
+you have work experience with. This means that when it is time to
+switch job the meat of your CV is found in what you have done in
+previous roles. This is true for senior developers as well and it
+can quickly become a pattern in your career. You have worked with
+something and so you look for that again since it is the most
+valuable thing you have to offer.
 
 This is why I argue that it is important to get experience working
 in an environment that will be similar regardless of what company
@@ -86,18 +86,18 @@ to switch career.
 
 In a way you can think of yourself as a craftsman who gets by
 on selling your skills to a customer. So logically if you have
-those skills and you feel confident in them, you have market value.
-However, if you want to switch to a new role the journey there is
-very similar to how it was when you started out but with one major
-difference.
+those skills and you feel confident in them, you have market
+value. However, if you want to switch to a new role the journey
+there is very similar to how it was when you started out but with
+one major difference.
 
 That major difference is that now you have some knowledge that may
 or may not be relevant to your new role and that is a benefit but
 it can also become an excuse. Big changes are to some of us
 so intimidating that we would rather stay with something we know
-over facing something new and uncertain. This struggle is made easy
-when we have no choice and have to take a leap of faith but if we
-have options the push our survival instincts give us is not
+over facing something new and uncertain. This struggle is made
+easy when we have no choice and have to take a leap of faith but
+if we have options the push our survival instincts give us is not
 necessarily going to push us to something new but may stop us
 from taking a risk.
 

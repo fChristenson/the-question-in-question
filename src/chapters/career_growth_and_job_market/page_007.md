@@ -56,14 +56,15 @@ likely vouch for that before you can discuss where to put your
 time and money you need the people in charge to be open to
 try what your are proposing. If they don't agree with you it does
 not matter how amazing your ideas are, they will never happen
-as long as the people your are talking to are blocking your effort.
+as long as the people your are talking to are blocking your
+effort.
 
 For us software developers the same obstacle will be in play. If
 your manager wants to do something other than you, persuasion is
 your most viable option. If you can't persuade them you will need
-to pick your fights and move on. It is sadly not uncommon for people
-with amazing ideas to be shut down by people who simply don't agree
-and are not persuaded by the arguments presented.
+to pick your fights and move on. It is sadly not uncommon for
+people with amazing ideas to be shut down by people who simply
+don't agree and are not persuaded by the arguments presented.
 This is why you should never underestimate the value of strong
 social skills, a good reputation and above all, knowing how to win
 peoples trust. These are tools just as valuable as the tools you
@@ -92,9 +93,9 @@ or worst case. However it is rare that their idea of what will
 be or not be is as clean cut as they make it up to be.
 We software developers know that it is nearly impossible to
 predict exactly how long something takes or how well a solution
-will work given enough time. That is why we try to reduce the scope
-of what we deliver since we know that the less that is in scope
-the easier it is for us to estimate and measure.
+will work given enough time. That is why we try to reduce the
+scope of what we deliver since we know that the less that is in
+scope the easier it is for us to estimate and measure.
 
 I argue that you should approach your own technical decisions
 the same way. Agree to disagree on a choice, vote on it and then

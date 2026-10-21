@@ -8,10 +8,10 @@
 First, it is important that we acknowledge how easy it is to say
 that someone should choose work that helps them grown. However,
 not all of us are blessed with the same choices as those who
-are fortunate enough to find work that benefits them in this manner.
-Although it may not be an option try your best to make finding
-work that helps you grown your skills a priority. Investing
-in yourself is almost always a good idea and it pays off
+are fortunate enough to find work that benefits them in this
+manner. Although it may not be an option try your best to make
+finding work that helps you grown your skills a priority.
+Investing in yourself is almost always a good idea and it pays off
 when you want to take a step up in your career or maybe even
 try out different companies. Skills are what matter most so
 make sure you work with projects that help you grow them.
@@ -41,16 +41,16 @@ who see your value may help you get the next role or invite other
 opportunities that will benefit you. Make sure that there is proof
 of the great work you have done and that others can see it.
 
-Lastly, remember to try out different styles of coding and different
-types of tool. Just for fun. You will learn much from tinkering
-with trend tools or getting inspiration from trying out a different
-programming language. You don't have to do big projects but your
-understanding of the craft will grow by a lot if you expose your
-mind to how different people have tried solving issues that you
-yourself may have in your work. I have found that by tinkering
-with small projects from time to time has helped me a great deal
-in getting better at coming up with solutions to various problems
-in my work.
+Lastly, remember to try out different styles of coding and
+different types of tool. Just for fun. You will learn much from
+tinkering with trend tools or getting inspiration from trying out
+a different programming language. You don't have to do big
+projects but your understanding of the craft will grow by a lot if
+you expose your mind to how different people have tried solving
+issues that you yourself may have in your work. I have found that
+by tinkering with small projects from time to time has helped me a
+great deal in getting better at coming up with solutions to
+various problems in my work.
 
 # How To Navigate Decision-making In Tech Teams?
 

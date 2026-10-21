@@ -1,6 +1,7 @@
 ## What Was Your Best Job Experience As A Software Developer?
 
-I would say that it was when I finally felt that I was good enough.
+I would say that it was when I finally felt that I was good
+enough.
 
 For a long time I, just as many developers, felt like I could not
 measure up to the expectations of my coworkers.
@@ -80,17 +81,18 @@ I will get to having my big dream come true.
 After years of study and hundreds of hours just trying to figure
 out why I wasn't smart enough to figure out why the code would not
 work. I had made it through a nerve wracking interview and been
-found worthy. How could I not feel good about this epic achievement.
+found worthy. How could I not feel good about this epic
+achievement.
 
-These feeling lasted for about a week and were quickly replaced with
-new anxieties and worries. After all now I had to actually make things
-for real and now the main concern wasn't to get the job, it was to
-keep it.
+These feeling lasted for about a week and were quickly replaced
+with new anxieties and worries. After all now I had to actually
+make things for real and now the main concern wasn't to get the
+job, it was to keep it.
 
-These days I look back at how I used to view interviews and I still
-feel happy when I get an offer. I still feel nervous, although much
-less than before. Though much remains somewhat the same I like to
-think that I find them less dramatic.
+These days I look back at how I used to view interviews and I
+still feel happy when I get an offer. I still feel nervous,
+although much less than before. Though much remains somewhat the
+same I like to think that I find them less dramatic.
 
 I used to think that passing or failing was the one thing that
 determined my value as a programmer. Today I have done enough
