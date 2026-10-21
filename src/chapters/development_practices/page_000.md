@@ -3151,6 +3151,36 @@ is in my view a more relaxed approach that makes people happier
 to work with you without compromising the code.
 
 ## How To Encourage Teams To Adopt Continuous Delivery Practices?
+
+The most common arguments are that one, it gets value to the users
+quicker. This is in my experience not the right angle to use with
+the developers themselves but I still hear it. It rarely sways
+anyone but it is non the less true. The second and I argue most
+persuasive argument is that when we relase code as soon as it is
+done we limit the scope of what can go wrong. If you batch up code
+changes odds increase that something will go wrong. The more code
+that has been changed the larger the search area is. Sometimes you
+are lucky and the issue following a big batch release is obvious
+and you can fix it. However, your ability to do smooth rollbacks can
+also get impacted since if only a part of the batch has issues you
+now have to figure out how to roll back that code without doing it
+with the code that works. Usually this ends with teams having to use
+a hotfix approach instead of being able to simply do rollbacks or
+they opt for rolling back all code.
+This translates to broken code being in production while the hotfix
+is being made. In my experience teams do not argue with this line
+of logic unless they have exactly one ugly secret. That secret is
+that they and the stakeholders fear changes because the system has
+quality issues. This usually leads to a team of testers doing manual
+testing who need time to do their job and thus a slow moving release train
+is created organically. If you want anyone to hear you out and this
+is the case for your system you are facing a steep uphill battle
+because you will need to convince the team that the way forward is
+to increase the automated testing and surrounding safeguards to
+remove the need for batch releases. You need to remove release fear
+and that is not something you can convince people of, you have to
+change the way the team works.
+
 ## What Are The Key Metrics For Monitoring Ci/cd Pipelines?
 ## What Are The Risks Of Ignoring Devops Practices In Modern Development?
 ## What Are The Best Practices For Writing Maintainable Code?
