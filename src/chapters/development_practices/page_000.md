@@ -3460,6 +3460,9 @@ checks. Have another configuration for building and deploying. It
 is easy to create complex build pipelines that can start to become
 unreliable and you really don't want to sit and try to debug
 pipelines by running them over and over in a remote environment.
+It is much more preferable to create small focused configuration
+that you can concatinate together in to larger pipeline flows or
+just run independently.
 
 Second, favour using source controlled scripts over inlining
 scripts in the configuration files. It is very common that build
