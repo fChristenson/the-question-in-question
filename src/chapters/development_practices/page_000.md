@@ -3463,7 +3463,7 @@ pipelines by running them over and over in a remote environment.
 
 Second, favour using source controlled scripts over inlining
 scripts in the configuration files. It is very common that build
-pipelines need some min scripts to copy files or perform some
+pipelines need some scripts to copy files or perform some
 other task. Instead of adding them directly to the configuration
 file, move the code to a script file that you can run locally. It
 keeps the configuration file clean and it helps you debug any
