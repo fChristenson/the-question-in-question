@@ -3283,12 +3283,210 @@ surrounding safeguards to remove the need for batch releases. You
 need to remove release fear and that is not something you can
 convince people of, you have to change the way the team works.
 
-## What Are The Key Metrics For Monitoring Ci/cd Pipelines?
 ## What Are The Risks Of Ignoring Devops Practices In Modern Development?
-## What Are The Best Practices For Writing Maintainable Code?
+
+The main drawback will be that there will be a dangerous gap in
+knowledge between the development team and the operations team.
+This is an issue that arguably drove the industry to the DevOps
+model in the first place. We should mention that cost saving
+potential is a driver for some of it as well but anyone who has
+ever seen a development team and a operations team ping pong ideas
+between them in an email chain or instant messaging app knows how
+ineffective communication can get. There is one more subtle issue
+that is worth knowing about. Most software developers have limited
+knowledge of the underlying operating system and surrounding cloud
+services their code depends on and this quickly shows in systems
+where such knowledge is needed to effectively troubleshoot and
+scale the system. Operations staff lack the same in depth
+knowledge and can for the most part only support the development
+team from a high level. Good examples of when this can become a
+catastrophic problem is when the system has performance problems.
+The developers lack the needed knowledge to troubleshoot where the
+bottleneck is and the operations team can just say what the gauges
+show. On paper it makes sence to hire developers with DevOps
+knowledge but in practice it can be hard to find such people so
+for the most part you are better off moving simpler operation
+tasks such as logs and alerts to the team to help them learn.
+
+## What Are Best Practices For Writing Maintainable Code?
+
+Many books and articles have been written on this subject. I doubt
+I will add anything truly new and inpsiring to it but what the
+hell.
+
+Throughout my career I have found two things to be of the greatest
+help when writing code that scales well.
+
+First, write disposable code.
+
+We never know how a system will change but we do know that if a
+solution is hard to change it will force the next programmer to
+cut corners to meet deadlines. Armed with this insight we can also
+assume that that programmer will have an easier time understanding
+their own code than ours so we need to make sure our code and it's
+reach is limited. This helps the next developer quickly spot where
+our code is used, if they understand it and if they can add to it
+or simply remove it. The best mental model I can give you is to
+think about installed packages you get from your favourite package
+manager. If you install the package and it seems hard to use or
+you don't need it anymore, you can remove it. Structure your own
+code the same way. Encapsulation should not just be a practice we
+use in our classes but something we use with folders holding our
+source files too. Don't spread out code across your repository,
+create focused modules of related code instead. The ideal case is
+for you to simply expose a collections of functions to the callers
+of your code. This means that the next developer can quickly spot
+where the relevant code is and decide to delete the folder or add
+to it. Our goal is to make the surface area of our code limited to
+we don't risk the system becoming a journey of exploration to
+identify what is going on. If we modularize our code in this
+manner we create a pluggable system where the next developer can
+work on a piece of the system without having to rethink or even
+know the entire system. Big systems take time to learn so our code
+should be safe to work with in isolation.
+
+Second, create your abstractions from the inside. This ones is in
+my view the real reason why interfaces are so powerful. In school
+I was taught that the best part about them is that they let us
+change the implementation without needing to change our code. It
+was later when I understood that there is more to them than that.
+Interfaces are a contract between my abstractions and the caller.
+It is like a list of things I want the caller to give my code so
+it can do what it does. This changes how I think about my code.
+Instead of trying to figure out how my code needs to work as a
+part of the rest of the flow I can think about what my code needs
+to work as well as it can. This helps me design an abstraction
+that is a clear as it can be to the reader and as decoupled as it
+can be to what is going on in the rest of the system.
+
+Take the following example.
+
+![inside](../assets/insideFirst.png)
+
+This is a trivial example but not an uncommon one to see. The
+function has in this case knowledge of that the system has a user
+object but if we follow the principle of starting from the inside
+our code would look more like the following.
+
+![inside better](../assets/insideFirstBetter.png)
+
+The logic inside our function does not care about how the rest of
+the system is designed. It only cares about the values it will
+need to perform the work it is designed to do. This loosens the
+coupling and simplifies our code. Complex logic flows can be built
+involuntarily by building up data structures and logic flows that
+leak in to other abstractions so if we instead design each
+abstraction with a clean interface we can reduce the chance the
+our abstractions get polluted.
+
 ## What Are The Benefits Of Establishing A Unified Code Style?
+
+Most of the time people think of basic formatting rules. Simple
+things like double quoates vs single quotes. Such benefits should
+feel obvious to most of us. If we follow the same formatting rules
+the code in the files feel familiar and that helps us with
+comprehension. However, there is a benefit to go a bit further in
+how we define a style of code. Limiting our scope to just
+formatting rules makes the overall goal harder to achieve. If we
+recall that the goal for a consistent style is comprehension we
+should also consider other styles of source code management that
+can help. Keeping naming conventions for files expressive.
+Ordering our source files in easy to navigate directories are also
+examples of practices we want to consider.
+
+The main benefit of a unified code style is that it helps the
+maintainers read and comprehend without being distracted by
+inconsistencies. These issues are important to many at an
+emotional level since most feel a mental satisfaction from a
+predictable pattern and often also feel displeased when there are
+irregularities. However, focus not on just these trivial issues
+but rather understand that the goal of a unified style is bigger.
+It is about creating intuitive patterns in the source code so
+maintainers have an easy time working.
+
 ## What Are The Challenges Of Maintaining Code Quality In Fast-paced Environments?
+
+In my experience it is mainly that the quality of the work is a
+delicate balance between the time developers have and their own
+skill. It is true that given more time more elaborate and
+qualitative work can be done but that is not strictly true for all
+situations. Developer with high levels of skill are usually not as
+impacted by working in a fast-paced environment since their skills
+are enough for them to do the needed quality work such as writing
+tests and refactoring, without missing a deadline. For developer
+who work at a slower pace this becomes a big hurdle since they
+simply don't have the time needed. I would however argue that this
+is an issue regardless of if we are working at reasonable pace or
+really fast. Naturally working a bit slower reduce the chance of
+mistakes and developer are less likely to skip important work but
+it is not a given.
+
+So if we can agree that fast-paced vs slow-paced environments face
+many of the same challenges. Then the most obvious factor in what
+challenges with quality we will face comes down to, who is doing
+the work? I argue that most quality related topics are almost
+always tightly coupled to the developers who are building the
+system. It is their understanding of good practices, scalability
+and problem solving that determines how well the system will work.
+You will face the same challenges in all teams where there is a
+missmatch between the people doing the work and the needs of the
+system. These challenges are nearly always bugs, legacy code and
+demotivated developers. It is not uncommon to find that systems
+with a heft backlog of bugs are in the hands of developers who
+ignore quality related work. The reason they do it, at least if
+you ask them, is a matter of priority and delivery speed. The
+truly tricky part is to have them come to terms with that the
+trade they are making is not working. If the system does not work
+then the job is not truly done. It is a tough situation when the
+reality of software development sets in for a team. Most of the
+time the stakeholders want things delivered faster but the work
+being done has to be done properly if the system is to work
+without tons of bugs. This often hits managers like a brick wall
+when they realize that if they want quality to go up they either
+need to give the developers more time when they are already "slow"
+or they need to replace them with people who work faster.
+Something that you can never truly know until way after any
+interview process.
+
 ## What Are The Best Practices For Managing Build Pipelines?
+
+This will not be an exhaustive list by any means but I have a few
+favorites I want to share.
+
+First, create pipeline configurations files for a single task. Do
+not create bloated configurations files. Favour instead creating a
+configuration for running things like automated tests and lint
+checks. Have another configuration for building and deploying. It
+is easy to create complex build pipelines that can start to become
+unreliable and you really don't want to sit and try to debug
+pipelines by running them over and over in a remote environment.
+
+Second, favour using source controlled scripts over inlining
+scripts in the configuration files. It is very common that build
+pipelines need some min scripts to copy files or perform some
+other task. Instead of adding them directly to the configuration
+file, move the code to a script file that you can run locally. It
+keeps the configuration file clean and it helps you debug any
+issues locally instead of having to rely on the pipeline. I
+personally suggest that you avoid using shell scripts and favour a
+real scripting language like Python or JavaScript. This keeps your
+scripts environment agnostic and give you a lot move power in what
+your scripts can do without having to rely on environmental tools.
+
+Lastly, scope and order the tasks in your pipelines so your
+feedback is as quick as can be. A good example of this is to run
+the linting of code either before or in parallel with building the
+code. These steps should happen before running tests against the
+code since they will on average give you much quicker feedback
+than if you ran all your tests only to find that you had a minor
+lint problem after 20 minutes of waiting. Ideally you want your
+pipelines to be as fast as possible so only doing the work that is
+needed to progress to the next step and warning of any problems as
+quickly as possible is best. A good flow is to run tests and
+quality checks on every pull requests. Package and version build
+artifacts once the code is merged and finally have a deployment
+pipeline that publishes the artifacts with the version specified.
+
 ## How To Promote Engineering Excellence In Fast-paced Environments?
 ## How To Encourage Developers To Build With Maintainability In Mind?
 ## What Are The Best Practices For Handling Merge Conflicts In Large Teams?

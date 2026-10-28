@@ -14,7 +14,14 @@ function getTargetFiles() {
     return args.map((arg) => (arg.endsWith(".ts") ? arg : `${arg}.ts`));
   }
 
-  return fs.readdirSync(EXAMPLES_DIR).filter((file) => file.endsWith(".ts"));
+  return fs
+    .readdirSync(EXAMPLES_DIR)
+    .filter((file) => file.endsWith(".ts"))
+    .filter((file) => !fs.existsSync(getOutputPath(file)));
+}
+
+function getOutputPath(fileName) {
+  return path.join(OUTPUT_DIR, fileName.replace(/\.ts$/, ".png"));
 }
 
 function buildPage(highlightedCode) {
@@ -115,7 +122,7 @@ async function generateSnapshot(browser, fileName) {
   await page.setViewport(box);
 
   const wrapper = await page.$(".wrapper");
-  const outputPath = path.join(OUTPUT_DIR, fileName.replace(/\.ts$/, ".png"));
+  const outputPath = getOutputPath(fileName);
   await wrapper.screenshot({ path: outputPath });
   await page.close();
 
@@ -124,6 +131,11 @@ async function generateSnapshot(browser, fileName) {
 
 async function main() {
   const files = getTargetFiles();
+  if (files.length === 0) {
+    console.log("All examples already have snapshots.");
+    return;
+  }
+
   const browser = await puppeteer.launch();
 
   try {
