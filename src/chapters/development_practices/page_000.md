@@ -3491,17 +3491,484 @@ artifacts once the code is merged and finally have a deployment
 pipeline that publishes the artifacts with the version specified.
 
 ## How To Promote Engineering Excellence In Fast-paced Environments?
+
+A big part of getting excellence from your software team is to
+understand that each of the developers are on a learning journey.
+Each developer will be at different levels of knowledge and will
+either actively search to be better at their craft or have other
+prioritise. When we form a picture of what we want the team to do
+in order to be an excellent team, we also need to set our
+expectations relative to the team that we have. It is not
+realistic to expect a group of unfit people to perform at a
+olympic level and neither is expecting a team of software
+developers who struggle with daily coding tasks to grow in to a
+team of top performers. Such a transformation is not realistic in
+the short term but we can lay the foundation for a long term
+change.
+
+In many ways we should think about improving the skills of our
+software team in the same as how teams in sports practice. We may
+not be able to have a team full of superstar players but we can
+make sure that the training each member gets encourages their
+growth. It is by most understood that even if people are at
+different levels, the benefits of following a healthy diet and
+training our muscles brings benefits. The same is true in software
+development. If we create an expectation of writing automated
+tests, following best practices and collaborating with coworkers
+we benefit the team overall. Just as in sports we will need to
+estimate what expectations to put on the team and see if the team
+rises to the occation. If not, we will either need to change the
+members or lower our expectations. The main driving force however
+will still be us, the stakeholder. If we create a list of
+practices we want the team to follow and we hold the team
+accountable to following them, we have done what we can to create
+a environment where members get to practice their skills. The
+output will almost always be dependent on the team members.
+Remember that each developer is potentially in a different stage
+of their learning so we can't say much about what the results will
+be from having the team follow practices that promote excellence
+but we can make sure they go through the motions and hope that the
+outcome is that they grow.
+
+How we make sure that the practices are followed depends on what
+practices we choose to focus on. Most of the time the bare bone
+basics will be to have the team write tests. If we are naive about
+it we simply say that tests matter and leave it to the team to
+decide when to write them. If we are lucky the team will have a
+strong foundation in writing tests but I have found this to rarely
+be the case. As mentioned before, most of the time, real chance
+only happens when we put up an expectation. It is a bit like being
+a coach, to borrow the sports analogy again. If we let the players
+practice whenever they feel like it we will probably not get the
+results we want but if we create a schedule and show up to oversee
+practice we can at least create a environment where each player
+has a structured environment with clear expectations. We can do
+the same in software development. If we put in place some test
+coverage checks in our delivery pipeline and take an active part
+in doing code reviews we grow habits in the team. The key insight
+here is that we as stakeholders need to be consistent in our
+message to the team and we need a way to check if each members
+does their part. This basically means that at the manager level we
+don't really have any tools other than saying what we want from
+the team and hoping we have people in the team that will
+understand and adopt the practices we want. If we want to see real
+change we will need to be clued in enough to verify that tests are
+written.
+
+Promoting excellence is fairly simple for a tech lead but very
+hard for a manager. The tech leads main obstacle is usually
+themselves. If the tech lead lacks the dicipline to check code
+reviews, coach team members and create clear ways of working that
+they themselves follow it would hardly suprise anyone if the other
+members in the team fall in to bad habbits as well.
+
 ## How To Encourage Developers To Build With Maintainability In Mind?
-## What Are The Best Practices For Handling Merge Conflicts In Large Teams?
+
+Usually developers will build what makes sense in their mind so
+even if we say something vague like "maintainability should be a
+priority", it will have zero impact. No software developer ever
+sat down and thought, "I am going to write some really
+unmaintainable code now". It can even be argued that what
+constitutes maintainable is hard to define but odds are that there
+are heated debates across many forums on the subject and every
+developer will have a range of ideas about what it means. Usually
+I find that people will project what they want in the code on to
+the meaning and simply add whatever library of practices they feel
+is clear to them. The effect is almost always determined by how
+well they understand other developers and how well their foresight
+is. Developers who lack the ability to understand how other
+developers commonly think will design hard to grasp solutions.
+This is so common in fact that it is the main culprit when a
+system has grown in to such a mess that most don't know how to
+work with the code. Developers never intentionally try to make
+code unmaintainable they simply do because of the circumstances
+they find themselves in. Be it lack of a better idea of how to
+solve a given problem or an already messy codebase.
+
+I have found two actionable tips work best to mitigate at least
+some of the chance of this happening.
+
+First, state clearly that your project is meant to only use tools
+and practices that a fresh graduate could grasp. Obviously we may
+need to break this rule a bit if faced with requirements that
+forces our hand but as a general guideline it is a good policy.
+Often developers forget that what is clear to them may not be so
+clear to others and that their favorite tools may not be as
+mainstream as to be widely known by most. If our policy is to
+create a workflow that the least experienced of the members can
+work with or at the very least have a good chance of finding ample
+learning materials for, we increase our chances of keeping the
+code maintainable.
+
+Second, design the system to be self service first. A key mistake
+made by many software teams is to design a system that require
+their direct focus on non development tasks. Giving out access to
+the system, creating accounts and other activities that could be
+handle by someone else if they had designed the system to allow
+it. This is not much of an issue when creating systems used by a
+random person on the internet but a suprisingly common oversight
+when building systems used for internal purposes at a company.
+
 ## How To Optimize Development Workflows For Faster Iterations?
-## What Are The Trade-offs Of Using Feature Branching Vs. Trunk-based Development?
+
+Usually I try to split my work in to nicely fitting segments. This
+is not an exact science but the general idea is to understand the
+cutoff point of the tasks I need to perform in order to delivery
+my feature. Divide an conquer.
+
+If I know that I am making an API I know that there are a few
+natural components included in delivering. I know that the first
+thing I need to know is what data my API will have and what
+operations it will support. I don't really need to set up a
+database or authentication since I just want to make sure my API
+does this first thing before moving on to tasks that basically
+depend on this first job. So I quickly throw together a minimal
+server and a few routes for my API. I come up with a data model
+and hardcode the responses in my API. Now I have a interface I can
+connect to and although I am far from done I now have enough work
+done to verify that my data model and operations meet the need of
+the client who will consume my API.
+
+By ordering the work in a natural order without commiting to
+stopping and verifying the work before moving on to the next
+requirement I allow myself to verify my assumptions at each step
+of the process. Doing this helps me catch oversights and fix them
+before I add additional features that may end up having to be
+rewritten because I had to make changes to code I wrote earlier.
+
+This way of doing work is a given to most people. We tend to try
+our best to figure out what we should do first so the next thing
+we do becomes easier. The trick is to learn how to split a big
+task in to smaller tasks that can be done in sequence.
+
+Sadly there is no one rule fits all for this. The best way I can
+describe it is that your best move is to imagine your goal as a
+sequence of steps that will take place. Only build enough for the
+first step to work. Mock, descope and fake whatever else is needed
+so you can focus on just getting the first step to a point where
+you can feel certain that it works the way you want. When you are
+ready move on to the next step and fit it in to what you have
+already done. If you master this you will find that your workflow
+becomes a bit like laying a brick road. Each brick should fit
+nicely next to the previous one. If you see that the next brick
+won't fit, stop and reflect on what you missed and how many steps
+back the problem started. Then learn from it so the next time you
+have a better foresight of the steps and what to think about as
+you lay each brick.
+
 ## How To Ensure That Development Teams Are Continuously Improving?
+
+First we need to acknowledge that improving continously is
+happening. Each developer is practicing their craft whenever they
+code on a feature. I sometimes say that the cost of training a
+software developer is measured in legacy code. If we think about
+it that is pretty much the case for any craft. We are all always
+learning and each of us will reach different levels and at
+different speeds.
+
+I find that teams who are percieved as not continiously improving
+is not lacking in developers who can write code but rather they
+are lacking in creative thinking developers. This is the case for
+many companies in many industries. It is usually great if your
+workers can spot issues and fix them in a creative way but it is
+far from a given that they will. Some people have ideas and some
+prefer to follow those ideas. If your team consist mainly of
+people who follow I have found that it can get painful when
+managers try to shoehorn in creative workshops or other activities
+that often fall flat on their face because these activities are
+only truly effective when the participants are creative thinkers.
+It should be noted however that it is not a good idea to only have
+creative thinkers in all circumstances. Many hot tempered
+arguments start with two or more strong willed creative thinkers
+getting frustrated about all manner of differences in opinion.
+However, if you have none of them you will probably not see any
+dramatic new ideas. Don't forget though that big creative ideas is
+something a manager may notice and feel emotionally is a
+significant improvement but as mentioned earlier, all people are
+improving at all times as long as they practice and all your
+developers who code is getting better at it by just doing it. They
+are improving but perhaps not at a rate or in a way that feels
+meaningful to the company.
+
+So how do we fix this? Simple. Mix in creative thinkers. If your
+core issue is that there is no space for your existing team to
+come up with new ideas is that they have no forum to do so then
+any manager worth their salt will spot this and try to facilitate
+some for of idea session for solving the issues the team faced. If
+that yields any type of satisfying results your main issue was a
+simple communication and direction fix. However, this is not
+always the case and the state of your system is a direct result of
+that your current team do not see any reliable ways to improve. So
+hire someone who has the personality traits and drive to make that
+happen. You can almost always bet on that a driven developer will
+as soon as they start in a new team try to prove their value by
+suggesting improvements. To most team members who work on a system
+with issues that have no easy and obvious solution, lethargy
+usually sets in and you learn to live with the issue but to a
+fresh hire this will quickly become a hurdle for them to get over
+and it should raise some questions for them. Why are we doing
+this? Would it not be better if we did something else? A clever
+manager or tech lead will pay close attention and ask the new hire
+how their onboarding experience has been. What they have seen and
+wondered while working. This gives you a fresh perspective and
+with a bit of luck you have hired someone who at best can solve
+any problems and at worst can bring them to light so other team
+members can.
+
 ## What Are The Best Practices For Optimizing Build Times In Ci/cd Pipelines?
-## What Are The Risks Of Ignoring Cross-platform Compatibility In Applications?
+
+This is a tricky one since what your build pipeline is doing can
+vary depending on the tasks you need to run to what stack you are
+using. I will do my best to give a few tips I try to follow for
+things I know are common painpoints across a lot of programming
+languages and web applications.
+
+First, make sure you only run tasks you need to run. It is common
+that pipelines are designed to run all work each time something
+changes but you can often find that with a few minor tweaks or
+reorganizing of files you can cut at least some time. A trivial
+example is documentation. If you change something in a readme file
+or other unrelated configurations, do you really need to build the
+entire project, run tests and other code related tasks? Probably
+not so segment your pipeline to only fire tasks that are relevant.
+
+Second, preinstall and cache dependencies. It is common for a lot
+of pipelines to simply hit the network to install dependencies or
+other environmental tools on each run. It is a pretty obvious win
+to only hit the network when you have a new version of your
+dependencies. Just make sure you take care with consistent version
+of dependencies between the pipeline runner and local
+environments. It is a common frustration for many to have minor
+version differences between environments that cause pipelines to
+fail. A nice and simple cache purge is usually enough to make that
+problems less of a headache.
+
+Third, consider the scale of your test. In my experience the
+slowest running parts of a pipeline are
+
+- Dependencies
+- Tests
+- Code coverage
+
+An argument can be made for the build and naturally the test and
+code coverage usually depend on how many tests you have. However,
+it is worth considering that the nature of your tests and the
+feedback speed you get will get worse over time the more testing
+is done. Even unit tests take a really long time to run if you
+have enough of them and with the rise of AI it is not unreasonable
+to have a strategy for scaling large test suite runs. Some argue
+for selective testing that only runs tests for code that has
+changed. I am in general opposed to this strategy but have found
+myself at time being outvoted by my team only to have them later
+come back and raise the issue that makes me oppose the idea in the
+first place. Selective test runs only test code that has changed
+but fails to test code that depends on the changed code. It is
+very common that you find that test start failing for completely
+unrelated code in future works because the issue was never found
+when it happened. The value of tests is not in just knowing that
+the code you create works but that you did not break anything else
+in the system and selective test runs introduces a path for this
+to happen without you knowing. I argue that there are two options
+here. One, live with the fact that you may need to fix unrelated
+test failures or find that when your run all your tests before
+something big like a release, a few errors may pop up or always
+run all tests. This brings us back to the question of speed, the
+main reason people start to use selective tests in the first
+place.
+
+I argue that you will be better of splitting your tests out in to
+chunks and running them in parallel rather than just one big run.
+Many test runners have threading but I suggest taking it one step
+further and have tasks that run segments of the tests in their own
+process so you can add more machines for the runs. This is a lote
+more scalable and allows you run tests at the same speed as if you
+just had a few of them given that you are willing to pay for the
+extra processing power needed.
+
+Achieving this is as simple as grouping your tests in to
+categories and having a task that targets that group by its name
+or something similar before the run.
+
+Third, categorize your tasks in to slow and fast moving work. Most
+pipelines contain a range of various checks and jobs that need
+doing. If something is wrong you want to know as quickly as
+possible so make sure that work that can run without depending on
+other steps runs independently. Linting and building are good
+examples of things that don't need to happen in sequence and odds
+are that the linting of code will be quicker than the build so it
+would give you faster feedback if the linting happens first as it
+can finish without the build having to be done. However, there are
+some things where only when everything is done can you know if the
+checks passed. Tests are one of those instances. You can't really
+know if your pipeline passed the testing until they are all done
+so it is good idea to segment out the slow running tests in to
+their own chunk so they can start as early as possible. Even
+better is if you can allocate the CPU resources to favour them
+with more cores. This will make your fast test run a bit slower
+but that is ok because even if they ran at full speed it won't
+matter since the slow tests will be the bottleneck. As an extra
+measure you can track the runspeed of your tests and dynamically
+allocate them to run with the slower segments or the faster ones.
+
 ## How To Optimize Code Reviews For Knowledge Sharing And Quality Assurance?
+
+Code review quality can vary from a instant approve to lengthy
+comment blocks of back and forth between developers. Their quality
+will always come down to the people involved and the ever present
+problems of someone having to read something, reflect on it, come
+up with something meaningful and finally being able to communicate
+it well enough. This has to be done to someone who now has to have
+the aptitude needed to understand the feedback, the maturity and
+sence of self value to recieve it well and the reflective skills
+to implement the feedback. This all has to happen with the
+assumption that the feedback was good in the first place and on a
+regular basis in hundreds of code reviews. Very few people are
+used to having their hard worked reviewed and scrutinized on a
+weekly or even daily basis but it is a reality of the work
+software developers do. However, we need to make a distinction
+between a code review that helps with knowledge sharing and one
+that helps with quality assurance. Of course we can argue that
+each of these is happening by someone simply reading someones code
+and giving feedback since you are quite literally learning
+something about the code and trying to spot improvements. A code
+reviews whole purpose is to do both these two things at the same
+time.
+
+So how could we improve on this thing that is inheritly already
+happening? I argue that we should consider a code review for
+knowledge sharing purposes very different from quality assurnace
+purposes.
+
+Quality assurance is as mentioned before, really just down to the
+reviewers ability to spot things in the code. AI has made this
+process a lot more effective as spotting improvements or
+oversights in basic syntax or implementation details can be done
+in seconds. What often is missed in a code review is that the
+reviewer does not fully understand that scope of the work and in
+many cases the overall direction the system is heading. Most code
+reviewers are only able to review trivial things about the syntax
+because their perspective is to just look at the code that has
+been written and consider how it was written but I argue that this
+an AI agent can do a lot faster. If the reviwers is an exprienced
+developer they can spot things the AI will miss but the real
+quality feedback does not come from suggesting better names for
+variables or what syntax to use. It comes from the reviwer looking
+at the solution written as a whole, considering how well it
+matches the acceptance criteria of the feature and if it will fit
+in to the systems long term goals. This is how you spot if a
+implementation will come back as legacy or if it is even correct.
+Is the solution going to be performant enough to handle the load?
+Will it be secure? These are the insights a code reviewer can only
+give if they understand how the system works and how the feature
+is going to work. This requires presences in meetings,
+understanding of the system design and the goals of the system.
+
+For knowledge sharing it is usually best to break out of the
+regular reading code and commenting flow that most teams run. I
+don't recommend doing this for every minor change to the code but
+for big scope changes that add major new features or changes the
+workflow it is almost always best to have a team review of the
+code so people can discuss the changes and ask the author about
+it. Text only communication is hard for complex conversations and
+when we are trying to learn we usually do so best with guidance.
+We do after all add teachers to a classroom and not just
+textbooks.
+
 ## How To Recognize When It’s Time To Overhaul A Ci/cd Pipeline?
+
+The best tell is usually when the pipleine is starting to become a
+source of bugs. One of the reasons I am against the trend that
+came in with MicroServices has it's code in the same issue I take
+in moving application management to the cloud. As soon as your
+logic flows move to the network you reduce your ability to quickly
+spot issues and run effective troubleshooting. If your pipeline
+starts failing and you have no way of running the jobs locally you
+will have a tough time figuring out where the problem is. It is a
+similar problem to having a network call that jump between several
+layers of proxies and figuring out where in the chain the error
+is.
+
+The rule I follow is that I want my infrastructure and delivery
+pipeline to be as stable as I can make it. In a sense it is like
+the argument for compile time errors. I want to know if there is a
+problem before the code is running but in this case I want to know
+where there is a problem before I need to debug my remote
+pipeline. The simpler we can keep logic that is outside our local
+environment the better since we have the most ability to debug and
+observe when we can do so in a local environment. So if your
+pipeline is starting to have issues and you have no choice but
+running it over and over to see what is going on. Consider
+refactoring it to a format that will run locally so you can
+quickly run it and see that all the tasks work on your own
+workstation. A lot of your pipeline tasks can just as easily be
+converted to local scripts and with AI you will likely be able to
+convert your entire pipeline to a much more stable format in
+seconds. Going forward you will be able to compare output between
+environments and spot issues quicker.
+
 ## What Are The Risks Of Relying Solely On Automated Code Reviews?
+
+Honestly, not many if you have an average reviewer but at least
+one major one if you have good ones. The major limitation of a
+automated review is that the AI does not come to every stakeholder
+meeting. It is not in the standup, it does not know the general
+vibe and direction the project moves. It does not understand what
+scalable means when your manager says it and it definitively does
+not know how to ask if the code being written fits the long term
+goals of the project. Some argue that if you provide this
+information in the form of a document or architecture reference
+you can enhance the review and this is true. However, it is not
+common for any document to be able to catch every nuance of
+feature development. In fact we gave up on this idea years ago
+when we realized that it was pretty hard to write a technical
+specification so perfectly that it was clear to all who read it.
+As far as I know we still need people to explain and define
+meaning for practically any non trivial text. Be it lawbooks,
+religious text or even a poorly worded pull request comment.
+
+An AI without guidance is limited in it's ability to get nuance
+and depends on the human for giving feedback on the output so it
+can build up a certainty that the direction it has taken is right.
+Otherwise it will only be able to give general directives that are
+safe to provide given the limited context it has.
+
+Sadly, a lot of code reviewers are no better at understanding the
+bigger picture of a system and act as analog versions of a poorly
+working AI. Adding minor comments about name choices, syntax
+choices or usage of practices different from their preferred
+methods. With reviewers like that I say, you are probably better
+off with the AI. Odds are that it will spot more than the human.
+
 ## When Do You Have Enough Information To Start Coding?
+
+It depends on the feature to some extent but usually it I feel
+confident once I have had a chance to ask about the intended
+behaviour of the system or feature in question. I am not a big fan
+of working with technical architects who come in with a laundry
+list of vague technical requirements who always seems completely
+oblivious to that the first question I as the builder has is never
+how they have imagined the application flow should look. Having a
+discussion about a system design without understanding the desired
+capabilities or who will use the system and in what way is like
+starting a discussion about what motor to build before you have
+discussed what vehicle you are making. I am not sure why but it
+seems at times that some people forget that without context and
+goals your list of requirements have nothing to be measured
+against so we have no idea if they actually make sense. That is
+why I usually only need to understand what my client want the
+system to do and how. The rest I can code in my head or figure out
+as we start working. With experience this becomes easier but
+rarely I find that anything gets better from adding middlemen
+between the person who knows what the system should do and the
+developers who are going to make it. I will be first to throw
+every single architect and technical product manager under a buss
+who fail to grasp this simple truth. If you can't explain in
+simple terms what features the client wants, why and how they
+work, get out of the meeting room and come back when it is time to
+talk about architecture because right now the rest of us want to
+understand what we are making and why. Then we can look at the
+technical details of how to make it happen.
+
 ## What Does Devops Mean To You?
 ## Is Programming Passion Reflected In Your Code?
 ## Do 10x Developers Write Simple Code?
