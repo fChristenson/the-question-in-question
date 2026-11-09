@@ -3969,10 +3969,54 @@ talk about architecture because right now the rest of us want to
 understand what we are making and why. Then we can look at the
 technical details of how to make it happen.
 
-## What Does Devops Mean To You?
 ## Is Programming Passion Reflected In Your Code?
+
+Sometimes but that is mostly when you either see someone who overengineers something
+or someone who has a skill level that is far beyond the norm. Most times it can be hard
+to tell the skill level of a programmer simply by reading code. It is with enough context
+and scope that you can spot hints. It is a bit like trying to tell the skill level of a
+cyklist by just having them ride a few times back and forth in the parking lot. It is simply
+too little context and a too simplistic example to really gauge anything. You would need some
+obvious tell to make any prediction. Like them falling over or not being able to use the pedals.
+For software developers code it is the same. In simple cases you can barely tell the difference
+between a senior developer and someone with less experience. Most of the time the passion a person
+has for coding is shown in their knowledge of tools, practice and patterns. It is very hard to
+tell the difference until you have worked for a while and seen what "average" looks like. You
+start to see familiar patterns and common oversights in code that a lot of developers make and
+then when you look at code that has already accounted for these common flaws you can almost tell
+that this was written by someone who has seens some things before. To give a trivial example that
+helps anchor my claim a bit. It is a common that most backend developers will integrate or have someone
+integrate to their system. Most developers write their api client call or endpoint and call it a day.
+This is the norm as far as I have seen. But once in a while you see someone who adds a retry policy and
+backoff to their api client. They do this because they know that networks can fail and they have been
+invested enough to read up on a few patterns that helps with this common oversights. If they create their
+own integration API they may add a request throttle or invest in a easy to consume API specification that
+follows OpenApi standards where as a lot of developer would just send some random format or even just a word
+document. This indicates that this is a person who at least knows enough to be in the know of what is popular
+and common in the industry at large.
+
 ## Do 10x Developers Write Simple Code?
+
+When they can but simple code is not always possible. Developers always try to
+write code that they believe to be the best for the situation and it is their
+skill level that mostly determines what the solution will look like, apart from
+the problem they are facing obviously.
+
+The thing 10x developers usually do is that they create code that allows work to
+progress really fast. That code can be very complex but it will weigh that up with the
+development speed gained. I do feel the need to state that defining a 10x developer
+is very much up for debate but at least from the ones I have met this is what they
+do. They work fast and solve problems so that the work can keep going.
+
+The fairest thing that can be said in my view is that some 10x developers are really
+good at making a hard problem simple. If you think of your favorite library authors.
+These are people who probably had to spend a great bit of time coding some time consuming
+code that can be complex. They did this work and added an easy to use interface for you
+to use. As the consumer the code is perhaps simple but as the author it is perhaps not.
+
 ## What Are Best Practices For Writing Documentation?
+
+
 ## Do You Try To Fully Understand Pull Requests During Reviews?
 ## Why Do Development Teams Love Agile?
 ## What Rules Of Software Development Should You Follow?
