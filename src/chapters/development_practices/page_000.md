@@ -4016,8 +4016,93 @@ to use. As the consumer the code is perhaps simple but as the author it is perha
 
 ## What Are Best Practices For Writing Documentation?
 
+This is certainly up for debate but I will at least give you
+my methods. Most of the time I split up my documentation in two
+main categories. Overviews and guides. An overview aim to give
+the reader a big picture of the topic. These documents are not
+meant to go in to details and will most of the time just be diagrams
+or shorts messages. If something needs further details I simply link
+to a in depth document that can be read if needed.
+
+The guides follow the same format. I always make sure that the document has a heading
+that includes a naturally searchable format like "how to...", "what is..."
+or "where to...". This heading is followed by a optional prerequisite heading.
+Here I just list things that needs doing before starting the guide. In general
+it is a good idea to not duplicate content but rather create small guides and
+link to them. If you are making a guide about how to configure something in the
+code and the user needs to setup some other services before, make a document
+for how to do that and link to it. I like to think about my documents as tables
+in a database. Instead of duplicating data in my tables I create a table with the
+data and "join" it on other tables. This is what a link is in my mind. It is a way
+for me to avoid duplicating instructions which is a great timesaver when documentation
+needs updating. Next I add the actual guide content. I structure all my guides as a step
+by step guide. Each step includes just the information needed to complete the task. If
+I need to explain things more in depth I link to a document but I never clutter the guide
+with anything other than the instructions needed to complete the task. This is because my
+goal is to help the reader accomplish the task they are using my guide for and not waste
+their time reading through content that may not be relevant to them at this specific moment.
+
+Always make sure to include screenshots and mark them with highlighted areas and arrows
+if the guide step include clicking somewhere or going somewhere. A good screenshot has
+the entire browser window with URL's and a representative state. Ideally you want the
+reader to look at the screenshot as a way to compare their own state to the guide.
+This brings a sense of comfort and certainty that they are on the right path.
+
+Finally, I always end my guides with a screenshot or description of what the successful
+completion of the guide should look like. This way the guide works as a follow along
+tutorial that is easy to complete without the reader being uncertain if they are doing
+the right thing.
+
+Usually I like to include a heading like Last updated, at the end of the documents with
+the date and email of the author. This helps readers know if the content is still relevant
+and connect with the people who may know more about it if the document fails to help them.
+
+My last and perhaps most important practice is to always store all documentation together
+with the source code as Markdown files. No exceptions. By doing this I can easily create
+pipelines for the documents that include checking for spelling errors or even more advanced
+things like consistent document formats and terms that should or should not be used. Since
+we are programmers we can easily create very advanced tools that can help us with documentation
+but we lose a lot of that ability if the documents are in a remote location or in a file format
+other than plain text. Since it is rare that all my documents are going to be read from the source
+code repository, I prefer to integrate to any other places it may need to be uploaded. This means
+that the source version of documentation is with the code and goes through the same review and
+pipelines as the the source code but when it comes time to hand it over to readers we simply
+build the source in to the format the readers want. This means that we can maintain documentation
+for any number of formats without any effort. That is the beuty of thinking of your documentation
+as source code. It is just the raw format that we store and if we need to provide it to readers it
+does not matter how may duplicates we need to produce or where it needs to be since we simply add
+a build step and deployment step to our pipelines. There is a vast range of tools that accept Markdown
+and can build entire documentation websites from the format so it serves as a good standard format
+for all your documentation. For diagrams and other visuals I prefer to use diagram tools like Mermaid.JS
+or other text format. This means that I can create a text representation of how I want my diagrams to
+look and have a rendering tool draw out the visuals instead.
 
 ## Do You Try To Fully Understand Pull Requests During Reviews?
+
+The word fully is doing a lot in this context so I will just say this.
+A code review is not nearly as good when the reviewer doesn't know what
+the purpose behind the code is. At best you can comment on minor syntax
+issues or obvious issues that can be found in a best practices book.
+However, you lose the ability to consider if the code written is actually
+doing what it is supposed to. If the code written is adding numbers but
+the requirement is that it should be subtracting then you have no way of
+knowing. There are centainly things that most of us gloss over during a
+review. After all, we are not always at the peak of our review energy and
+it is not always fun to have to read through piles of documentation in order
+to understand a config change in the pull request. The responsible thing
+a review should do, at least in my view, is to make sure you know the purpose
+of the work so you know if the code is doing what it is supposed to do and
+tell the author if there are parts of the code you do not understand. If
+you are a junior level developer you may not be able to read up on some
+advanced topic well enough to comment in time to complete a review but
+you can add comments on the parts you do understand and leave the things
+you do not to someone who has more experience. This is in my view solid
+advice for anyone regardless of seniority level. We can't all be expected
+to know everything about everything so if we start by reading up on why
+we are creating this code, follow the parts we understand and are transparent
+about what is unclear, we have done all that can be asked of us. The rest is
+a team effort.
+
 ## Why Do Development Teams Love Agile?
 ## What Rules Of Software Development Should You Follow?
 ## Is Cleaning Up Messy Code One Of The Best Feelings For Developers?
